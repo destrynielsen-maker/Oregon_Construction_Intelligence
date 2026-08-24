@@ -1,6 +1,7 @@
 from __future__ import annotations
 from datetime import datetime, timezone
 from urllib.parse import urlparse
+import re
 import requests
 from .base import CollectionResult, new_session
 from ..models import Permit
@@ -10,6 +11,7 @@ class PortlandCollector:
     freshness_days = 10
     service_url = "https://www.portlandmaps.com/arcgis/rest/services/Public/BDS_Permit/FeatureServer"
     source_url = service_url
+    case_number_re = re.compile(r"^\d{2,4}-\d{6}-", re.I)
     layers = (
         (5, "Residential Construction Permit", "residential"),
         (2, "Commercial Construction Permit", "commercial"),
@@ -77,7 +79,7 @@ class PortlandCollector:
     def _permit(cls, a: dict, layer_id: int, layer_name: str, kind: str) -> Permit | None:
         number = str(a.get("APPLICATION") or a.get("STATEIDKEY") or "").strip()
         issued = cls._date(a.get("ISSUED"))
-        if not number or not issued:
+        if not number or not issued or not cls.case_number_re.match(number):
             return None
         link = cls._link(a.get("PORTLAND_MAPS_URL")) or f"{cls.service_url}/{layer_id}"
         if link.startswith("/"):
