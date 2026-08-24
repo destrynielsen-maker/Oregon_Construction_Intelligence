@@ -1,5 +1,5 @@
 from __future__ import annotations
-from datetime import date, datetime, timedelta
+from datetime import datetime
 from urllib.parse import urlparse
 import re
 import requests
@@ -17,23 +17,19 @@ class PortlandCollector:
         ("co-issued", "Commercial Issued Building Permits Report", "commercial"),
     )
     max_pages = 25
-    lookback_days = 180
 
     def collect(self, session: requests.Session | None = None) -> CollectionResult:
         session = session or new_session()
-        end = date.today()
-        start = end - timedelta(days=self.lookback_days)
         all_permits: dict[str, Permit] = {}
 
+        # PortlandMaps' native issued-report pages are the stable public surface.
+        # Do not send date-filter form parameters here: in production those can
+        # return a valid report shell with zero rows. Persistent repository
+        # history accumulates records across the six-hour polling cadence.
         for action, expected_heading, report_kind in self.report_actions:
             seen_pages: set[tuple[str, ...]] = set()
             for page in range(1, self.max_pages + 1):
-                params = {
-                    "action": action,
-                    "start_date": start.strftime("%m/%d/%Y"),
-                    "end_date": end.strftime("%m/%d/%Y"),
-                    "page": page,
-                }
+                params = {"action": action, "page": page}
                 response = session.get(self.base_url, params=params, timeout=90)
                 response.raise_for_status()
                 parsed = self.parse_page(response.text, expected_heading, report_kind)
@@ -50,7 +46,7 @@ class PortlandCollector:
             raise RuntimeError("PortlandMaps issued-permit reports parsed with zero usable permit rows")
         return CollectionResult(
             self.name, list(all_permits.values()), self.source_url,
-            "Official PortlandMaps residential and commercial issued-building-permit reports"
+            "Official PortlandMaps current residential/commercial issued-building-permit reports; persistent history retained between runs"
         )
 
     @classmethod
