@@ -19,20 +19,6 @@ Units: 1</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-018755-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - LOT 10 - NEW SINGLE FAMILY RES/2 STORY/ WITH GARAGE/ SLOPED LOT/COMPLEX /***ET ,MT, PT SEPARATE *SEE LU 18-228103 DFS NFPA 13D Fire Sprinklers Required</title>
-      <link>https://www.portlandmaps.com/detail/permit/5132608_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-018755-000-00-RS
-Issued: 2026-08-17
-Address: 14230 SE ELLIS ST, PORTLAND, OR
-Contractor: 
-Valuation: 331794.0
-Units: 1</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|portland|2026-011873-000-00-rs</guid>
       <title>[Portland] *SINGLE PDF* Detached bedroom with bedroom, 695 SQFT, full bathroom,and second floor loft, . All trades included.
 **NOT PERMITTED AS AN ADU**  26-027725 LU HISTORICAL RESOURCE REVIEW</title>
@@ -45,6 +31,20 @@ Address: 2243 SE CYPRESS AVE, PORTLAND, OR
 Contractor: 
 Valuation: 180961.0
 Units: </description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-018755-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - LOT 10 - NEW SINGLE FAMILY RES/2 STORY/ WITH GARAGE/ SLOPED LOT/COMPLEX /***ET ,MT, PT SEPARATE *SEE LU 18-228103 DFS NFPA 13D Fire Sprinklers Required</title>
+      <link>https://www.portlandmaps.com/detail/permit/5132608_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-018755-000-00-RS
+Issued: 2026-08-17
+Address: 14230 SE ELLIS ST, PORTLAND, OR
+Contractor: 
+Valuation: 331794.0
+Units: 1</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -440,12 +440,40 @@ Units: 1</description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2026-005453-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 1 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS**W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226644_did/</link>
+      <guid isPermaLink="false">OR|portland|2026-005462-000-00-rs</guid>
+      <title>[Portland] FULL PDOX BATCH MHLD NEW 5 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS** W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD**DFS NFPA 13D Sprinklers**  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5226653_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2026-005453-000-00-RS
+Permit: 2026-005462-000-00-RS
+Issued: 2026-06-10
+Address: 5805 NE ALBERTA ST, PORTLAND, OR
+Contractor: 
+Valuation: 151337.0
+Units: 1</description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-005459-000-00-rs</guid>
+      <title>[Portland] FULL PDOX BATCH MHLD NEW 4 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS**W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD**DFS NFPA 13D Sprinklers** ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5226650_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-005459-000-00-RS
+Issued: 2026-06-10
+Address: 5805 NE ALBERTA ST, PORTLAND, OR
+Contractor: 
+Valuation: 151337.0
+Units: 1</description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-005457-000-00-rs</guid>
+      <title>[Portland] FULL PDOX BATCH MHLD NEW 3 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS** W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5226648_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-005457-000-00-RS
 Issued: 2026-06-10
 Address: 5805 NE ALBERTA ST, PORTLAND, OR
 Contractor: 
@@ -468,44 +496,16 @@ Units: 1</description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2026-005457-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 3 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS** W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226648_did/</link>
+      <guid isPermaLink="false">OR|portland|2026-005453-000-00-rs</guid>
+      <title>[Portland] FULL PDOX BATCH MHLD NEW 1 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS**W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5226644_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2026-005457-000-00-RS
+Permit: 2026-005453-000-00-RS
 Issued: 2026-06-10
 Address: 5805 NE ALBERTA ST, PORTLAND, OR
 Contractor: 
 Valuation: 227767.0
-Units: 1</description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-005459-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 4 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS**W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD**DFS NFPA 13D Sprinklers** ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226650_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-005459-000-00-RS
-Issued: 2026-06-10
-Address: 5805 NE ALBERTA ST, PORTLAND, OR
-Contractor: 
-Valuation: 151337.0
-Units: 1</description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-005462-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 5 OF 6 COTTAGE CLUSTER HOMES ON SHARED LOT (LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/  *SEE 25-061056/60/65-RS FOR DEMOS** W/ 26-005453/56/57/59/62/65-RS W/ 26-005473-SD**DFS NFPA 13D Sprinklers**  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226653_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-005462-000-00-RS
-Issued: 2026-06-10
-Address: 5805 NE ALBERTA ST, PORTLAND, OR
-Contractor: 
-Valuation: 151337.0
 Units: 1</description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -650,6 +650,20 @@ Units: </description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-026387-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW 28X40 POLE BARN ON MULT CO PROPERTY, WITH 2 STALL GARAGE AND SHOP. *** ANY ET PT MT SEPARATE</title>
+      <link>https://www.portlandmaps.com/detail/permit/5248424_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-026387-000-00-RS
+Issued: 2026-05-19
+Address: 19401 NW CLEETWOOD AVE, PORTLAND, OR
+Contractor: 
+Valuation: 79601.0
+Units: </description>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-005776-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - MHLD: NEW 2 OF 2 SINGLE FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR (COTTAGE CLUSTER) / LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/26-005773-RS</title>
       <link>https://www.portlandmaps.com/detail/permit/5226981_did/</link>
@@ -675,20 +689,6 @@ Address: 5006 SE KNAPP ST, PORTLAND, OR
 Contractor: 
 Valuation: 164527.0
 Units: 1</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-026387-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 28X40 POLE BARN ON MULT CO PROPERTY, WITH 2 STALL GARAGE AND SHOP. *** ANY ET PT MT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5248424_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-026387-000-00-RS
-Issued: 2026-05-19
-Address: 19401 NW CLEETWOOD AVE, PORTLAND, OR
-Contractor: 
-Valuation: 79601.0
-Units: </description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -776,20 +776,6 @@ Units: </description>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-085818-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW ACCESSORY STRUCTURE (NOT AN ADU) / 1-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE Septic Decommissioning Required.  Call for Inspection 842.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5202437_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-085818-000-00-RS
-Issued: 2026-04-24
-Address: 1225 NE 135TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 97397.0
-Units: </description>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|portland|2026-019139-000-00-rs</guid>
       <title>[Portland] FINALS ONLY: Inspections to include RS , ET, MT and PT.
 No changes allowed to original plans. Plans to be onsite at time of final inspection. Smoke detectors and CO2 alarms to meet current code for placement.</title>
@@ -802,6 +788,20 @@ Address: 852 SE 141ST AVE, PORTLAND, OR
 Contractor: 
 Valuation: 1.0
 Units: 1</description>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-085818-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW ACCESSORY STRUCTURE (NOT AN ADU) / 1-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE Septic Decommissioning Required.  Call for Inspection 842.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5202437_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-085818-000-00-RS
+Issued: 2026-04-24
+Address: 1225 NE 135TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 97397.0
+Units: </description>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1319,12 +1319,12 @@ Units: </description>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-018403-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES ON PARCEL 2 /2 STORY/WITH GARAGE/FLAT LOT/COMPLEX***ET ,MT, PT SEPARATE ***SEE 24-071640 LU***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5132247_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-018413-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES ON PARCEL 3/2 STORY/WITH GARAGE/FLAT LOT/COMPLEX***ET ,MT, PT SEPARATE ***SEE 24-071640 LU***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5132257_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2025-018403-000-00-RS
+Permit: 2025-018413-000-00-RS
 Issued: 2026-01-28
 Address: 6026 SE HAROLD ST, PORTLAND, OR
 Contractor: 
@@ -1333,12 +1333,12 @@ Units: 1</description>
       <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-018413-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES ON PARCEL 3/2 STORY/WITH GARAGE/FLAT LOT/COMPLEX***ET ,MT, PT SEPARATE ***SEE 24-071640 LU***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5132257_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-018403-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES ON PARCEL 2 /2 STORY/WITH GARAGE/FLAT LOT/COMPLEX***ET ,MT, PT SEPARATE ***SEE 24-071640 LU***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5132247_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2025-018413-000-00-RS
+Permit: 2025-018403-000-00-RS
 Issued: 2026-01-28
 Address: 6026 SE HAROLD ST, PORTLAND, OR
 Contractor: 
@@ -1403,17 +1403,18 @@ Units: </description>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-094377-000-00-rs</guid>
-      <title>[Portland] FULL PDOX-MHLD- 2 OF 4 COTTAGE CLUSTER TO BE DIVIDED BY MHLD- 2 STORY/GARAGE/FLAT LOT/COMPLEX ** PENDING DEMO** W/ 24-094374/77/81/84 RS AND 24-094385 SD  *ADD ELECTRICAL MECANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5098448_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-096159-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF NEW ACCESSORY STRUCTURE FOR ADDITIONAL LIVING SPACE/ SHARED LOT/ 1 STORY/ NO GARAGE BEHIND HOUSE/ BEDROOM, OFFICE, BATHROOM/ FLAT LOT/
+*ADDED MECHANICAL ELECTRICAL AND PLUMBING*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5213206_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-094377-000-00-RS
+Permit: 2025-096159-000-00-RS
 Issued: 2026-01-22
-Address: 1216 SE 151ST AVE, PORTLAND, OR
+Address: 7326 N HURST AVE, PORTLAND, OR
 Contractor: 
-Valuation: 215711.0
-Units: 1</description>
+Valuation: 78000.0
+Units: </description>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1445,6 +1446,20 @@ Units: 1</description>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2024-094377-000-00-rs</guid>
+      <title>[Portland] FULL PDOX-MHLD- 2 OF 4 COTTAGE CLUSTER TO BE DIVIDED BY MHLD- 2 STORY/GARAGE/FLAT LOT/COMPLEX ** PENDING DEMO** W/ 24-094374/77/81/84 RS AND 24-094385 SD  *ADD ELECTRICAL MECANICAL AND PLUMBING*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5098448_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-094377-000-00-RS
+Issued: 2026-01-22
+Address: 1216 SE 151ST AVE, PORTLAND, OR
+Contractor: 
+Valuation: 215711.0
+Units: 1</description>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2024-094374-000-00-rs</guid>
       <title>[Portland] FULL PDOX-MHLD- 1OF 4 COTTAGE CLUSTER TO BE DIVIDED BY MHLD- 2 STORY/GARAGE/FLAT LOT/COMPLEX ** PENDING DEMO** 24-094374/77/81/84 RS AND 24-094385 SD  *ADD ELECTRICAL, MECHANICAL  AND PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5098445_did/</link>
@@ -1456,21 +1471,6 @@ Address: 1216 SE 151ST AVE, PORTLAND, OR
 Contractor: 
 Valuation: 215711.0
 Units: 1</description>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-096159-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF NEW ACCESSORY STRUCTURE FOR ADDITIONAL LIVING SPACE/ SHARED LOT/ 1 STORY/ NO GARAGE BEHIND HOUSE/ BEDROOM, OFFICE, BATHROOM/ FLAT LOT/
-*ADDED MECHANICAL ELECTRICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5213206_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-096159-000-00-RS
-Issued: 2026-01-22
-Address: 7326 N HURST AVE, PORTLAND, OR
-Contractor: 
-Valuation: 78000.0
-Units: </description>
       <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1600,12 +1600,12 @@ Units: 1</description>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-056866-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE ON LOT 10 OF 22-186119-PR / 2-STORY / ATTACHED GARAGE / FLAT LOT / COMPLEX w/25-056875-RS FOR ADU</title>
-      <link>https://www.portlandmaps.com/detail/permit/5172311_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-056926-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE ON LOT 9 OF 22-186119-PR / 2-STORY / ATTACHED GARAGE / FLAT LOT / COMPLEX w/25-056933-RS FOR ADU</title>
+      <link>https://www.portlandmaps.com/detail/permit/5172373_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2025-056866-000-00-RS
+Permit: 2025-056926-000-00-RS
 Issued: 2025-12-19
 Address: 6335 SE 85TH AVE, PORTLAND, OR
 Contractor: 
@@ -1614,12 +1614,12 @@ Units: 1</description>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-056926-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE ON LOT 9 OF 22-186119-PR / 2-STORY / ATTACHED GARAGE / FLAT LOT / COMPLEX w/25-056933-RS FOR ADU</title>
-      <link>https://www.portlandmaps.com/detail/permit/5172373_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-056866-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE ON LOT 10 OF 22-186119-PR / 2-STORY / ATTACHED GARAGE / FLAT LOT / COMPLEX w/25-056875-RS FOR ADU</title>
+      <link>https://www.portlandmaps.com/detail/permit/5172311_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2025-056926-000-00-RS
+Permit: 2025-056866-000-00-RS
 Issued: 2025-12-19
 Address: 6335 SE 85TH AVE, PORTLAND, OR
 Contractor: 
@@ -1754,20 +1754,6 @@ Units: 1</description>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-066271-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 2-STORY / 1-CAR GARAGE / SLOPED LOT / COMPLEX</title>
-      <link>https://www.portlandmaps.com/detail/permit/5182070_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-066271-000-00-RS
-Issued: 2025-11-20
-Address: 4005 NE 17TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 369392.0
-Units: 1</description>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|portland|2025-070809-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 2-STORY INCLUDING FINISHED BASEMENT LEVEL / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE</title>
       <link>https://www.portlandmaps.com/detail/permit/5186787_did/</link>
@@ -1782,18 +1768,18 @@ Units: 1</description>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-020922-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES/2 STORY / WITH GARAGE/ COMPLEX/  *ADDED MECHANICAL, ELECTRICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5134828_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-066271-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 2-STORY / 1-CAR GARAGE / SLOPED LOT / COMPLEX</title>
+      <link>https://www.portlandmaps.com/detail/permit/5182070_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2025-020922-000-00-RS
-Issued: 2025-11-19
-Address: 3307 NE 74TH AVE, PORTLAND, OR
+Permit: 2025-066271-000-00-RS
+Issued: 2025-11-20
+Address: 4005 NE 17TH AVE, PORTLAND, OR
 Contractor: 
-Valuation: 238470.0
-Units: 2</description>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+Valuation: 369392.0
+Units: 1</description>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-033917-000-00-rs</guid>
@@ -1807,6 +1793,20 @@ Address: 1041 SE 111TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 378639.0
 Units: 1</description>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-020922-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES/2 STORY / WITH GARAGE/ COMPLEX/  *ADDED MECHANICAL, ELECTRICAL AND PLUMBING*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5134828_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-020922-000-00-RS
+Issued: 2025-11-19
+Address: 3307 NE 74TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 238470.0
+Units: 2</description>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1839,20 +1839,6 @@ Units: </description>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-011044-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NSFR /2 STORY/ATTACHED GARAGE/FLAT LOT/COMPLEX ***ET ,MT SEPARATE***  *ADDED PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124578_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-011044-000-00-RS
-Issued: 2025-11-13
-Address: SE MANLEY ST, PORTLAND, OR
-Contractor: 
-Valuation: 479419.0
-Units: 1</description>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|portland|2025-083252-000-00-rs</guid>
       <title>[Portland] *SINGLE PDF* Construct Detached Bedroom with a bathroom and shared electrical meter, a shared water meter, and a heat pump with single wall mounted minisplit. All trades are included. *NOT AN ADU*</title>
       <link>https://www.portlandmaps.com/detail/permit/5199731_did/</link>
@@ -1864,6 +1850,20 @@ Address: 3334 NE 76TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 125000.0
 Units: </description>
+      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-011044-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NSFR /2 STORY/ATTACHED GARAGE/FLAT LOT/COMPLEX ***ET ,MT SEPARATE***  *ADDED PLUMBING*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5124578_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-011044-000-00-RS
+Issued: 2025-11-13
+Address: SE MANLEY ST, PORTLAND, OR
+Contractor: 
+Valuation: 479419.0
+Units: 1</description>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1907,6 +1907,20 @@ Contractor:
 Valuation: 296125.0
 Units: 1</description>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-069366-000-00-rs</guid>
+      <title>[Portland] *SINGLE PDF* New Construction of Detached two story studio with one bedroom and 1 1/2 bathroom. All trades are included.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5185295_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-069366-000-00-RS
+Issued: 2025-10-20
+Address: 3512 SE OAK ST, PORTLAND, OR
+Contractor: 
+Valuation: 125000.0
+Units: </description>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2024-015483-000-00-rs</guid>
@@ -1962,20 +1976,6 @@ Address: SW CUSTER ST, PORTLAND, OR
 Contractor: 
 Valuation: 200999.0
 Units: 1</description>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-069366-000-00-rs</guid>
-      <title>[Portland] *SINGLE PDF* New Construction of Detached two story studio with one bedroom and 1 1/2 bathroom. All trades are included.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5185295_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-069366-000-00-RS
-Issued: 2025-10-20
-Address: 3512 SE OAK ST, PORTLAND, OR
-Contractor: 
-Valuation: 125000.0
-Units: </description>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2119,20 +2119,6 @@ Units: </description>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-061175-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 1 OF 2 (UNIT 2) SINGLE FAMILY RESIDENCES (COTTAGE) ON SHARED LOT W/EXISTING SFR (UNIT 1) TO REMAIN / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/25-061178-RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5176769_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-061175-000-00-RS
-Issued: 2025-09-24
-Address: 7805 N SMITH ST, PORTLAND, OR
-Contractor: 
-Valuation: 149985.0
-Units: 1</description>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|portland|2025-061178-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - NEW 2 OF 2 (UNIT 3) SINGLE FAMILY RESIDENCES (COTTAGE) ON SHARED LOT W/EXISTING SFR (UNIT 1) TO REMAIN / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/25-061175-RS</title>
       <link>https://www.portlandmaps.com/detail/permit/5176772_did/</link>
@@ -2143,6 +2129,20 @@ Issued: 2025-09-24
 Address: 7805 N SMITH ST, PORTLAND, OR
 Contractor: 
 Valuation: 160130.0
+Units: 1</description>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-061175-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW 1 OF 2 (UNIT 2) SINGLE FAMILY RESIDENCES (COTTAGE) ON SHARED LOT W/EXISTING SFR (UNIT 1) TO REMAIN / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/25-061178-RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5176769_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-061175-000-00-RS
+Issued: 2025-09-24
+Address: 7805 N SMITH ST, PORTLAND, OR
+Contractor: 
+Valuation: 149985.0
 Units: 1</description>
       <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
     </item>
@@ -2582,82 +2582,12 @@ Units: </description>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-044503-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- MHLD- NEW 1 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5046603_did/</link>
+      <guid isPermaLink="false">OR|portland|2024-085248-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- MHLD- NEW 8 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5088969_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-044503-000-00-RS
-Issued: 2025-06-13
-Address: 3815 SW POMONA ST, PORTLAND, OR
-Contractor: 
-Valuation: 202301.0
-Units: 1</description>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-044507-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- MHLD- NEW 2 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE*W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5046607_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-044507-000-00-RS
-Issued: 2025-06-13
-Address: 3815 SW POMONA ST, PORTLAND, OR
-Contractor: 
-Valuation: 202301.0
-Units: 1</description>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-044508-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- MHLD- NEW 3 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5046608_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-044508-000-00-RS
-Issued: 2025-06-13
-Address: 3815 SW POMONA ST, PORTLAND, OR
-Contractor: 
-Valuation: 202301.0
-Units: 1</description>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-044511-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- MHLD- NEW 4 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5046611_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-044511-000-00-RS
-Issued: 2025-06-13
-Address: 3815 SW POMONA ST, PORTLAND, OR
-Contractor: 
-Valuation: 202301.0
-Units: 1</description>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-044513-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- MHLD- NEW 5 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5046613_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-044513-000-00-RS
-Issued: 2025-06-13
-Address: 3815 SW POMONA ST, PORTLAND, OR
-Contractor: 
-Valuation: 202301.0
-Units: 1</description>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-044516-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- MHLD- NEW 6 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5046616_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-044516-000-00-RS
+Permit: 2024-085248-000-00-RS
 Issued: 2025-06-13
 Address: 3815 SW POMONA ST, PORTLAND, OR
 Contractor: 
@@ -2680,12 +2610,82 @@ Units: 1</description>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-085248-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- MHLD- NEW 8 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5088969_did/</link>
+      <guid isPermaLink="false">OR|portland|2024-044516-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- MHLD- NEW 6 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5046616_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-085248-000-00-RS
+Permit: 2024-044516-000-00-RS
+Issued: 2025-06-13
+Address: 3815 SW POMONA ST, PORTLAND, OR
+Contractor: 
+Valuation: 202301.0
+Units: 1</description>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2024-044513-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- MHLD- NEW 5 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5046613_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-044513-000-00-RS
+Issued: 2025-06-13
+Address: 3815 SW POMONA ST, PORTLAND, OR
+Contractor: 
+Valuation: 202301.0
+Units: 1</description>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2024-044511-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- MHLD- NEW 4 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5046611_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-044511-000-00-RS
+Issued: 2025-06-13
+Address: 3815 SW POMONA ST, PORTLAND, OR
+Contractor: 
+Valuation: 202301.0
+Units: 1</description>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2024-044508-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- MHLD- NEW 3 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5046608_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-044508-000-00-RS
+Issued: 2025-06-13
+Address: 3815 SW POMONA ST, PORTLAND, OR
+Contractor: 
+Valuation: 202301.0
+Units: 1</description>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2024-044507-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- MHLD- NEW 2 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE*W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5046607_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-044507-000-00-RS
+Issued: 2025-06-13
+Address: 3815 SW POMONA ST, PORTLAND, OR
+Contractor: 
+Valuation: 202301.0
+Units: 1</description>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2024-044503-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- MHLD- NEW 1 OF 8 COTTAGE CLUSTER ON SHARED LOT. 2 STORY/NO GARAGE/FLAT LOT/COMPLEX. *ET,MT,PT SEPARATE* W/ 24-044503/07/08/11/13/16/17/085248 RS AND 24-044521 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5046603_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-044503-000-00-RS
 Issued: 2025-06-13
 Address: 3815 SW POMONA ST, PORTLAND, OR
 Contractor: 
@@ -2736,12 +2736,12 @@ Units: 1</description>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-073054-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW 1 OF 2  SINGLE FAMILY RESIDENCE BEHIND EXISTING SFR. 2 STORY/NO GARAGE/FLAT LOT/SIMPLE. W/ 24-073060 RS    **ELECTRICAL ADDED 9/17/24***CESSPOOL DECOMMISSIONING REQUIRED*** Septic Decommissioning Required.  Call for Inspection 842.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5076320_did/</link>
+      <guid isPermaLink="false">OR|portland|2024-073060-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- NEW 2 OF 2  SINGLE FAMILY RESIDENCE BEHIND EXISTING SFR. 2 STORY/NO GARAGE/FLAT LOT/SIMPLE. W/ 24-073054 RS***CESSPOOL DECOMMISSIONING REQUIRED***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5076326_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-073054-000-00-RS
+Permit: 2024-073060-000-00-RS
 Issued: 2025-05-14
 Address: 4539 SE 97TH AVE, PORTLAND, OR
 Contractor: 
@@ -2750,12 +2750,12 @@ Units: 1</description>
       <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-073060-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW 2 OF 2  SINGLE FAMILY RESIDENCE BEHIND EXISTING SFR. 2 STORY/NO GARAGE/FLAT LOT/SIMPLE. W/ 24-073054 RS***CESSPOOL DECOMMISSIONING REQUIRED***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5076326_did/</link>
+      <guid isPermaLink="false">OR|portland|2024-073054-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- NEW 1 OF 2  SINGLE FAMILY RESIDENCE BEHIND EXISTING SFR. 2 STORY/NO GARAGE/FLAT LOT/SIMPLE. W/ 24-073060 RS    **ELECTRICAL ADDED 9/17/24***CESSPOOL DECOMMISSIONING REQUIRED*** Septic Decommissioning Required.  Call for Inspection 842.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5076320_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-073060-000-00-RS
+Permit: 2024-073054-000-00-RS
 Issued: 2025-05-14
 Address: 4539 SE 97TH AVE, PORTLAND, OR
 Contractor: 
@@ -2806,6 +2806,20 @@ Units: 1</description>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2025-004121-000-00-rs</guid>
+      <title>[Portland] FULL PDOX - NEW 1 OF 4 (UNIT C) SINGLE-FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR / 1-STORY / NO GARAGE / FLAT LOT / SIMPLE w/25-004123-RS, 25-004125-RS, 25-004127-RS, 25-004128-SD**ET, MT, AND PT PERMITS SEPARATE</title>
+      <link>https://www.portlandmaps.com/detail/permit/5117422_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-004121-000-00-RS
+Issued: 2025-05-08
+Address: 11440 NE MORRIS ST, PORTLAND, OR
+Contractor: 
+Valuation: 100000.0
+Units: 1</description>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2024-026507-000-00-rs</guid>
       <title>[Portland] SINGLE PDF- NEW SINGLE FAMILY RESIDENCE. 3 STORY WITH GARAGE/ FLAT LOT/COMPLEX. SEE PERMITS 24-026511 RS AND 24-026513 RS FOR 2 DETACHED ADU'S.</title>
       <link>https://www.portlandmaps.com/detail/permit/5027880_did/</link>
@@ -2848,20 +2862,6 @@ Units: 1</description>
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-004121-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 1 OF 4 (UNIT C) SINGLE-FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR / 1-STORY / NO GARAGE / FLAT LOT / SIMPLE w/25-004123-RS, 25-004125-RS, 25-004127-RS, 25-004128-SD**ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5117422_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-004121-000-00-RS
-Issued: 2025-05-08
-Address: 11440 NE MORRIS ST, PORTLAND, OR
-Contractor: 
-Valuation: 100000.0
-Units: 1</description>
-      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|portland|2025-015624-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE TO REPLACE MANUFACTURED HOME TO BE REMOVED / 2-STORY WITH HABITABLE BASEMENT LEVEL / EXISTING DETACHED GARAGE / FLAT LOT / COMPLEX**DFS FOR MANUFACTURED WOOD JOISTS**ET, MT, AND PT PERMITS SEPARATE</title>
       <link>https://www.portlandmaps.com/detail/permit/5129333_did/</link>
@@ -2876,26 +2876,12 @@ Units: 1</description>
       <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-105737-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 9 OF 9 SINGLE FAMILY RESIDENCES (COTTAGE CLUSTER) ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX**DEMO OF EXISTING HOUSE SEPARATE  W/ 24- 105720/23/28/30/31/33/34/35/37 RS AND 24-105740 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110255_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-004127-000-00-rs</guid>
+      <title>[Portland] FULL PDOX - NEW 4 OF 4 (UNIT F) SINGLE-FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR / 1-STORY / NO GARAGE / FLAT LOT / SIMPLE w/25-004121-RS, 25-004123-RS, 25-004125-RS, 25-004128-SD**ET, and MT PERMITS SEPARATE</title>
+      <link>https://www.portlandmaps.com/detail/permit/5117428_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-105737-000-00-RS
-Issued: 2025-05-01
-Address: 7466 N POLK AVE, PORTLAND, OR
-Contractor: 
-Valuation: 155071.0
-Units: 1</description>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-004123-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 2 OF 4 (UNIT D) SINGLE-FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR / 1-STORY / NO GARAGE / FLAT LOT / SIMPLE w/25-004121-RS, 25-004125-RS, 25-004127-RS, 25-004128-SD**ET AND MT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5117424_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-004123-000-00-RS
+Permit: 2025-004127-000-00-RS
 Issued: 2025-05-01
 Address: 11440 NE MORRIS ST, PORTLAND, OR
 Contractor: 
@@ -2918,16 +2904,30 @@ Units: 1</description>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-004127-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 4 OF 4 (UNIT F) SINGLE-FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR / 1-STORY / NO GARAGE / FLAT LOT / SIMPLE w/25-004121-RS, 25-004123-RS, 25-004125-RS, 25-004128-SD**ET, and MT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5117428_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-004123-000-00-rs</guid>
+      <title>[Portland] FULL PDOX - NEW 2 OF 4 (UNIT D) SINGLE-FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR / 1-STORY / NO GARAGE / FLAT LOT / SIMPLE w/25-004121-RS, 25-004125-RS, 25-004127-RS, 25-004128-SD**ET AND MT PERMITS SEPARATE</title>
+      <link>https://www.portlandmaps.com/detail/permit/5117424_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2025-004127-000-00-RS
+Permit: 2025-004123-000-00-RS
 Issued: 2025-05-01
 Address: 11440 NE MORRIS ST, PORTLAND, OR
 Contractor: 
 Valuation: 100000.0
+Units: 1</description>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2024-105737-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD: NEW 9 OF 9 SINGLE FAMILY RESIDENCES (COTTAGE CLUSTER) ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX**DEMO OF EXISTING HOUSE SEPARATE  W/ 24- 105720/23/28/30/31/33/34/35/37 RS AND 24-105740 SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5110255_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-105737-000-00-RS
+Issued: 2025-05-01
+Address: 7466 N POLK AVE, PORTLAND, OR
+Contractor: 
+Valuation: 155071.0
 Units: 1</description>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
     </item>
@@ -3128,14 +3128,14 @@ Units: </description>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-098296-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW SINGLE FAMILY RESIDENCE. 2 STORY WITH GARAGE/FLAT LOT/COMPLEX W/ 24-098309 RS FOR ADU***SEPTIC DECOMMISSIONING REQUIRED*** Septic Decommissioning Required.  Call for Inspection 842.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5102539_did/</link>
+      <guid isPermaLink="false">OR|portland|2024-099173-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- NEW SINGLE FAMILY RESIDENCE. 2 STORY WITH GARAGE/FLAT LOT/COMPLEX . PENDING DEMO OF EXISTING SFR W/ 24-099176 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5103447_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-098296-000-00-RS
+Permit: 2024-099173-000-00-RS
 Issued: 2025-04-25
-Address: SE KNAPP ST, PORTLAND, OR
+Address: SE 62ND AVE, PORTLAND, OR
 Contractor: 
 Valuation: 235909.0
 Units: 1</description>
@@ -3156,14 +3156,14 @@ Units: 1</description>
       <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-099173-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW SINGLE FAMILY RESIDENCE. 2 STORY WITH GARAGE/FLAT LOT/COMPLEX . PENDING DEMO OF EXISTING SFR W/ 24-099176 RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5103447_did/</link>
+      <guid isPermaLink="false">OR|portland|2024-098296-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF- NEW SINGLE FAMILY RESIDENCE. 2 STORY WITH GARAGE/FLAT LOT/COMPLEX W/ 24-098309 RS FOR ADU***SEPTIC DECOMMISSIONING REQUIRED*** Septic Decommissioning Required.  Call for Inspection 842.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5102539_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-099173-000-00-RS
+Permit: 2024-098296-000-00-RS
 Issued: 2025-04-25
-Address: SE 62ND AVE, PORTLAND, OR
+Address: SE KNAPP ST, PORTLAND, OR
 Contractor: 
 Valuation: 235909.0
 Units: 1</description>
@@ -3338,6 +3338,20 @@ Units: 1</description>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2024-011903-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD: 4 OF 4 NEW SINGLE-FAMILY RESIDENCES (COTTAGE CLUSTER) ON SHARED LOT / 2-STORY / NO GARAGES / FLAT LOT / COMPLEX w/24-011896-RS, 24-011898-RS, 24-011899-RS, 24-011905-SD*******ADDED MECHANICAL 4-7-25***ADDED PLUMBING 4-7-25***ADDED ELECTRICAL 4-9-25***ADDED SITE UTILITIES RAIN DRAIN LINE AND WATER SERVICE 5-16-25***ADDED PLUMBING 05.11.26***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5012728_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2024-011903-000-00-RS
+Issued: 2025-04-10
+Address: NE CESAR E CHAVEZ BLVD, PORTLAND, OR
+Contractor: 
+Valuation: 206038.0
+Units: 1</description>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2024-011899-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - MHLD: 3 OF 4 NEW SINGLE-FAMILY RESIDENCES (COTTAGE CLUSTER) ON SHARED LOT / 2-STORY / NO GARAGES / FLAT LOT / COMPLEX w/24-011896-RS, 24-011898-RS, 24-011903-RS, 24-011905-SD******ADDED MECHANICAL 4-4-25***ADDED PLUMBING 4-7-25***ADDED ELECTRICAL 4-9-25***ADDED PLUMBING SITE UTILITIES 5-16-25***ADDED PLUMBING 05.11.26***</title>
       <link>https://www.portlandmaps.com/detail/permit/5012724_did/</link>
@@ -3380,18 +3394,18 @@ Units: 1</description>
       <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-011903-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: 4 OF 4 NEW SINGLE-FAMILY RESIDENCES (COTTAGE CLUSTER) ON SHARED LOT / 2-STORY / NO GARAGES / FLAT LOT / COMPLEX w/24-011896-RS, 24-011898-RS, 24-011899-RS, 24-011905-SD*******ADDED MECHANICAL 4-7-25***ADDED PLUMBING 4-7-25***ADDED ELECTRICAL 4-9-25***ADDED SITE UTILITIES RAIN DRAIN LINE AND WATER SERVICE 5-16-25***ADDED PLUMBING 05.11.26***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5012728_did/</link>
+      <guid isPermaLink="false">OR|portland|2024-074559-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF NEW RETAINING WALL WITH FENCE ON TOP TO LEVEL YARD. NEW GATES. NEW STAIRS AND RAILING TO FRONT PORCH.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5077880_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2024-011903-000-00-RS
-Issued: 2025-04-10
-Address: NE CESAR E CHAVEZ BLVD, PORTLAND, OR
+Permit: 2024-074559-000-00-RS
+Issued: 2025-03-25
+Address: 4010 NE 24TH AVE, PORTLAND, OR
 Contractor: 
-Valuation: 206038.0
-Units: 1</description>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+Valuation: 38511.0
+Units: </description>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2024-059374-000-00-rs</guid>
@@ -3404,20 +3418,6 @@ Issued: 2025-03-25
 Address: 2332 SW 16TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 62000.0
-Units: </description>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-074559-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF NEW RETAINING WALL WITH FENCE ON TOP TO LEVEL YARD. NEW GATES. NEW STAIRS AND RAILING TO FRONT PORCH.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5077880_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-074559-000-00-RS
-Issued: 2025-03-25
-Address: 4010 NE 24TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 38511.0
 Units: </description>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
     </item>
