@@ -28,4 +28,20 @@ class Tests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             PortlandCollector.parse_page(bad,"Commercial Issued Building Permits Report","commercial")
 
+    def test_collect_uses_native_report_params_only(self):
+        residential=HTML.replace("Commercial Issued Building Permits Report","Residential Issued Building Permits Report").replace("26-012345-000-00-CO","26-012345-000-00-RS")
+        calls=[]
+        class Response:
+            def __init__(self,text): self.text=text
+            def raise_for_status(self): return None
+        class Session:
+            def get(self,url,params,timeout):
+                calls.append(dict(params))
+                return Response(residential if params["action"]=="rs-issued" else HTML)
+        collector=PortlandCollector(); collector.max_pages=1
+        result=collector.collect(Session())
+        self.assertEqual(len(result.permits),2)
+        self.assertEqual(calls,[{"action":"rs-issued","page":1},{"action":"co-issued","page":1}])
+        self.assertTrue(all("start_date" not in x and "end_date" not in x for x in calls))
+
 if __name__=="__main__": unittest.main()
