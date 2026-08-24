@@ -20,6 +20,16 @@ class Tests(unittest.TestCase):
         x=p(number="26-111111-000-00-RS",use="Single Family Dwelling",desc="Construct new one-family dwelling",kind="residential",value=650000); classify_permit(x)
         self.assertTrue(x.qualifies); self.assertEqual(x.classification,"SINGLE_FAMILY")
 
+    def test_single_family_with_adu_stays_single_family(self):
+        x=p(number="22-104491-000-00-RS",use="Single Family Dwelling",desc="New single family residence with basement ADU",units=2,kind="residential",authoritative=True)
+        classify_permit(x)
+        self.assertTrue(x.qualifies); self.assertEqual(x.classification,"SINGLE_FAMILY")
+
+    def test_standalone_adu_excluded(self):
+        x=p(number="26-111112-000-00-RS",use="Accessory Dwelling Unit",desc="New detached ADU",units=1,kind="residential",authoritative=True)
+        classify_permit(x)
+        self.assertFalse(x.qualifies)
+
     def test_authoritative_residential_layer_does_not_require_description_phrase(self):
         x=p(number="26-222222-000-00-RS",work="New Structure",use="R-3",desc="Residence",kind="residential",authoritative=True)
         classify_permit(x)

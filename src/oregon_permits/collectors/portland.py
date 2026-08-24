@@ -16,7 +16,7 @@ class PortlandCollector:
     )
     result_limit = 4000
     out_fields = ",".join((
-        "PERMIT","TYPE","WORK_DESCRIPTION","ISSUED","DESCRIPTION","STATUS","GIS_PROCESS_STATUS",
+        "APPLICATION","STATEIDKEY","PERMIT","TYPE","WORK_DESCRIPTION","ISSUED","DESCRIPTION","STATUS","GIS_PROCESS_STATUS",
         "HOUSE","DIRECTION","PROPSTREET","STREETTYPE","CITY","PORTLAND_MAPS_URL","OCCUPANCYGROUP",
         "CONSTRUCTIONTYPE","SUBMITTEDVALUATION","FINALVALUATION","NUMNEWUNITS","TOTALSQFT","NUMBSTORIES",
         "COUNTY","OBJECTID"
@@ -67,7 +67,7 @@ class PortlandCollector:
             attrs = feature.get("attributes") if isinstance(feature, dict) else None
             if isinstance(attrs, dict):
                 keys.update(attrs.keys())
-        required = {"PERMIT","ISSUED","GIS_PROCESS_STATUS","PORTLAND_MAPS_URL"}
+        required = {"APPLICATION","ISSUED","GIS_PROCESS_STATUS","PORTLAND_MAPS_URL"}
         missing = sorted(required - keys)
         if missing:
             raise RuntimeError(f"Portland {layer_name} schema check failed; missing {missing}")
@@ -75,7 +75,7 @@ class PortlandCollector:
 
     @classmethod
     def _permit(cls, a: dict, layer_id: int, layer_name: str, kind: str) -> Permit | None:
-        number = str(a.get("PERMIT") or "").strip()
+        number = str(a.get("APPLICATION") or a.get("STATEIDKEY") or "").strip()
         issued = cls._date(a.get("ISSUED"))
         if not number or not issued:
             return None
@@ -100,7 +100,7 @@ class PortlandCollector:
         return Permit(
             state="OR", jurisdiction="Portland", permit_number=number, issued_date=issued,
             permit_type=" / ".join(x for x in (layer_name, permit_type or work) if x),
-            building_use=occupancy or permit_type or None,
+            building_use=permit_type or occupancy or None,
             project_name=desc or work or None,
             address=address, units=units, valuation=value,
             status=str(a.get("GIS_PROCESS_STATUS") or a.get("STATUS") or "").strip() or None,
@@ -111,9 +111,12 @@ class PortlandCollector:
                 "source_layer_id": layer_id,
                 "source_layer_name": layer_name,
                 "work_proposed": work,
-                "type_of_use": occupancy or permit_type,
+                "type_of_use": permit_type or occupancy,
                 "description": desc,
+                "permit_category": a.get("PERMIT"),
                 "permit_type_code": permit_type,
+                "occupancy_group": occupancy,
+                "state_id_key": a.get("STATEIDKEY"),
                 "construction_type": a.get("CONSTRUCTIONTYPE"),
                 "total_sqft": a.get("TOTALSQFT"),
                 "stories": a.get("NUMBSTORIES"),
