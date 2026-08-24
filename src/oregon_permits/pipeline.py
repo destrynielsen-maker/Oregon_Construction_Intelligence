@@ -1,5 +1,5 @@
 from __future__ import annotations
-import json, os
+import json, os, re
 from datetime import date, datetime, timezone
 from pathlib import Path
 from .classify import classify_permit
@@ -8,6 +8,8 @@ from .dashboard import write_public_data
 from .feeds import write_all_feeds
 from .models import Permit
 from .storage import load_permits, save_permits
+
+PORTLAND_CASE_RE=re.compile(r"^\d{2,4}-\d{6}-",re.I)
 
 def _site() -> str:
     configured=os.environ.get("SITE_BASE_URL","").strip()
@@ -31,6 +33,12 @@ def _dates(items: list[Permit]) -> list[str]:
         except ValueError: continue
         values.append(p.issued_date)
     return values
+
+def _keep_existing(p: Permit) -> bool:
+    raw=p.raw or {}
+    if p.jurisdiction=="Portland" and raw.get("source_construction_layer") is True:
+        return bool(PORTLAND_CASE_RE.match(p.permit_number or ""))
+    return True
 
 def _success(result, qualified: int, prev: dict | None, generated: str, today: date, threshold: int) -> dict:
     dates=_dates(result.permits); newest=max(dates) if dates else None; oldest=min(dates) if dates else None
@@ -69,7 +77,9 @@ def _fail(collector, exc: Exception, prev: dict | None, existing: dict[str,Permi
 def run(root: Path) -> dict:
     now=datetime.now(timezone.utc).replace(microsecond=0); generated=now.isoformat()
     store=root/"data"/"permits.json"; public=root/"public"
-    existing=load_permits(store); previous=_previous(public/"data"/"sources.json"); statuses=[]; total=0
+    loaded=load_permits(store)
+    existing={k:p for k,p in loaded.items() if _keep_existing(p)}
+    previous=_previous(public/"data"/"sources.json"); statuses=[]; total=0
     for collector in COLLECTORS:
         prev=previous.get(collector.name)
         try:
