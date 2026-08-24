@@ -1,183 +1,159 @@
 from __future__ import annotations
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.parse import urlparse
-import re
 import requests
-from bs4 import BeautifulSoup
 from .base import CollectionResult, new_session
 from ..models import Permit
 
 class PortlandCollector:
     name = "Portland"
     freshness_days = 10
-    base_url = "https://www.portlandmaps.com/reports/index.cfm"
-    source_url = "https://www.portlandmaps.com/reports/index.cfm?action=rs-issued"
-    report_actions = (
-        ("rs-issued", "Residential Issued Building Permits Report", "residential"),
-        ("co-issued", "Commercial Issued Building Permits Report", "commercial"),
+    service_url = "https://www.portlandmaps.com/arcgis/rest/services/Public/BDS_Permit/FeatureServer"
+    source_url = service_url
+    layers = (
+        (5, "Residential Construction Permit", "residential"),
+        (2, "Commercial Construction Permit", "commercial"),
     )
-    max_pages = 25
+    result_limit = 4000
+    out_fields = ",".join((
+        "PERMIT","TYPE","WORK_DESCRIPTION","ISSUED","DESCRIPTION","STATUS","GIS_PROCESS_STATUS",
+        "HOUSE","DIRECTION","PROPSTREET","STREETTYPE","CITY","PORTLAND_MAPS_URL","OCCUPANCYGROUP",
+        "CONSTRUCTIONTYPE","SUBMITTEDVALUATION","FINALVALUATION","NUMNEWUNITS","TOTALSQFT","NUMBSTORIES",
+        "COUNTY","OBJECTID"
+    ))
 
     def collect(self, session: requests.Session | None = None) -> CollectionResult:
         session = session or new_session()
-        all_permits: dict[str, Permit] = {}
+        permits: dict[str, Permit] = {}
+        for layer_id, layer_name, kind in self.layers:
+            url = f"{self.service_url}/{layer_id}/query"
+            params = {
+                "where": "ISSUED IS NOT NULL",
+                "outFields": self.out_fields,
+                "returnGeometry": "false",
+                "orderByFields": "ISSUED DESC",
+                "resultRecordCount": self.result_limit,
+                "resultOffset": 0,
+                "f": "json",
+            }
+            response = session.get(url, params=params, timeout=90)
+            response.raise_for_status()
+            payload = response.json()
+            features = self._validate_payload(payload, layer_name)
+            for feature in features:
+                attrs = feature.get("attributes") or {}
+                permit = self._permit(attrs, layer_id, layer_name, kind)
+                if permit:
+                    permits[permit.key] = permit
 
-        # PortlandMaps' native issued-report pages are the stable public surface.
-        # Do not send date-filter form parameters here: in production those can
-        # return a valid report shell with zero rows. Persistent repository
-        # history accumulates records across the six-hour polling cadence.
-        for action, expected_heading, report_kind in self.report_actions:
-            seen_pages: set[tuple[str, ...]] = set()
-            for page in range(1, self.max_pages + 1):
-                params = {"action": action, "page": page}
-                response = session.get(self.base_url, params=params, timeout=90)
-                response.raise_for_status()
-                parsed = self.parse_page(response.text, expected_heading, report_kind)
-                if not parsed:
-                    break
-                sig = tuple(p.permit_number for p in parsed[:5])
-                if sig in seen_pages:
-                    break
-                seen_pages.add(sig)
-                for p in parsed:
-                    all_permits[p.key] = p
-
-        if not all_permits:
-            raise RuntimeError("PortlandMaps issued-permit reports parsed with zero usable permit rows")
+        if not permits:
+            raise RuntimeError("Portland BDS FeatureServer returned zero usable issued construction permits")
         return CollectionResult(
-            self.name, list(all_permits.values()), self.source_url,
-            "Official PortlandMaps current residential/commercial issued-building-permit reports; persistent history retained between runs"
+            self.name, list(permits.values()), self.source_url,
+            "Official City of Portland BDS Permit FeatureServer construction layers 2 and 5"
         )
 
     @classmethod
-    def parse_page(cls, html: str, expected_heading: str, report_kind: str) -> list[Permit]:
-        soup = BeautifulSoup(html, "html.parser")
-        page_text = " ".join(soup.stripped_strings)
-        if expected_heading.lower() not in page_text.lower():
-            raise RuntimeError(f"Portland source identity check failed: missing heading {expected_heading!r}")
+    def _validate_payload(cls, payload, layer_name: str) -> list[dict]:
+        if not isinstance(payload, dict):
+            raise RuntimeError(f"Portland {layer_name} response is not a JSON object")
+        if payload.get("error"):
+            raise RuntimeError(f"Portland {layer_name} ArcGIS error: {payload['error']}")
+        features = payload.get("features")
+        if not isinstance(features, list) or not features:
+            raise RuntimeError(f"Portland {layer_name} returned no features")
+        keys: set[str] = set()
+        for feature in features[:25]:
+            attrs = feature.get("attributes") if isinstance(feature, dict) else None
+            if isinstance(attrs, dict):
+                keys.update(attrs.keys())
+        required = {"PERMIT","ISSUED","GIS_PROCESS_STATUS","PORTLAND_MAPS_URL"}
+        missing = sorted(required - keys)
+        if missing:
+            raise RuntimeError(f"Portland {layer_name} schema check failed; missing {missing}")
+        return features
 
-        target = None
-        headers: list[str] = []
-        for table in soup.find_all("table"):
-            row = table.find("tr")
-            if not row:
-                continue
-            candidate = [cls._norm(c.get_text(" ", strip=True)) for c in row.find_all(["th","td"])]
-            if "CASE NUMBER" in candidate and "DATE ISSUED" in candidate and "ADDRESS" in candidate:
-                target = table
-                headers = candidate
-                break
-        if target is None:
-            if re.search(r"\b0\s+Records\b", page_text, re.I):
-                return []
-            raise RuntimeError("Portland report table schema not found")
+    @classmethod
+    def _permit(cls, a: dict, layer_id: int, layer_name: str, kind: str) -> Permit | None:
+        number = str(a.get("PERMIT") or "").strip()
+        issued = cls._date(a.get("ISSUED"))
+        if not number or not issued:
+            return None
+        link = cls._link(a.get("PORTLAND_MAPS_URL")) or f"{cls.service_url}/{layer_id}"
+        if link.startswith("/"):
+            link = "https://www.portlandmaps.com" + link
+        host = (urlparse(link).hostname or "").lower()
+        if host != "portlandmaps.com" and not host.endswith(".portlandmaps.com"):
+            raise RuntimeError(f"Portland source identity check failed: foreign permit host {host}")
 
-        permits: list[Permit] = []
-        for tr in target.find_all("tr")[1:]:
-            cells = tr.find_all("td")
-            if not cells:
-                continue
-            values = [c.get_text(" ", strip=True) for c in cells]
-            if len(values) < len(headers):
-                values += [""] * (len(headers)-len(values))
-            row = dict(zip(headers, values))
-            number = row.get("CASE NUMBER","").strip()
-            issued = cls._date(row.get("DATE ISSUED"))
-            if not number or not issued:
-                continue
-            link = ""
-            first_link = cells[0].find("a", href=True) if cells else None
-            if first_link:
-                link = str(first_link.get("href") or "").strip()
-                if link.startswith("/"):
-                    link = "https://www.portlandmaps.com" + link
-            if link:
-                host = (urlparse(link).hostname or "").lower()
-                if host != "portlandmaps.com" and not host.endswith(".portlandmaps.com"):
-                    raise RuntimeError(f"Portland source identity check failed: foreign permit host {host}")
-            else:
-                ivr = row.get("IVR NUMBER","").strip()
-                if ivr:
-                    link = f"https://www.portlandmaps.com/detail/permit/{ivr}_did/"
-                else:
-                    link = cls.source_url
+        desc = str(a.get("DESCRIPTION") or "").strip()
+        work = str(a.get("WORK_DESCRIPTION") or "").strip()
+        permit_type = str(a.get("TYPE") or "").strip()
+        occupancy = str(a.get("OCCUPANCYGROUP") or "").strip()
+        units = cls._positive_int(a.get("NUMNEWUNITS"))
+        value = cls._positive_float(a.get("FINALVALUATION")) or cls._positive_float(a.get("SUBMITTEDVALUATION"))
+        address = " ".join(str(a.get(k) or "").strip() for k in ("HOUSE","DIRECTION","PROPSTREET","STREETTYPE") if str(a.get(k) or "").strip())
+        city = str(a.get("CITY") or "").strip()
+        if city:
+            address = f"{address}, {city}, OR" if address else f"{city}, OR"
 
-            desc = row.get("DESCRIPTION OF WORK","").strip()
-            work = row.get("WORK PROPOSED","").strip()
-            use = row.get("TYPE OF USE","").strip()
-            units = cls._units(desc, use)
-
-            permits.append(Permit(
-                state="OR",
-                jurisdiction="Portland",
-                permit_number=number,
-                issued_date=issued,
-                permit_type=f"{report_kind.title()} / {work}".strip(" /"),
-                building_use=use or None,
-                project_name=desc or None,
-                address=row.get("ADDRESS","").strip(),
-                units=units,
-                valuation=cls._float(row.get("VALUATION")),
-                contractor=row.get("CONTRACTOR","").strip() or None,
-                owner=row.get("OWNER 1","").strip() or None,
-                status=row.get("STATUS","").strip() or None,
-                source_name="PortlandMaps Issued Building Permits",
-                source_url=link,
-                raw={
-                    "report_kind": report_kind,
-                    "work_proposed": work,
-                    "type_of_use": use,
-                    "description": desc,
-                    "ivr_number": row.get("IVR NUMBER","").strip(),
-                    "property_legal_description": row.get("PROPERTY LEGAL DESCRIPTION","").strip(),
-                },
-            ))
-        return permits
+        return Permit(
+            state="OR", jurisdiction="Portland", permit_number=number, issued_date=issued,
+            permit_type=" / ".join(x for x in (layer_name, permit_type or work) if x),
+            building_use=occupancy or permit_type or None,
+            project_name=desc or work or None,
+            address=address, units=units, valuation=value,
+            status=str(a.get("GIS_PROCESS_STATUS") or a.get("STATUS") or "").strip() or None,
+            source_name="City of Portland BDS Permit FeatureServer", source_url=link,
+            raw={
+                "report_kind": kind,
+                "source_construction_layer": True,
+                "source_layer_id": layer_id,
+                "source_layer_name": layer_name,
+                "work_proposed": work,
+                "type_of_use": occupancy or permit_type,
+                "description": desc,
+                "permit_type_code": permit_type,
+                "construction_type": a.get("CONSTRUCTIONTYPE"),
+                "total_sqft": a.get("TOTALSQFT"),
+                "stories": a.get("NUMBSTORIES"),
+                "county": a.get("COUNTY"),
+                "object_id": a.get("OBJECTID"),
+            },
+        )
 
     @staticmethod
-    def _norm(value: str) -> str:
-        return re.sub(r"\s+", " ", value.replace("\xa0"," ")).strip().upper()
+    def _link(value) -> str | None:
+        value = str(value or "").strip()
+        return value or None
 
     @staticmethod
     def _date(value) -> str | None:
-        text = str(value or "").strip()
-        if not text:
-            return None
-        text = text.split()[0]
-        for fmt in ("%m/%d/%Y", "%Y-%m-%d"):
-            try:
-                return datetime.strptime(text, fmt).date().isoformat()
-            except ValueError:
-                pass
-        return None
-
-    @staticmethod
-    def _float(value) -> float | None:
         if value in (None, ""):
             return None
+        if isinstance(value, (int, float)):
+            try:
+                return datetime.fromtimestamp(float(value)/1000, tz=timezone.utc).date().isoformat()
+            except (OverflowError, OSError, ValueError):
+                return None
+        text = str(value).strip()[:10]
         try:
-            return float(str(value).replace("$","").replace(",","").strip())
+            return datetime.strptime(text, "%Y-%m-%d").date().isoformat()
+        except ValueError:
+            return None
+
+    @staticmethod
+    def _positive_int(value) -> int | None:
+        try:
+            number = int(float(value))
+            return number if number > 0 else None
         except (TypeError, ValueError):
             return None
 
     @staticmethod
-    def _units(description: str, use: str) -> int | None:
-        text = f"{description} {use}"
-        patterns = (
-            r"\b(\d{1,4})\s*[- ]?unit(?:s)?\b",
-            r"\b(\d{1,4})\s+dwelling\s+units?\b",
-        )
-        for pat in patterns:
-            m = re.search(pat, text, re.I)
-            if m:
-                try:
-                    return int(m.group(1))
-                except ValueError:
-                    pass
-        if re.search(r"\bduplex|two[- ]family\b", text, re.I):
-            return 2
-        if re.search(r"\btriplex|three[- ]family\b", text, re.I):
-            return 3
-        if re.search(r"\bfourplex|four[- ]family\b", text, re.I):
-            return 4
-        return None
+    def _positive_float(value) -> float | None:
+        try:
+            number = float(value)
+            return number if number > 0 else None
+        except (TypeError, ValueError):
+            return None

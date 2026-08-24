@@ -1,47 +1,67 @@
 import unittest
+from datetime import datetime, timezone
 from oregon_permits.collectors.portland import PortlandCollector
 
-HTML='''<!doctype html><html><body><h4>Metro: Commercial Issued Building Permits Report</h4>
-<table><tr><th>PERMIT DETAILS</th><th>CASE NUMBER</th><th>ADDRESS</th><th>WORK PROPOSED</th><th>TYPE OF USE</th><th>DESCRIPTION OF WORK</th><th>VALUATION</th><th>DATE RECEIVED</th><th>DATE ISSUED</th><th>STATUS</th><th>IVR NUMBER</th><th>PROPERTY LEGAL DESCRIPTION</th><th>PERMIT INFO</th><th>CONTRACTOR</th><th>OWNER 1</th></tr>
-<tr><td><a href="https://www.portlandmaps.com/detail/permit/1234567_did/">detail</a></td><td>26-012345-000-00-CO</td><td>100 SW TEST ST, 97201</td><td>New Construction</td><td>Apartments/Condos (3 or more units)</td><td>Test Apartments - Construct new 48 unit apartment building</td><td>12500000</td><td>08/01/2026 10:00</td><td>08/20/2026 11:00</td><td>Issued</td><td>1234567</td><td>TEST LOT</td><td></td><td>Example Construction LLC</td><td>Example Owner LLC</td></tr>
-</table></body></html>'''
+
+def ms(y,m,d):
+    return int(datetime(y,m,d,tzinfo=timezone.utc).timestamp()*1000)
+
+
+def feature(number, issued, link, **overrides):
+    attrs={
+        "PERMIT":number,"TYPE":"New Construction","WORK_DESCRIPTION":"New Structure","ISSUED":issued,
+        "DESCRIPTION":"Construct residential structure","STATUS":"Issued","GIS_PROCESS_STATUS":"MAPPED - ISSUED",
+        "HOUSE":"100","DIRECTION":"SE","PROPSTREET":"TEST","STREETTYPE":"ST","CITY":"PORTLAND",
+        "PORTLAND_MAPS_URL":link,"OCCUPANCYGROUP":"Single Family Dwelling","CONSTRUCTIONTYPE":"V-B",
+        "SUBMITTEDVALUATION":650000,"FINALVALUATION":700000,"NUMNEWUNITS":1,"TOTALSQFT":2400,
+        "NUMBSTORIES":2,"COUNTY":"Multnomah","OBJECTID":1,
+    }
+    attrs.update(overrides)
+    return {"attributes":attrs}
+
+
+class Response:
+    def __init__(self,payload): self.payload=payload
+    def raise_for_status(self): return None
+    def json(self): return self.payload
+
 
 class Tests(unittest.TestCase):
-    def test_parse_portland_commercial_report(self):
-        rows=PortlandCollector.parse_page(HTML,"Commercial Issued Building Permits Report","commercial")
-        self.assertEqual(len(rows),1)
-        p=rows[0]
-        self.assertEqual(p.state,"OR")
-        self.assertEqual(p.jurisdiction,"Portland")
-        self.assertEqual(p.permit_number,"26-012345-000-00-CO")
-        self.assertEqual(p.issued_date,"2026-08-20")
-        self.assertEqual(p.units,48)
-        self.assertEqual(p.valuation,12500000.0)
-        self.assertEqual(p.contractor,"Example Construction LLC")
-
-    def test_identity_heading_required(self):
-        with self.assertRaises(RuntimeError):
-            PortlandCollector.parse_page(HTML,"Residential Issued Building Permits Report","residential")
-
-    def test_foreign_link_rejected(self):
-        bad=HTML.replace("www.portlandmaps.com","evil.example")
-        with self.assertRaises(RuntimeError):
-            PortlandCollector.parse_page(bad,"Commercial Issued Building Permits Report","commercial")
-
-    def test_collect_uses_native_report_params_only(self):
-        residential=HTML.replace("Commercial Issued Building Permits Report","Residential Issued Building Permits Report").replace("26-012345-000-00-CO","26-012345-000-00-RS")
+    def test_collect_maps_official_layers(self):
+        residential={"features":[feature("26-100001-000-00-RS",ms(2026,8,22),"https://www.portlandmaps.com/detail/permit/1001_did/")]}
+        commercial={"features":[feature(
+            "26-200001-000-00-CO",ms(2026,8,21),"https://www.portlandmaps.com/detail/permit/2001_did/",
+            DESCRIPTION="Construct 48 unit apartment building",OCCUPANCYGROUP="Apartments",NUMNEWUNITS=48,
+            FINALVALUATION=12500000,OBJECTID=2
+        )]}
         calls=[]
-        class Response:
-            def __init__(self,text): self.text=text
-            def raise_for_status(self): return None
         class Session:
             def get(self,url,params,timeout):
-                calls.append(dict(params))
-                return Response(residential if params["action"]=="rs-issued" else HTML)
-        collector=PortlandCollector(); collector.max_pages=1
-        result=collector.collect(Session())
+                calls.append((url,dict(params)))
+                return Response(residential if "/5/query" in url else commercial)
+        result=PortlandCollector().collect(Session())
         self.assertEqual(len(result.permits),2)
-        self.assertEqual(calls,[{"action":"rs-issued","page":1},{"action":"co-issued","page":1}])
-        self.assertTrue(all("start_date" not in x and "end_date" not in x for x in calls))
+        r=next(p for p in result.permits if p.permit_number.endswith("RS"))
+        c=next(p for p in result.permits if p.permit_number.endswith("CO"))
+        self.assertEqual(r.state,"OR"); self.assertEqual(r.jurisdiction,"Portland")
+        self.assertEqual(r.issued_date,"2026-08-22"); self.assertEqual(r.valuation,700000.0)
+        self.assertEqual(r.address,"100 SE TEST ST, PORTLAND, OR")
+        self.assertEqual(c.units,48); self.assertEqual(c.valuation,12500000.0)
+        self.assertTrue(all(p[1]["where"]=="ISSUED IS NOT NULL" for p in calls))
+        self.assertTrue(all(p[1]["orderByFields"]=="ISSUED DESC" for p in calls))
+        self.assertTrue(all(p[1]["returnGeometry"]=="false" for p in calls))
+
+    def test_arcgis_error_rejected(self):
+        with self.assertRaises(RuntimeError):
+            PortlandCollector._validate_payload({"error":{"code":500}},"Residential Construction Permit")
+
+    def test_schema_guard_requires_portland_fields(self):
+        with self.assertRaises(RuntimeError):
+            PortlandCollector._validate_payload({"features":[{"attributes":{"PERMIT":"1"}}]},"Residential Construction Permit")
+
+    def test_foreign_permit_link_rejected(self):
+        attrs=feature("26-300001-000-00-RS",ms(2026,8,20),"https://evil.example/permit/1")["attributes"]
+        with self.assertRaises(RuntimeError):
+            PortlandCollector._permit(attrs,5,"Residential Construction Permit","residential")
 
 if __name__=="__main__": unittest.main()
