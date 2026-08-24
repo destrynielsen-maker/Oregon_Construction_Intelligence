@@ -1,1 +1,27 @@
-{"generated_at": null, "sources": []}
+{
+  "generated_at": "2026-08-24T20:56:56+00:00",
+  "sources": [
+    {
+      "source": "Portland",
+      "status": "error",
+      "technical_status": "error",
+      "freshness_status": "unknown",
+      "volume_status": "unknown",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "cached_records": 0,
+      "cached_qualifying_records": 0,
+      "newest_permit_date": null,
+      "oldest_permit_date": null,
+      "days_since_newest_permit": null,
+      "freshness_threshold_days": 10,
+      "previous_records_seen": null,
+      "record_count_change_pct": null,
+      "last_attempt_at": "2026-08-24T20:56:56+00:00",
+      "last_success_at": null,
+      "cached_data_available": false,
+      "source_url": "https://www.portlandmaps.com/reports/index.cfm?action=rs-issued",
+      "note": "RuntimeError: PortlandMaps issued-permit reports parsed with zero usable permit rows"
+    }
+  ]
+}
