@@ -5,8 +5,9 @@ This list separates **issued building permits** from **earlier planning/developm
 | Market | Source | Rep use |
 |---|---|---|
 | Statewide participating jurisdictions | https://buildingpermits.oregon.gov/ | Oregon ePermitting public permit search; no account is required to search existing records. Best statewide reconciliation source where the city/county participates. |
-| Portland | https://www.portlandmaps.com/reports/index.cfm?action=rs-issued | Residential issued building-permit report. Sort/filter and export CSV/JSON/XML. |
-| Portland | https://www.portlandmaps.com/reports/index.cfm?action=co-issued | Commercial issued building-permit report. Sort/filter and export CSV/JSON/XML. |
+| Portland | https://www.portlandmaps.com/arcgis/rest/services/Public/BDS_Permit/FeatureServer | Official Bureau of Development Services machine-readable permit service. Production automation uses Residential Construction layer 5 and Commercial Construction layer 2. |
+| Portland | https://www.portlandmaps.com/reports/index.cfm?action=rs-issued | Residential issued building-permit report for rep browsing/export. |
+| Portland | https://www.portlandmaps.com/reports/index.cfm?action=co-issued | Commercial issued building-permit report for rep browsing/export. |
 | Portland | https://www.portlandmaps.com/reports/index.cfm?action=rs-intake | Residential permit applications received; earlier sales signal than issuance. |
 | Portland | https://www.portlandmaps.com/reports/index.cfm?action=co-intake | Commercial permit applications received; earlier sales signal than issuance. |
 | Eugene | https://pdd.eugene-or.gov/buildingpermits/permitsearch | Permit Record Search by permit, person/business, project, address, contractor, map/tax lot. |
