@@ -4,5 +4,33 @@
     <title>Oregon Top Opportunities</title>
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
+    <item>
+      <guid isPermaLink="false">OR|portland|residential 1 &amp; 2 family permit</guid>
+      <title>[Portland] SINGLE PDF- NEW SINGLE FAMILY RESIDENCE WITH BASEMENT ADU/ 3-STORY/1 GARAGE/ FLAT LOT/ COMPLEX  ET AND MT SEPARATE *W/22-104512-RS  **PLUMBING ADDED 8/7/23:  2 KITCHENS (HOUSE &amp; ADU) AND 4 BATHS, EXTRA 80 FT RAIN DRAINS, DRYWELL**ADDED MECHANICAL 12-7-23**</title>
+      <link>https://www.portlandmaps.com/detail/permit/4765024_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 40
+Permit: Residential 1 &amp; 2 Family Permit
+Issued: 2022-05-24
+Address: NE HAZELFERN PL, PORTLAND, OR
+Contractor: 
+Valuation: 453777.0
+Units: 2</description>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|commercial building permit</guid>
+      <title>[Portland] NEW 50,850 SF WAREHOUSE</title>
+      <link>https://www.portlandmaps.com/detail/permit/2637726_did/</link>
+      <description>Category: COMMERCIAL
+Score: 40
+Permit: Commercial Building Permit
+Issued: 2007-06-12
+Address: 5235 N MARINE DR, PORTLAND, OR
+Contractor: 
+Valuation: 2000000.0
+Units: </description>
+      <pubDate>Tue, 12 Jun 2007 00:00:00 +0000</pubDate>
+    </item>
   </channel>
 </rss>
