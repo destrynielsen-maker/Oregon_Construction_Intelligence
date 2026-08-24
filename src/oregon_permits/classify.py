@@ -35,15 +35,21 @@ def classify_permit(p: Permit) -> Permit:
         return _other(p)
 
     units = int(p.units or 0)
-    is_multi = units > 1 or bool(MULTI.search(use) or MULTI.search(desc))
+    explicit_multi = bool(MULTI.search(use) or MULTI.search(desc))
+    explicit_single = bool(SINGLE.search(use) or SINGLE.search(desc))
 
     if authoritative_construction and report_kind == "residential":
-        p.classification = "MULTIFAMILY" if is_multi else "SINGLE_FAMILY"
+        if explicit_multi:
+            p.classification = "MULTIFAMILY"
+        elif explicit_single:
+            p.classification = "SINGLE_FAMILY"
+        else:
+            p.classification = "MULTIFAMILY" if units > 1 else "SINGLE_FAMILY"
     elif authoritative_construction and report_kind == "commercial":
-        p.classification = "MULTIFAMILY" if is_multi else "COMMERCIAL"
-    elif is_multi:
+        p.classification = "MULTIFAMILY" if (explicit_multi or units > 1) else "COMMERCIAL"
+    elif explicit_multi or units > 1:
         p.classification = "MULTIFAMILY"
-    elif SINGLE.search(use) or SINGLE.search(desc):
+    elif explicit_single:
         p.classification = "SINGLE_FAMILY"
     elif report_kind == "commercial" or COMMERCIAL.search(use):
         p.classification = "COMMERCIAL"
