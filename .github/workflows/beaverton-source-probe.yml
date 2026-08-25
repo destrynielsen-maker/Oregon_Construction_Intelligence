@@ -16,14 +16,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4
-      - name: Trace Beaverton public building detail API
+      - run: pip install requests
+      - name: Inspect Beaverton building detail fields
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
-          import re
+          import json
           import requests
-          from bs4 import BeautifulSoup
 
           base='https://prod.buildinginbeaverton.org/'
           api=urljoin(base,'delegate/civics-api/api/')
@@ -36,81 +35,83 @@ jobs:
           print('AUTH',auth.status_code,' '.join(auth.text[:250].split())); auth.raise_for_status()
           headers={'Referer':details,'Accept':'application/json, text/plain, */*'}
 
-          page=s.get(details,timeout=30)
-          print('DETAIL_PAGE',page.status_code,page.url,'LEN',len(page.text)); page.raise_for_status()
-          soup=BeautifulSoup(page.text,'html.parser')
-          scripts=[urljoin(page.url,x.get('src')) for x in soup.find_all('script',src=True)]
-          print('SCRIPT_COUNT',len(scripts))
-          for u in scripts:
-              if any(k in u.lower() for k in ('instrument','detail','building','cdr','record')):
-                  print('SCRIPT',u)
-
-          needles=[
-              'BuildingApplication', 'buildingapplication', 'buildingapplications',
-              'intdetails', 'instrumentDetail', 'instrument-details',
-              'IssueDate', 'issuedDate', 'Permit Issued', 'Work Type',
-              'Declared Valuation', 'Square Footage', 'Occupancy Type',
-              'urlRoot', 'cdr/building', 'cdr/applications', 'core/instruments'
-          ]
-          seen=set()
-          routes=set()
-          for u in scripts:
-              try:
-                  r=s.get(u,timeout=45)
-                  if r.status_code!=200 or len(r.text)>18_000_000:
-                      continue
-                  text=r.text
-                  low=text.lower()
-                  if not any(n.lower() in low for n in needles):
-                      continue
-                  print('BUNDLE',u,'LEN',len(text))
-                  for m in re.finditer(r'["\']([^"\']{1,300})["\']',text):
-                      v=m.group(1)
-                      lv=v.lower()
-                      if any(k in lv for k in ('buildingapplication','building/application','cdr/building','instrument/detail','instrumentdetail','core/instrument')):
-                          routes.add(v)
-                  for needle in needles:
-                      start=0
-                      hits=0
-                      while hits<5:
-                          p=low.find(needle.lower(),start)
-                          if p<0: break
-                          key=(u,needle,p)
-                          if key not in seen:
-                              seen.add(key)
-                              snippet=re.sub(r'\s+',' ',text[max(0,p-650):p+1500])
-                              print('CTX',needle,snippet)
-                          start=p+len(needle)
-                          hits+=1
-              except Exception as e:
-                  print('SCRIPT_FAIL',u,type(e).__name__,str(e))
-
-          print('ROUTES',len(routes))
-          for v in sorted(routes):
-              print('ROUTE',v)
-
-          # Known public controls from the list API. Do not assume which identifier the detail API uses.
           controls=[
-              ('issued','C2026-04216',27087,34998),
-              ('pending_new','R2026-04233',27104,35017),
+              ('issued_nonnew','C2026-04216',27087),
+              ('pending_new','R2026-04233',27104),
           ]
-          candidates=[]
-          for label,number,row_id,common_id in controls:
-              for ident in (row_id,common_id,number):
-                  for template in (
-                      'cdr/buildingapplications/{id}',
-                      'cdr/buildingapplication/{id}',
-                      'cdr/building/applications/{id}',
-                      'cdr/applications/building/{id}',
-                      'core/instruments/{id}',
-                      'core/views/instruments/{id}',
-                  ):
-                      candidates.append((label,number,template.format(id=ident)))
-          for label,number,path in candidates:
-              try:
-                  r=s.get(urljoin(api,path),headers=headers,timeout=12)
-                  if r.status_code not in (404,405):
-                      print('TRY',label,number,path,'STATUS',r.status_code,'CTYPE',r.headers.get('content-type'),'LEN',len(r.text),'BODY',' '.join(r.text[:4500].split()))
-              except Exception as e:
-                  print('TRY_FAIL',label,number,path,type(e).__name__,str(e))
+
+          keywords=(
+              'issued','approved','applicationdate','worktype','occupancy','valuation','square',
+              'status','processstate','milestone','applicationname','comments','description',
+              'contractor','applicant','owner','contact','provider','address','location','parcel','site'
+          )
+          sensitive=('email','phone','mobile','fax','password','taxid','ssn')
+
+          def walk(value,path='data',depth=0):
+              if depth>6:
+                  return
+              if isinstance(value,dict):
+                  for k,v in value.items():
+                      p=f'{path}.{k}'
+                      lk=k.lower()
+                      if any(x in lk for x in sensitive):
+                          continue
+                      if any(x in lk for x in keywords):
+                          if isinstance(v,(str,int,float,bool)) or v is None:
+                              text=repr(v)
+                              if len(text)>700: text=text[:700]+'...'
+                              print('FIELD',p,text)
+                          elif isinstance(v,list):
+                              print('FIELD',p,'LIST_COUNT',len(v))
+                          elif isinstance(v,dict):
+                              print('FIELD',p,'DICT_KEYS',sorted(v.keys())[:80])
+                      walk(v,p,depth+1)
+              elif isinstance(value,list):
+                  for i,v in enumerate(value[:12]):
+                      walk(v,f'{path}[{i}]',depth+1)
+
+          for label,number,internal_id in controls:
+              r=s.get(urljoin(api,f'cdr/applications/building/{internal_id}'),headers=headers,timeout=30)
+              print('DETAIL',label,number,r.status_code,'LEN',len(r.text)); r.raise_for_status()
+              payload=r.json()
+              data=payload.get('data') or {}
+              print('TOP_KEYS',label,sorted(data.keys()))
+              for key in [
+                  'applicationNumber','commonId','applicationName','applicationDateTime','issuedDateTime',
+                  'ApprovedDateTime','approvedDateTime','finalizedDateTime','processState','status','statusDescription',
+                  'workType','occupancyType','declaredValuation','calculatedValuation','squareFootage','comments',
+                  'locationLine1','locationLine2','locationLine3','apTypeCode','applicationType'
+              ]:
+                  if key in data:
+                      value=data.get(key)
+                      if isinstance(value,(dict,list)):
+                          print('KEY',label,key,json.dumps(value,default=str)[:2500])
+                      else:
+                          print('KEY',label,key,repr(value))
+              walk(data)
+
+              # Public child resources used by the detail UI. Keep identity output to names/roles only.
+              for child in ['applicants','contacts','providers']:
+                  path=f'cdr/applications/building/{internal_id}/{child}?Page=[{{Max:20}}]'
+                  try:
+                      cr=s.get(urljoin(api,path),headers=headers,timeout=15)
+                      if cr.status_code==200:
+                          cp=cr.json(); rows=cp.get('data') or []
+                          print('CHILD',label,child,'COUNT',len(rows) if isinstance(rows,list) else type(rows).__name__)
+                          if isinstance(rows,list):
+                              for item in rows[:10]:
+                                  if not isinstance(item,dict): continue
+                                  safe={}
+                                  for k,v in item.items():
+                                      lk=k.lower()
+                                      if any(x in lk for x in sensitive): continue
+                                      if any(x in lk for x in ('name','type','role','company','business','primary','license')) and isinstance(v,(str,int,float,bool,type(None))):
+                                          safe[k]=v
+                                      elif k.lower() in ('contact','identity','provider') and isinstance(v,dict):
+                                          safe[k]={kk:vv for kk,vv in v.items() if any(x in kk.lower() for x in ('name','company','business','type')) and isinstance(vv,(str,int,float,bool,type(None)))}
+                                  print('CHILD_ROW',label,child,json.dumps(safe,default=str)[:1800])
+                      elif cr.status_code not in (404,405):
+                          print('CHILD_STATUS',label,child,cr.status_code,' '.join(cr.text[:500].split()))
+                  except Exception as exc:
+                      print('CHILD_FAIL',label,child,type(exc).__name__,str(exc))
           PY
