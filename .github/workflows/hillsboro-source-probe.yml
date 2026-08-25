@@ -15,11 +15,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests beautifulsoup4
-      - name: Inspect older Hillsboro structural issuance states
+      - name: Find Hillsboro issued-date source
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
+          from datetime import date,timedelta
           from urllib.parse import urljoin
           from collections import Counter
           import re, requests
@@ -31,81 +32,84 @@ jobs:
           s=requests.Session(); s.headers.update({'User-Agent':UA})
 
           def controls(soup):
-              form=soup.find('form',id='aspnetForm')
-              if not form: raise RuntimeError('aspnetForm not found')
+              f=soup.find('form',id='aspnetForm')
+              if not f: raise RuntimeError('aspnetForm missing')
               p={}
-              for inp in form.find_all('input'):
-                  name=inp.get('name'); typ=(inp.get('type') or 'text').lower()
-                  if not name or typ in {'submit','button','image','file'}: continue
-                  if typ in {'checkbox','radio'} and not inp.has_attr('checked'): continue
-                  p[name]=inp.get('value','')
-              for ta in form.find_all('textarea'):
+              for i in f.find_all('input'):
+                  n=i.get('name'); t=(i.get('type') or 'text').lower()
+                  if not n or t in {'submit','button','image','file'}: continue
+                  if t in {'checkbox','radio'} and not i.has_attr('checked'): continue
+                  p[n]=i.get('value','')
+              for ta in f.find_all('textarea'):
                   if ta.get('name'): p[ta['name']]=ta.get_text()
-              for sel in form.find_all('select'):
+              for sel in f.find_all('select'):
                   if not sel.get('name'): continue
-                  chosen=sel.find('option',selected=True) or sel.find('option')
-                  p[sel['name']]=chosen.get('value','') if chosen else ''
+                  o=sel.find('option',selected=True) or sel.find('option')
+                  p[sel['name']]=o.get('value','') if o else ''
               return p
 
-          def postback(soup,target):
+          def post(url,soup,target):
               p=controls(soup); p['__EVENTTARGET']=target; p['__EVENTARGUMENT']=''
-              rr=s.post(SEARCH,data=p,headers={'Referer':SEARCH,'Origin':'https://aca-prod.accela.com'},timeout=120)
+              rr=s.post(url,data=p,headers={'Referer':url,'Origin':'https://aca-prod.accela.com'},timeout=120)
               rr.raise_for_status(); return BeautifulSoup(rr.text,'html.parser')
 
-          r=s.get(SEARCH,timeout=90); r.raise_for_status(); soup=BeautifulSoup(r.text,'html.parser')
-          p=controls(soup); p['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch'; p['__EVENTARGUMENT']=''
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']='06/01/2026'
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']='06/21/2026'
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState']=''
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState']=''
-          rr=s.post(SEARCH,data=p,headers={'Referer':SEARCH,'Origin':'https://aca-prod.accela.com'},timeout=120)
-          rr.raise_for_status(); soup=BeautifulSoup(rr.text,'html.parser')
-
-          def rows(soup):
-              table=soup.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList'); out=[]
-              if not table:return out
-              for tr in table.find_all('tr'):
-                  link=tr.find('a',id=re.compile(r'_hlPermitNumber$'))
-                  if not link:continue
+          def parse_rows(soup):
+              t=soup.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList'); out=[]
+              if not t:return out
+              for tr in t.find_all('tr'):
+                  a=tr.find('a',id=re.compile(r'_hlPermitNumber$'))
+                  if not a: continue
                   def v(sfx):
                       x=tr.find(id=re.compile(re.escape(sfx)+r'$')); return ' '.join(x.stripped_strings) if x else ''
-                  out.append({'date':v('_lblUpdatedTime'),'number':' '.join(link.stripped_strings),'type':v('_lblType'),
+                  out.append({'date':v('_lblUpdatedTime'),'number':' '.join(a.stripped_strings),'type':v('_lblType'),
                               'description':v('_lblDescription'),'project':v('_lblProjectName'),'status':v('_lblStatus'),
-                              'address':v('_lblPermitAddress'),'url':urljoin(SEARCH,link.get('href',''))})
+                              'address':v('_lblPermitAddress'),'url':urljoin(SEARCH,a.get('href',''))})
               return out
 
-          all_rows=[]
+          r=s.get(SEARCH,timeout=90);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
+          p=controls(soup); today=date.today(); start=today-timedelta(days=21)
+          p['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch';p['__EVENTARGUMENT']=''
+          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']=start.strftime('%m/%d/%Y')
+          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']=today.strftime('%m/%d/%Y')
+          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState']=''
+          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState']=''
+          rr=s.post(SEARCH,data=p,headers={'Referer':SEARCH,'Origin':'https://aca-prod.accela.com'},timeout=120);rr.raise_for_status();soup=BeautifulSoup(rr.text,'html.parser')
+          rows=[]
           for page in range(1,16):
-              rs=rows(soup); all_rows.extend(rs)
-              print('PAGE',page,'ROWS',len(rs),'STATUSES',dict(Counter(x['status'] for x in rs)))
+              rs=parse_rows(soup);rows.extend(rs)
+              print('PAGE',page,'ROWS',len(rs),'STATUS',dict(Counter(x['status'] for x in rs)))
               nxt=next((a for a in soup.find_all('a',href=True) if ' '.join(a.stripped_strings)=='Next >'),None)
               if not nxt:break
               m=re.search(r"__doPostBack\('([^']+)'",nxt['href'])
               if not m:break
-              soup=postback(soup,m.group(1))
+              soup=post(SEARCH,soup,m.group(1))
+          issued=[x for x in rows if x['status']=='Issued']
+          inspection=[x for x in rows if x['status']=='Inspection Phase' and 'Structural Permit' in x['type']]
+          print('ISSUED_ROWS',len(issued));
+          for x in issued[:20]:print('ISSUED',x)
+          print('STRUCT_INSPECTION',len(inspection));
+          for x in inspection[:20]:print('INSPECT',x)
 
-          structural=[x for x in all_rows if 'Structural Permit' in x['type']]
-          print('TOTAL',len(all_rows),'STRUCTURAL',len(structural),'STATUS',dict(Counter(x['status'] for x in structural)))
-          for x in structural:print('STRUCT',x)
-
-          # Inspect all post-review structural records plus one generic Issued record.
-          samples=[x for x in structural if x['status'] in {'Issued','Inspection Phase','Closed - Complete','Active'}][:12]
-          issued_any=next((x for x in all_rows if x['status']=='Issued'),None)
-          if issued_any and issued_any not in samples:samples.append(issued_any)
+          samples=(issued[:2]+inspection[:2])
           for item in samples:
-              d=s.get(item['url'],headers={'Referer':SEARCH},timeout=90); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser')
-              print('\nDETAIL',item['number'],'TYPE',item['type'],'STATUS',item['status'],'DATECOL',item['date'])
-              print('URL',item['url'],'BYTES',len(d.content))
-              print('ID_FIELDS')
+              d=s.get(item['url'],headers={'Referer':SEARCH},timeout=90);d.raise_for_status();ds=BeautifulSoup(d.text,'html.parser')
+              print('\nDETAIL',item)
+              print('TOP_TEXT', ' '.join(ds.stripped_strings)[:2200])
+              print('DATE_STATUS_IDS')
               for tag in ds.find_all(id=True):
-                  ident=tag.get('id',''); txt=' '.join(tag.stripped_strings)
-                  if re.search(r'(status|date|issue|valuation|value|licensed|professional|owner|project|address)',ident,re.I) and 0<len(txt)<700:
-                      print(ident,'=>',txt[:650])
-              print('USEFUL_ROWS')
-              c=0
-              for tr in ds.find_all('tr'):
-                  txt=' '.join(tr.stripped_strings)
-                  if txt and re.search(r'(Record Status|Status Date|Issued|Issue Date|Valuation|Job Value|Licensed Professional|Owner|General Project Information|Subtype|New Building Area|Area Square Footage|Project Description)',txt,re.I):
-                      print(txt[:1800]); c+=1
-                      if c>=45:break
+                  ident=tag.get('id','');txt=' '.join(tag.stripped_strings)
+                  if re.search(r'(date|status|issue|record)',ident,re.I) and len(txt)<1000:
+                      print(tag.name,ident,'=>',repr(txt[:900]))
+              print('STATUS_PROCESS_LINKS')
+              for a in ds.find_all('a',href=True):
+                  txt=' '.join(a.stripped_strings);href=a.get('href','')
+                  blob=txt+' '+href+' '+a.get('id','')
+                  if re.search(r'(process|status|workflow|inspection|record info|recordinfo|history|activity)',blob,re.I):
+                      print(a.get('id'),repr(txt),repr(urljoin(item['url'],href)))
+              print('TAB_OR_BUTTONS')
+              for tag in ds.find_all(['input','button','span','div']):
+                  ident=' '.join(filter(None,[tag.get('id',''),tag.get('name',''),tag.get('value','') if tag.name=='input' else '']))
+                  txt=' '.join(tag.stripped_strings)
+                  if re.search(r'(process|status|workflow|inspection|record info|history)',ident+' '+txt,re.I) and len(txt)<800:
+                      print(tag.name,ident,repr(txt[:700]))
           PY
