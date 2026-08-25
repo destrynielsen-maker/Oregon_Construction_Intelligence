@@ -41,7 +41,7 @@ def classify_permit(p: Permit) -> Permit:
     text = " ".join([p.permit_type or "", work, use, desc])
     evidence = " ".join([work, use, desc])
 
-    if DERIVATIVE.search(p.permit_number) or EXCLUDE_USE.search(use):
+    if raw.get("source_accessory_structure") is True or DERIVATIVE.search(p.permit_number) or EXCLUDE_USE.search(use):
         return _other(p)
 
     strong_new = bool(STRONG_NEW.search(evidence))

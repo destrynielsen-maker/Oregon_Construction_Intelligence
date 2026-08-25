@@ -2,13 +2,12 @@
 
 Sales-oriented public building-permit intelligence for Oregon.
 
-## Current production collector
+## Current production collectors
 
-- **Portland** — official City of Portland Bureau of Development Services `BDS_Permit` FeatureServer.
-- Production collection uses layer **5 Residential Construction Permit** and layer **2 Commercial Construction Permit**, requesting the newest issued records as JSON.
-- The collector validates the ArcGIS schema, rejects foreign permit-link hosts, and preserves permit history between runs.
-- Deferred submittals (`DFS`) and revisions (`REV`) are retained in history but do **not** qualify as standalone new-construction leads.
-- PortlandMaps HTML issued-permit reports remain in the rep source directory for manual browsing/export, but are not the production ingestion dependency.
+- **Portland** — official City of Portland Bureau of Development Services `BDS_Permit` FeatureServer. Production collection uses layer **5 Residential Construction Permit** and layer **2 Commercial Construction Permit**, requesting the newest issued records as JSON.
+- **Eugene** — official City of Eugene Planning & Development **Issued Building Permits** report. Production collection requests the public Excel export for a rolling 45-day window and maps issued date, permit number, work type, address, owner, contractor, dwellings, use, valuation and project description.
+- Collectors validate their expected source/schema and retain permit history between runs.
+- Deferred submittals (`DFS`), revisions (`REV`) and identified accessory structures do **not** qualify as standalone new-construction leads.
 
 ## Outputs
 
