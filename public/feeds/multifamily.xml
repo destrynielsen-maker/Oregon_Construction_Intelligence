@@ -5,6 +5,66 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202604104</guid>
+      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). End Unit 
+COB 1'
+HB2306 path 1
+
+PRNC202604101 Lot 24 reviewed under this one
+PRNC202604102 Lot 25
+PRNC202604104 Lot 26</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604104
+Issued: 2026-08-24
+Address: 475 SW SHEVLIN HIXON DR, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604101</guid>
+      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). End Unit 24. Plans transferred from PROT202506967 chw
+COB 1'
+HB2306 path 1
+
+PRNC202604101 Lot 24 reviewed under this one
+PRNC202604102 Lot 25
+PRNC202604104 Lot 26</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604101
+Issued: 2026-08-24
+Address: 479 SW SHEVLIN HIXON DR, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.34
+Units: </description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604102</guid>
+      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). Middle Unit 25.
+COB 1'
+HB2306 path 1
+
+PRNC202604101 Lot 24 reviewed under this one
+PRNC202604102 Lot 25
+PRNC202604104 Lot 26</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604102
+Issued: 2026-08-24
+Address: 477 SW SHEVLIN HIXON DR, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-4407-01</guid>
       <title>[Eugene] New Two-Family Dwelling with attached garages. 2506 Chula Vista Blvd</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-4407-01&amp;pdf=False</link>
@@ -15,6 +75,20 @@ Issued: 2026-08-20
 Address: 1726 E 25TH AVE, Eugene, OR
 Contractor: KIMBALL PROPERTIES LLC
 Valuation: 551213.77
+Units: </description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202601769</guid>
+      <title>[Bend] carports for Bend bear Creek apartment projects</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202601769
+Issued: 2026-08-20
+Address: 21085 DON ST, BEND, OR 97701
+Contractor: Bonaventure Community Construction
+Valuation: 225000.0
 Units: </description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -31,6 +105,278 @@ Contractor:
 Valuation: 230303.0
 Units: 1</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202507429</guid>
+      <title>[Bend] PRNC202507271 - CL74 - 1320 NW Ochoa Dr - Single Family Dwelling (TH) - ***Plans reviewed under this permit*** 
+PRNC202507429 - CL75 - 1316 NW Ochoa Dr - Single Family Dwelling (TH)
+
+***COB Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202507429
+Issued: 2026-08-19
+Address: 1316 NW OCHOA DR, BEND, OR 97703
+Contractor: PAHLISCH HOMES
+Valuation: 392752.78
+Units: </description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202507271</guid>
+      <title>[Bend] PRNC202507271 - CL74 - 1320 NW Ochoa Dr - Single Family Dwelling (TH) - ***Plans reviewed under this permit*** 
+PRNC202507429 - CL75 - 1316 NW Ochoa Dr - Single Family Dwelling (TH)
+
+***COB Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202507271
+Issued: 2026-08-19
+Address: 1320 NW OCHOA DR, BEND, OR 97703
+Contractor: PAHLISCH HOMES
+Valuation: 392752.78
+Units: </description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503690</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503690
+Issued: 2026-08-18
+Address: 21501 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 277926.45
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503689</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503689
+Issued: 2026-08-18
+Address: 21503 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503688</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503688
+Issued: 2026-08-18
+Address: 21505 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503687</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503687
+Issued: 2026-08-18
+Address: 21507 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503686</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509 NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503686
+Issued: 2026-08-18
+Address: 21509 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503685</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503685
+Issued: 2026-08-18
+Address: 21511 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503684</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503684
+Issued: 2026-08-18
+Address: 21513 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503683</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL)
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503683
+Issued: 2026-08-18
+Address: 21515 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503389</guid>
+      <title>[Bend] Eagle Road THs- Lots 25-33
+PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
+PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
+PRNC202503684 - Lot 27 (21513 NE McPherson PL)
+PRNC202503685 - Lot 28 (21511 NE McPherson PL)
+PRNC202503686 - Lot 29 (21509) NE McPherson PL) 
+PRNC202503687 - Lot 30 (21507 NE McPherson PL)
+PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
+PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
+PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503389
+Issued: 2026-08-18
+Address: 21517 NE MCPHERSON PL, BEND, OR 97701
+Contractor: D.R. HORTON
+Valuation: 277926.45
+Units: </description>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-098667-000-00-rs</guid>
@@ -103,6 +449,48 @@ Contractor:
 Valuation: 279171.0
 Units: 1</description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603285</guid>
+      <title>[Bend] PRNC202603198 - EST132 - 20744 SE Scout Pl - Single Family Dwelling (TH)    ***Plans reviewed under this permit*** SN
+
+PRNC202603285 - EST133 - 20746 SE Scout Pl - Single Family Dwelling (TH) 
+
+***Avion Water*** SN
+***No Conditions (see comments)*** Sn
+***Fill Lot*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202603285
+Issued: 2026-08-14
+Address: 20746 SE SCOUT PL, BEND, OR 97702
+Contractor: PAHLISCH HOMES
+Valuation: 272785.9
+Units: </description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603198</guid>
+      <title>[Bend] PRNC202603198 - EST132 - 20744 SE Scout Pl - Single Family Dwelling (TH)    ***Plans reviewed under this permit*** SN
+
+PRNC202603285 - EST133 - 20746 SE Scout Pl - Single Family Dwelling (TH) 
+
+***Avion Water*** SN
+***No Conditions (see comments)*** Sn
+***Fill Lots*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202603198
+Issued: 2026-08-14
+Address: 20744 SE SCOUT PL, BEND, OR 97702
+Contractor: PAHLISCH HOMES
+Valuation: 272785.9
+Units: </description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2026-012239-000-00-rs</guid>
@@ -383,6 +771,25 @@ Units: 1</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202602078</guid>
+      <title>[Bend] Duplex being constructed on a lot with an existing SFD 
+
+*avion water* 
+*no conditions/nothing expired* 
+*stormwater checked--route to engineering* 
+*route to addressing*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602078
+Issued: 2026-08-10
+Address: 62799 EAGLE RD, BEND, OR 97701
+Contractor: 
+Valuation: 682377.59
+Units: </description>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-018991-000-00-rs</guid>
       <title>[Portland] FULL PDOX MHLD NEW 4 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD/ 2 STORTY/ NO GARAGE/ FLAT / COMPLEX/ ET PT MT INCLUDED/ WITH TRUSSES AND CALCS. W/ 25-018928/80/88/91-RS W/ 25-019017-SD</title>
       <link>https://www.portlandmaps.com/detail/permit/5132852_did/</link>
@@ -439,6 +846,201 @@ Units: 1</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202603010</guid>
+      <title>[Bend] SFD WITH ATTACHED GARAGE &amp; ACCESSORY DWELLING UNIT
+***COB Water*** SN
+***No Conditions*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: PRNC202603010
+Issued: 2026-08-06
+Address: 3392 NW CELILO LN, UNIT:1, BEND, OR 97703
+Contractor: MCD Homes LLC
+Valuation: 636061.84
+Units: </description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604661</guid>
+      <title>[Bend] Duplex reissue permit for site plan units 12 &amp; 13. This is an affordable housing project at 61074 SE Thistle Lane, Lot 5
+*The project has received SDC waivers. 
+**This project has expedited permitting for affordable housing.
+***Roats Water
+Related permits include:
+•	Master permit PROT202602919
+•	Master site PROT202604025
+•	SIMP permit PRSIMP202507822
+•	INFR permit PRINF202403273
+•	Land Use PLSPR20240641
+***Condition added*** SN
+***4+ resi units on site, needs Planning/Engineering reviews*** SN
+***Checking if Wildfire Home Hardening requirements were addressed in masters*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604661
+Issued: 2026-08-06
+Address: 61074 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Contractor: HIVE DEVELOPMENT LLC
+Valuation: 481684.52
+Units: </description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604659</guid>
+      <title>[Bend] ***Reissue***Duplex reissue permit for site plan units 5 &amp; 6. This is an affordable housing project at 61078 SE Thistle Lane, Lot 5. *The project has received SDC waivers. **This project has expedited permitting for affordable housing.
+Related permits include:
+•	Master permit PROT202602919
+•	Master site (use only one of the following) PROT202604025, Lot 5 (or) PROT202604024, Lot 6
+•	SIMP permit PRSIMP202507822
+•	INFR permit PRINF202403273
+•	Land Use PLSPR20240641
+
+***4+ resi units on site, needs Planning/Engineering reviews***
+*Active PRSIMP202507822*SF
+***Roats Water***
+**Condition added**SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604659
+Issued: 2026-08-06
+Address: 61078 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Contractor: HIVE DEVELOPMENT LLC
+Valuation: 481684.52
+Units: </description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604658</guid>
+      <title>[Bend] *REISSUE*Duplex reissue permit for site plan units 3 &amp; 4. This is an affordable housing project at 61080 SE Thistle Lane, Lot 5. *The project has received SDC waivers. **This project has expedited permitting for affordable housing.
+Related permits include:
+•	Master permit PROT202602919
+•	Master site PROT202604025 
+•	SIMP permit PRSIMP202507822
+•	INFR permit PRINF202403273
+•	Land Use PLSPR20240641
+
+***4+ resi units on site, needs Planning/Engineering reviews***
+**CONDITION ADDED**SF
+**Roats Water</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604658
+Issued: 2026-08-06
+Address: 61080 SW THISTLE LN, UNIT:2, BEND, OR 97702
+Contractor: HIVE DEVELOPMENT LLC
+Valuation: 481684.52
+Units: </description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503998</guid>
+      <title>[Bend] Parrell Road Lot 12 TH (lots 9-12) 
+*conditions, see comments*SF
+*HB2306, Path 2 post plat* SF
+*Roats water district*SF
+PRNC202503617- Lot 9 - Plans reviewed under this permit
+PRNC202503996 - Lot 10
+PRNC202503997 - Lot 11
+PRNC202503998 - Lot 12</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503998
+Issued: 2026-08-06
+Address: 61024 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 272563.0
+Units: </description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503997</guid>
+      <title>[Bend] Parrell Road Lot 11 TH (lots 9-12) 
+*conditions, see comments*SF
+*HB2306, Path 2 post plat* SF
+*Roats water district*SF
+PRNC202503617- Lot 9 - Plans reviewed under this permit
+PRNC202503996 - Lot 10
+PRNC202503997 - Lot 11
+PRNC202503998 - Lot 12</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503997
+Issued: 2026-08-06
+Address: 61026 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 298768.0
+Units: </description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503996</guid>
+      <title>[Bend] Parrell Road Lot 10 TH (lots 9-12) 
+*conditions, see comments*SF
+*HB2306, Path 2 post plat* SF
+*Roats water district*SF
+PRNC202503617- Lot 9 - Plans reviewed under this permit
+PRNC202503996 - Lot 10
+PRNC202503997 - Lot 11
+PRNC202503998 - Lot 12</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503996
+Issued: 2026-08-06
+Address: 61028 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 298768.0
+Units: </description>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503617</guid>
+      <title>[Bend] Parrell Road Lot 9 TH (lots 9-12) 
+*conditions, see comments*SF
+*HB2306, Path 2 post plat* SF
+*Roats water district*SF
+PRNC202503617- Lot 9 - All townhome units being reviewed under this application*
+PRNC202503996 - Lot 10
+PRNC202503997 - Lot 11
+PRNC202503998 - Lot 12
+Per ABO (Brad) not approving this permit until PRPL202600847 is reviewed and approved. FF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503617
+Issued: 2026-08-05
+Address: 61030 SE BUXTON LOOP, BEND, OR 97702
+Contractor: DR Horton, Inc
+Valuation: 272563.03
+Units: </description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202600843</guid>
+      <title>[Bend] Adding a garage with 2 ADUs to the back of property at 464NE Irving (Per applicant, one total structure w/three single car garages and two, one bedroom ADUs)*** SN
+***Building Use changed from ADU to Duplex*** SN
+***COB Water (meter added)*** SN
+***No Conditions/No Expired*** SN
+***Applicant to apply for Demo permit for detached garage (condition added) - PRDE202601324*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202600843
+Issued: 2026-08-05
+Address: 464 NE IRVING AVE, BEND, OR 97701
+Contractor: Red River Remodel and Construction
+Valuation: 300327.44
+Units: </description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-023500-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - MHLD: NEW SINGLE FAMILY RESIDENCE ON LOT WITH EXISTING SFR TO REMAIN (DETACHED DUPLEX) / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE</title>
       <link>https://www.portlandmaps.com/detail/permit/5245443_did/</link>
@@ -451,6 +1053,117 @@ Contractor:
 Valuation: 211840.0
 Units: 1</description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602807</guid>
+      <title>[Bend] ATTACHED SINGLE FAMILY WITH ATTACHED GARAGE 
+
+PRNC202602807 - 20251 HARDY RD (Lot 2) ***Plans reviewed under this application*** SN
+PRNC202602805 - 20249 HARDY RD (Lot 1)
+
+***COB Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602807
+Issued: 2026-08-04
+Address: 20251 HARDY RD, BEND, OR 97703
+Contractor: H &amp; B Developers
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602805</guid>
+      <title>[Bend] ATTACHED SINGLE FAMILY WITH ATTACHED GARAGES
+
+PRNC202602807 - 20251 HARDY RD (Lot 2) ***Plans reviewed under this application*** SN
+PRNC202602805 - 20249 HARDY RD (Lot 1)
+
+***COB Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602805
+Issued: 2026-08-04
+Address: 20249 HARDY RD, BEND, OR 97703
+Contractor: OREGON BUILDERS DEVELOPERS LLC
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603577</guid>
+      <title>[Bend] Tenant: Parkside Place Apartment- Bldg G (Type A)
+Tech: Darcy
+New construction of a 3-story wood framed apartment building. **Re-issue of master PROT20260**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: PRNC202603577
+Issued: 2026-08-03
+Address: 21494 OCONNOR WAY, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 901542.0
+Units: </description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602930</guid>
+      <title>[Bend] SFD 
+Lot 15 
+DETACHED GARAGE &amp; ACCESSORY DWELLING UNIT: PRNC202603108
+*route to addressing* 
+*open PRDE202601223 (now closed)* 
+*no conditions/no active SIMPs*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602930
+Issued: 2026-08-03
+Address: 533 NW OGDEN AVE, BEND, OR 97703
+Contractor: WOOD HILL HOMES INC
+Valuation: 289290.8
+Units: </description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603788</guid>
+      <title>[Bend] Tenant: Parkside Place Apartment- Bldg H (Type D)
+Tech: Darcy
+New construction of a 3-story wood framed apartment building. **Re-issue of master PROT202601005**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: PRNC202603788
+Issued: 2026-07-31
+Address: 21490 OCONNOR WAY, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 901542.0
+Units: </description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602900</guid>
+      <title>[Bend] Proposal for two ADUs in one detached structure. The bottom unit totals 750 SF; the top unit totals 498 SF. There is a 36 SF utility closet on the bottom floor accessible to both units, which houses the water heater and shut-off valves for each ADU. 
+
+*CoB water* 
+*no conditions/nothing expired* 
+*route to addressing*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 43
+Permit: PRNC202602900
+Issued: 2026-07-30
+Address: 543 NE OLNEY AVE, BEND, OR 97701
+Contractor: 
+Valuation: 225289.68
+Units: </description>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-020416-000-00-rs</guid>
@@ -605,6 +1318,155 @@ Contractor:
 Valuation: 248549.0
 Units: 1</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604067</guid>
+      <title>[Bend] Construction of new townhome building #9 under master permit PROT202506966. 
+
+*CoB water - meter needed* 
+*All Units are Fill Lots*
+*PRSIMP202501442* 
+
+PRNC202602484 - lot 5 *reviews happening under this application* 
+PRNC202604065 - lot 6
+PRNC202604066 - lot 7 
+PRNC202604067 - lot 8</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604067
+Issued: 2026-07-28
+Address: 668 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604066</guid>
+      <title>[Bend] Construction of new townhome building #9 under master permit PROT202506966. 
+
+*CoB water - meter needed* 
+*All Units are Fill Lots*
+*PRSIMP202501442* 
+
+PRNC202602484 - lot 5 *reviews happening under this application* 
+PRNC202604065 - lot 6
+PRNC202604066 - lot 7 
+PRNC202604067 - lot 8</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604066
+Issued: 2026-07-28
+Address: 666 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 422495.39
+Units: </description>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604065</guid>
+      <title>[Bend] Construction of new townhome building #9 under master permit PROT202506966. 
+
+*CoB water - meter needed* 
+*All Units are Fill Lots*
+*PRSIMP202501442* 
+
+PRNC202602484 - lot 5 *reviews happening under this application* 
+PRNC202604065 - lot 6
+PRNC202604066 - lot 7 
+PRNC202604067 - lot 8</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604065
+Issued: 2026-07-28
+Address: 664 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 422495.39
+Units: </description>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602484</guid>
+      <title>[Bend] Construction of new townhome building #9 under master permit PROT202506966. 
+
+*CoB water - meter needed* 
+*All Units are Fill Lots*
+*PRSIMP202501442* 
+
+PRNC202602484 - lot 5 *reviews happening under this application* 
+PRNC202604065 - lot 6
+PRNC202604066 - lot 7 
+PRNC202604067 - lot 8</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602484
+Issued: 2026-07-28
+Address: 662 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602476</guid>
+      <title>[Bend] Carports for Britta Apartments PRNC202301848, PRNC202301851, PRNC202301855. 
+PER ARCHITECT, THERE ARE NOT ANY VAN ACCESSIBLE PARKING SPACES UNDER CARPORTS. aka</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602476
+Issued: 2026-07-24
+Address: 63226 BRITTA ST, BEND, OR 97703
+Contractor: CS CONSTRUCTION
+Valuation: 265000.0
+Units: </description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603063</guid>
+      <title>[Bend] New Townhomes
+
+Lot 14 - PRNC202602940 * all reviews happening under this one* 
+Lot 13 - PRNC202603063
+
+*no conditions/no active SIMPs* 
+*CoB Water- meter needed* 
+*grading checked--route to engineering*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202603063
+Issued: 2026-07-23
+Address: 21069 NE GRACIE LN, BEND, OR 97701
+Contractor: ADAIR HOMES INC.
+Valuation: 365532.01
+Units: </description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602940</guid>
+      <title>[Bend] New Townhomes
+
+Lot 14 - PRNC202602940 * all reviews happening under this one* 
+Lot 13 - PRNC202603063 ***Clone moved forward*** SN
+
+*no conditions/no active SIMPs* 
+*CoB Water- meter needed* 
+*grading checked--route to engineering*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602940
+Issued: 2026-07-23
+Address: 21065 NE GRACIE LN, BEND, OR 97701
+Contractor: ADAIR HOMES INC.
+Valuation: 365532.01
+Units: </description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2026-010371-000-00-rs</guid>
@@ -901,14 +1763,14 @@ Units: 1</description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|eugene|25-7058-01</guid>
-      <title>[Eugene] (2) attached stacked two-family dwellings (thus 4 dwelling units); 655/657 Bushnell Ln Units A &amp; B</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7058-01&amp;pdf=False</link>
+      <guid isPermaLink="false">OR|eugene|25-7061-01</guid>
+      <title>[Eugene] (2) attached stacked two-family dwellings (thus 4 dwelling units); 669/671 Bushnell Ln Units A &amp; B</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7061-01&amp;pdf=False</link>
       <description>Category: MULTIFAMILY
 Score: 53
-Permit: 25-7058-01
+Permit: 25-7061-01
 Issued: 2026-07-14
-Address: 655 BUSHNELL LN UNIT A &amp; B, Eugene, OR
+Address: 669 BUSHNELL LN UNIT A &amp; B, Eugene, OR
 Contractor: TIMBERVIEW CONSTRUCTION LLC
 Valuation: 683121.0
 Units: 4</description>
@@ -929,18 +1791,121 @@ Units: </description>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|eugene|25-7061-01</guid>
-      <title>[Eugene] (2) attached stacked two-family dwellings (thus 4 dwelling units); 669/671 Bushnell Ln Units A &amp; B</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7061-01&amp;pdf=False</link>
+      <guid isPermaLink="false">OR|eugene|25-7058-01</guid>
+      <title>[Eugene] (2) attached stacked two-family dwellings (thus 4 dwelling units); 655/657 Bushnell Ln Units A &amp; B</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7058-01&amp;pdf=False</link>
       <description>Category: MULTIFAMILY
 Score: 53
-Permit: 25-7061-01
+Permit: 25-7058-01
 Issued: 2026-07-14
-Address: 669 BUSHNELL LN UNIT A &amp; B, Eugene, OR
+Address: 655 BUSHNELL LN UNIT A &amp; B, Eugene, OR
 Contractor: TIMBERVIEW CONSTRUCTION LLC
 Valuation: 683121.0
 Units: 4</description>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202601980</guid>
+      <title>[Bend] New residential single family dwelling with attached adu
+**No conditions, see comments**SF 
+**No active SIMP**SF
+**CoB water, meter needed**SF
+***Changed building use to Duplex*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202601980
+Issued: 2026-07-13
+Address: 61189 SW BEVERLY WAY, UNIT:2, BEND, OR 97702
+Contractor: Solaire Residential LLC
+Valuation: 312518.39
+Units: </description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503787</guid>
+      <title>[Bend] Parrell RD TH Lots 13 (Lots 13-16)
+*HB2306 Path 2 - post plat* 
+*Routs Water* 
+
+PRNC202503565 - reviews happening under this permit (lot 13- southern most unit) 
+PRNC202503785 - lot 14
+PRNC202503786 - lot 15 
+PRNC202503787 - lot 16</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503787
+Issued: 2026-07-10
+Address: 61016 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 277297.55
+Units: </description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503786</guid>
+      <title>[Bend] Parrell RD TH Lots 13 (Lots 13-16)
+*HB2306 Path 2 - post plat* 
+*Routs Water* 
+
+PRNC202503565 - reviews happening under this permit (lot 13- southern most unit) 
+PRNC202503785 - lot 14
+PRNC202503786 - lot 15 
+PRNC202503787 - lot 16</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503786
+Issued: 2026-07-10
+Address: 61018 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503785</guid>
+      <title>[Bend] Parrell RD TH Lots 13 (Lots 13-16)
+*HB2306 Path 2 - post plat* 
+*Routs Water* 
+
+PRNC202503565 - reviews happening under this permit (lot 13- southern most unit) 
+PRNC202503785 - lot 14
+PRNC202503786 - lot 15 
+PRNC202503787 - lot 16</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503785
+Issued: 2026-07-10
+Address: 61020 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 298768.39
+Units: </description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503565</guid>
+      <title>[Bend] Parrell RD TH Lots 13 (Lots 13-16)
+*HB2306 Path 2 - post plat* 
+*Roats Water* 
+
+PRNC202503565 - lot 13 END UNIT -reviews happening under this permit (southern most unit) 
+PRNC202503785 - lot 14 MID UNIT
+PRNC202503786 - lot 15 MID UNIT
+PRNC202503787 - lot 16 END UNIT
+***stormwater retention area and drainage crossing property lines is being addressed on PRPL202600847***</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202503565
+Issued: 2026-07-10
+Address: 61022 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 277297.55
+Units: </description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2021-115198-000-00-co</guid>
@@ -1017,6 +1982,22 @@ Units: 1</description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202601734</guid>
+      <title>[Bend] Tenant: Parkside Bldg E
+Tech: Darcy
+New construction of a 3-story wood framed apartment building.</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: PRNC202601734
+Issued: 2026-07-08
+Address: 21500 OCONNOR WAY, BEND, OR 97701
+Contractor: HH PARKSIDE PLACE LLC
+Valuation: 737016.0
+Units: </description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2024-028701-000-00-co</guid>
       <title>[Portland] PDOX - NEW 3 STORY APARTMENT BUILDING WITH 12 UNITS.</title>
       <link>https://www.portlandmaps.com/detail/permit/5030177_did/</link>
@@ -1028,6 +2009,72 @@ Address: 6005 N MINNESOTA AVE, PORTLAND, OR
 Contractor: 
 Valuation: 1511814.0
 Units: 12</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505950</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 37,38 AND 39 TRIPLEX
+
+*no conditions/nothing expired*
+*these lots do not qualify for affordable housing* 
+*grading checked - route to engineering* 
+*avion water* 
+
+PRNC202505880 - (this one) Lot 39 *Plans reviewed under this*
+PRNC202505949 - Lot 38
+PRNC202505950 - Lot 37</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505950
+Issued: 2026-07-07
+Address: 21437 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 284379.73
+Units: </description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505946</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 40,41,42 TRIPLEX.
+**Lot 42**
+*no conditions, see comments*SF
+*Avion water*
+*no active SIMP*
+*Grading marked, route to Engineering*
+PRNC202505814 - lot 40 - Plans reviewed under this permit
+PRNC202505945 - lot 41
+PRNC202505946 - lot 42</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505946
+Issued: 2026-07-07
+Address: 21427 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 284379.73
+Units: </description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505783</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 29,30,31 TRIPLEX
+*avion water* 
+*grading checked - route to engineering* 
+*Parkside Place - This property qualifies for affordable housing expedited review &amp; permitting. Route to Development Services.* 
+
+PRNC202505551 - Lot 31  ALL PLANS REVIEWED UNDER THIS PERMIT
+PRNC202505782 - Lot 30 
+PRNC202505783 - Lot 29</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505783
+Issued: 2026-07-07
+Address: 21453 LIVINGSTON DR, BEND, OR 97701
+Contractor: HAYDEN HOMES LLC
+Valuation: 284379.73
+Units: </description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1087,6 +2134,79 @@ Units: 1</description>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202601266</guid>
+      <title>[Bend] Construction of new SFD Single Level 3990 SQFT W/ ADU Above Garage. (587SQFT) 
+COB 1"
+*No expired or conditions*SF 
+*Route to Engineering*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 58
+Permit: PRNC202601266
+Issued: 2026-07-02
+Address: 61640 CHERRYWOOD LN, BEND, OR 97702
+Contractor: FOREST CITY MADE LLC
+Valuation: 1700000.0
+Units: </description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603163</guid>
+      <title>[Bend] New attached townhouse dwellings - Shepherd Townhomes lots 8 &amp; 9
+
+lot 8 - PRNC202602924 *reviews happening under this one* 
+lot 9 -PRNC202603163
+
+*no relevant conditions*
+*CoB water - meter needed*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202603163
+Issued: 2026-07-02
+Address: 2793 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 192233.0
+Units: </description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603073</guid>
+      <title>[Bend] Tenant: Parkside Apt - Bldg J (Type D)
+Tech: Darcy
+New construction of a 3-story wood framed apartment building. **Re-issue of master PROT202601005**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202603073
+Issued: 2026-07-02
+Address: 21496 OCONNOR WAY, BEND, OR 97701
+Contractor: 
+Valuation: 901542.0
+Units: </description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602924</guid>
+      <title>[Bend] New attached townhouse dwellings - Shepherd Townhomes lots 8 &amp; 9
+
+lot 8 - PRNC202602924 *reviews happening under this one* 
+lot 9 -PRNC202603163
+
+*no relevant conditions*
+*CoB water - meter needed*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 43
+Permit: PRNC202602924
+Issued: 2026-07-02
+Address: 2789 NE HUETTL LN, BEND, OR 97701
+Contractor: 
+Valuation: 200795.58
+Units: </description>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-005504-000-00-rs</guid>
       <title>[Portland] FULL PDOX BATCH - MHLD: NEW 4 OF 4-UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX**w/26-005498-RS, 26-005500-RS, 26-005503-RS, 26-005506-SD**SEPARATE PERMIT 25-100367-RS FOR DEMO OF EXISTING HOUSE</title>
       <link>https://www.portlandmaps.com/detail/permit/5226696_did/</link>
@@ -1143,6 +2263,133 @@ Units: 30</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202505949</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 37,38 AND 39 TRIPLEX
+
+*no conditions/nothing expired*
+*these lots do not qualify for affordable housing* 
+*grading checked - route to engineering* 
+*avion water* 
+
+PRNC202505880 - (this one) Lot 39 *Plans reviewed under this*
+PRNC202505949 - Lot 38
+PRNC202505950 - Lot 37</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505949
+Issued: 2026-07-01
+Address: 21435 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 258700.38
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505945</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 40,41,42 TRIPLEX.
+**Lot 41**
+*no conditions, see comments*SF
+*Avion water*
+*no active SIMP*
+*Grading marked, route to Engineering*
+PRNC202505814 - lot 40 - Plans reviewed under this permit
+PRNC202505945 - lot 41
+PRNC202505946 - lot 42</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505945
+Issued: 2026-07-01
+Address: 21429 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 258700.38
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505854</guid>
+      <title>[Bend] Parkside pl. new construction lots 22,23,24 triplex building.
+PRNC202505243 - Lot 22 Plan review under this permit
+PRNC202505854 - Lot 23
+PRNC202505855 - Lot 24
+*no expireds, see comments for conditions*
+**fill lots**
+**COB, 1" meter**
+**excavation or fill within 2 feet of property line checked on RSC, route to engineering**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505854
+Issued: 2026-07-01
+Address: 21436 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 258700.38
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505784</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 32,33,34 TRIPLEX
+*avion water* 
+*engineering checked - route to engineering* 
+
+PRNC202505708 - Lot 34 ALL PLANS REVIEWED UNDER THIS PERMIT
+PRNC202505784 - Lot 33
+PRNC202505785 - Lot 32</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505784
+Issued: 2026-07-01
+Address: 21445 LIVINGSTON DR, BEND, OR 97701
+Contractor: HAYDEN HOMES LLC
+Valuation: 258700.38
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505782</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 29,30,31 TRIPLEX
+*avion water* 
+*grading checked - route to engineering* 
+*Parkside Place - This property qualifies for affordable housing expedited review &amp; permitting. Route to Development Services.* 
+
+PRNC202505551 - Lot 31  ALL PLANS REVIEWED UNDER THIS PERMIT
+PRNC202505782 - Lot 30 
+PRNC202505783 - Lot 29</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505782
+Issued: 2026-07-01
+Address: 21451 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 258700.38
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602370</guid>
+      <title>[Bend] Construct a new duplex townhome dwelling; Master Reissue Program:  PROT202601422
+**No conditions**SF
+**No active SIMP**SF
+**CoB water**SF
+
+*PRNC202602273 - Lot 14 - Plans reviewed under this permit**
+*PRNC202602370 - Lot 15 - 2817 NE Huettl Ln</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602370
+Issued: 2026-07-01
+Address: 2817 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 239086.8
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-005498-000-00-rs</guid>
       <title>[Portland] FULL PDOX BATCH - MHLD: NEW 1 OF 4-UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX**w/26-005500-RS, 26-005503-RS, 26-005504-RS, 26-005506-SD**SEPARATE PERMIT 25-100367-RS FOR DEMO OF EXISTING HOUSE</title>
       <link>https://www.portlandmaps.com/detail/permit/5226690_did/</link>
@@ -1155,6 +2402,47 @@ Contractor:
 Valuation: 173150.0
 Units: 1</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505855</guid>
+      <title>[Bend] Parkside pl. new construction lots 22,23,24 triplex building.
+PRNC202505243 - Lot 22 Plan review under this permit
+PRNC202505854 - Lot 23
+PRNC202505855 - Lot 24
+*no expireds, see comments for conditions*
+**fill lot**
+**Avion water, 1" meter**
+**excavation or fill within 2 feet of property line checked on RSC, route to engineering**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505855
+Issued: 2026-06-30
+Address: 21438 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 319345.1
+Units: </description>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505785</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 32,33,34 TRIPLEX
+*avion water* 
+*engineering checked - route to engineering* 
+
+PRNC202505708 - Lot 34 
+PRNC202505784 - Lot 33
+PRNC202505785 - Lot 32</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505785
+Issued: 2026-06-30
+Address: 21447 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 319345.1
+Units: </description>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2026-002149-000-00-rs</guid>
@@ -1270,6 +2558,26 @@ Units: 12</description>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202602273</guid>
+      <title>[Bend] Construct a new duplex townhome dwelling; Master Reissue Program:  PROT202601422
+**No conditions**SF
+**No active SIMP**SF
+**CoB water**SF
+
+*PRNC202602273 - Lot 14 - Plans reviewed under this permit
+*PRNC202602370 - Lot 15 - 2817 NE Huettl Ln</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602273
+Issued: 2026-06-24
+Address: 2813 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 240101.34
+Units: </description>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-070079-000-00-rs</guid>
       <title>[Portland] FULL PDOX BATCH MHLD NEW SINGLE FAMILY DWELLING 3 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD/ 2 STORY/ UNIT 1 HAS A GARAGE. OTHER 2 UNITS WITHOUT/  LOT/ COMPLEX/ *SEE 25-032440-PR*  W/25-070070/73//79-RS W/ 25-070082-SD  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5186029_did/</link>
@@ -1368,6 +2676,187 @@ Units: 1</description>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202602737</guid>
+      <title>[Bend] Tenant: Parkside - Bldg F
+Tech: Darcy
+New construction of a 3-story wood framed apartment building.
+*MASTER REISSUE PROT202601005*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: PRNC202602737
+Issued: 2026-06-23
+Address: 21498 OCONNOR WAY, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 901542.0
+Units: </description>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505880</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 37,38 AND 39 TRIPLEX
+
+*no conditions/nothing expired*
+*these lots do not qualify for affordable housing* 
+*grading checked - route to engineering* 
+*avion water* 
+
+PRNC202505880 - (this one) Lot 39 *Plans reviewed under this*
+PRNC202505949 - Lot 38
+PRNC202505950 - Lot 37</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505880
+Issued: 2026-06-22
+Address: 21433 LIVINGSTON DR, BEND, OR 97701
+Contractor: HAYDEN HOMES LLC
+Valuation: 319345.1
+Units: </description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505814</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 40,41,42 TRIPLEX.
+**Lot 40**
+*no conditions, see comments*SF
+*Avion water*
+*no active SIMP*
+*Grading marked, route to Engineering*
+PRNC202505814 - lot 40 Maple - Plans reviewed under this permit
+PRNC202505945 - lot 41 Douglas
+PRNC202505946 - lot 42 Hazelwood</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505814
+Issued: 2026-06-22
+Address: 21431 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 284379.73
+Units: </description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505708</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 32,33,34 TRIPLEX
+*avion water* 
+*engineering checked - route to engineering* 
+
+PRNC202505708 - Lot 34-Hazlewood, ALL PLANS REVIEWED UNDER THIS PERMIT
+PRNC202505784 - Lot 33-Douglas
+PRNC202505785 - Lot 32-Maple</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505708
+Issued: 2026-06-22
+Address: 21443 LIVINGSTON DR, BEND, OR 97701
+Contractor: HAYDEN HOMES LLC
+Valuation: 303144.89
+Units: </description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505551</guid>
+      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 29,30,31 TRIPLEX
+*avion water* 
+*grading checked - route to engineering* 
+*Parkside Place - This property qualifies for affordable housing expedited review &amp; permitting. Route to Development Services.* 
+
+PRNC202505551 (this one, far left) - lot 31-Maple  ALL PLANS REVIEWED UNDER THIS PERMIT
+PRNC202505782 - Lot 30 -Douglas
+PRNC202505783 - Lot 29 -Hazelwood</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505551
+Issued: 2026-06-22
+Address: 21449 LIVINGSTON DR, BEND, OR 97701
+Contractor: HAYDEN HOMES LLC
+Valuation: 303144.89
+Units: </description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505243</guid>
+      <title>[Bend] Parkside pl. new construction lots 22,23,24 triplex building.
+PRNC202505243 - Lot 22 - Plan review under this permit
+PRNC202505854 - Lot 23
+PRNC202505855 - Lot 24
+*no expireds, see comments for conditions*
+**fill lots**
+**COB water, 1" meter**
+**excavation or fill within 2 feet of property line checked on RSC, route to engineering**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505243
+Issued: 2026-06-22
+Address: 21434 LIVINGSTON DR, BEND, OR 97701
+Contractor: Hayden Homes
+Valuation: 284379.73
+Units: </description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602100</guid>
+      <title>[Bend] Construction of a new single-family townhouse dwelling.
+***PE - This is a standalone townhome application (Lot 4).  Other standalone townhome application is on PRNC202602098 (Lot 3)*** SN
+
+***COB Water (water meter added)*** SN
+***Fill Lot*** SN
+***Retaining wall, route to engineering (see comments)*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602100
+Issued: 2026-06-22
+Address: 2804 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 200795.58
+Units: </description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602504</guid>
+      <title>[Bend] MASTER RE-ISSUE PROT202500725
+**Lot 18**
+*No active SIMP*
+*No conditions, see comments*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602504
+Issued: 2026-06-17
+Address: 63281 NW SKI LN, BEND, OR 97703
+Contractor: H &amp; B Developers
+Valuation: 449527.96
+Units: </description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202601841</guid>
+      <title>[Bend] Construction of new single-family townhome duplex dwelling.
+**Lot 5**
+**Fill Lot**SF
+**No conditions, see comments**SF
+**CoB water**
+**No active SIMP**SF
+*PRNC202601842, Lot 6, Aspen*SF
+***Water Meter added*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202601841
+Issued: 2026-06-17
+Address: 2800 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 230128.56
+Units: </description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-006734-000-00-rs</guid>
       <title>[Portland] FULL PDOX BATCH - MHLD: NEW 4 OF 4-UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX w/26-006731-RS, 26-006732-RS, 26-006733-RS, 26-006735-SD**SEPARATE PERMIT REQUIRED FOR DEMO OF EXISTING HOUSE</title>
       <link>https://www.portlandmaps.com/detail/permit/5227985_did/</link>
@@ -1422,6 +2911,125 @@ Contractor:
 Valuation: 220158.0
 Units: 1</description>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602375</guid>
+      <title>[Bend] Construction of new townhome building #11 under master permit PROT202506966.
+Address: 654 SW COLUMBIA ST (end unit #1)
+**PRSIMP202501442*
+**HB2306 - Pre plat review path 1**SF
+**Conditions added, see comments**SF
+**Proposed retaining wall on Lot 1**SF
+**CoB water**
+
+*PRNC202602314 - Lot 1 - Plans reviewed under this permit*
+*PRNC202602373 - Lot 2 - Fill Lot
+*PRNC202602374 - Lot 3 - Fill Lot
+*PRNC202602375 - Lot 4 - Fill Lot</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602375
+Issued: 2026-06-16
+Address: 660 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602374</guid>
+      <title>[Bend] Construction of new townhome building #11 under master permit PROT202506966.
+Address: 654 SW COLUMBIA ST (end unit #1)
+**PRSIMP202501442*
+**HB2306 - Pre plat review path 1**SF
+**Conditions added, see comments**SF
+**Proposed retaining wall on Lot 1**SF
+**CoB water**
+
+*PRNC202602314 - Lot 1 - Plans reviewed under this permit*
+*PRNC202602373 - Lot 2 - Fill Lot
+*PRNC202602374 - Lot 3 - Fill Lot
+*PRNC202602375 - Lot 4 - Fill Lot</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602374
+Issued: 2026-06-16
+Address: 658 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 422495.39
+Units: </description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602373</guid>
+      <title>[Bend] Construction of new townhome building #11 under master permit PROT202506966.
+Address: 654 SW COLUMBIA ST (end unit #1)
+**PRSIMP202501442*
+**HB2306 - Pre plat review path 1**SF
+**Conditions added, see comments**SF
+**Proposed retaining wall on Lot 1**SF
+**CoB water**
+
+*PRNC202602314 - Lot 1 - Plans reviewed under this permit*
+*PRNC202602373 - Lot 2 - Fill Lot
+*PRNC202602374 - Lot 3 - Fill Lot
+*PRNC202602375 - Lot 4 - Fill Lot</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602373
+Issued: 2026-06-16
+Address: 656 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 422495.39
+Units: </description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602314</guid>
+      <title>[Bend] Construction of new townhome building #11 under master permit PROT202506966.
+Address: 654 SW COLUMBIA ST (end unit #1)
+**PRSIMP202501442*
+**HB2306 - Pre plat review path 1**SF
+**Conditions added, see comments**SF
+**Proposed retaining wall on Lot 1**SF
+**CoB water**
+
+*PRNC202602314 - Lot 1 - Plans reviewed under this permit*
+*PRNC202602373 - Lot 2 - Fill Lot
+*PRNC202602374 - Lot 3 - Fill Lot
+*PRNC202602375 - Lot 4 - Fill Lot</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602314
+Issued: 2026-06-16
+Address: 654 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602098</guid>
+      <title>[Bend] Construction of a new single-family townhouse dwelling.
+***PE - This is a standalone townhome application (Lot 3).  Other standalone townhome application is on PRNC202602100 (Lot 4)*** SN
+
+***COB Water (water meter added)*** SN
+***Fill Lot*** SN
+***Retaining wall, route to engineering (see comments)*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602098
+Issued: 2026-06-12
+Address: 2808 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 280176.33
+Units: </description>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2024-084199-000-00-rs</guid>
@@ -1634,6 +3242,44 @@ Units: 1</description>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202602305</guid>
+      <title>[Bend] New construction of single-family duplex townhome.  Master Reissue program:  PROT202601422
+**No conditions, see comments**SF
+**CoB water**SF 
+
+*PRNC202602305 - Lot 12 - Plan reviewed under this permit*
+*PRNC202602366 - Lot 13 - 2809 NE Huettl Ln*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602305
+Issued: 2026-06-10
+Address: 2805 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 240101.34
+Units: </description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602366</guid>
+      <title>[Bend] New construction of single-family duplex townhome.  Master Reissue program:  PROT202601422
+**No conditions, see comments**SF
+**CoB water**SF 
+
+*PRNC202602305 - Lot 12 - Plan reviewed under this permit*
+*PRNC202602366 - Lot 13 - 2809 NE Huettl Ln*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602366
+Issued: 2026-06-10
+Address: 2809 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 239086.8
+Units: </description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-009820-000-00-rs</guid>
       <title>[Portland] FULL PDOX - NEW 4 OF 4 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ NO GARAGE/ 2 STORY/ COMPLEX/ SLOPED LOT *** ET PT MT INCLUDED** SEE 25 020055 RS FOR DEMO W/ 26-009805/10/19/20/22</title>
       <link>https://www.portlandmaps.com/detail/permit/5231172_did/</link>
@@ -1688,6 +3334,118 @@ Contractor:
 Valuation: 159116.0
 Units: 1</description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602063</guid>
+      <title>[Bend] Construction of a new townhome unit 15
+
+PRNC202602059 Unit 12 - All reviews occurring under this application
+PRNC202602061 Unit 13
+PRNC202602062 Unit 14
+PRNC202602063 Unit 15
+***COB Water*** SN
+***HB2306 - Old Mill Townhomes - Pre plat Review Path 1*** SN
+***Conditions*** SN
+***Fill Lots (12, 13, 14, 15)*** SN
+***PRSIMP202501442*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602063
+Issued: 2026-06-08
+Address: 682 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602062</guid>
+      <title>[Bend] Construction of a new townhome unit - 14
+
+PRNC202602059 Unit 12 - All reviews occurring under this application
+PRNC202602061 Unit 13
+PRNC202602062 Unit 14
+PRNC202602063 Unit 15
+***COB Water*** SN
+***HB2306 - Old Mill Townhomes - Pre plat Review Path 1*** SN
+***Conditions*** SN
+***Fill Lots (12, 13, 14, 15)*** SN
+***PRSIMP202501442*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602062
+Issued: 2026-06-08
+Address: 680 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 422495.39
+Units: </description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602061</guid>
+      <title>[Bend] Construction of a new townhome unit 13. 
+
+PRNC202602059 Unit 12 - All reviews occurring under this application
+PRNC202602061 Unit 13
+PRNC202602062 Unit 14
+PRNC202602063 Unit 15
+***COB Water*** SN
+***HB2306 - Old Mill Townhomes - Pre plat Review Path 1*** SN
+***Conditions*** SN
+***Fill Lots (12, 13, 14, 15)*** SN
+***PRSIMP202501442*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602061
+Issued: 2026-06-08
+Address: 678 SW COLUMBIA ST, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 422495.39
+Units: </description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202601842</guid>
+      <title>[Bend] Construction of a new single-family townhouse duplex. 
+**Lot 6**
+**Fill Lot**SF 
+**No conditions, see comments**SF
+**No active SIMP**SF
+**CoB water**SF 
+**PRNC202601841, Lot 5, Cascade**SF
+***Water Meter added*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202601842
+Issued: 2026-06-08
+Address: 2796 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 116123.29
+Units: </description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403025</guid>
+      <title>[Bend] 1 Townhome unit - UNIT A 
+Units A - D will be on this parcel ***Utility review and inspections are under this permit
+Per applicant this is NOT intended to be a middle housing land division project
+MULTIPAGE FILE BETA TEST PROJECT
+Development across two tax lots will result in (2) Four unit Townhouse buildings
+Conditions entered mpaule</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403025
+Issued: 2026-06-08
+Address: 543 NE MARSHALL AVE, UNIT:2, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 166946.58
+Units: </description>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-040340-000-00-rs</guid>
@@ -1748,6 +3506,27 @@ Contractor:
 Valuation: 157932.0
 Units: 1</description>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602138</guid>
+      <title>[Bend] Reissue of master permit PROT202601422 - ***Please route to Cathleen to add the ROW permit***
+New single-family duplex townhome
+**Lot 1**
+**No conditions**
+**No active SIMP**
+**CoB water**
+*PRNC202602140, lot 2*
+***Added water meter*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602138
+Issued: 2026-06-05
+Address: 2816 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 240101.34
+Units: </description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-085761-000-00-rs</guid>
@@ -1946,6 +3725,26 @@ Units: 7</description>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202602140</guid>
+      <title>[Bend] Reissue of master permit PROT202601422
+New single-family duplex townhome.
+**Lot 2**
+**No conditions**
+**No active SIMP**
+**CoB water**
+*PRNC202602138, lot 1*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602140
+Issued: 2026-06-04
+Address: 2812 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 239086.8
+Units: </description>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2024-057251-000-00-co</guid>
       <title>[Portland] PDOX PS - NEW 4 STORY, 19 UNIT APARTMENT BUILDING AND ASSOCIATED SITE WORK.</title>
       <link>https://www.portlandmaps.com/detail/permit/5059851_did/</link>
@@ -1958,6 +3757,27 @@ Contractor:
 Valuation: 2178939.0
 Units: 19</description>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202600233</guid>
+      <title>[Bend] New SFD Townhome utilizing MHLD 
+
+PRNC202600231 - lot 2 (A) (reviews happening under this one) 
+PRNC202600233 - lot 4 (B)
+
+*no active conditions/SIMPs* 
+*CoB water - meter needed--ADD meter when Checklist is provided* 
+*route to addressing*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202600233
+Issued: 2026-06-02
+Address: 1937 NW HILL ST, BEND, OR 97703
+Contractor: Momentasize Construction Inc.
+Valuation: 275000.0
+Units: </description>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-088849-000-00-rs</guid>
@@ -2054,6 +3874,104 @@ Contractor:
 Valuation: 257369.0
 Units: 1</description>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403522</guid>
+      <title>[Bend] Townhome unit - UNIT F Utility review and inspections on PRNC202403521
+Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
+MULTIPAGE FILE BETA TEST PROJECT
+Development across two tax lots will result in (2) Four unit Townhouse buildings
+**Addressing needed**No conditions** chw
+Customer says this is not going to be middle housing                                                           **Route to Engineering and Planning</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403522
+Issued: 2026-06-01
+Address: 553 NE MARSHALL AVE, UNIT:1, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 194691.71
+Units: </description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403519</guid>
+      <title>[Bend] 1 Townhome unit - UNIT C
+Utilities will be assessed and inspected on unit A (PRNC202403025)
+Units A - D will be on this parcel . 
+Customer says this is not going to be middle housing
+MULTIPAGE FILE BETA TEST PROJECT
+Development across two tax lots will result in (2) Four Unit Townhouse buildings.
+**no conditions** Addressing needed** chw</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403519
+Issued: 2026-06-01
+Address: 543 NE MARSHALL AVE, UNIT:3, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 255228.04
+Units: </description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403524</guid>
+      <title>[Bend] Townhome unit - UNIT H - Utility review and inspections on PRNC202403521
+MULTIPAGE FILE BETA TEST PROJECT
+Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
+Development across two tax lots will result in (2) Four unit Townhouse buildings
+**Addressing needed** No conditions* chw
+Customer says this is not going to be middle housing                                                           **Route to Engineering and Planning</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403524
+Issued: 2026-06-01
+Address: 553 NE MARSHALL AVE, UNIT:4, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 279714.72
+Units: </description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403521</guid>
+      <title>[Bend] Townhome unit - UNIT E - Utility review and inspections for units E-H will be on this permit
+Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
+Utility review and inspections for units E-H will be on this permit
+MULTIPAGE FILE BETA TEST PROJECT
+Development across two tax lots will result in (2) Four unit Townhouse buildings
+**addressing needed** no conditions** chw
+Customer says this is not going to be middle housing</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403521
+Issued: 2026-06-01
+Address: 553 NE MARSHALL AVE, UNIT:2, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 194691.71
+Units: </description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403523</guid>
+      <title>[Bend] Townhome unit - UNIT G -Utility review and inspections for units E-H will be on PRNC202403521
+MULTIPAGE FILE BETA TEST PROJECT
+Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
+Development across two tax lots will result in (2) Four unit Townhouse buildings
+**Addressing needed**
+No conditions chw
+Customer says this is not going to be middle housing                                                          **Route to Engineering and Planning</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403523
+Issued: 2026-06-01
+Address: 553 NE MARSHALL AVE, UNIT:3, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 279714.72
+Units: </description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-093959-000-00-rs</guid>
@@ -2162,6 +4080,52 @@ Units: 1</description>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202600231</guid>
+      <title>[Bend] New SFD Townhome utilizing MHLD 
+
+PRNC202600231 - lot 2 (A) (reviews happening under this one) 
+PRNC202600233 - lot 4 (B)
+
+*no active conditions/SIMPs* 
+*CoB water - meter needed--3/4"* 
+*route to addressing*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202600231
+Issued: 2026-05-26
+Address: 1935 NW HILL ST, BEND, OR 97703
+Contractor: Momentasize Construction Inc.
+Valuation: 269758.37
+Units: </description>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602059</guid>
+      <title>[Bend] Construction of a new townhome unit 12 Reissue * Master PROT202506966 
+
+PRNC202602059 Unit 12 - All reviews occurring under this application
+PRNC202602061 Unit 13
+PRNC202602062 Unit 14
+PRNC202602063 Unit 15
+***COB Water*** SN
+***HB2306 - Old Mill Townhomes - Pre plat Review Path 1*** SN
+***Conditions*** SN
+***Retaining wall proposed (12)*** SN
+***Fill Lots (12, 13, 14, 15)*** SN
+***PRSIMP202501442*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602059
+Issued: 2026-05-22
+Address: 676 SW COLUMBIA ST, BEND, OR 97702
+Contractor: CHRISTIANSEN'S CONTRACTING
+Valuation: 434581.41
+Units: </description>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-042893-000-00-rs</guid>
       <title>[Portland] FULL PDOX MHLD BATCH NEW 3 UNIT COTTAGE CLUSTER(PARCEL 3) ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ SIMPLE/ ** 
 *PT SEPARATE*/ DEMO PERMIT SEPARATE*W/ 25-042889/92/93-RS W/ 25-042896-SD  *ADDED ELECTRICAL AND MECHANICAL*</title>
@@ -2207,1370 +4171,70 @@ Units: 1</description>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-054509-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 3 OF 3 UNITS(UNIT 4) DETACHED SINGLE FAMILY DWELLINGS. ON SHARED LOT/ 2 STORY/ NO GARAGE/ LOT/ COMPLEX/ *ET PT MT ENTERD/ TRUSSE ENTERED/ **DFS SPRINKLERS*
-*EXISTING HOUSE TO STAY**W/ 25-054458/84/509-RS W/ 25-054575-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5169853_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-054509-000-00-RS
-Issued: 2026-05-15
-Address: 2812 SE 153RD AVE, PORTLAND, OR
-Contractor: 
-Valuation: 242229.0
-Units: 1</description>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-054484-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 2 OF 3 UNITS(UNIT 3) DETACHED SINGLE FAMILY DWELLINGS. ON SHARED LOT/ 2 STORY/ NO GARAGE/ LOT/ COMPLEX/ *ET PT MT ENTERD/ TRUSSE ENTERED/ **DFS SPRINKLERS*
-*EXISTING HOUSE TO STAY**W/ 25-054458/84/509-RS W/ 25-054575-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5169828_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-054484-000-00-RS
-Issued: 2026-05-15
-Address: 2812 SE 153RD AVE, PORTLAND, OR
-Contractor: 
-Valuation: 242229.0
-Units: 1</description>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-054458-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 1 OF 3 UNITS (UNIT 2) DETACHED SINGLE FAMILY DWELLINGS. ON SHARED LOT/ 2 STORY/ NO GARAGE/ LOT/ COMPLEX/ *ET PT MT ENTERD/ TRUSSE ENTERED/ **DFS SPRINKLERS*
-*EXISTING HOUSE TO STAY**W/ 25-054458/84/509-RS W/ 25-054575-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5169802_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-054458-000-00-RS
-Issued: 2026-05-15
-Address: 2812 SE 153RD AVE, PORTLAND, OR
-Contractor: 
-Valuation: 242229.0
-Units: 1</description>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-035657-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW TWO FAMILY DWELLING / 2-STORY / NO GARAGE / FLAT LOT / SIMPLE *ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5150200_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-035657-000-00-RS
-Issued: 2026-05-13
-Address: 10344 SE KNIGHT ST, PORTLAND, OR
-Contractor: 
-Valuation: 426620.0
-Units: 2</description>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076392-000-00-rs</guid>
-      <title>[Portland] Unit 8: 13D Sprinklers Required per Fire.
-FULL PDOX BATCH MHLD NEW 8 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-*W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192607_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076392-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 160109.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076389-000-00-rs</guid>
-      <title>[Portland] Unit 7: 13D Sprinklers Required per Fire. 
-FULL PDOX BATCH MHLD NEW 7 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-*W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192604_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076389-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 160109.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076385-000-00-rs</guid>
-      <title>[Portland] Units 6: 13D Sprinklers Required per Fire.
-FULL PDOX BATCH MHLD NEW 6 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-*W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192600_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076385-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 160109.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076382-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 5 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-*W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192597_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076382-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 160109.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076375-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 4 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-*W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192590_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076375-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 160109.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076368-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 3 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-*W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192583_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076368-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 160109.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076364-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 2 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-**W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192579_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076364-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 160109.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-076360-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD NEW 1 OF 8 UNIT DETACHED SINGLE FAMILY HOMES, COTTAGE CLUSTER/ SHARED LOT(LOT TO BE DIVIDED UNDER FUTURE MHLD)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* *SEE 25-059774-RS FOR DEMO* 
-**W/ 25-076360/64/68/75/82/85/89/92-RS W/ 25-076405-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5192575_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-076360-000-00-RS
-Issued: 2026-05-11
-Address: 9328 N PIER PARK PL, PORTLAND, OR
-Contractor: 
-Valuation: 181441.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-098633-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 3 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTER MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX W/ 25-098629/32/33RS &amp; 25-098634 SD  *ADDED PLUMBING*ADDED ET*ADDED MECH*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5215783_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-098633-000-00-RS
-Issued: 2026-05-07
-Address: 4043 NE 6TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 173386.0
-Units: 1</description>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-098632-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 2 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO  BE DIVIDED BY FUTER MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX ***W/ 25-098629/32/33RS &amp; 25-098634 SD  *ADDED PLUMBING*ADDED ET* **ADDED MECHANICAL**</title>
-      <link>https://www.portlandmaps.com/detail/permit/5215782_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-098632-000-00-RS
-Issued: 2026-05-07
-Address: 4043 NE 6TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 128762.0
-Units: 1</description>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-098629-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 1 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTER MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX W/ 25-098629/32/33RS &amp; 25-098634 SD***ADDED PT ***ADDED ET*ADDED MECH*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5215777_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-098629-000-00-RS
-Issued: 2026-05-07
-Address: 4043 NE 6TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 128848.0
-Units: 1</description>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-011214-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BATCH: 7 OF 7 - NEW 7 UNIT TOWNHOUSES ON  SHARED LOT, 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX **** W/ 25-011197/203/205/209/210/211/214  *ADDED ELECTRICAL*  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124754_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-011214-000-00-RS
-Issued: 2026-05-04
-Address: 6970 N MARYLAND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 147609.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-011211-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BATCH: 6 OF 7 - NEW 7 UNIT TOWNHOUSES ON  SHARED LOT, 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX ***  W/25-011197/203/205/209/210/211/214  *ADDED ELECTRICAL*  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124751_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-011211-000-00-RS
-Issued: 2026-05-04
-Address: 6970 N MARYLAND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 152910.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-011210-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BATCH: 5 OF 7 - NEW 7 UNIT TOWNHOUSES ON  SHARED LOT, 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *** W/25-011197/203/205/209/210/211/214 RS 25-011223 SD*ADDED ET*  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124750_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-011210-000-00-RS
-Issued: 2026-05-04
-Address: 6970 N MARYLAND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 146118.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-011209-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BATCH: 4 OF 7 - NEW 7 UNIT TOWNHOUSES ON  SHARED LOT, 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *** W/25-011197/203/205/209/210/211/214 RS 25-011223 SD*ADDED ET*  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124749_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-011209-000-00-RS
-Issued: 2026-05-04
-Address: 6970 N MARYLAND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 152910.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-011205-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BATCH: 3 OF 7 - NEW 7 UNIT TOWNHOUSES ON  SHARED LOT, 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX **** W/25-011197/203/205/209/210/211/214 RS 25-011223 SD*ADDED ET*  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124745_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-011205-000-00-RS
-Issued: 2026-05-04
-Address: 6970 N MARYLAND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 146118.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-011203-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BATCH: 2 OF 7 - NEW 7 UNIT TOWNHOUSES ON  SHARED LOT, 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX ***  W/25-011197/203/205/209/210/211/214 RS 25-011223 SD*ADDED ET*  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124743_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-011203-000-00-RS
-Issued: 2026-05-04
-Address: 6970 N MARYLAND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 152910.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-011197-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BATCH: 1 OF 7 - NEW 7 UNIT TOWNHOUSES ON  SHARED LOT, 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *** W/25-011197/203/205/209/210/211/214 RS 25-011223 SD*ADDED ET*  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124737_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-011197-000-00-RS
-Issued: 2026-05-04
-Address: 6970 N MARYLAND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 160199.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-064135-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW 5 OF 5 UNIT COTTAGE CLUSTER ON SHARED LOT (EXISTING SFR TO REMAIN) 2 STORY/NO GARAGE/FLAT LOT/SIMPLE* W/ 24-064110/21/27/28/35 RS AND 24-064139 SD***CESSPOOL DECOMMISSIONING REQUIRED***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5066997_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-064135-000-00-RS
-Issued: 2026-05-04
-Address: 13838 SE BUSH ST, PORTLAND, OR
-Contractor: 
-Valuation: 217320.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-064128-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW 4 OF  5 UNIT COTTAGE CLUSTER ON SHARED LOT (EXISTING SFR TO REMAIN) 2 STORY/NO GARAGE/FLAT LOT/SIMPLE* W/ 24-064110/21/27/28/35 RS AND 24-064139 SD***CESSPOOL DECOMMISSIONING REQUIRED***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5066990_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-064128-000-00-RS
-Issued: 2026-05-04
-Address: 13838 SE BUSH ST, PORTLAND, OR
-Contractor: 
-Valuation: 217320.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-064127-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW 3 OF 5 UNIT COTTAGE CLUSTER ON SHARED LOT (EXISTING SFR TO REMAIN) 2 STORY/NO GARAGE/FLAT LOT/SIMPLE* 13D fire sprinklers required per Fire Code Appeal*W/ 24-064110/21/27/28/35 RS AND 24-064139 SD ***CESSPOOL DECOMMISSIONING REQUIRED***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5066989_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-064127-000-00-RS
-Issued: 2026-05-04
-Address: 13838 SE BUSH ST, PORTLAND, OR
-Contractor: 
-Valuation: 245851.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-064121-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW 2 OF 5 UNIT COTTAGE CLUSTER ON SHARED LOT (EXISTING SFR TO REMAIN) 2 STORY/NO GARAGE/FLAT LOT/SIMPLE*13D FIRE SPRINKLERS PER FIRE CODE APPEAL*W/ 24-064110/21/27/28/35 RS AND 24-064139 SD***CESSPOOL DECOMMISSIONING REQUIRED*** Septic Decommissioning Required.  Call for Inspection 842.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5066983_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-064121-000-00-RS
-Issued: 2026-05-04
-Address: 13838 SE BUSH ST, PORTLAND, OR
-Contractor: 
-Valuation: 217320.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-064110-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF- NEW 1 OF 5 UNIT COTTAGE CLUSTER ON SHARED LOT (EXISTING SFR TO REMAIN) 2 STORY/NO GARAGE/FLAT LOT/SIMPLE* 13D FIRE SPRINKLERS REQUIRED PER FIRE CODE APPEAL*W/ 24-064110/21/27/28/35 RS AND 24-064139 SD***CESSPOOL DECOMMISSIONING REQUIRED*** Septic Decommissioning Required.  Call for Inspection 842.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5066972_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-064110-000-00-RS
-Issued: 2026-05-04
-Address: 13838 SE BUSH ST, PORTLAND, OR
-Contractor: 
-Valuation: 212717.0
-Units: 1</description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-013260-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 2 OF 2 TOWNHOUSE UNITS ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / 1-CAR GARAGE / SLOPED LOT / COMPLEX w/25-013256-RS *13D FIRE SPRINKLERS AS A DFS* *ADDED ELECTRICAL* ADDED MECH*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5126867_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-013260-000-00-RS
-Issued: 2026-05-01
-Address: SW 61ST AVE, PORTLAND, OR
-Contractor: 
-Valuation: 320871.0
-Units: 1</description>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-013256-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 1 OF 2 TOWNHOUSE UNITS ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX w/25-013260-RS *13D FIRE SPRINKLER DFS*   *ADDED ELECTRICAL*ADDED MECH*  *ADDED PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5126863_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-013256-000-00-RS
-Issued: 2026-05-01
-Address: SW 61ST AVE, PORTLAND, OR
-Contractor: 
-Valuation: 342976.0
-Units: 1</description>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-040919-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - NEW 4 OF 4 UNIT TOWNHOME ON SHARED LOT/ 2 STORY / NO GARAGES / COMPLEX / FLAT LOT. DEMO 25-TBDXXX RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5155700_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-040919-000-00-RS
-Issued: 2026-04-28
-Address: 5028 SE BOISE ST, PORTLAND, OR
-Contractor: 
-Valuation: 169574.0
-Units: 1</description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-040918-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - NEW 3 OF 4 UNIT TOWNHOME ON SHARED LOT/ 2 STORY / NO GARAGES / COMPLEX / FLAT LOT. DEMO 25-TBDXXX RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5155699_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-040918-000-00-RS
-Issued: 2026-04-28
-Address: 5028 SE BOISE ST, PORTLAND, OR
-Contractor: 
-Valuation: 169574.0
-Units: 1</description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-040917-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - NEW 2 OF 4 UNIT TOWNHOME ON SHARED LOT/ 2 STORY / NO GARAGES / COMPLEX / FLAT LOT. DEMO 25-TBDXXX RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5155698_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-040917-000-00-RS
-Issued: 2026-04-28
-Address: 5028 SE BOISE ST, PORTLAND, OR
-Contractor: 
-Valuation: 169574.0
-Units: 1</description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-040913-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - NEW 1 OF 4 UNIT TOWNHOME ON SHARED LOT/ 2 STORY / NO GARAGES / COMPLEX / FLAT LOT.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5155693_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-040913-000-00-RS
-Issued: 2026-04-28
-Address: 5028 SE BOISE ST, PORTLAND, OR
-Contractor: 
-Valuation: 170037.0
-Units: 1</description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-009203-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW DETACHED DUPLEX WITH CARPORT ON SHARED LOT WITH AN EXISTING SFR / LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ COMPLEX/ FLAT LOT *** ET PT INCLUDED***MT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5230536_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-009203-000-00-RS
-Issued: 2026-04-27
-Address: 1407 SE KNAPP ST, PORTLAND, OR
-Contractor: 
-Valuation: 202741.0
-Units: 1</description>
-      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-046270-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW UNIT 2 OF 2 TOWNHOUSES ON LOT WITH EXISTING SINGLE FAMILY RESIDENCE TO REMAIN / 3-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE w/25-046268-RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5161296_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-046270-000-00-RS
-Issued: 2026-04-22
-Address: 2825 SE 17TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 202045.0
-Units: 1</description>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-046268-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW UNIT 1 OF 2 TOWNHOUSES ON LOT WITH EXISTING SINGLE FAMILY RESIDENCE TO REMAIN / 3-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE w/25-046270-RS***DFS CABLE RAILINGS***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5161294_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-046268-000-00-RS
-Issued: 2026-04-22
-Address: 2825 SE 17TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 202045.0
-Units: 1</description>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-083641-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 4 OF 4 UNIT TOWNHOUSES ON SHARED LOT /LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/(25 046933 000 00 RS FOR DEMO) W/ 25-083637/39/40/41 RS 25-083643 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5200139_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-083641-000-00-RS
-Issued: 2026-04-21
-Address: 4603 SE 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 156241.0
-Units: 1</description>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-083640-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 3 OF 4 UNIT TOWNHOUSES ON SHARED LOT /LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/(25 046933 000 00 RS FOR DEMO) W/ 25-083637/39/40/41 RS 25-083643 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5200138_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-083640-000-00-RS
-Issued: 2026-04-21
-Address: 4603 SE 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 154888.0
-Units: 1</description>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-083639-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 2 OF 4 UNIT TOWNHOUSES ON SHARED LOT /LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/(25 046933 000 00 RS FOR DEMO) W/ 25-083637/39/40/41 RS 25-083643 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5200137_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-083639-000-00-RS
-Issued: 2026-04-21
-Address: 4603 SE 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 154888.0
-Units: 1</description>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-083637-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 1 OF 4 UNIT TOWNHOUSES ON SHARED LOT /LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/(25 046933 000 00 RS FOR DEMO) W/ 25-083637/39/40/41 RS 25-083643 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5200135_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-083637-000-00-RS
-Issued: 2026-04-21
-Address: 4603 SE 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 173827.0
-Units: 1</description>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-096321-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 4 OF 4 UNIT TOWNHOME ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *** ET PT MT INCLUDED W/ 25-096316/18/20/24 RS &amp; 25-096324 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5213372_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-096321-000-00-RS
-Issued: 2026-04-20
-Address: SW 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 217452.0
-Units: 1</description>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-096320-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 3 OF 4 UNIT TOWNHOME ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *** ET PT MT INCLUDED W/ 25-096316/18/20/24 RS &amp; 25-096324 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5213371_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-096320-000-00-RS
-Issued: 2026-04-20
-Address: SW 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 159454.0
-Units: 1</description>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-096318-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 2 OF 4 UNIT TOWNHOME ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *** ET PT MT INCLUDED W/ 25-096316/18/20/24 RS &amp; 25-096324 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5213369_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-096318-000-00-RS
-Issued: 2026-04-20
-Address: SW 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 159454.0
-Units: 1</description>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-096316-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 1 OF 4 UNIT TOWNHOME ON SHARED LOT TO BE DIVIDED  BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *** ET PT MT INCLUDED W/ 25-096316/18/20/24 RS &amp; 25-096324 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5213367_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-096316-000-00-RS
-Issued: 2026-04-20
-Address: SW 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 173150.0
-Units: 1</description>
-      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2022-121255-000-00-co</guid>
-      <title>[Portland] SINGLE PDF - NEW 3 STORY APARTMENT BUILDING WITH 12 UNITS.</title>
-      <link>https://www.portlandmaps.com/detail/permit/4782527_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 50
-Permit: 2022-121255-000-00-CO
-Issued: 2026-04-17
-Address: 8125 N PRINCETON ST, PORTLAND, OR
-Contractor: 
-Valuation: 903548.0
-Units: 12</description>
-      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-034957-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH - NEW 3 OF 3-UNIT TOWNHOUSES ON SHARED VACANT LOT / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX w/25-034950-RS, 25-034955-RS, 25-034958-SD**ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5149463_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-034957-000-00-RS
-Issued: 2026-04-16
-Address: SE MILWAUKIE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 102808.0
-Units: 1</description>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-034955-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH - NEW 2 OF 3-UNIT TOWNHOUSES ON SHARED VACANT LOT / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX w/25-034950-RS, 25-034957-RS, 25-034958-SD**ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5149461_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-034955-000-00-RS
-Issued: 2026-04-16
-Address: SE MILWAUKIE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 207692.0
-Units: 1</description>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-034950-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH - NEW 1 OF 3-UNIT TOWNHOUSES ON SHARED VACANT LOT / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX w/25-034955-RS, 25-034957-RS, 25-034958-SD**ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5149456_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-034950-000-00-RS
-Issued: 2026-04-16
-Address: SE MILWAUKIE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 207641.0
-Units: 1</description>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-063152-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 5 OF  5 UNIT COTTAGE CLUSTER ON SHARED LOT - LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/*** W/ 25-063145/48/49/50/52 RS &amp; 25-063155 SD  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5178812_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-063152-000-00-RS
-Issued: 2026-04-10
-Address: 7807 N DELAWARE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 192765.0
-Units: 1</description>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-063150-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 4 OF  5 UNIT COTTAGE CLUSTER ON SHARED LOT - LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/*** W/ 25-063145/48/49/50/52 RS &amp; 25-063155 SD  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5178810_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-063150-000-00-RS
-Issued: 2026-04-10
-Address: 7807 N DELAWARE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 153830.0
-Units: 1</description>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-063149-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 3 OF  5 UNIT COTTAGE CLUSTER ON SHARED LOT - LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/*** W/ 25-063145/48/49/50/52 RS &amp; 25-063155 SD  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5178809_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-063149-000-00-RS
-Issued: 2026-04-10
-Address: 7807 N DELAWARE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 241902.0
-Units: 1</description>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-063148-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 2 OF  5 UNIT COTTAGE CLUSTER ON SHARED LOT - LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/***W/ 25-063145/48/49/50/52 RS &amp; 25-063155 SD  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5178808_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-063148-000-00-RS
-Issued: 2026-04-10
-Address: 7807 N DELAWARE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 241902.0
-Units: 1</description>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-063145-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD NEW 1 OF  5 UNIT COTTAGE CLUSTER ON SHARED LOT - LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/***W/ 25-063145/48/49/50/52 RS &amp; 25-063155 SD  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5178805_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-063145-000-00-RS
-Issued: 2026-04-10
-Address: 7807 N DELAWARE AVE, PORTLAND, OR
-Contractor: 
-Valuation: 244979.0
-Units: 1</description>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2020-217509-000-00-co</guid>
-      <title>[Portland] New 5-story 25-unit apartment bldg. and associated site work. w/20-217527-MT, 20-217530-CO</title>
-      <link>https://www.portlandmaps.com/detail/permit/4625440_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 60
-Permit: 2020-217509-000-00-CO
-Issued: 2026-04-09
-Address: 3112 SE BELMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 2325000.0
-Units: 25</description>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-035440-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD 3 of  3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/WITH GARAGE/FLAT LOT/ COMPLEX/ *** 13D FIRE SPRINKLERS REQUIRED*** ET PT MT SEPARATE*** W/ 25-035437/39/40/42</title>
-      <link>https://www.portlandmaps.com/detail/permit/5149973_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-035440-000-00-RS
-Issued: 2026-04-07
-Address: 5125 NE CAMPAIGN ST, PORTLAND, OR
-Contractor: 
-Valuation: 196147.0
-Units: 1</description>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-035439-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD 2 of  3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/WITH GARAGE/FLAT LOT/ COMPLEX/ *** ET PT MT SEPARATE***  W/ 25-035437/39/40/42</title>
-      <link>https://www.portlandmaps.com/detail/permit/5149972_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-035439-000-00-RS
-Issued: 2026-04-07
-Address: 5125 NE CAMPAIGN ST, PORTLAND, OR
-Contractor: 
-Valuation: 196147.0
-Units: 1</description>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-035437-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD 1 of  3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/WITH GARAGE/FLAT LOT/ COMPLEX/ *** ET PT MT SEPARATE*** W/ 25-035437/39/40/42</title>
-      <link>https://www.portlandmaps.com/detail/permit/5149970_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-035437-000-00-RS
-Issued: 2026-04-07
-Address: 5125 NE CAMPAIGN ST, PORTLAND, OR
-Contractor: 
-Valuation: 239096.0
-Units: 1</description>
-      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-026356-000-00-co</guid>
-      <title>[Portland] THE ROSS APARTMENTS - construction of a new 5-story, 71 unit apartment building and associated site work.  **No Mechanical with this permit, will be submitted later/separately**</title>
-      <link>https://www.portlandmaps.com/detail/permit/5027724_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 70
-Permit: 2024-026356-000-00-CO
-Issued: 2026-04-02
-Address: 110 S PORTER ST, PORTLAND, OR
-Contractor: 
-Valuation: 9608697.0
-Units: 71</description>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105605-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 8 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET AND PT PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110119_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105605-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 149762.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105601-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 7 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110115_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105601-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 149762.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105598-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 6 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110112_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105598-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 149762.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105594-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 5 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110108_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105594-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 149762.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105591-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 4 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110105_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105591-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 149762.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105589-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 3 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110103_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105589-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 149762.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105583-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 2 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110097_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105583-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 149762.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-105580-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 1 OF 8-UNIT TOWNHOUSES ON SHARED LOT / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX***ET PERMITS SEPARATE W/ 24-105580/583/589/591/594/598/601/605 RS AND 24-105618 SD  *ADDED MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5110094_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-105580-000-00-RS
-Issued: 2026-04-01
-Address: 8225 NE HOLLADAY ST, PORTLAND, OR
-Contractor: 
-Valuation: 166966.0
-Units: 1</description>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-077477-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF NEW DUPLEX ON SHARED LOT (EXISTING HOUSE AND SHED ON LOT)/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT SEPERATE***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5193741_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-077477-000-00-RS
-Issued: 2026-03-31
-Address: 3946 N MONTANA AVE, PORTLAND, OR
-Contractor: 
-Valuation: 100000.0
-Units: 2</description>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-073451-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 4 OF 4 UNIT ATTACHED TOWNHOUSES/ SHARED LOT/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX
-*W/ 25-073440/48/49/51-RS W/ 25-073467-SD  *ADDED PLUMBING AND ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5189545_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-073451-000-00-RS
-Issued: 2026-03-30
-Address: NE 30TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 143728.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-073449-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 3 OF 4 UNIT ATTACHED TOWNHOUSES/ SHARED LOT/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX *W/ 25-073440/48/49/51-RS W/ 25-073467-SD *ADDED PLUMBING AND ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5189543_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-073449-000-00-RS
-Issued: 2026-03-30
-Address: NE 30TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 143728.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-073448-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 2 OF 4 UNIT ATTACHED TOWNHOUSES/ SHARED LOT/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX
-*W/ 25-073440/48/49/51-RS W/ 25-073467-SD  *ADDED PLUMBING AND ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5189542_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-073448-000-00-RS
-Issued: 2026-03-30
-Address: NE 30TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 143728.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-073440-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 1 OF 4 UNIT ATTACHED TOWNHOUSES/ SHARED LOT/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX
-*W/ 25-073440/48/49/51-RS W/ 25-073467-SD  *PLUMBING ADDED AND ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5189534_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-073440-000-00-RS
-Issued: 2026-03-30
-Address: NE 30TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 143728.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-012246-000-00-rs</guid>
-      <title>[Portland] FULL PDOX-MHLD- NEW 4 OF 4 UNIT TOWNHOUSE ON SHARED LOT TO BE DIVIDED BY MHLD- 2 STORY/NO GARAGE/SLOPED LOT/COMPLEX. SEE 24-107300 RS FOR DEMO**  W/25-012242 RS, 25-012244 RS, 25-012245 RS, 25-012393 SD - 13D fire sprinklers per fire appeal  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5125827_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-012246-000-00-RS
-Issued: 2026-03-30
-Address: 6214 N KERBY AVE, PORTLAND, OR
-Contractor: 
-Valuation: 140336.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-012245-000-00-rs</guid>
-      <title>[Portland] FULL PDOX-MHLD- NEW 3 OF 4 UNIT TOWNHOUSE ON SHARED LOT TO BE DIVIDED BY MHLD- 2 STORY/NO GARAGE/SLOPED LOT/COMPLEX. SEE 24-107300 RS FOR DEMO**  W/25-012242 RS, 25-012244 RS, 25-012246 RS, 25-012393 SD DFS FOR 13D FIRE SPRINKLER PER APPEAL  *ADDED MECHANICAL PLUMBING AND ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5125826_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-012245-000-00-RS
-Issued: 2026-03-30
-Address: 6214 N KERBY AVE, PORTLAND, OR
-Contractor: 
-Valuation: 140336.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-012244-000-00-rs</guid>
-      <title>[Portland] FULL PDOX-MHLD- NEW 2 OF 4 UNIT TOWNHOUSE ON SHARED LOT TO BE DIVIDED BY MHLD- 2 STORY/NO GARAGE/SLOPED LOT/COMPLEX. SEE 24-107300 RS FOR DEMO**  W/25-012242 RS, 25-012245 RS , 25-012246 RS, 25-012393 SD DFS FOR 13D FIRE SPRINKLER PER FIRE CODE APPEAL.  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5125825_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-012244-000-00-RS
-Issued: 2026-03-30
-Address: 6214 N KERBY AVE, PORTLAND, OR
-Contractor: 
-Valuation: 187749.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-012242-000-00-rs</guid>
-      <title>[Portland] FULL PDOX-MHLD- NEW 1 OF 4 UNIT TOWNHOUSE ON SHARED LOT TO BE DIVIDED BY MHLD- 2 STORY/NO GARAGE/SLOPED LOT/COMPLEX. SEE 24-107300 RS FOR DEMO**  W/25-012244 RS, 25-012245 RS , 25-012246 RS, 25-012393 SD - DFS for fire sprinklers per appeal  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5125823_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-012242-000-00-RS
-Issued: 2026-03-30
-Address: 6214 N KERBY AVE, PORTLAND, OR
-Contractor: 
-Valuation: 187749.0
-Units: 1</description>
-      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2022-125003-000-00-co</guid>
-      <title>[Portland] SINGLE PDF: NEW 3 STORY- 5 UNIT APARTMENT BUILDING WITH ASSOCIATED SITEWORKS. BIKE ROOM AND TRASH ON GROUND FLOOR.</title>
-      <link>https://www.portlandmaps.com/detail/permit/4786446_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 45
-Permit: 2022-125003-000-00-CO
-Issued: 2026-03-27
-Address: NE 55TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 360143.0
-Units: 5</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-066700-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 6 OF 6 UNIT TOWNHOUSES IN 2 BUILDINGS.(6 UNITS TOTAL) ON SHARED LOT/ 3 STORY/ NO GARAGE/ FLAT LOT/ PT MT SEPERATELY**13D DFS
-W/ 25-066671/73/75/86/88/700-RS W/ 25-066707-SD  *ADDED ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5182508_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-066700-000-00-RS
-Issued: 2026-03-27
-Address: 5131 SE ANKENY ST, PORTLAND, OR
-Contractor: 
-Valuation: 205098.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-066688-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 5 OF 6 UNIT TOWNHOUSES IN 2 BUILDINGS.(6 UNITS TOTAL) ON SHARED LOT/ 3 STORY/ NO GARAGE/ FLAT LOT/ PT MT SEPERATELY**13D DFS
-* W/ 25-066671/73/75/86/88/700-RS W/ 25-066707-SD  *ADDED ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5182496_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-066688-000-00-RS
-Issued: 2026-03-27
-Address: 5131 SE ANKENY ST, PORTLAND, OR
-Contractor: 
-Valuation: 188199.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-066686-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 4 OF 6 UNIT TOWNHOUSES IN 2 BUILDINGS.(6 UNITS TOTAL) ON SHARED LOT/ 3 STORY/ NO GARAGE/ FLAT LOT/ PT MT SEPERATELY**13D DFS
-W/ 25-066671/73/75/86/88/700-RS W/ 25-066707-SD  *ADDED ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5182494_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-066686-000-00-RS
-Issued: 2026-03-27
-Address: 5131 SE ANKENY ST, PORTLAND, OR
-Contractor: 
-Valuation: 200511.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-066675-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 3 OF 6 UNIT TOWNHOUSES IN 2 BUILDINGS.(6 UNITS TOTAL) ON SHARED LOT/ 3 STORY/ NO GARAGE/ FLAT LOT/ PT MT SEPERATELY**13D DFS
-W/ 25-066671/73/75/86/88/700-RS W/ 25-066707-SD  *ADDED ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5182483_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-066675-000-00-RS
-Issued: 2026-03-27
-Address: 5131 SE ANKENY ST, PORTLAND, OR
-Contractor: 
-Valuation: 205098.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-066673-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 2 OF 6 UNIT TOWNHOUSES IN 2 BUILDINGS.(6 UNITS TOTAL) ON SHARED LOT/ 3 STORY/ NO GARAGE/ FLAT LOT/ PT MT SEPERATELY**13D DFS W/ 25-066671/73/75/86/88/700-RS W/ 25-066707-SD  *ADDED ELECTRICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5182481_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-066673-000-00-RS
-Issued: 2026-03-27
-Address: 5131 SE ANKENY ST, PORTLAND, OR
-Contractor: 
-Valuation: 188199.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-066671-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH NEW 1 OF 6 UNIT TOWNHOUSES IN 2 BUILDINGS.(6 UNITS TOTAL) ON SHARED LOT/ 3 STORY/ NO GARAGE/ FLAT LOT/ PT SEPERATELY**13D Sprinkler system DFS.
-W/ 25-066671/73/75/86/88/700-RS W/ 25-066707-SD  *ADDED ELECTRICAL AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5182479_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-066671-000-00-RS
-Issued: 2026-03-27
-Address: 5131 SE ANKENY ST, PORTLAND, OR
-Contractor: 
-Valuation: 201132.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2022-210713-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 2 OF 2 UNIT TOWNHOUSES (BLDG B) AND 3 UNIT TOWNHOUSES (BLDG A) ON SHARED LOT/BLDG A 3 STORY/BLDG B 2 STORY/NO GARAGE/FLAT LOT/COMPLEX/***ET, MT, PT PERMITS SEPARATE***/DEMO TO BE REQUIRED/W/22-210693 RS, 22-210700 RS, 22-210704 RS, 22-210706 RS, 22-210713 RS, 22-210716 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/4876649_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2022-210713-000-00-RS
-Issued: 2026-03-27
-Address: 404 NE 55TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 129747.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2022-210706-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 1 OF 2 UNIT TOWNHOUSES (BLDG B) AND 3 UNIT TOWNHOUSES (BLDG A) ON SHARED LOT/BLDG A 3 STORY/BLDG B 2 STORY/NO GARAGE/FLAT LOT/COMPLEX/***ET, MT, PT PERMITS SEPARATE***/DEMO TO BE REQUIRED/W/22-210693 RS, 22-210700 RS, 22-210704 RS, 22-210706 RS, 22-210713 RS, 22-210716 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/4876642_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2022-210706-000-00-RS
-Issued: 2026-03-27
-Address: 404 NE 55TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 129747.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2022-210704-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 3 OF 3 UNIT TOWNHOUSES (BLDG A) AND 2 UNIT TOWNHOUSES (BLDG B) ON SHARED LOT/BLDG A 3 STORY/BLDG B 2 STORY/NO GARAGE/FLAT LOT/COMPLEX/***ET, MT, PT PERMITS SEPARATE***/DEMO TO BE REQUIRED/W/22-210693 RS, 22-210700 RS, 22-210704 RS, 22-210706 RS, 22-210713 RS, 22-210716 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/4876640_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2022-210704-000-00-RS
-Issued: 2026-03-27
-Address: 404 NE 55TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 185870.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2022-210700-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 2 OF 3 UNIT TOWNHOUSES (BLDG A) AND 2 UNIT TOWNHOUSES (BLDG B) ON SHARED LOT/BLDG A 3 STORY/BLDG B 2 STORY/NO GARAGE/FLAT LOT/COMPLEX/***ET, MT, PT PERMITS SEPARATE***/DEMO TO BE REQUIRED/W/22-210693 RS, 22-210700 RS, 22-210704 RS, 22-210706 RS, 22-210713 RS, 22-210716 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/4876636_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2022-210700-000-00-RS
-Issued: 2026-03-27
-Address: 404 NE 55TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 182551.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2022-210693-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 1 OF 3 UNIT TOWNHOUSES (BLDG A) AND 2 UNIT TOWNHOUSES (BLDG B) ON SHARED LOT/BLDG A 3 STORY/BLDG B 2 STORY/NO GARAGE/FLAT LOT/COMPLEX/***ET, MT, PT PERMITS SEPARATE***/DEMO TO BE REQUIRED/W/22-210693 RS, 22-210700 RS, 22-210704 RS, 22-210706 RS, 22-210713 RS, 22-210716 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/4876629_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2022-210693-000-00-RS
-Issued: 2026-03-27
-Address: 404 NE 55TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 185870.0
-Units: 1</description>
-      <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-015809-000-00-co</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - Site infrastructure for 52-unit townhome development, including demolition, grading, utility installation, and new private driveways *** REVIEWED UNDER 24-080044-RS IN PDOX ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5016763_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 50
-Permit: 2024-015809-000-00-CO
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 3300505.6
+      <guid isPermaLink="false">OR|bend|prnc202508537</guid>
+      <title>[Bend] New construction 4 townhome units - Unit 4 - 831 SqFt, 2 bed, 2.5 bath
+Middle housing land division - PLLD20250629
+*no expired permits or special conditions*
+**COB Water**
+*needs addressing*
+Unit 1 - PRNC202508532  - all units reviewed under this application
+Unit 2 - PRNC202508534
+Unit 3- PRNC202508535
+Unit 4 - PRNC202508537</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202508537
+Issued: 2026-05-21
+Address: 463 NW NEWPORT AVE, BEND, OR 97703
+Contractor: 44 North Homes
+Valuation: 141175.79
 Units: </description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-080265-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 17/UNIT 17C/TYPE A2 - NEW 52 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083791_did/</link>
+      <guid isPermaLink="false">OR|bend|prnc202508535</guid>
+      <title>[Bend] New construction of 4 townhome units - Unit 3 - 831 Sq Ft - 2 bed, 2.5 bath
+Middle housing land division - PLLD20250629
+*no expired permits or special conditions*
+**COB Water**
+*needs addressing*
+Unit 1 - PRNC202508532  - all units reviewed under this application
+Unit 2 - PRNC202508534
+Unit 3-  PRNC202508535
+Unit 4 - PRNC202508537</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080265-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 273080.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+Score: 48
+Permit: PRNC202508535
+Issued: 2026-05-21
+Address: 459 NW NEWPORT AVE, BEND, OR 97703
+Contractor: 44 North Homes
+Valuation: 141175.79
+Units: </description>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2024-080262-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 17/UNIT 17B/TYPE A5 - NEW 51 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083788_did/</link>
+      <guid isPermaLink="false">OR|bend|prnc202508534</guid>
+      <title>[Bend] New construction of 4 townhome units - Unit 2 - 831 SqFt - 2 bed, 2.5 bath
+Middle housing land division - PLLD20250629
+*no expired permits or special conditions*
+**COB Water**
+*needs addressing*
+Unit 1 - PRNC202508532  - all units reviewed under this application
+Unit 2 - PRNC202508534
+Unit 3- PRNC202508535
+Unit 4 - PRNC202508537</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080262-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 353097.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-080260-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 17/UNIT 17A/TYPE D3 - NEW 50 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083786_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080260-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 190909.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-080256-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 16/UNIT 16D/TYPE A2 - NEW 49 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083782_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080256-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 285691.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-080251-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 16/UNIT 16C/TYPE A5 - NEW 48 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083777_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080251-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 350467.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-080247-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 16/UNIT 16B/TYPE A5 - NEW 47 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083772_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080247-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 350467.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-080237-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 16/UNIT 16A/TYPE A3 - NEW 46 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083762_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080237-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 285691.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-080234-000-00-rs</guid>
-      <title>[Portland] PHASE 1 - GOOSEBERRY TRAILS - BLDG 15/UNIT 15D/TYPE A3 - NEW 45 OF 52 TOWNHOUSES ON SHARED LOT (17 BUILDINGS TOTAL) - THREE STORY/ONE CAR GARAGE/SLOPED LOT/COMPLEX *** ET, MT, PT SEPARATE *** w/24-015809-CO and 24-080044/046/048/049/050/052/054/055/057/059/060/061/062/143/155/162/166/167/169/171/176/178/181/183/186/188/189/193/194/195/199/202/203/204/205/208/211/214/216/222/224/229/231/232/234/237/247/251/256/260/262/265-RS ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5083759_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2024-080234-000-00-RS
-Issued: 2026-03-26
-Address: 2374 SW VERMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 294000.0
-Units: 1</description>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+Score: 48
+Permit: PRNC202508534
+Issued: 2026-05-21
+Address: 455 NW NEWPORT AVE, BEND, OR 97703
+Contractor: 44 North Homes
+Valuation: 141175.79
+Units: </description>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

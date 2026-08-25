@@ -1,6 +1,174 @@
 {
-  "generated_at": "2026-08-25T16:46:21+00:00",
+  "generated_at": "2026-08-25T16:56:19+00:00",
   "builders": [
+    {
+      "contractor": "PAHLISCH HOMES",
+      "permits_90d": 32,
+      "single_family": 28,
+      "multifamily": 4,
+      "commercial": 0,
+      "combined_valuation": 12785831.95,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 19,
+      "single_family": 8,
+      "multifamily": 11,
+      "commercial": 0,
+      "combined_valuation": 3973804.93,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "D.R. HORTON",
+      "permits_90d": 18,
+      "single_family": 2,
+      "multifamily": 16,
+      "commercial": 0,
+      "combined_valuation": 5364970.91,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "Hayden Homes",
+      "permits_90d": 17,
+      "single_family": 4,
+      "multifamily": 13,
+      "commercial": 0,
+      "combined_valuation": 6889149.84,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 17,
+      "single_family": 17,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 6885335.63,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "Christiansen's Contracting Company (QC)",
+      "permits_90d": 14,
+      "single_family": 0,
+      "multifamily": 14,
+      "commercial": 0,
+      "combined_valuation": 6011623.55,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "MCD Homes LLC",
+      "permits_90d": 8,
+      "single_family": 7,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 3825663.63,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "HAYDEN HOMES LLC",
+      "permits_90d": 7,
+      "single_family": 2,
+      "multifamily": 5,
+      "commercial": 0,
+      "combined_valuation": 2270938.12,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "Deschutes Custom Homes LLC",
+      "permits_90d": 7,
+      "single_family": 1,
+      "multifamily": 6,
+      "commercial": 0,
+      "combined_valuation": 2223531.54,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 6,
+      "single_family": 6,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2942589.4,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "DR Horton, Inc",
+      "permits_90d": 6,
+      "single_family": 5,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 2246316.9,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "CS CONSTRUCTION",
+      "permits_90d": 4,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 3,
+      "combined_valuation": 3880000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "Heritage Homes of Mollala",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1908417.81,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "HIVE DEVELOPMENT LLC",
+      "permits_90d": 4,
+      "single_family": 1,
+      "multifamily": 3,
+      "commercial": 0,
+      "combined_valuation": 1553284.27,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
     {
       "contractor": "LENNAR NORTHWEST LLC",
       "permits_90d": 4,
@@ -26,6 +194,198 @@
       "top_score": 53
     },
     {
+      "contractor": "Fusion Home Builders",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1295267.24,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "CURTIS HOMES LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1214604.24,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "PALMER HOMES",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 928383.02,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "Solaire Residential LLC",
+      "permits_90d": 2,
+      "single_family": 1,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 904986.5700000001,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "Momentasize Construction Inc.",
+      "permits_90d": 2,
+      "single_family": 1,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 825002.25,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "ADAIR HOMES INC.",
+      "permits_90d": 2,
+      "single_family": 0,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 731064.02,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "WOOD HILL HOMES INC",
+      "permits_90d": 2,
+      "single_family": 1,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 621508.52,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "H & B Developers",
+      "permits_90d": 2,
+      "single_family": 0,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 449527.96,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "Lease Crutcher Lewis, LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 23851467.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 63
+    },
+    {
+      "contractor": "Stilson Builders",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 8420117.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "SUNWEST BUILDERS",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 2250000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "EMPIRE CONSTRUCTION & DEV",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 1950670.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "FOREST CITY MADE LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 1700000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 58
+    },
+    {
+      "contractor": "KELLCON INC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 1082806.54,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "KELLCON",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 810000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 43
+    },
+    {
+      "contractor": "HH PARKSIDE PLACE LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 737016.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
       "contractor": "DC EUGENE",
       "permits_90d": 1,
       "single_family": 1,
@@ -34,6 +394,18 @@
       "combined_valuation": 693909.79,
       "jurisdictions": [
         "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "NORTHWEST MOUNTAIN BUILDERS",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 688445.48,
+      "jurisdictions": [
+        "Bend"
       ],
       "top_score": 28
     },
@@ -48,6 +420,18 @@
         "Eugene"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "Arrowood Development, LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 613859.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 43
     },
     {
       "contractor": "NNI CONSTRUCTION CO",
@@ -74,6 +458,42 @@
       "top_score": 53
     },
     {
+      "contractor": "EVOLVE BUILDING & DEVELOPMENT",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 543240.96,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "STRUCTURE DEVELOPMENT NW LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 513878.52,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "THIRD GENERATION CONTRUCTION",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 500514.16,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "BCE INC",
       "permits_90d": 1,
       "single_family": 0,
@@ -84,6 +504,66 @@
         "Eugene"
       ],
       "top_score": 38
+    },
+    {
+      "contractor": "Lennar Northwest, LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 475351.7,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "Heritage Homes of Molalla",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 464542.72,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "Skylight Homebuilders, Inc.",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 402575.73,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "S & L CONSTRUCTION LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 375000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "JF Homes",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 368863.2,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "HARVEY & PRICE CO",
@@ -108,6 +588,42 @@
         "Eugene"
       ],
       "top_score": 38
+    },
+    {
+      "contractor": "Red River Remodel and Construction",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 300327.44,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "Tumalo Construction LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 277016.67,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "Bonaventure Community Construction",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 225000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "A BETTER COMMUNITY LLC",
@@ -144,6 +660,18 @@
         "Eugene"
       ],
       "top_score": 38
+    },
+    {
+      "contractor": "Rainbow Restoration (International) of Central Oregon",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 150000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "TRAYLORS CONSTRUCTION LLC",
@@ -206,7 +734,7 @@
       "top_score": 23
     },
     {
-      "contractor": "WOODSTONE STRUCTURES",
+      "contractor": "NEIL KELLY COMPANY",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
@@ -218,7 +746,7 @@
       "top_score": 23
     },
     {
-      "contractor": "NEIL KELLY COMPANY",
+      "contractor": "WOODSTONE STRUCTURES",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
@@ -264,6 +792,30 @@
         "Eugene"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "OZLAND GENERAL CONTRACTING LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 10000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "Hugo Davila",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 6000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 38
     },
     {
       "contractor": "STONEWOOD CONSTRUCTION",
@@ -312,6 +864,18 @@
         "Eugene"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "OREGON BUILDERS DEVELOPERS LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     }
   ]
 }
