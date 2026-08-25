@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Inspect Beaverton CIVICS public portal
+      - name: Map Beaverton CIVICS public API routes
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
@@ -28,25 +28,36 @@ jobs:
           base='https://prod.buildinginbeaverton.org/'
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
-          for path in ['', 'lookup-record']:
-              r=s.get(urljoin(base,path),timeout=60)
-              print('PAGE',path or '/',r.status_code,r.url,'LEN',len(r.text),'CTYPE',r.headers.get('content-type'))
-              r.raise_for_status()
-              soup=BeautifulSoup(r.text,'html.parser')
-              scripts=[urljoin(r.url,x.get('src')) for x in soup.find_all('script',src=True)]
-              print('SCRIPTS',len(scripts))
-              for u in scripts: print('SCRIPT',u)
-              if path=='lookup-record':
-                  needles=['lookup-record','record-details','intdetails','api/','search','public record','Application Number','permit']
-                  for u in scripts:
-                      try:
-                          js=s.get(u,timeout=60)
-                          if js.status_code!=200 or len(js.text)>15000000: continue
-                          for needle in needles:
-                              p=js.text.lower().find(needle.lower())
-                              if p>=0:
-                                  snippet=re.sub(r'\s+',' ',js.text[max(0,p-220):p+500])
-                                  print('HIT',needle,u,snippet)
-                      except Exception as e:
-                          print('SCRIPT_FAIL',u,type(e).__name__,str(e))
+          page=s.get(urljoin(base,'lookup-record'),timeout=60)
+          print('LOOKUP',page.status_code,page.url,'LEN',len(page.text))
+          page.raise_for_status()
+          soup=BeautifulSoup(page.text,'html.parser')
+          scripts=[urljoin(page.url,x.get('src')) for x in soup.find_all('script',src=True)]
+          routes=set()
+          interesting=[]
+          for u in scripts:
+              try:
+                  r=s.get(u,timeout=60)
+                  if r.status_code!=200 or len(r.text)>18000000:
+                      continue
+                  text=r.text
+                  for m in re.finditer(r'["\']([^"\']*(?:/delegate/civics-api/api/|civics-api/api/)[^"\']*)["\']',text):
+                      value=m.group(1)
+                      if len(value)<500:
+                          routes.add(value)
+                  for needle in ['InstrumentListView','instrument-list','instrumentList','instruments','queryParameters','filterOptions','publicSearch','searchCriteria']:
+                      p=text.find(needle)
+                      if p>=0:
+                          interesting.append((needle,u,re.sub(r'\s+',' ',text[max(0,p-300):p+900])))
+              except Exception as e:
+                  print('SCRIPT_FAIL',u,type(e).__name__,str(e))
+          print('ROUTES',len(routes))
+          for x in sorted(routes):
+              print('ROUTE',x)
+          for needle,u,snippet in interesting[:30]:
+              print('CONTEXT',needle,u,snippet)
+
+          auth=s.get(urljoin(base,'delegate/civics-api/api/anonymous/auth'),headers={'Referer':page.url,'Accept':'application/json, text/plain, */*'},timeout=60)
+          print('AUTH',auth.status_code,auth.headers.get('content-type'),'LEN',len(auth.text),'BODY',' '.join(auth.text[:1200].split()))
+          print('COOKIES',[(c.name,c.domain,c.path) for c in s.cookies])
           PY
