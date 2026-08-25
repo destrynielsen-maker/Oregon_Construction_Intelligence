@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests beautifulsoup4
-      - name: Trace Hillsboro processing-status JavaScript
+      - name: Trace Hillsboro processing status in search session
         shell: bash
         run: |
           set -euo pipefail
@@ -23,31 +23,44 @@ jobs:
           from urllib.parse import urljoin
           import re, requests
           from bs4 import BeautifulSoup
-          URL='https://aca-prod.accela.com/HILLSBORO/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=003YO&agencyCode=HILLSBORO&IsToShowInspection='
+          BASE='https://aca-prod.accela.com/HILLSBORO/'
+          SEARCH=urljoin(BASE,'Cap/CapHome.aspx?TabName=Building&module=Building')
+          DETAIL=urljoin(BASE,'Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=003YO&agencyCode=HILLSBORO&IsToShowInspection=')
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
           s=requests.Session();s.headers.update({'User-Agent':UA})
-          r=s.get(URL,timeout=90);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
+          init=s.get(SEARCH,timeout=90);init.raise_for_status()
+          r=s.get(DETAIL,headers={'Referer':SEARCH},timeout=90);r.raise_for_status();page=r.text;soup=BeautifulSoup(page,'html.parser')
+          print('DETAIL_BYTES',len(r.content),'COOKIES',[(c.name,c.domain) for c in s.cookies])
+          print('PROCESSING_CONTAINER',bool(soup.find(id='tab-processing_status')))
+          for key in ['tab-processing_status','processing_status','Processing Status','processstatus','workflow','capID1','IsToShowInspection']:
+              hits=list(re.finditer(re.escape(key),page,re.I))
+              print('\nKEY',key,'HITS',len(hits))
+              for m in hits[:25]:
+                  a=max(0,m.start()-900);b=min(len(page),m.end()+2200)
+                  print(page[a:b].replace('\n',' ')[:3100])
+          print('\nRELEVANT TAGS')
+          for tag in soup.find_all(id=re.compile(r'(processing|process|workflow|status)',re.I)):
+              print(str(tag)[:4500])
+          print('\nBUTTON/LINK ATTRS')
+          for tag in soup.find_all(['a','input','button','div','span']):
+              attrs=' '.join(f'{k}={v}' for k,v in tag.attrs.items())
+              txt=' '.join(tag.stripped_strings)
+              if re.search(r'(processing|workflow|record status|process status)',attrs+' '+txt,re.I):
+                  print(tag.name,attrs[:1600],'=>',repr(txt[:1000]))
           srcs=[]
           for script in soup.find_all('script',src=True):
-              u=urljoin(URL,script['src'])
+              u=urljoin(DETAIL,script['src'])
               if u not in srcs:srcs.append(u)
-          print('SCRIPT_COUNT',len(srcs))
-          keys=re.compile(r'(processing[_ -]?status|processingstatus|workflow|process status|capdetail|record status|load.*status|get.*status)',re.I)
+          keys=re.compile(r'(processing[_ -]?status|processingstatus|workflow|process status|tab-processing_status|capdetail|IsToShowInspection)',re.I)
           for idx,u in enumerate(srcs):
               try:
-                  rr=s.get(u,headers={'Referer':URL},timeout=90);rr.raise_for_status();text=rr.text
+                  rr=s.get(u,headers={'Referer':DETAIL},timeout=90);rr.raise_for_status();text=rr.text
               except Exception as exc:
                   print('FETCH_FAIL',u,type(exc).__name__,exc);continue
               hits=list(keys.finditer(text))
               if not hits:continue
-              print('\n=== SCRIPT',idx,u,'BYTES',len(rr.content),'HITS',len(hits),'===')
-              for m in hits[:80]:
-                  a=max(0,m.start()-900);b=min(len(text),m.end()+1800)
-                  context=text[a:b].replace('\n',' ')
-                  print('CTX',context[:2700])
-          # Also expose inline code around the actual tab identifier and any AJAX URLs.
-          page=r.text
-          print('\n=== INLINE AJAX/PROCESSING ===')
-          pat=re.compile(r'.{0,1000}(?:tab-processing_status|processing[_ -]?status|ajax[^\"\']*|webservice[^\"\']*).{0,1800}',re.I|re.S)
-          for m in list(pat.finditer(page))[:60]:print(m.group(0).replace('\n',' ')[:2800])
+              print('\nSCRIPT',idx,u,'BYTES',len(rr.content),'HITS',len(hits))
+              for m in hits[:100]:
+                  a=max(0,m.start()-1000);b=min(len(text),m.end()+2400)
+                  print(text[a:b].replace('\n',' ')[:3400])
           PY
