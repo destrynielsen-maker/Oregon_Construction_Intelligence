@@ -1,4 +1,4 @@
-name: Beaverton source probe
+name: Beaverton branch validation
 
 on:
   push:
@@ -8,56 +8,70 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: beaverton-branch-validation
+  cancel-in-progress: true
+
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests
-      - name: Test native Beaverton CIVICS query filters
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run unit tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Validate live production Beaverton collector
+        env:
+          PYTHONPATH: src
         run: |
           python - <<'PY'
-          from urllib.parse import urljoin
-          import requests
+          from collections import Counter
+          from datetime import date, timedelta
 
-          base='https://prod.buildinginbeaverton.org/'
-          api=urljoin(base,'delegate/civics-api/api/')
-          lookup=urljoin(base,'lookup-record')
-          s=requests.Session()
-          s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
-          s.get(lookup,timeout=20).raise_for_status()
-          a=s.get(urljoin(api,'anonymous/auth'),headers={'Referer':lookup,'Accept':'application/json'},timeout=20)
-          print('AUTH',a.status_code); a.raise_for_status()
-          headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'}
-          base_params={'Page':'[{Max:10,Start:1}]','OrderBy':'[{Property:IssuedDateTime,Direction:Desc}]'}
+          from oregon_permits.classify import classify_permit
+          from oregon_permits.collectors.beaverton import BeavertonCollector
 
-          attempts=[
-              ('ApplicationTypeId',{'ApplicationTypeId':'1013'}),
-              ('ApplicationTypeCode',{'ApplicationTypeCode':'R'}),
-              ('ApplicationType',{'ApplicationType':'R'}),
-              ('WorkType',{'WorkType':'HouseOrAdu'}),
-              ('Fields',{'Fields':'id,applicationNumber,applicationName,issuedDateTime,status,statusDescription,processState,workType,workTypeDescription,occupancyType,occupancyTypeDescription,declaredValuation,squareFootage,comments,locationLine1,locationLine2,applicationType'}),
-          ]
-          for label,extra in attempts:
-              params=dict(base_params); params.update(extra)
-              try:
-                  r=s.get(urljoin(api,'cdr/applications/building'),params=params,headers=headers,timeout=25)
-                  print('TRY',label,'STATUS',r.status_code,'LEN',len(r.text))
-                  if r.status_code!=200:
-                      print('BODY',label,' '.join(r.text[:800].split())); continue
-                  rows=r.json().get('data') or []
-                  codes=[]; works=[]
-                  for x in rows:
-                      at=x.get('applicationType') if isinstance(x,dict) else None
-                      codes.append(at.get('code') if isinstance(at,dict) else None)
-                      works.append(x.get('workType') if isinstance(x,dict) else None)
-                  print('CODES',label,codes)
-                  print('WORKS',label,works)
-                  if rows:
-                      print('ROW_KEYS',label,sorted(rows[0].keys()))
-              except Exception as exc:
-                  print('FAIL',label,type(exc).__name__,str(exc))
+          collector=BeavertonCollector()
+          result=collector.collect()
+          today=date.today()
+          cutoff=today-timedelta(days=collector.lookback_days)
+          permits=result.permits
+          invalid=[]
+          for p in permits:
+              classify_permit(p)
+              issued=date.fromisoformat(p.issued_date)
+              raw=p.raw or {}
+              if not p.qualifies:
+                  invalid.append((p.permit_number,'not_qualifying',p.classification))
+              if issued>today or issued<cutoff:
+                  invalid.append((p.permit_number,'date',p.issued_date))
+              if raw.get('application_type_code') not in {'C','MF','R'}:
+                  invalid.append((p.permit_number,'type',raw.get('application_type_code')))
+              if raw.get('work_type_code') not in {'HouseOrAdu','NewCon'}:
+                  invalid.append((p.permit_number,'work',raw.get('work_type_code')))
+
+          print('SOURCE',result.source)
+          print('LOOKBACK_DAYS',collector.lookback_days)
+          print('CANDIDATES',len(permits))
+          print('CLASSIFICATIONS',dict(Counter(p.classification for p in permits)))
+          print('TYPES',dict(Counter((p.raw or {}).get('application_type_code') for p in permits)))
+          print('WORK_TYPES',dict(Counter((p.raw or {}).get('work_type_code') for p in permits)))
+          print('NEWEST',max((p.issued_date for p in permits),default=None))
+          print('OLDEST',min((p.issued_date for p in permits),default=None))
+          print('WITH_CONTRACTOR',sum(1 for p in permits if p.contractor))
+          print('INVALID',invalid)
+          print('NOTE',result.note)
+          for p in sorted(permits,key=lambda x:x.issued_date,reverse=True)[:25]:
+              print('PERMIT',p.permit_number,p.issued_date,p.classification,repr(p.contractor),repr(p.project_name),repr(p.address))
+
+          if not permits:
+              raise SystemExit('Beaverton production collector returned zero issued new-construction permits')
+          if invalid:
+              raise SystemExit(f'Beaverton production invariants failed: {invalid}')
           PY
