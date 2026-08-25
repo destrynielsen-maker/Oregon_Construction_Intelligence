@@ -21,10 +21,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Map Gresham EnerGov anonymous module filters
+      - name: Inspect recent issued Gresham permits
         run: |
           python - <<'PY'
           import copy
+          from collections import Counter
           import requests
 
           base = "https://greshamor-energovweb.tylerhost.net/apps/SelfService/"
@@ -43,45 +44,73 @@ jobs:
           }
 
           session.get(base, timeout=60).raise_for_status()
-          c = session.get(base + "api/energov/search/criteria", headers=tenant, timeout=60)
-          c.raise_for_status()
-          template = c.json()["Result"]
-          url = base + "api/energov/search/search"
+          criteria = session.get(base + "api/energov/search/criteria", headers=tenant, timeout=60)
+          criteria.raise_for_status()
+          body = copy.deepcopy(criteria.json()["Result"])
+          body["SearchModule"] = 1
+          body["FilterModule"] = 2
+          body["PageNumber"] = 1
+          body["PageSize"] = 100
+          body["Keyword"] = ""
+          body["ExactMatch"] = False
+          permit = body["PermitCriteria"]
+          permit["IssueDateFrom"] = "07/01/2026"
+          permit["IssueDateTo"] = "08/25/2026"
+          permit["PageNumber"] = 1
+          permit["PageSize"] = 100
+          body["SortBy"] = "IssueDate"
+          body["SortAscending"] = False
+          permit["SortBy"] = "IssueDate"
+          permit["SortAscending"] = False
 
-          for module in range(0, 12):
-              body = copy.deepcopy(template)
-              body["SearchModule"] = 1
-              body["FilterModule"] = module
-              body["PageNumber"] = 1
-              body["PageSize"] = 3
-              body["Keyword"] = ""
-              body["ExactMatch"] = False
-              r = session.post(url, headers=tenant, json=body, timeout=90)
-              if r.status_code != 200:
-                  print("MODULE", module, "STATUS", r.status_code, "BODY", " ".join(r.text[:300].split()))
-                  continue
-              data = r.json()
-              result = data.get("Result")
-              if not isinstance(result, dict):
-                  print("MODULE", module, "RESULT", result, "MESSAGE", data.get("Message"))
-                  continue
+          r = session.post(base + "api/energov/search/search", headers=tenant, json=body, timeout=120)
+          print("POST", r.status_code, r.headers.get("content-type"), "LEN", len(r.text))
+          r.raise_for_status()
+          result = r.json().get("Result") or {}
+          rows = result.get("EntityResults") or []
+          print("TOTAL", result.get("TotalFound"), "PERMITS_FOUND", result.get("PermitsFound"), "ROWS", len(rows), "TOTAL_PAGES", result.get("TotalPages"))
+
+          types = Counter((x.get("CaseType") or "").strip() for x in rows)
+          workclasses = Counter((x.get("CaseWorkclass") or "").strip() for x in rows)
+          statuses = Counter((x.get("CaseStatus") or "").strip() for x in rows)
+          print("TOP_TYPES", types.most_common(25))
+          print("TOP_WORKCLASSES", workclasses.most_common(25))
+          print("TOP_STATUSES", statuses.most_common(20))
+
+          newish=[]
+          for x in rows:
+              text = " ".join(str(x.get(k) or "") for k in ("CaseType", "CaseWorkclass", "ProjectName", "Description"))
+              if "new" in text.lower() or "single family" in text.lower() or "multifamily" in text.lower():
+                  newish.append(x)
+          print("NEWISH_COUNT", len(newish))
+          for x in newish[:30]:
               print(
-                  "MODULE", module,
-                  "TOTAL", result.get("TotalFound"),
-                  "PERMITS", result.get("PermitsFound"),
-                  "PLANS", result.get("PlansFound"),
-                  "BUSINESS", result.get("BusinessLicensesFound"),
-                  "CODE", result.get("CodeCasesFound"),
-                  "INSPECTIONS", result.get("InspectionsFound"),
+                  "NEWISH",
+                  x.get("CaseNumber"),
+                  "TYPE", repr(x.get("CaseType")),
+                  "WORKCLASS", repr(x.get("CaseWorkclass")),
+                  "STATUS", repr(x.get("CaseStatus")),
+                  "ISSUE", x.get("IssueDate"),
+                  "APPLY", x.get("ApplyDate"),
+                  "ADDRESS", repr(x.get("AddressDisplay")),
+                  "PROJECT", repr(x.get("ProjectName")),
+                  "DESC", repr((x.get("Description") or "")[:300]),
+                  "ID", x.get("CaseId"),
               )
-              for item in (result.get("EntityResults") or [])[:3]:
-                  print(
-                      "ITEM", module,
-                      "MODULE_NAME", item.get("ModuleName"),
-                      "NUMBER", item.get("CaseNumber"),
-                      "TYPE", item.get("CaseType"),
-                      "WORKCLASS", item.get("CaseWorkclass"),
-                      "STATUS", item.get("CaseStatus"),
-                      "ISSUE", item.get("IssueDate"),
-                  )
+
+          for x in rows[:20]:
+              print(
+                  "ROW",
+                  x.get("CaseNumber"),
+                  "TYPE", repr(x.get("CaseType")),
+                  "WORKCLASS", repr(x.get("CaseWorkclass")),
+                  "STATUS", repr(x.get("CaseStatus")),
+                  "ISSUE", x.get("IssueDate"),
+                  "ADDRESS", repr(x.get("AddressDisplay")),
+              )
+
+          if not rows:
+              raise SystemExit("No recent Gresham permit rows returned")
+          if any(x.get("ModuleName") != 2 for x in rows):
+              raise SystemExit("Gresham permit module filter leaked non-permit rows")
           PY
