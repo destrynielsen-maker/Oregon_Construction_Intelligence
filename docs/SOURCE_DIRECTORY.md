@@ -10,8 +10,8 @@ This list separates **issued building permits** from **earlier planning/developm
 | Portland | https://www.portlandmaps.com/reports/index.cfm?action=co-issued | Commercial issued building-permit report for rep browsing/export. |
 | Portland | https://www.portlandmaps.com/reports/index.cfm?action=rs-intake | Residential permit applications received; earlier sales signal than issuance. |
 | Portland | https://www.portlandmaps.com/reports/index.cfm?action=co-intake | Commercial permit applications received; earlier sales signal than issuance. |
-| Eugene | https://pdd.eugene-or.gov/buildingpermits/permitsearch | Permit Record Search by permit, person/business, project, address, contractor, map/tax lot. |
-| Eugene | https://pdd.eugene-or.gov/buildingpermits | Building Activity Reports and online building-permit services. |
+| Eugene | https://pdd.eugene-or.gov/buildingpermits/permitreports | Official Building Activity Reports. Production automation uses the public Issued Building Permits Excel export; reps can also run submitted-permit and dwelling-unit reports here. |
+| Eugene | https://pdd.eugene-or.gov/buildingpermits/permitsearch | Permit Record Search by permit, person/business, project, address, contractor, map/tax lot. Use for project and contractor detail. |
 | Salem | https://permits.cityofsalem.net/ | Public PAC portal: search permits, licenses and land-use actions. |
 | Bend | https://bendoregon.gov/services/permits-licenses/developers-and-contractors/ | Online Permit Center, permit lookup, open data and development tools. |
 | Hillsboro | https://www.hillsboro-oregon.gov/services/permitting-center | OpenHillsboro permit portal for building, planning, fire, right-of-way and major projects. |
