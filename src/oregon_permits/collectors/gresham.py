@@ -56,7 +56,7 @@ class GreshamCollector:
         if not isinstance(template, dict) or not isinstance(template.get("PermitCriteria"), dict):
             raise RuntimeError("Gresham EnerGov criteria schema changed")
 
-        today = date.today()
+        today = self._today()
         cutoff = today - timedelta(days=self.lookback_days)
         permits: dict[str, Permit] = {}
         saw_usable_page = False
@@ -211,6 +211,10 @@ class GreshamCollector:
                 "module_name": row.get("ModuleName"),
             },
         )
+
+    @staticmethod
+    def _today() -> date:
+        return date.today()
 
     @staticmethod
     def _text(value) -> str:
