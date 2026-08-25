@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:08:01+00:00",
+  "generated_at": "2026-08-25T20:07:46+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -16,8 +16,8 @@
     {
       "contractor": "SIMPLICITY HOMES LLC",
       "permits_90d": 19,
-      "single_family": 8,
-      "multifamily": 11,
+      "single_family": 4,
+      "multifamily": 15,
       "commercial": 0,
       "combined_valuation": 3973804.93,
       "jurisdictions": [
