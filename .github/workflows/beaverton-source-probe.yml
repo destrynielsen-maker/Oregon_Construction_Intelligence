@@ -16,53 +16,55 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests
-      - name: Probe bounded Beaverton CIVICS Building search
+      - run: pip install requests beautifulsoup4
+      - name: Map Beaverton CIVICS paging schema
         run: |
           python - <<'PY'
-          from urllib.parse import urljoin, quote
+          from urllib.parse import urljoin, urlencode
+          import json
+          import re
           import requests
+          from bs4 import BeautifulSoup
 
           base='https://prod.buildinginbeaverton.org/'
           api=urljoin(base,'delegate/civics-api/api/')
+          lookup=urljoin(base,'lookup-record')
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
-          lookup=urljoin(base,'lookup-record')
-          s.get(lookup,timeout=20).raise_for_status()
-          auth=s.get(urljoin(api,'anonymous/auth'),headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'},timeout=20)
-          print('AUTH',auth.status_code,' '.join(auth.text[:250].split()))
-          auth.raise_for_status()
+          page=s.get(lookup,timeout=20); page.raise_for_status()
+          auth=s.get(urljoin(api,'anonymous/auth'),headers={'Referer':lookup,'Accept':'application/json'},timeout=20)
+          print('AUTH',auth.status_code,' '.join(auth.text[:250].split())); auth.raise_for_status()
           headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'}
 
-          for name in [
-              'rhythmcivicsInstrumentListViewportlet',
-              'rhythmcivicsInstrumentListViewportlet_WAR_rhythmcivicsInstrumentListViewportlet',
-          ]:
-              path='portlet/configuration?portletName='+quote(name,safe='')
-              try:
-                  r=s.get(urljoin(api,path),headers=headers,timeout=20)
-                  print('CONFIG',name,r.status_code,'LEN',len(r.text),'BODY',' '.join(r.text[:5000].split()))
-              except Exception as e:
-                  print('CONFIG_FAIL',name,type(e).__name__,str(e))
+          types=s.get(urljoin(api,'cdr/applicationtypes/Building'),headers=headers,timeout=20)
+          print('TYPES_STATUS',types.status_code,'LEN',len(types.text)); types.raise_for_status()
+          data=(types.json().get('data') or [])
+          for x in data:
+              print('TYPE',x.get('id'),x.get('instrumentTypeID'),repr(x.get('code')),repr(x.get('description')),x.get('isPublic'),x.get('showInPortal'))
 
-          for path in ['cdr/applicationtypes/Building','cdr/applicationtypes/building']:
-              try:
-                  r=s.get(urljoin(api,path),headers=headers,timeout=20)
-                  print('TYPES',path,r.status_code,'LEN',len(r.text),'BODY',' '.join(r.text[:7000].split()))
-              except Exception as e:
-                  print('TYPES_FAIL',path,type(e).__name__,str(e))
+          soup=BeautifulSoup(page.text,'html.parser')
+          scripts=[urljoin(page.url,x.get('src')) for x in soup.find_all('script',src=True)]
+          target=next((u for u in scripts if 'InstrumentListView-portlet' in u),None)
+          if target:
+              text=s.get(target,timeout=30).text
+              for needle in ['buildFilterPage:', 'buildFilterPage =', 'buildFilterPage(', 'setPage:', 'setPage =', 'setPage(', 'buildTypeFilter:', 'buildTypeFilter =', 'buildTypeFilter(']:
+                  p=text.find(needle)
+                  if p>=0:
+                      print('BUNDLE_CTX',needle,re.sub(r'\s+',' ',text[max(0,p-1200):p+2600]))
 
-          filters=[
-              'Page=1,10&OrderBy=InstrumentDateTime%20desc&FilterString=%5B%7Bproperty%3AInstrumentType%2Cvalue%3ABuilding%2Coperator%3AEqual%7D%5D',
-              'Page=1,10&OrderBy=InstrumentDateTime%20desc&ExtendedFilter=%5B%7Boperator%3AEqual%2Cproperty%3AInstrumentType%2Cvalue%3ABuilding%7D%5D',
-              'Page=1,10&FilterString=%5B%7Bproperty%3AInstrumentType%2Cvalue%3ABuilding%7D%5D',
-              'Page=1,10&Filter=Building',
+          page_values=[
+              {'page':1,'pageSize':10},
+              {'pageNumber':1,'pageSize':10},
+              {'PageNumber':1,'PageSize':10},
+              {'page':1,'max':10},
+              {'number':1,'size':10},
           ]
-          for qs in filters:
-              path='core/views/instruments?'+qs
+          for val in page_values:
+              params={'Page':json.dumps(val,separators=(',',':')),'OrderBy':'InstrumentDateTime desc'}
+              url=urljoin(api,'core/views/instruments')+'?'+urlencode(params)
               try:
-                  r=s.get(urljoin(api,path),headers=headers,timeout=20)
-                  print('SEARCH',qs,'STATUS',r.status_code,'CTYPE',r.headers.get('content-type'),'LEN',len(r.text),'BODY',' '.join(r.text[:9000].split()))
+                  r=s.get(url,headers=headers,timeout=15)
+                  print('PAGE_TRY',val,'STATUS',r.status_code,'LEN',len(r.text),'BODY',' '.join(r.text[:2500].split()))
               except Exception as e:
-                  print('SEARCH_FAIL',qs,type(e).__name__,str(e))
+                  print('PAGE_FAIL',val,type(e).__name__,str(e))
           PY
