@@ -1,0 +1,42 @@
+name: Oregon Gresham full validation
+on:
+  push:
+    branches: [expand-oregon-gresham]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Full Oregon pipeline
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m oregon_permits.main
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('public/data/sources.json').read_text())['sources']
+          p=json.loads(Path('public/data/permits.json').read_text())['permits']
+          names=[x['source'] for x in s]
+          print('SOURCES', names)
+          for x in s: print(x['source'], x['technical_status'], x['records_seen'], x['qualifying_records'], x['newest_permit_date'])
+          print('GRESHAM_STORED', sum(1 for x in p if x['jurisdiction']=='Gresham'))
+          print('JURISDICTIONS', sorted({x['jurisdiction'] for x in p}))
+          if names != ['Portland','Eugene','Bend','Hillsboro','Gresham']: raise SystemExit('registry mismatch')
+          if any(x['technical_status']!='ok' for x in s): raise SystemExit('collector failure')
+          g=next(x for x in s if x['source']=='Gresham')
+          if g['qualifying_records'] <= 0: raise SystemExit('no qualifying Gresham records')
+          if not any(x['jurisdiction']=='Gresham' and x['qualifies'] for x in p): raise SystemExit('Gresham missing from output')
+          for f in ['new-construction.xml','multifamily.xml','single-family.xml','commercial.xml','top-opportunities.xml']:
+              if not (Path('public/feeds')/f).exists(): raise SystemExit('missing feed '+f)
+          PY
