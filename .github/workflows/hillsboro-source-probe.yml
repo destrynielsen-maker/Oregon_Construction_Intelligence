@@ -15,102 +15,49 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests beautifulsoup4
-      - name: Navigate Hillsboro result to rich detail and status history
+      - name: Inspect Hillsboro inspection-history permit API
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          from datetime import date,timedelta
           from urllib.parse import urljoin
-          from collections import Counter
           import re, requests
           from bs4 import BeautifulSoup
 
-          BASE='https://aca-prod.accela.com/HILLSBORO/'
-          SEARCH=urljoin(BASE,'Cap/CapHome.aspx?TabName=Building&module=Building')
+          BASE='https://inspections.hillsboro-oregon.gov/'
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
           s=requests.Session();s.headers.update({'User-Agent':UA})
-
-          def controls(soup):
-              f=soup.find('form',id='aspnetForm')
-              if not f: raise RuntimeError('aspnetForm missing')
-              p={}
-              for i in f.find_all('input'):
-                  n=i.get('name'); t=(i.get('type') or 'text').lower()
-                  if not n or t in {'submit','button','image','file'}: continue
-                  if t in {'checkbox','radio'} and not i.has_attr('checked'): continue
-                  p[n]=i.get('value','')
-              for ta in f.find_all('textarea'):
-                  if ta.get('name'): p[ta['name']]=ta.get_text()
-              for sel in f.find_all('select'):
-                  if not sel.get('name'): continue
-                  o=sel.find('option',selected=True) or sel.find('option')
-                  p[sel['name']]=o.get('value','') if o else ''
-              return p
-
-          def postback(url,soup,target):
-              p=controls(soup);p['__EVENTTARGET']=target;p['__EVENTARGUMENT']=''
-              rr=s.post(url,data=p,headers={'Referer':url,'Origin':'https://aca-prod.accela.com'},timeout=120)
-              rr.raise_for_status();return rr,BeautifulSoup(rr.text,'html.parser')
-
-          def rows(soup):
-              t=soup.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList');out=[]
-              if not t:return out
-              for tr in t.find_all('tr'):
-                  a=tr.find('a',id=re.compile(r'_hlPermitNumber$'))
-                  if not a:continue
-                  def v(sfx):
-                      x=tr.find(id=re.compile(re.escape(sfx)+r'$'));return ' '.join(x.stripped_strings) if x else ''
-                  out.append({'date':v('_lblUpdatedTime'),'number':' '.join(a.stripped_strings),'type':v('_lblType'),
-                              'description':v('_lblDescription'),'project':v('_lblProjectName'),'status':v('_lblStatus'),
-                              'address':v('_lblPermitAddress'),'href':a.get('href',''),'url':urljoin(SEARCH,a.get('href',''))})
-              return out
-
-          r=s.get(SEARCH,timeout=90);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
-          p=controls(soup);today=date.today();start=today-timedelta(days=21)
-          p['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch';p['__EVENTARGUMENT']=''
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']=start.strftime('%m/%d/%Y')
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']=today.strftime('%m/%d/%Y')
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState']=''
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState']=''
-          rr=s.post(SEARCH,data=p,headers={'Referer':SEARCH,'Origin':'https://aca-prod.accela.com'},timeout=120);rr.raise_for_status();soup=BeautifulSoup(rr.text,'html.parser')
-          allrows=[]
-          for page in range(1,16):
-              rs=rows(soup);allrows.extend(rs);print('PAGE',page,'ROWS',len(rs),'STATUS',dict(Counter(x['status'] for x in rs)))
-              nxt=next((a for a in soup.find_all('a',href=True) if ' '.join(a.stripped_strings)=='Next >'),None)
-              if not nxt:break
-              m=re.search(r"__doPostBack\('([^']+)'",nxt['href'])
-              if not m:break
-              _,soup=postback(SEARCH,soup,m.group(1))
-
-          candidates=[x for x in allrows if ('Structural Permit' in x['type'] and x['status'] in {'Inspection Phase','Issued','Closed - Complete','Active'})]
-          generic=[x for x in allrows if x['status']=='Issued']
-          print('CANDIDATES',len(candidates));[print(' CAND',x) for x in candidates[:12]]
-          if generic: print('GENERIC_ISSUED',generic[0])
-          samples=candidates[:4] + ([generic[0]] if generic and generic[0] not in candidates else [])
-          if not samples: raise SystemExit('no post-issue samples')
-
-          for item in samples:
-              # Exact href returned by live search; same session, referer is search result page.
-              d=s.get(item['url'],headers={'Referer':SEARCH},timeout=90,allow_redirects=True);d.raise_for_status();ds=BeautifulSoup(d.text,'html.parser')
-              action=(ds.find('form',id='aspnetForm') or {}).get('action','')
-              print('\nDETAIL',item['number'],'STATUS',item['status'],'TYPE',item['type'],'BYTES',len(d.content),'FINAL_URL',d.url,'FORM_ACTION',action)
-              print('LOGIN_SHELL',('Login.aspx' in action or 'Register Now' in d.text))
-              print('PROCESSING_CONTAINER',bool(ds.find(id='tab-processing_status')))
-              # Useful detail labels/values and all processing-status DOM/scripts.
-              for tr in ds.find_all('tr'):
-                  txt=' '.join(tr.stripped_strings)
-                  if txt and re.search(r'(Record Status|Status Date|Issue Date|Issued|Subtype|New Building Area|Licensed Professional|Owner|General Project Information|Project Description|Valuation|Job Value)',txt,re.I):
-                      print('FIELDROW',txt[:1800])
-              for tag in ds.find_all(id=re.compile(r'(processing|process|workflow|status)',re.I)):
-                  print('PROCESS_TAG',str(tag)[:5000])
-              for script in ds.find_all('script'):
-                  src=script.get('src','');body=script.get_text(' ',strip=True)
-                  if re.search(r'(processing[_ -]?status|tab-processing_status|workflow|process status|record status)',src+' '+body,re.I):
-                      print('PROCESS_SCRIPT_SRC',src)
-                      print('PROCESS_SCRIPT_BODY',body[:10000])
-              for tag in ds.find_all(['a','input','button','div','span']):
-                  attrs=' '.join(f'{k}={v}' for k,v in tag.attrs.items());txt=' '.join(tag.stripped_strings)
-                  if re.search(r'(processing|workflow|process status|record status)',attrs+' '+txt,re.I):
-                      print('PROCESS_CONTROL',tag.name,attrs[:2200],'=>',repr(txt[:1200]))
+          r=s.get(BASE,timeout=90);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
+          print('HOME',r.status_code,'BYTES',len(r.content),'TITLE',soup.title.get_text(' ',strip=True) if soup.title else '')
+          print('FORMS')
+          for f in soup.find_all('form'): print(str(f)[:5000])
+          print('SCRIPT_SRCS')
+          srcs=[]
+          for script in soup.find_all('script',src=True):
+              u=urljoin(BASE,script['src'])
+              if u not in srcs:srcs.append(u)
+              print(u)
+          print('INLINE_RELEVANT')
+          for script in soup.find_all('script'):
+              body=script.get_text('\n',strip=True)
+              if re.search(r'(fetch|ajax|permit|inspection|api|search)',body,re.I): print(body[:12000])
+          key=re.compile(r'(fetch\(|axios|ajax|/api/|permit|inspection|search)',re.I)
+          for u in srcs:
+              try:
+                  rr=s.get(u,headers={'Referer':BASE},timeout=90);rr.raise_for_status();text=rr.text
+              except Exception as exc:
+                  print('FAIL',u,exc);continue
+              hits=list(key.finditer(text))
+              if not hits:continue
+              print('\n=== SCRIPT',u,'BYTES',len(rr.content),'HITS',len(hits),'===')
+              for m in hits[:120]:
+                  a=max(0,m.start()-1000);b=min(len(text),m.end()+2500)
+                  print(text[a:b].replace('\n',' ')[:3500])
+          # Probe likely paths without assuming success.
+          for path in ['api','swagger','swagger/index.html','openapi.json','api/permits','api/inspections','api/search']:
+              u=urljoin(BASE,path)
+              try:
+                  rr=s.get(u,headers={'Referer':BASE},timeout=30)
+                  print('PROBE',u,'HTTP',rr.status_code,'TYPE',rr.headers.get('content-type'),'BYTES',len(rr.content),'HEAD',repr(rr.text[:300]))
+              except Exception as exc: print('PROBE_FAIL',u,type(exc).__name__,exc)
           PY
