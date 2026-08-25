@@ -60,7 +60,11 @@ jobs:
               if r.status_code != 200:
                   print("MODULE", module, "STATUS", r.status_code, "BODY", " ".join(r.text[:300].split()))
                   continue
-              result = r.json().get("Result", {})
+              data = r.json()
+              result = data.get("Result")
+              if not isinstance(result, dict):
+                  print("MODULE", module, "RESULT", result, "MESSAGE", data.get("Message"))
+                  continue
               print(
                   "MODULE", module,
                   "TOTAL", result.get("TotalFound"),
