@@ -1,0 +1,65 @@
+name: Oregon branch validation
+
+on:
+  push:
+    branches: [expand-oregon-hillsboro]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: oregon-branch-validation
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run unit tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Run full Oregon collection and output generation
+        env:
+          PYTHONPATH: src
+          SITE_BASE_URL: https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/
+        run: |
+          python -m oregon_permits.main | tee /tmp/oregon-run.txt
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          sources = json.loads(Path('public/data/sources.json').read_text())['sources']
+          permits = json.loads(Path('public/data/permits.json').read_text())['permits']
+          print('SOURCE_SUMMARY')
+          bad=[]
+          for s in sources:
+              print(s['source'], 'STATUS', s['status'], 'TECH', s['technical_status'], 'RECORDS', s['records_seen'], 'QUALIFYING', s['qualifying_records'], 'NEWEST', s['newest_permit_date'])
+              if s['technical_status'] != 'ok':
+                  bad.append((s['source'], s['technical_status'], s['note']))
+          print('QUALIFYING_STORED', len(permits))
+          print('JURISDICTIONS', sorted({p['jurisdiction'] for p in permits}))
+          required_feeds = [
+              'new-construction.xml','multifamily.xml','single-family.xml','commercial.xml','top-opportunities.xml'
+          ]
+          missing=[f for f in required_feeds if not (Path('public/feeds')/f).exists()]
+          print('MISSING_FEEDS', missing)
+          if bad:
+              raise SystemExit(f'Collector technical failures: {bad}')
+          if missing:
+              raise SystemExit(f'Missing RSS outputs: {missing}')
+          PY
+      - name: Validate generated files are uncommitted only
+        run: |
+          git status --short
+          test -f public/index.html
+          test -f public/data/permits.json
+          test -f public/data/sources.json
+          test -f public/data/builders.json
