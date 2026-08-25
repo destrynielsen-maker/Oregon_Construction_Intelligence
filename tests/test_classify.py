@@ -30,8 +30,13 @@ class Tests(unittest.TestCase):
         classify_permit(x)
         self.assertFalse(x.qualifies)
 
-    def test_authoritative_residential_layer_does_not_require_description_phrase(self):
-        x=p(number="26-222222-000-00-RS",work="New Structure",use="R-3",desc="Residence",kind="residential",authoritative=True)
+    def test_authoritative_layer_alone_is_not_new_construction_evidence(self):
+        x=p(number="26-222222-000-00-RS",work="Construction Permit",use="R-3",desc="Residence",kind="residential",authoritative=True)
+        classify_permit(x)
+        self.assertFalse(x.qualifies)
+
+    def test_authoritative_new_structure_qualifies(self):
+        x=p(number="26-222223-000-00-RS",work="New Structure",use="R-3",desc="Residence",kind="residential",authoritative=True)
         classify_permit(x)
         self.assertTrue(x.qualifies); self.assertEqual(x.classification,"SINGLE_FAMILY")
 
@@ -40,12 +45,22 @@ class Tests(unittest.TestCase):
         classify_permit(x)
         self.assertTrue(x.qualifies); self.assertEqual(x.classification,"MULTIFAMILY")
 
+    def test_remodel_with_new_finishes_stays_excluded(self):
+        x=p(work="Alteration",desc="Remodel office with new finishes",authoritative=True)
+        classify_permit(x)
+        self.assertFalse(x.qualifies)
+
+    def test_demolition_plus_construct_new_building_qualifies(self):
+        x=p(work="New Construction",desc="Demolish existing shed and construct new office building",authoritative=True)
+        classify_permit(x)
+        self.assertTrue(x.qualifies); self.assertEqual(x.classification,"COMMERCIAL")
+
     def test_deferred_submittal_excluded(self):
-        x=p(number="24-029091-DFS-11-CO",use="Apartments/Condos (3 or more units)",desc="Jamii Court Apts DFS 11",units=60,authoritative=True); classify_permit(x)
+        x=p(number="24-029091-DFS-11-CO",use="Apartments/Condos (3 or more units)",desc="New Jamii Court Apts DFS 11",units=60,authoritative=True); classify_permit(x)
         self.assertFalse(x.qualifies)
 
     def test_revision_excluded(self):
-        x=p(number="25-098533-REV-01-CO",use="Apartments/Condos (3 or more units)",desc="Apartment revision",units=20,authoritative=True); classify_permit(x)
+        x=p(number="25-098533-REV-01-CO",use="Apartments/Condos (3 or more units)",desc="New apartment revision",units=20,authoritative=True); classify_permit(x)
         self.assertFalse(x.qualifies)
 
     def test_alteration_excluded_without_authoritative_layer(self):

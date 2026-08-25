@@ -15,6 +15,22 @@ COMMERCIAL = re.compile(
 EXCLUDE_USE = re.compile(r"\b(garage/carport|accessory dwelling|adu\b|shed\b)", re.I)
 DERIVATIVE = re.compile(r"-(?:DFS|REV)-", re.I)
 
+# The Portland BDS construction layers identify the permit family, not by
+# themselves whether a specific record is new construction. Require affirmative
+# evidence from the record's type/work/description before promoting a lead.
+STRONG_NEW = re.compile(
+    r"\b(new construction|new structure|new building|new residence|new home|"
+    r"new single[- ]family|new multi[ -]?family|new apartment|new warehouse|"
+    r"new office|new retail|new commercial|construct(?:ion)?\s+(?:a\s+|an\s+|the\s+)?new|"
+    r"build(?:ing)?\s+(?:a\s+|an\s+|the\s+)?new)\b", re.I
+)
+GENERIC_NEW = re.compile(r"\bnew\b", re.I)
+NON_NEW = re.compile(
+    r"\b(alteration|remodel|renovation|tenant improvement|tenant finish|repair|"
+    r"addition|change of occupancy|change of use|seismic|reroof|re-roof|replacement|replace)\b",
+    re.I,
+)
+
 def classify_permit(p: Permit) -> Permit:
     raw = p.raw or {}
     work = str(raw.get("work_proposed") or "")
@@ -23,14 +39,15 @@ def classify_permit(p: Permit) -> Permit:
     report_kind = str(raw.get("report_kind") or "").lower()
     authoritative_construction = raw.get("source_construction_layer") is True
     text = " ".join([p.permit_type or "", work, use, desc])
+    evidence = " ".join([work, use, desc])
 
     if DERIVATIVE.search(p.permit_number) or EXCLUDE_USE.search(use):
         return _other(p)
 
-    is_new = authoritative_construction or bool(re.search(
-        r"\bnew construction\b|construct(?:ion)?\s+new|new\s+(?:single[- ]family|dwelling|building|home|residence)",
-        text, re.I
-    ))
+    strong_new = bool(STRONG_NEW.search(evidence))
+    generic_new = bool(GENERIC_NEW.search(evidence))
+    non_new_signal = bool(NON_NEW.search(work) or NON_NEW.search(desc))
+    is_new = strong_new or (generic_new and not non_new_signal)
     if not is_new:
         return _other(p)
 
