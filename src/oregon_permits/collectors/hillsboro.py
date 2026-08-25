@@ -15,7 +15,7 @@ class HillsboroCollector:
     name = "Hillsboro"
     freshness_days = 14
     window_days = 21
-    windows = 3
+    windows = 1
     max_pages = 20
 
     aca_base = "https://aca-prod.accela.com/HILLSBORO/"
@@ -72,7 +72,7 @@ class HillsboroCollector:
             self.name,
             list(permits.values()),
             self.source_url,
-            "Official OpenHillsboro structural permit search/detail plus City inspection-system issuance validation; "
+            "Official OpenHillsboro rolling 21-day structural permit search/detail plus City inspection-system issuance validation; "
             "issued date is first observed issued when the public systems do not expose the exact issue timestamp",
         )
 
