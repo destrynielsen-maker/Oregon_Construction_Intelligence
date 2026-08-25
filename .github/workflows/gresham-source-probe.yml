@@ -20,65 +20,81 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests beautifulsoup4
-      - name: Probe anonymous Gresham EnerGov endpoints
+      - run: pip install requests
+      - name: Probe anonymous Gresham EnerGov search
         run: |
           python - <<'PY'
-          from urllib.parse import urljoin
-          import re
+          import copy
+          import json
           import requests
-          from bs4 import BeautifulSoup
 
           base = "https://greshamor-energovweb.tylerhost.net/apps/SelfService/"
+          criteria_url = base + "api/energov/search/criteria"
+          search_url = base + "api/energov/search/search"
+
           session = requests.Session()
           session.headers.update({
               "User-Agent": "Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)",
-              "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+              "Referer": base,
           })
 
           home = session.get(base, timeout=60)
-          print("HOME", home.status_code, home.url, "LEN", len(home.text))
+          print("HOME", home.status_code, home.url)
           home.raise_for_status()
-          soup = BeautifulSoup(home.text, "html.parser")
-          scripts = [urljoin(home.url, s.get("src")) for s in soup.find_all("script", src=True)]
-          print("SCRIPTS", len(scripts))
-          for src in scripts[:20]:
-              print("SCRIPT", src)
 
-          # Tyler EnerGov Self Service commonly exposes anonymous search through this controller.
-          paths = [
-              "api/energov/search/criteria",
-              "api/energov/search/search",
-              "/api/energov/search/criteria",
-              "/api/energov/search/search",
+          criteria = session.get(criteria_url, headers={"Accept": "application/json, text/plain, */*"}, timeout=60)
+          print("CRITERIA", criteria.status_code, criteria.headers.get("content-type"))
+          criteria.raise_for_status()
+          payload = criteria.json()["Result"]
+          print("TOP_LEVEL_KEYS", sorted(payload.keys()))
+          print("PERMIT_KEYS", sorted((payload.get("PermitCriteria") or {}).keys()))
+
+          body = copy.deepcopy(payload)
+          body["SearchModule"] = 1
+          body["FilterModule"] = 1
+          body["PageNumber"] = 1
+          body["PageSize"] = 10
+          body["Keyword"] = ""
+          body["ExactMatch"] = False
+          permit = body.setdefault("PermitCriteria", {})
+          permit["IssueDateFrom"] = "08/01/2026"
+          permit["IssueDateTo"] = "08/25/2026"
+
+          attempts = [
+              ("session_only", {}),
+              ("tenant_guess", {
+                  "tenantId": "1",
+                  "tenantName": "GreshamOrProd",
+                  "Tyler-TenantUrl": "GreshamOrProd",
+                  "Tyler-Tenant-Culture": "en-US",
+              }),
           ]
-          for path in paths:
-              url = urljoin(base, path)
-              try:
-                  r = session.get(url, headers={"Referer": home.url, "Accept": "application/json, text/plain, */*"}, timeout=60)
-                  preview = re.sub(r"\s+", " ", r.text[:800])
-                  print("GET", url, "STATUS", r.status_code, "CTYPE", r.headers.get("content-type"), "LEN", len(r.text), "BODY", preview)
-              except Exception as exc:
-                  print("GET_FAIL", url, type(exc).__name__, str(exc))
 
-          # Scan local JS bundles for public tenant/search configuration without dumping full bundles.
-          needles = ["tenantName", "tenantId", "Tyler-TenantUrl", "api/energov/search/criteria", "api/energov/search/search"]
-          hits = 0
-          for src in scripts[:20]:
-              if not src.lower().endswith((".js", ".js?v=")) and ".js" not in src.lower():
+          success = False
+          for label, extra in attempts:
+              headers = {"Accept": "application/json, text/plain, */*", "Content-Type": "application/json;charset=UTF-8", **extra}
+              r = session.post(search_url, headers=headers, data=json.dumps(body), timeout=90)
+              print("POST", label, "STATUS", r.status_code, "CTYPE", r.headers.get("content-type"), "LEN", len(r.text))
+              print("POST_BODY_PREFIX", label, " ".join(r.text[:1200].split()))
+              if r.status_code != 200:
                   continue
               try:
-                  r = session.get(src, timeout=60)
-                  if r.status_code != 200 or len(r.text) > 12_000_000:
-                      continue
-                  text = r.text
-                  for needle in needles:
-                      pos = text.find(needle)
-                      if pos >= 0:
-                          hits += 1
-                          snippet = re.sub(r"\s+", " ", text[max(0,pos-180):pos+300])
-                          print("JS_HIT", needle, src, snippet)
-              except Exception as exc:
-                  print("SCRIPT_FAIL", src, type(exc).__name__, str(exc))
-          print("JS_HITS", hits)
+                  data = r.json()
+              except ValueError:
+                  continue
+              result = data.get("Result", data)
+              if isinstance(result, dict):
+                  print("RESULT_KEYS", sorted(result.keys()))
+                  for key, value in result.items():
+                      if isinstance(value, list):
+                          print("LIST_FIELD", key, "COUNT", len(value))
+                          if value:
+                              first = value[0]
+                              print("FIRST_RECORD_KEYS", key, sorted(first.keys()) if isinstance(first, dict) else type(first).__name__)
+                              print("FIRST_RECORD", key, json.dumps(first, default=str)[:3000])
+                  success = True
+              break
+
+          if not success:
+              raise SystemExit("Gresham EnerGov anonymous search POST did not return a usable JSON result")
           PY
