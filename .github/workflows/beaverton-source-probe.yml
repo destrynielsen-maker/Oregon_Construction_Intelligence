@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests
-      - name: Inspect Beaverton building detail fields
+      - name: Test Beaverton issued building resource
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
@@ -27,91 +27,60 @@ jobs:
           base='https://prod.buildinginbeaverton.org/'
           api=urljoin(base,'delegate/civics-api/api/')
           lookup=urljoin(base,'lookup-record')
-          details=urljoin(base,'record-details/')
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
           s.get(lookup,timeout=20).raise_for_status()
           auth=s.get(urljoin(api,'anonymous/auth'),headers={'Referer':lookup,'Accept':'application/json'},timeout=20)
           print('AUTH',auth.status_code,' '.join(auth.text[:250].split())); auth.raise_for_status()
-          headers={'Referer':details,'Accept':'application/json, text/plain, */*'}
+          headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'}
 
-          controls=[
-              ('issued_nonnew','C2026-04216',27087),
-              ('pending_new','R2026-04233',27104),
+          attempts=[
+              {'Page':'[{Max:10,Start:1}]','OrderBy':'[{Property:IssuedDateTime,Direction:Desc}]'},
+              {'Page':'[{max:10,start:1}]','OrderBy':'[{property:IssuedDateTime,direction:Desc}]'},
+              {'Page':'[{Max:10}]','OrderBy':'[{Property:IssuedDateTime,Direction:Desc}]'},
+              {'Page':'[{max:10}]','OrderBy':'[{property:IssuedDateTime,direction:Desc}]'},
           ]
+          success=None
+          for params in attempts:
+              try:
+                  r=s.get(urljoin(api,'cdr/applications/building'),params=params,headers=headers,timeout=30)
+                  print('TRY',params,'STATUS',r.status_code,'CTYPE',r.headers.get('content-type'),'LEN',len(r.text),'BODY',' '.join(r.text[:2200].split()))
+                  if r.status_code==200:
+                      success=(params,r.json())
+                      break
+              except Exception as exc:
+                  print('TRY_FAIL',params,type(exc).__name__,str(exc))
 
-          keywords=(
-              'issued','approved','applicationdate','worktype','occupancy','valuation','square',
-              'status','processstate','milestone','applicationname','comments','description',
-              'contractor','applicant','owner','contact','provider','address','location','parcel','site'
-          )
-          sensitive=('email','phone','mobile','fax','password','taxid','ssn')
+          if not success:
+              raise SystemExit('No working cdr/applications/building paging/sort serialization')
 
-          def walk(value,path='data',depth=0):
-              if depth>6:
-                  return
-              if isinstance(value,dict):
-                  for k,v in value.items():
-                      p=f'{path}.{k}'
-                      lk=k.lower()
-                      if any(x in lk for x in sensitive):
-                          continue
-                      if any(x in lk for x in keywords):
-                          if isinstance(v,(str,int,float,bool)) or v is None:
-                              text=repr(v)
-                              if len(text)>700: text=text[:700]+'...'
-                              print('FIELD',p,text)
-                          elif isinstance(v,list):
-                              print('FIELD',p,'LIST_COUNT',len(v))
-                          elif isinstance(v,dict):
-                              print('FIELD',p,'DICT_KEYS',sorted(v.keys())[:80])
-                      walk(v,p,depth+1)
-              elif isinstance(value,list):
-                  for i,v in enumerate(value[:12]):
-                      walk(v,f'{path}[{i}]',depth+1)
+          params,payload=success
+          data=payload.get('data') if isinstance(payload,dict) else None
+          print('SUCCESS_PARAMS',params)
+          print('PAYLOAD_KEYS',sorted(payload.keys()) if isinstance(payload,dict) else type(payload).__name__)
+          if isinstance(data,dict):
+              print('DATA_KEYS',sorted(data.keys()))
+              rows=next((v for v in data.values() if isinstance(v,list)),[])
+          elif isinstance(data,list):
+              rows=data
+          else:
+              rows=[]
+          print('ROWS',len(rows))
+          for x in rows[:10]:
+              if not isinstance(x,dict):
+                  print('ROW_RAW',repr(x)[:800]); continue
+              safe={k:x.get(k) for k in [
+                  'id','applicationNumber','commonId','applicationName','applicationDateTime','issuedDateTime',
+                  'status','statusDescription','processState','workType','workTypeDescription','occupancyType',
+                  'occupancyTypeDescription','declaredValuation','squareFootage','comments','locationLine1','locationLine2'
+              ] if k in x}
+              at=x.get('applicationType')
+              if isinstance(at,dict): safe['applicationType']={k:at.get(k) for k in ('code','description','id') if k in at}
+              print('ROW',json.dumps(safe,default=str)[:5000])
 
-          for label,number,internal_id in controls:
-              r=s.get(urljoin(api,f'cdr/applications/building/{internal_id}'),headers=headers,timeout=30)
-              print('DETAIL',label,number,r.status_code,'LEN',len(r.text)); r.raise_for_status()
-              payload=r.json()
-              data=payload.get('data') or {}
-              print('TOP_KEYS',label,sorted(data.keys()))
-              for key in [
-                  'applicationNumber','commonId','applicationName','applicationDateTime','issuedDateTime',
-                  'ApprovedDateTime','approvedDateTime','finalizedDateTime','processState','status','statusDescription',
-                  'workType','occupancyType','declaredValuation','calculatedValuation','squareFootage','comments',
-                  'locationLine1','locationLine2','locationLine3','apTypeCode','applicationType'
-              ]:
-                  if key in data:
-                      value=data.get(key)
-                      if isinstance(value,(dict,list)):
-                          print('KEY',label,key,json.dumps(value,default=str)[:2500])
-                      else:
-                          print('KEY',label,key,repr(value))
-              walk(data)
-
-              # Public child resources used by the detail UI. Keep identity output to names/roles only.
-              for child in ['applicants','contacts','providers']:
-                  path=f'cdr/applications/building/{internal_id}/{child}?Page=[{{Max:20}}]'
-                  try:
-                      cr=s.get(urljoin(api,path),headers=headers,timeout=15)
-                      if cr.status_code==200:
-                          cp=cr.json(); rows=cp.get('data') or []
-                          print('CHILD',label,child,'COUNT',len(rows) if isinstance(rows,list) else type(rows).__name__)
-                          if isinstance(rows,list):
-                              for item in rows[:10]:
-                                  if not isinstance(item,dict): continue
-                                  safe={}
-                                  for k,v in item.items():
-                                      lk=k.lower()
-                                      if any(x in lk for x in sensitive): continue
-                                      if any(x in lk for x in ('name','type','role','company','business','primary','license')) and isinstance(v,(str,int,float,bool,type(None))):
-                                          safe[k]=v
-                                      elif k.lower() in ('contact','identity','provider') and isinstance(v,dict):
-                                          safe[k]={kk:vv for kk,vv in v.items() if any(x in kk.lower() for x in ('name','company','business','type')) and isinstance(vv,(str,int,float,bool,type(None)))}
-                                  print('CHILD_ROW',label,child,json.dumps(safe,default=str)[:1800])
-                      elif cr.status_code not in (404,405):
-                          print('CHILD_STATUS',label,child,cr.status_code,' '.join(cr.text[:500].split()))
-                  except Exception as exc:
-                      print('CHILD_FAIL',label,child,type(exc).__name__,str(exc))
+          # Verify that the known issued control can also be selected directly by internal id.
+          control=s.get(urljoin(api,'cdr/applications/building/27087'),headers=headers,timeout=20)
+          control.raise_for_status()
+          c=control.json().get('data') or {}
+          print('CONTROL',c.get('applicationNumber'),c.get('issuedDateTime'),c.get('workType'),c.get('statusDescription'))
           PY
