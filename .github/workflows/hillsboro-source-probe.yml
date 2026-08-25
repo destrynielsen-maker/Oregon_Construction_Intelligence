@@ -1,72 +1,60 @@
-name: Hillsboro source probe
+name: Hillsboro branch validation
 
 on:
   push:
     branches: [expand-oregon-hillsboro]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q requests beautifulsoup4
-      - name: Probe Hillsboro permit search inputs and print view
-        shell: bash
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run unit tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Run live Hillsboro collector
+        env:
+          PYTHONPATH: src
         run: |
-          set -euo pipefail
           python - <<'PY'
-          from urllib.parse import urljoin
-          import json,re,requests
-          from bs4 import BeautifulSoup
+          from collections import Counter
+          from oregon_permits.classify import classify_permit
+          from oregon_permits.collectors.hillsboro import HillsboroCollector
 
-          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
-          GATE='https://api.hillsboro-oregon.gov/Api/Accela/Permit/Search'
-          gs=requests.Session(); gs.headers.update({'User-Agent':UA,'Accept':'application/json,text/plain,*/*','Referer':'https://inspections.hillsboro-oregon.gov/'})
+          result = HillsboroCollector().collect()
+          permits = result.permits
+          for permit in permits:
+              classify_permit(permit)
 
-          keys=['PermitNumber','permitNumber','Permit_Number','permit_number','PermitNo','permitNo','RecordNumber','recordNumber','Record_Number','record_number','Number','number','pno','PNo']
-          for key in keys:
-              for method in ('GET','POSTFORM','POSTJSON'):
-                  try:
-                      if method=='GET': r=gs.get(GATE,params={key:'STR26-0548'},timeout=30)
-                      elif method=='POSTFORM': r=gs.post(GATE,data={key:'STR26-0548'},timeout=30)
-                      else: r=gs.post(GATE,json={key:'STR26-0548'},timeout=30)
-                      body=r.text.strip()
-                      if body not in ('{}','{ }','', 'null') or r.status_code!=200:
-                          print('PERMIT_SEARCH',method,key,'HTTP',r.status_code,'TYPE',r.headers.get('content-type'),'BODY',repr(body[:5000]))
-                  except Exception as exc: print('SEARCH_FAIL',method,key,type(exc).__name__,exc)
+          statuses = Counter((p.status or "UNKNOWN") for p in permits)
+          subtypes = Counter((p.raw or {}).get("subtype") or "UNKNOWN" for p in permits)
+          qualifying = [p for p in permits if p.qualifies]
+          classes = Counter(p.classification for p in qualifying)
+          validated = [p for p in permits if (p.raw or {}).get("source_issued_validated") is True]
+          invalid_published = [p.permit_number for p in qualifying if (p.raw or {}).get("source_issued_validated") is not True]
 
-          # Establish an issued-permit session in the City inspection application.
-          BASE='https://inspections.hillsboro-oregon.gov/'
-          s=requests.Session(); s.headers.update({'User-Agent':UA})
-          h=s.get(BASE,timeout=90); h.raise_for_status(); hs=BeautifulSoup(h.text,'html.parser')
-          token=(hs.find('input',{'name':'_token'}) or {}).get('value'); meta=(hs.find('meta',{'name':'csrf-token'}) or {}).get('content')
-          headers={'Referer':BASE,'Origin':'https://inspections.hillsboro-oregon.gov','X-Requested-With':'XMLHttpRequest'}
-          if meta: headers['X-CSRF-TOKEN']=meta
-          q=s.post(urljoin(BASE,'permits/search_submit'),data={'_token':token,'permit_number':'STR26-0548','address':''},headers=headers,timeout=90)
-          q.raise_for_status(); print('INSPECTION_SEARCH',q.text[:1000])
-          detail=s.get(urljoin(BASE,'permit/detail'),headers={'Referer':BASE},timeout=90); detail.raise_for_status(); ds=BeautifulSoup(detail.text,'html.parser')
-          print('DETAIL',detail.status_code,len(detail.content),ds.title.get_text(' ',strip=True) if ds.title else '')
+          print("SOURCE", result.source)
+          print("RECORDS", len(permits))
+          print("VALIDATED_ISSUED", len(validated))
+          print("QUALIFYING", len(qualifying))
+          print("CLASSIFICATIONS", dict(classes))
+          print("STATUSES", dict(statuses))
+          print("SUBTYPES", dict(subtypes))
+          print("NEWEST_ISSUED", max((p.issued_date for p in qualifying if p.issued_date), default=None))
+          print("INVALID_PUBLISHED", invalid_published)
 
-          print('PRINT_CONTROLS')
-          for tag in ds.find_all(['a','button','input']):
-              txt=' '.join(tag.stripped_strings); attrs=' '.join(f'{k}={v}' for k,v in tag.attrs.items())
-              if re.search(r'print',txt+' '+attrs,re.I): print(tag.name,attrs[:2500],'=>',repr(txt))
-          print('PRINT_SCRIPTS')
-          for script in ds.find_all('script'):
-              body=script.get_text(' ',strip=True)
-              if re.search(r'print',body,re.I): print(body[:12000])
-
-          # Try obvious print routes in the established session; only surface non-404 responses.
-          for path in ['permit/print','permit/detail/print','permit/print/detail','permit/print_details','permit/details/print','permit/detail?print=1']:
-              u=urljoin(BASE,path)
-              try:
-                  r=s.get(u,headers={'Referer':detail.url},timeout=45,allow_redirects=True)
-                  if r.status_code != 404:
-                      print('PRINT_ROUTE',u,'FINAL',r.url,'HTTP',r.status_code,'TYPE',r.headers.get('content-type'),'BYTES',len(r.content),'HEAD',repr(r.text[:3000]))
-              except Exception as exc: print('PRINT_FAIL',u,type(exc).__name__,exc)
+          if invalid_published:
+              raise SystemExit("Hillsboro safety invariant failed: unvalidated permits qualified")
+          if not permits:
+              raise SystemExit("Hillsboro collector returned no new-construction structural candidates")
           PY
