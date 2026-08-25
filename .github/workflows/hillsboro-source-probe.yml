@@ -1,0 +1,30 @@
+name: Hillsboro source probe
+
+on:
+  push:
+    branches: [expand-oregon-hillsboro]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Hillsboro permit sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
+          PAGE='https://www.hillsboro-oregon.gov/our-city/departments/community-development/maps-data-resources'
+          curl -LsS --max-time 60 -A "$UA" "$PAGE" -o /tmp/hillsboro.html
+          echo '--- PAGE STATUS / LINKS ---'
+          wc -c /tmp/hillsboro.html
+          grep -oiE 'href="[^"]+"' /tmp/hillsboro.html | grep -Ei 'permit|issued|accela|aca|showdocument|showpublisheddocument' | head -n 300 || true
+          echo '--- PORTAL MARKERS ---'
+          grep -inE 'Permit Portal|Accela|Citizen Access|Issued Permits' /tmp/hillsboro.html | head -n 200 || true
+
+          CENTER='https://www.hillsboro-oregon.gov/services/permitting-center'
+          curl -LsS --max-time 60 -A "$UA" "$CENTER" -o /tmp/center.html
+          echo '--- PERMIT CENTER LINKS ---'
+          grep -oiE 'href="[^"]+"' /tmp/center.html | grep -Ei 'permit|accela|aca|citizen' | head -n 200 || true
