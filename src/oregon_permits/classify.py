@@ -3,7 +3,7 @@ import re
 from .models import Permit
 
 MULTI = re.compile(
-    r"\b(multi[ -]?family|apartment|apartments|condo|minium|townhome|townhouse|"
+    r"\b(multi[ -]?family|middle housing|apartment|apartments|condo|minium|townhome|townhouse|"
     r"duplex|triplex|fourplex|two[- ]family|three[- ]family|four[- ]family|"
     r"\d+\s*[- ]?unit(?:s)?|dwelling units?)\b", re.I
 )
