@@ -16,7 +16,9 @@ This list separates **issued building permits** from **earlier planning/developm
 | Bend | https://services5.arcgis.com/JisFYcK2mIVg9ueP/ArcGIS/rest/services/Permit_Applications_Poly/FeatureServer/0 | Official Bend permit application spatial/open-data layer. Production uses it to enrich Bend leads with units, building category and census structure. |
 | Bend | https://bendoregon.gov/services/permits-licenses/developers-and-contractors/ | Online Permit Center, permit lookup, open data and development tools for rep research. |
 | Salem | https://permits.cityofsalem.net/ | Public PAC portal for browser-based permit, license and land-use searches. It currently blocks GitHub Actions automation, so it remains a manual/reference source. |
-| Hillsboro | https://www.hillsboro-oregon.gov/services/permitting-center | OpenHillsboro permit portal for building, planning, fire, right-of-way and major projects. |
+| Hillsboro | https://aca-prod.accela.com/HILLSBORO/Cap/CapHome.aspx?TabName=Building&module=Building | Official OpenHillsboro Accela Citizen Access building search. Production automation uses a rolling 21-day window, narrows to Residential/Commercial Structural Permit records, and requires an authoritative subtype beginning `New`. Older arbitrary date ranges were not reliable enough for backfill, so this is treated as a forward-looking monitor. |
+| Hillsboro | https://inspections.hillsboro-oregon.gov/ | Official City inspection scheduler. A permit must be issued before inspection scheduling is available, so production automation uses this as an independent issuance validator before a Hillsboro candidate can enter the qualifying feeds. The public systems do not expose a reliable exact issue timestamp; the system stores the first date issuance is observed and preserves that date. |
+| Hillsboro | https://www.hillsboro-oregon.gov/services/permitting-center | City permitting-center landing page for OpenHillsboro, building, planning, fire, right-of-way and major-project research. |
 
 ## Rep workflow
 
