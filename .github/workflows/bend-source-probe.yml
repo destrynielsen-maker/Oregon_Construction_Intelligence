@@ -1,0 +1,39 @@
+name: Bend source probe
+
+on:
+  push:
+    branches: [expand-oregon-bend]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect Bend permit data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, urllib.parse, urllib.request
+          endpoints = {
+            'contractors': 'https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0/query',
+            'poly': 'https://services5.arcgis.com/JisFYcK2mIVg9ueP/ArcGIS/rest/services/Permit_Applications_Poly/FeatureServer/0/query',
+          }
+          specs = {
+            'contractors': ('PermitIssueDate IS NOT NULL', 'PermitIssueDate DESC', 'ApplicationNumber,StatusDesc,ApplicationType,BuildingUse,ApplicationDate,PermitTypeCode,PermitTypeDescription,PermitIssueDate,SQFT,ProjectValuation,ZoningDesc,Description,Address,Owner,TAXLOT,ContractorName,GeneralContractorName,OBJECTID'),
+            'poly': ('IssueDate IS NOT NULL', 'IssueDate DESC', 'ApplicationNumber,IssueDate,SQFT,Units,ProjectValuation,TypeDesc,UseDesc,BuildingCategory,Owner,CensusStructureDesc,Address,OBJECTID'),
+          }
+          for name, endpoint in endpoints.items():
+              where, order, fields = specs[name]
+              params = urllib.parse.urlencode({'where':where,'outFields':fields,'returnGeometry':'false','orderByFields':order,'resultRecordCount':25,'f':'json'})
+              req=urllib.request.Request(endpoint+'?'+params, headers={'User-Agent':'OregonConstructionIntelligence/0.1'})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  payload=json.load(r)
+              print('===', name, '===')
+              print('error', payload.get('error'))
+              print('count', len(payload.get('features',[])), 'exceeded', payload.get('exceededTransferLimit'))
+              for feature in payload.get('features',[])[:12]:
+                  print(json.dumps(feature.get('attributes',{}), sort_keys=True, default=str))
+          PY
