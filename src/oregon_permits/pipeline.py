@@ -40,6 +40,15 @@ def _keep_existing(p: Permit) -> bool:
         return bool(PORTLAND_CASE_RE.match(p.permit_number or ""))
     return True
 
+def _preserve_observed_issue_date(current: Permit, old: Permit | None) -> None:
+    raw=current.raw or {}
+    if raw.get("issued_date_basis") != "first_observed_issued" or not old:
+        return
+    old_raw=old.raw or {}
+    if old.issued_date and old_raw.get("issued_date_basis") == "first_observed_issued":
+        current.issued_date=old.issued_date
+        current.raw={**raw,"first_observed_issued_date":old.issued_date}
+
 def _success(result, qualified: int, prev: dict | None, generated: str, today: date, threshold: int) -> dict:
     dates=_dates(result.permits); newest=max(dates) if dates else None; oldest=min(dates) if dates else None
     age=(today-date.fromisoformat(newest)).days if newest else None
@@ -85,8 +94,9 @@ def run(root: Path) -> dict:
         try:
             result=collector.collect(); total+=len(result.permits); qualified=0
             for p in result.permits:
-                classify_permit(p); qualified+=int(p.qualifies)
                 old=existing.get(p.key)
+                _preserve_observed_issue_date(p,old)
+                classify_permit(p); qualified+=int(p.qualifies)
                 p.first_seen_at=old.first_seen_at if old and old.first_seen_at else generated
                 p.last_seen_at=generated; existing[p.key]=p
             statuses.append(_success(result,qualified,prev,generated,now.date(),getattr(collector,"freshness_days",30)))
