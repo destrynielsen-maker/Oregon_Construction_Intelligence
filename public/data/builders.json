@@ -1,4 +1,317 @@
 {
-  "generated_at": "2026-08-25T16:35:43+00:00",
-  "builders": []
+  "generated_at": "2026-08-25T16:46:21+00:00",
+  "builders": [
+    {
+      "contractor": "LENNAR NORTHWEST LLC",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1448228.57,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "TIMBERVIEW CONSTRUCTION LLC",
+      "permits_90d": 3,
+      "single_family": 0,
+      "multifamily": 3,
+      "commercial": 0,
+      "combined_valuation": 2020096.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "DC EUGENE",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 693909.79,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "HANSEN RODD",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 656710.94,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "NNI CONSTRUCTION CO",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 600000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 43
+    },
+    {
+      "contractor": "KIMBALL PROPERTIES LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 551213.77,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "BCE INC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 480000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "HARVEY & PRICE CO",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 357457.62,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "MCINTYRE CONSTRUCTION",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 350000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "A BETTER COMMUNITY LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 196803.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "BRYAN PARSONS CONSTRUCTION LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 167652.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "BHM CONSTRUCTION LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 155000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "TRAYLORS CONSTRUCTION LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 127094.2,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "MEILI CONSTRUCTION",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 104000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "BILL MARTIN CONSTRUCTION INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 100000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "DMOIR CONSTRUCTION LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 80000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "J 3 16 CONTRACTING INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 50000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "WOODSTONE STRUCTURES",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 40000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "NEIL KELLY COMPANY",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 40000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "RAINBOW VALLEY DESIGN & CONSTR",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 35281.29,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "UNITED PROPERTY IMPROVEMENT IN",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 28404.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "FERGUSON EDWIN",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 12000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "STONEWOOD CONSTRUCTION",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2500.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "ARTSYMAN DARYA",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 2000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "CLAY'S REFRIGERATION",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 500.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "ADVANCED ENERGY SYSTEM",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    }
+  ]
 }
