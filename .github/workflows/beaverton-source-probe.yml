@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests
-      - name: Test Beaverton issued building resource
+      - name: Test Beaverton building filters and contractor fields
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
@@ -34,53 +34,80 @@ jobs:
           print('AUTH',auth.status_code,' '.join(auth.text[:250].split())); auth.raise_for_status()
           headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'}
 
-          attempts=[
-              {'Page':'[{Max:10,Start:1}]','OrderBy':'[{Property:IssuedDateTime,Direction:Desc}]'},
-              {'Page':'[{max:10,start:1}]','OrderBy':'[{property:IssuedDateTime,direction:Desc}]'},
-              {'Page':'[{Max:10}]','OrderBy':'[{Property:IssuedDateTime,Direction:Desc}]'},
-              {'Page':'[{max:10}]','OrderBy':'[{property:IssuedDateTime,direction:Desc}]'},
+          base_params={'Page':'[{Max:20,Start:1}]','OrderBy':'[{Property:IssuedDateTime,Direction:Desc}]'}
+          filters=[
+              ('filterstring_codes','[{ApplicationType:[{Code:C},{Code:MF},{Code:R}]}]'),
+              ('filterstring_ids','[{ApplicationType:[{Code:C,ID:1001},{Code:MF,ID:1008},{Code:R,ID:1013}]}]'),
+              ('type_codes','[{Type:[{Code:C,ID:7},{Code:MF,ID:7},{Code:R,ID:7}]}]'),
           ]
-          success=None
-          for params in attempts:
+          working=None
+          for label,value in filters:
+              params=dict(base_params); params['FilterString']=value
               try:
                   r=s.get(urljoin(api,'cdr/applications/building'),params=params,headers=headers,timeout=30)
-                  print('TRY',params,'STATUS',r.status_code,'CTYPE',r.headers.get('content-type'),'LEN',len(r.text),'BODY',' '.join(r.text[:2200].split()))
-                  if r.status_code==200:
-                      success=(params,r.json())
+                  print('FILTER',label,'STATUS',r.status_code,'LEN',len(r.text))
+                  if r.status_code!=200:
+                      print('FILTER_BODY',label,' '.join(r.text[:1000].split())); continue
+                  payload=r.json(); rows=payload.get('data') or []
+                  codes=[]
+                  for x in rows:
+                      at=x.get('applicationType') if isinstance(x,dict) else None
+                      codes.append(at.get('code') if isinstance(at,dict) else None)
+                  print('FILTER_CODES',label,codes)
+                  if rows and all(c in {'C','MF','R'} for c in codes):
+                      working=(label,value,rows)
                       break
               except Exception as exc:
-                  print('TRY_FAIL',params,type(exc).__name__,str(exc))
+                  print('FILTER_FAIL',label,type(exc).__name__,str(exc))
 
-          if not success:
-              raise SystemExit('No working cdr/applications/building paging/sort serialization')
-
-          params,payload=success
-          data=payload.get('data') if isinstance(payload,dict) else None
-          print('SUCCESS_PARAMS',params)
-          print('PAYLOAD_KEYS',sorted(payload.keys()) if isinstance(payload,dict) else type(payload).__name__)
-          if isinstance(data,dict):
-              print('DATA_KEYS',sorted(data.keys()))
-              rows=next((v for v in data.values() if isinstance(v,list)),[])
-          elif isinstance(data,list):
-              rows=data
+          if working:
+              label,value,rows=working
+              print('WORKING_FILTER',label,value)
           else:
-              rows=[]
-          print('ROWS',len(rows))
-          for x in rows[:10]:
-              if not isinstance(x,dict):
-                  print('ROW_RAW',repr(x)[:800]); continue
-              safe={k:x.get(k) for k in [
-                  'id','applicationNumber','commonId','applicationName','applicationDateTime','issuedDateTime',
-                  'status','statusDescription','processState','workType','workTypeDescription','occupancyType',
-                  'occupancyTypeDescription','declaredValuation','squareFootage','comments','locationLine1','locationLine2'
-              ] if k in x}
-              at=x.get('applicationType')
-              if isinstance(at,dict): safe['applicationType']={k:at.get(k) for k in ('code','description','id') if k in at}
-              print('ROW',json.dumps(safe,default=str)[:5000])
+              params=dict(base_params)
+              r=s.get(urljoin(api,'cdr/applications/building'),params=params,headers=headers,timeout=30); r.raise_for_status()
+              rows=r.json().get('data') or []
+              print('WORKING_FILTER','NONE')
 
-          # Verify that the known issued control can also be selected directly by internal id.
-          control=s.get(urljoin(api,'cdr/applications/building/27087'),headers=headers,timeout=20)
-          control.raise_for_status()
-          c=control.json().get('data') or {}
-          print('CONTROL',c.get('applicationNumber'),c.get('issuedDateTime'),c.get('workType'),c.get('statusDescription'))
+          # Inspect public contractor identity on known issued new SFR control.
+          r=s.get(urljoin(api,'cdr/applications/building/24433'),headers=headers,timeout=25)
+          r.raise_for_status(); d=r.json().get('data') or {}
+          print('CONTROL',d.get('applicationNumber'),d.get('issuedDateTime'),d.get('workType'),d.get('occupancyType'))
+          contacts=d.get('applicationContacts') or []
+          for item in contacts:
+              if not isinstance(item,dict): continue
+              cap=item.get('capacity') or {}
+              contact=item.get('contact') or {}
+              ident=contact.get('identity') or {}
+              safe={
+                  'capacity': cap.get('description'),
+                  'displayName': ident.get('displayName'),
+                  'companyName': ident.get('companyName'),
+                  'businessName': ident.get('businessName'),
+                  'firstName': ident.get('firstName'),
+                  'lastName': ident.get('lastName'),
+                  'organizationName': ident.get('organizationName'),
+              }
+              print('CONTACT',json.dumps(safe,default=str))
+
+          # Scan first five issued pages and print only authoritative C/MF/R new-construction-like records.
+          found=[]
+          for page_no in range(1,6):
+              params={'Page':f'[{{Max:20,Start:{1+(page_no-1)*20}}}]','OrderBy':'[{Property:IssuedDateTime,Direction:Desc}]'}
+              if working:
+                  params['FilterString']=working[1]
+              rr=s.get(urljoin(api,'cdr/applications/building'),params=params,headers=headers,timeout=30)
+              rr.raise_for_status(); page_rows=rr.json().get('data') or []
+              print('PAGE',page_no,'ROWS',len(page_rows))
+              for x in page_rows:
+                  if not isinstance(x,dict): continue
+                  at=x.get('applicationType') or {}; code=at.get('code') if isinstance(at,dict) else None
+                  if code not in {'C','MF','R'}: continue
+                  text=' '.join(str(x.get(k) or '') for k in ('workType','workTypeDescription','occupancyType','occupancyTypeDescription','applicationName','comments')).lower()
+                  if any(k in text for k in ('new construction','sfrdetnew','houseoradu','new house','multi-family','multifamily','new commercial')):
+                      rec={k:x.get(k) for k in ('id','applicationNumber','applicationName','issuedDateTime','workType','workTypeDescription','occupancyType','occupancyTypeDescription','declaredValuation','squareFootage','comments','locationLine1','locationLine2')}
+                      rec['applicationType']=code
+                      found.append(rec)
+                      print('NEWISH',json.dumps(rec,default=str)[:5000])
+          print('NEWISH_COUNT',len(found))
           PY
