@@ -12,8 +12,10 @@ This list separates **issued building permits** from **earlier planning/developm
 | Portland | https://www.portlandmaps.com/reports/index.cfm?action=co-intake | Commercial permit applications received; earlier sales signal than issuance. |
 | Eugene | https://pdd.eugene-or.gov/buildingpermits/permitreports | Official Building Activity Reports. Production automation uses the public Issued Building Permits Excel export; reps can also run submitted-permit and dwelling-unit reports here. |
 | Eugene | https://pdd.eugene-or.gov/buildingpermits/permitsearch | Permit Record Search by permit, person/business, project, address, contractor, map/tax lot. Use for project and contractor detail. |
-| Salem | https://permits.cityofsalem.net/ | Public PAC portal: search permits, licenses and land-use actions. |
-| Bend | https://bendoregon.gov/services/permits-licenses/developers-and-contractors/ | Online Permit Center, permit lookup, open data and development tools. |
+| Bend | https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0 | Official nightly City of Bend permit/contractor table. Production automation filters issued building permits to new construction and captures GC, owner, valuation, square feet, use and address. |
+| Bend | https://services5.arcgis.com/JisFYcK2mIVg9ueP/ArcGIS/rest/services/Permit_Applications_Poly/FeatureServer/0 | Official Bend permit application spatial/open-data layer. Production uses it to enrich Bend leads with units, building category and census structure. |
+| Bend | https://bendoregon.gov/services/permits-licenses/developers-and-contractors/ | Online Permit Center, permit lookup, open data and development tools for rep research. |
+| Salem | https://permits.cityofsalem.net/ | Public PAC portal for browser-based permit, license and land-use searches. It currently blocks GitHub Actions automation, so it remains a manual/reference source. |
 | Hillsboro | https://www.hillsboro-oregon.gov/services/permitting-center | OpenHillsboro permit portal for building, planning, fire, right-of-way and major projects. |
 
 ## Rep workflow
