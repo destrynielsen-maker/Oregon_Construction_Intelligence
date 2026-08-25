@@ -43,6 +43,27 @@ def detail(**overrides):
 
 
 class Tests(unittest.TestCase):
+    def test_collect_uses_one_rolling_21_day_window(self):
+        class Probe(HillsboroCollector):
+            def __init__(self):
+                self.calls = []
+
+            def _search_window(self, session, start, end):
+                self.calls.append((start, end))
+                return []
+
+        class Session:
+            def __init__(self):
+                self.headers = {}
+
+        collector = Probe()
+        result = collector.collect(Session())
+        self.assertEqual(result.permits, [])
+        self.assertEqual(len(collector.calls), 1)
+        start, end = collector.calls[0]
+        self.assertEqual((end - start).days, 21)
+        self.assertEqual(end, date.today())
+
     def test_validated_new_commercial_qualifies(self):
         permit = HillsboroCollector._permit(row(), detail(), True, date(2026, 8, 25))
         self.assertIsNotNone(permit)
