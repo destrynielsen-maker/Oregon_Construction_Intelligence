@@ -15,19 +15,20 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests beautifulsoup4
-      - name: Inspect Hillsboro structural results and detail fields
+      - name: Inspect Hillsboro structural details and reports
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
           from datetime import date, timedelta
           from urllib.parse import urljoin
-          import re
-          import requests
+          from collections import Counter
+          import re, requests
           from bs4 import BeautifulSoup
 
           BASE='https://aca-prod.accela.com/HILLSBORO/'
           SEARCH=urljoin(BASE,'Cap/CapHome.aspx?TabName=Building&module=Building')
+          HOME=urljoin(BASE,'Default.aspx')
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
           s=requests.Session(); s.headers.update({'User-Agent':UA})
 
@@ -48,13 +49,14 @@ jobs:
                   p[sel['name']]=chosen.get('value','') if chosen else ''
               return p
 
-          def postback(soup,target):
+          def do_post(url,soup,target):
               p=controls(soup); p['__EVENTTARGET']=target; p['__EVENTARGUMENT']=''
-              rr=s.post(SEARCH,data=p,headers={'Referer':SEARCH,'Origin':'https://aca-prod.accela.com'},timeout=120)
-              rr.raise_for_status(); return BeautifulSoup(rr.text,'html.parser')
+              rr=s.post(url,data=p,headers={'Referer':url,'Origin':'https://aca-prod.accela.com'},timeout=120)
+              rr.raise_for_status(); return rr, BeautifulSoup(rr.text,'html.parser')
 
+          # 21-day general search is accepted by the Hillsboro ACA tenant.
           first=s.get(SEARCH,timeout=90); first.raise_for_status(); soup=BeautifulSoup(first.text,'html.parser')
-          p=controls(soup); today=date.today(); start=today-timedelta(days=60)
+          p=controls(soup); today=date.today(); start=today-timedelta(days=21)
           p['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch'; p['__EVENTARGUMENT']=''
           p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']=start.strftime('%m/%d/%Y')
           p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']=today.strftime('%m/%d/%Y')
@@ -63,7 +65,7 @@ jobs:
           rr=s.post(SEARCH,data=p,headers={'Referer':SEARCH,'Origin':'https://aca-prod.accela.com'},timeout=120)
           rr.raise_for_status(); soup=BeautifulSoup(rr.text,'html.parser')
 
-          def rows(soup):
+          def parse_rows(soup):
               table=soup.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList')
               out=[]
               if not table: return out
@@ -74,51 +76,56 @@ jobs:
                       x=tr.find(id=re.compile(re.escape(suffix)+r'$'))
                       return ' '.join(x.stripped_strings) if x else ''
                   out.append({
-                      'date':val('_lblUpdatedTime'), 'number':' '.join(link.stripped_strings),
-                      'type':val('_lblType'), 'description':val('_lblDescription'),
-                      'project':val('_lblProjectName'), 'status':val('_lblStatus'),
-                      'expiration':val('_lblExpirationDate'), 'address':val('_lblPermitAddress'),
+                      'date':val('_lblUpdatedTime'),'number':' '.join(link.stripped_strings),
+                      'type':val('_lblType'),'description':val('_lblDescription'),
+                      'project':val('_lblProjectName'),'status':val('_lblStatus'),
+                      'expiration':val('_lblExpirationDate'),'address':val('_lblPermitAddress'),
                       'url':urljoin(SEARCH,link.get('href','')),
                   })
               return out
 
           all_rows=[]
           for page in range(1,11):
-              page_rows=rows(soup); all_rows.extend(page_rows)
-              print('PAGE',page,'ROWS',len(page_rows),'STATUSES',sorted({x['status'] for x in page_rows}))
+              pr=parse_rows(soup); all_rows.extend(pr)
+              print('PAGE',page,'ROWS',len(pr),'STATUSES',dict(Counter(x['status'] for x in pr)))
               next_a=next((a for a in soup.find_all('a',href=True) if ' '.join(a.stripped_strings)=='Next >'),None)
               if not next_a: break
               m=re.search(r"__doPostBack\('([^']+)'",next_a['href'])
               if not m: break
-              soup=postback(soup,m.group(1))
+              _,soup=do_post(SEARCH,soup,m.group(1))
 
           structural=[x for x in all_rows if 'Structural Permit' in x['type']]
-          print('TOTAL_ROWS',len(all_rows),'STRUCTURAL',len(structural))
-          from collections import Counter
-          print('STRUCTURAL_STATUS',dict(Counter(x['status'] for x in structural)))
-          for x in structural[:40]: print('STRUCT',x)
+          print('TOTAL_ROWS',len(all_rows),'STRUCTURAL',len(structural),'STRUCTURAL_STATUS',dict(Counter(x['status'] for x in structural)))
+          for x in structural[:50]: print('STRUCT',x)
 
-          # Inspect several structural detail pages, preferring non-pending states.
-          samples=sorted(structural,key=lambda x:(x['status'].lower()=='pending',x['date']))[:6]
+          # Prefer Issued/Active/Approved samples, then pending, for detail-field inspection.
+          order={'Issued':0,'Active':1,'Approved':2,'Complete':3,'Finaled':4,'Pending':9}
+          samples=sorted(structural,key=lambda x:(order.get(x['status'],5),x['date']))[:8]
           for item in samples:
-              d=s.get(item['url'],headers={'Referer':SEARCH},timeout=90); d.raise_for_status()
-              ds=BeautifulSoup(d.text,'html.parser'); plain=' '.join(ds.stripped_strings)
-              print('\nDETAIL',item['number'],item['status'],item['url'],'BYTES',len(d.content))
-              for term in ['Issued','Issue Date','Status','Valuation','Job Value','Owner','Contractor','Applicant','Square Feet','Units','Dwelling','Description','Project Name','Address']:
-                  if term.lower() in plain.lower(): print(' HAS',term)
-              # Print compact label/value-like rows containing useful sales fields.
-              seen=0
+              d=s.get(item['url'],headers={'Referer':SEARCH},timeout=90); d.raise_for_status(); ds=BeautifulSoup(d.text,'html.parser')
+              print('\nDETAIL',item['number'],'LIST_STATUS',item['status'],'BYTES',len(d.content),'URL',item['url'])
+              # Expose compact field rows only.
+              matched=[]
               for tr in ds.find_all('tr'):
                   txt=' '.join(tr.stripped_strings)
-                  if txt and re.search(r'(Issued|Issue Date|Status|Valuation|Job Value|Owner|Contractor|Applicant|Square Feet|Units|Dwelling|Project|Address)',txt,re.I):
-                      print(' ROW',txt[:1400]); seen+=1
-                      if seen>=35: break
+                  if txt and re.search(r'(Record Status|Status Date|Issued|Issue Date|Valuation|Job Value|Owner|Contractor|Applicant|Square Feet|Sq\. Ft|Units|Dwelling|Project Name|Description|Address)',txt,re.I):
+                      if txt not in matched: matched.append(txt)
+              for txt in matched[:45]: print(' FIELDROW',txt[:1800])
 
-          # Look for anonymous report names/links on the portal home page.
-          home=s.get(urljoin(BASE,'Default.aspx'),timeout=90); home.raise_for_status(); hs=BeautifulSoup(home.text,'html.parser')
-          print('\nREPORT_MARKERS')
-          for tag in hs.find_all(['a','span','div']):
+          # Invoke anonymous Report List postback from home and inspect its response.
+          home=s.get(HOME,timeout=90); home.raise_for_status(); hs=BeautifulSoup(home.text,'html.parser')
+          target='ctl00$HeaderNavigation$btnPostForReport'
+          rep, reps=do_post(HOME,hs,target)
+          print('\nREPORT_POST',rep.status_code,'URL',rep.url,'BYTES',len(rep.content))
+          print('REPORT_TITLE',reps.title.get_text(' ',strip=True) if reps.title else '')
+          for tag in reps.find_all(['a','span','div','td']):
               txt=' '.join(tag.stripped_strings); href=tag.get('href','') if tag.name=='a' else ''
-              if re.search(r'(report|issued permit)',txt+' '+href,re.I) and len(txt)<500:
-                  print(tag.name,repr(txt),repr(href))
+              blob=txt+' '+href+' '+tag.get('id','')
+              if re.search(r'(report|issued permit|permit issued|building permit)',blob,re.I) and 0<len(txt)<900:
+                  print(' REPORT',tag.name,tag.get('id'),repr(txt),repr(href))
+          print('REPORT_SCRIPTS')
+          for script in reps.find_all('script'):
+              txt=script.get_text(' ',strip=True)
+              if re.search(r'(report|window\.open|ReportManager|ReportParameter)',txt,re.I):
+                  print(txt[:3000])
           PY
