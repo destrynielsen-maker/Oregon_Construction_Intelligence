@@ -1,0 +1,52 @@
+name: Beaverton source probe
+
+on:
+  push:
+    branches: [expand-oregon-beaverton]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Inspect Beaverton CIVICS public portal
+        run: |
+          python - <<'PY'
+          from urllib.parse import urljoin
+          import re
+          import requests
+          from bs4 import BeautifulSoup
+
+          base='https://prod.buildinginbeaverton.org/'
+          s=requests.Session()
+          s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
+          for path in ['', 'lookup-record']:
+              r=s.get(urljoin(base,path),timeout=60)
+              print('PAGE',path or '/',r.status_code,r.url,'LEN',len(r.text),'CTYPE',r.headers.get('content-type'))
+              r.raise_for_status()
+              soup=BeautifulSoup(r.text,'html.parser')
+              scripts=[urljoin(r.url,x.get('src')) for x in soup.find_all('script',src=True)]
+              print('SCRIPTS',len(scripts))
+              for u in scripts: print('SCRIPT',u)
+              if path=='lookup-record':
+                  needles=['lookup-record','record-details','intdetails','api/','search','public record','Application Number','permit']
+                  for u in scripts:
+                      try:
+                          js=s.get(u,timeout=60)
+                          if js.status_code!=200 or len(js.text)>15000000: continue
+                          for needle in needles:
+                              p=js.text.lower().find(needle.lower())
+                              if p>=0:
+                                  snippet=re.sub(r'\s+',' ',js.text[max(0,p-220):p+500])
+                                  print('HIT',needle,u,snippet)
+                      except Exception as e:
+                          print('SCRIPT_FAIL',u,type(e).__name__,str(e))
+          PY
