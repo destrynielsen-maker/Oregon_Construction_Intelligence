@@ -11,20 +11,33 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect Hillsboro permit sources
+      - name: Inspect OpenHillsboro Accela public search
         shell: bash
         run: |
           set -euo pipefail
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
-          PAGE='https://www.hillsboro-oregon.gov/our-city/departments/community-development/maps-data-resources'
-          curl -LsS --max-time 60 -A "$UA" "$PAGE" -o /tmp/hillsboro.html
-          echo '--- PAGE STATUS / LINKS ---'
-          wc -c /tmp/hillsboro.html
-          grep -oiE 'href="[^"]+"' /tmp/hillsboro.html | grep -Ei 'permit|issued|accela|aca|showdocument|showpublisheddocument' | head -n 300 || true
-          echo '--- PORTAL MARKERS ---'
-          grep -inE 'Permit Portal|Accela|Citizen Access|Issued Permits' /tmp/hillsboro.html | head -n 200 || true
-
-          CENTER='https://www.hillsboro-oregon.gov/services/permitting-center'
-          curl -LsS --max-time 60 -A "$UA" "$CENTER" -o /tmp/center.html
-          echo '--- PERMIT CENTER LINKS ---'
-          grep -oiE 'href="[^"]+"' /tmp/center.html | grep -Ei 'permit|accela|aca|citizen' | head -n 200 || true
+          URLS=(
+            'https://form.hillsboro-oregon.gov/Economic%20and%20Community%20Development/Permits/Plumbing'
+            'https://form.hillsboro-oregon.gov/CitizenAccess/Default.aspx'
+            'https://form.hillsboro-oregon.gov/CitizenAccess/Cap/CapHome.aspx?module=Building'
+            'https://form.hillsboro-oregon.gov/Default.aspx'
+            'https://form.hillsboro-oregon.gov/Cap/CapHome.aspx?module=Building'
+          )
+          i=0
+          for URL in "${URLS[@]}"; do
+            i=$((i+1))
+            OUT="/tmp/hillsboro-$i.html"
+            HDR="/tmp/hillsboro-$i.headers"
+            CODE=$(curl -LsS --max-time 60 -A "$UA" -D "$HDR" -o "$OUT" -w '%{http_code}' "$URL" || true)
+            echo "=== $URL ==="
+            echo "HTTP=$CODE BYTES=$(wc -c <"$OUT" 2>/dev/null || echo 0)"
+            grep -Ei '^(content-type:|location:|set-cookie:)' "$HDR" | head -n 30 || true
+            echo '--- TITLE / FORMS ---'
+            grep -oiE '<title>[^<]*</title>|<form[^>]*>' "$OUT" | head -n 40 || true
+            echo '--- HIDDEN / SEARCH CONTROLS ---'
+            grep -oiE '<(input|select|button)[^>]*>' "$OUT" | grep -Ei '__VIEWSTATE|__EVENTVALIDATION|search|permit|record|date|module|cap' | head -n 180 || true
+            echo '--- LINKS / ACTIONS ---'
+            grep -oiE 'href="[^"]+"|action="[^"]+"|src="[^"]+"' "$OUT" | grep -Ei 'Cap|Search|Building|Permit|Citizen|Default|Script|WebService|Ajax' | head -n 220 || true
+            echo '--- JS MARKERS ---'
+            grep -inE 'CapHome|GeneralSearch|SearchRecords|WebService|Ajax|Building|module=' "$OUT" | head -n 160 || true
+          done
