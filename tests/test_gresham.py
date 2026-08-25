@@ -134,6 +134,10 @@ class Tests(unittest.TestCase):
             max_pages = 4
             lookback_days = 45
 
+            @staticmethod
+            def _today():
+                return date(2026, 8, 25)
+
         recent = row()
         future = row(CaseNumber="BLDR-26-09998", IssueDate="2026-12-07T00:00:00")
         old1 = row(CaseNumber="BLDR-26-01001", IssueDate="2026-07-01T00:00:00")
@@ -143,10 +147,8 @@ class Tests(unittest.TestCase):
             {"EntityResults": [old1, old2]},
         ])
 
-        # The implementation uses date.today(); make the rolling assertion relative to the
-        # real execution date while still verifying that future/old data cannot leak in.
         result = Probe().collect(session)
-        self.assertLessEqual(len(result.permits), 1)
+        self.assertEqual([p.permit_number for p in result.permits], ["BLDR-26-02076"])
         self.assertEqual(len(session.posts), 2)
         self.assertEqual(session.posts[0]["FilterModule"], 2)
         self.assertEqual(session.posts[0]["SortBy"], "IssueDate")
@@ -156,6 +158,10 @@ class Tests(unittest.TestCase):
         class Probe(GreshamCollector):
             page_size = 1
             max_pages = 1
+
+            @staticmethod
+            def _today():
+                return date(2026, 8, 25)
 
         leaked = row(ModuleName=8)
         session = Session([{"EntityResults": [leaked]}])
