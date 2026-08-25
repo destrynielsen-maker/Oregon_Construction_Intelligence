@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests beautifulsoup4
-      - name: Map Beaverton CIVICS public API routes
+      - name: Trace Beaverton CIVICS instrument search API
         run: |
           python - <<'PY'
           from urllib.parse import urljoin
@@ -29,35 +29,52 @@ jobs:
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
           page=s.get(urljoin(base,'lookup-record'),timeout=60)
-          print('LOOKUP',page.status_code,page.url,'LEN',len(page.text))
           page.raise_for_status()
           soup=BeautifulSoup(page.text,'html.parser')
           scripts=[urljoin(page.url,x.get('src')) for x in soup.find_all('script',src=True)]
-          routes=set()
-          interesting=[]
-          for u in scripts:
-              try:
-                  r=s.get(u,timeout=60)
-                  if r.status_code!=200 or len(r.text)>18000000:
-                      continue
-                  text=r.text
-                  for m in re.finditer(r'["\']([^"\']*(?:/delegate/civics-api/api/|civics-api/api/)[^"\']*)["\']',text):
-                      value=m.group(1)
-                      if len(value)<500:
-                          routes.add(value)
-                  for needle in ['InstrumentListView','instrument-list','instrumentList','instruments','queryParameters','filterOptions','publicSearch','searchCriteria']:
-                      p=text.find(needle)
-                      if p>=0:
-                          interesting.append((needle,u,re.sub(r'\s+',' ',text[max(0,p-300):p+900])))
-              except Exception as e:
-                  print('SCRIPT_FAIL',u,type(e).__name__,str(e))
-          print('ROUTES',len(routes))
-          for x in sorted(routes):
-              print('ROUTE',x)
-          for needle,u,snippet in interesting[:30]:
-              print('CONTEXT',needle,u,snippet)
+          target=next((u for u in scripts if 'InstrumentListView-portlet' in u),None)
+          print('TARGET',target)
+          if not target:
+              raise SystemExit('InstrumentListView bundle not found')
+          js=s.get(target,timeout=90)
+          print('BUNDLE',js.status_code,'LEN',len(js.text))
+          js.raise_for_status()
+          text=js.text
+
+          quoted=set()
+          for m in re.finditer(r'["\']([^"\']{1,300})["\']',text):
+              v=m.group(1)
+              low=v.lower()
+              if any(k in low for k in ('instrument','cdr/','/api/','search','filter')):
+                  quoted.add(v)
+          for v in sorted(quoted):
+              if len(v)<220:
+                  print('STRING',v)
+
+          for needle in [
+              'extendedFilter', 'InstrumentSubType', 'instrumentTypeID', 'fetchMore',
+              'Backbone.Collection.extend', 'collection.url', 'urlRoot', 'cdr/instrument',
+              'instrument/search', 'search/instrument', 'getSearchResults'
+          ]:
+              start=0
+              hits=0
+              while hits<8:
+                  p=text.find(needle,start)
+                  if p<0: break
+                  snippet=re.sub(r'\s+',' ',text[max(0,p-650):p+1400])
+                  print('CTX',needle,snippet)
+                  start=p+len(needle)
+                  hits+=1
 
           auth=s.get(urljoin(base,'delegate/civics-api/api/anonymous/auth'),headers={'Referer':page.url,'Accept':'application/json, text/plain, */*'},timeout=60)
-          print('AUTH',auth.status_code,auth.headers.get('content-type'),'LEN',len(auth.text),'BODY',' '.join(auth.text[:1200].split()))
-          print('COOKIES',[(c.name,c.domain,c.path) for c in s.cookies])
+          print('AUTH',auth.status_code,' '.join(auth.text[:300].split()))
+          auth.raise_for_status()
+
+          for path in [
+              'delegate/civics-api/api/portal/configuration',
+              'delegate/civics-api/api/portlet/configuration?portletName=rhythmcivicsInstrumentListViewportlet',
+              'delegate/civics-api/api/core/codedescriptions/'
+          ]:
+              r=s.get(urljoin(base,path),headers={'Referer':page.url,'Accept':'application/json, text/plain, */*'},timeout=60)
+              print('GET',path,r.status_code,r.headers.get('content-type'),'LEN',len(r.text),'BODY',' '.join(r.text[:1200].split()))
           PY
