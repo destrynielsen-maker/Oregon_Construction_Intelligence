@@ -1,3 +1,4 @@
+from .eugene import EugeneCollector
 from .portland import PortlandCollector
 
-COLLECTORS = [PortlandCollector()]
+COLLECTORS = [PortlandCollector(), EugeneCollector()]
