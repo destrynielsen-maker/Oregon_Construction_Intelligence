@@ -1,4 +1,4 @@
-name: Gresham source probe
+name: Gresham branch validation
 
 on:
   push:
@@ -9,108 +9,73 @@ permissions:
   contents: read
 
 concurrency:
-  group: gresham-source-probe
+  group: gresham-branch-validation
   cancel-in-progress: true
 
 jobs:
-  probe:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install requests
-      - name: Inspect recent issued Gresham permits
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run unit tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Validate live production Gresham collector
+        env:
+          PYTHONPATH: src
         run: |
           python - <<'PY'
-          import copy
           from collections import Counter
-          import requests
+          from datetime import date, timedelta
 
-          base = "https://greshamor-energovweb.tylerhost.net/apps/SelfService/"
-          session = requests.Session()
-          session.headers.update({
-              "User-Agent": "Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)",
-              "Referer": base,
-          })
-          tenant = {
-              "tenantId": "1",
-              "tenantName": "GreshamOrProd",
-              "Tyler-TenantUrl": "GreshamOrProd",
-              "Tyler-Tenant-Culture": "en-US",
-              "Accept": "application/json, text/plain, */*",
-              "Content-Type": "application/json;charset=UTF-8",
-          }
+          from oregon_permits.classify import classify_permit
+          from oregon_permits.collectors.gresham import GreshamCollector
 
-          session.get(base, timeout=60).raise_for_status()
-          criteria = session.get(base + "api/energov/search/criteria", headers=tenant, timeout=60)
-          criteria.raise_for_status()
-          body = copy.deepcopy(criteria.json()["Result"])
-          body["SearchModule"] = 1
-          body["FilterModule"] = 2
-          body["PageNumber"] = 1
-          body["PageSize"] = 100
-          body["Keyword"] = ""
-          body["ExactMatch"] = False
-          permit = body["PermitCriteria"]
-          permit["IssueDateFrom"] = "07/01/2026"
-          permit["IssueDateTo"] = "08/25/2026"
-          permit["PageNumber"] = 1
-          permit["PageSize"] = 100
-          body["SortBy"] = "IssueDate"
-          body["SortAscending"] = False
-          permit["SortBy"] = "IssueDate"
-          permit["SortAscending"] = False
+          collector = GreshamCollector()
+          result = collector.collect()
+          permits = result.permits
+          today = date.today()
+          cutoff = today - timedelta(days=collector.lookback_days)
 
-          r = session.post(base + "api/energov/search/search", headers=tenant, json=body, timeout=120)
-          print("POST", r.status_code, r.headers.get("content-type"), "LEN", len(r.text))
-          r.raise_for_status()
-          result = r.json().get("Result") or {}
-          rows = result.get("EntityResults") or []
-          print("TOTAL", result.get("TotalFound"), "PERMITS_FOUND", result.get("PermitsFound"), "ROWS", len(rows), "TOTAL_PAGES", result.get("TotalPages"))
+          for permit in permits:
+              classify_permit(permit)
 
-          types = Counter((x.get("CaseType") or "").strip() for x in rows)
-          workclasses = Counter((x.get("CaseWorkclass") or "").strip() for x in rows)
-          statuses = Counter((x.get("CaseStatus") or "").strip() for x in rows)
-          print("TOP_TYPES", types.most_common(25))
-          print("TOP_WORKCLASSES", workclasses.most_common(25))
-          print("TOP_STATUSES", statuses.most_common(20))
+          print("SOURCE", result.source)
+          print("LOOKBACK_DAYS", collector.lookback_days)
+          print("CANDIDATES", len(permits))
+          print("CLASSIFICATIONS", dict(Counter(p.classification for p in permits)))
+          print("TYPES", dict(Counter((p.raw or {}).get("type_of_use") for p in permits)))
+          print("NEWEST", max((p.issued_date for p in permits), default=None))
+          print("OLDEST", min((p.issued_date for p in permits), default=None))
+          print("NOTE", result.note)
 
-          newish=[]
-          for x in rows:
-              text = " ".join(str(x.get(k) or "") for k in ("CaseType", "CaseWorkclass", "ProjectName", "Description"))
-              if "new" in text.lower() or "single family" in text.lower() or "multifamily" in text.lower():
-                  newish.append(x)
-          print("NEWISH_COUNT", len(newish))
-          for x in newish[:30]:
-              print(
-                  "NEWISH",
-                  x.get("CaseNumber"),
-                  "TYPE", repr(x.get("CaseType")),
-                  "WORKCLASS", repr(x.get("CaseWorkclass")),
-                  "STATUS", repr(x.get("CaseStatus")),
-                  "ISSUE", x.get("IssueDate"),
-                  "APPLY", x.get("ApplyDate"),
-                  "ADDRESS", repr(x.get("AddressDisplay")),
-                  "PROJECT", repr(x.get("ProjectName")),
-                  "DESC", repr((x.get("Description") or "")[:300]),
-                  "ID", x.get("CaseId"),
-              )
+          invalid=[]
+          for p in permits:
+              issued = date.fromisoformat(p.issued_date)
+              if not p.qualifies:
+                  invalid.append((p.permit_number, "not_qualifying", p.classification))
+              if issued > today:
+                  invalid.append((p.permit_number, "future_issue_date", p.issued_date))
+              if issued < cutoff:
+                  invalid.append((p.permit_number, "older_than_cutoff", p.issued_date))
+              raw = p.raw or {}
+              if raw.get("work_proposed") != "New Construction":
+                  invalid.append((p.permit_number, "wrong_workclass", raw.get("work_proposed")))
+              if str(raw.get("type_of_use") or "").lower() not in collector.new_types:
+                  invalid.append((p.permit_number, "wrong_type", raw.get("type_of_use")))
 
-          for x in rows[:20]:
-              print(
-                  "ROW",
-                  x.get("CaseNumber"),
-                  "TYPE", repr(x.get("CaseType")),
-                  "WORKCLASS", repr(x.get("CaseWorkclass")),
-                  "STATUS", repr(x.get("CaseStatus")),
-                  "ISSUE", x.get("IssueDate"),
-                  "ADDRESS", repr(x.get("AddressDisplay")),
-              )
+          print("INVALID", invalid)
+          for p in sorted(permits, key=lambda x: x.issued_date, reverse=True)[:20]:
+              print("PERMIT", p.permit_number, p.issued_date, p.classification, repr(p.project_name), repr(p.address))
 
-          if not rows:
-              raise SystemExit("No recent Gresham permit rows returned")
-          if any(x.get("ModuleName") != 2 for x in rows):
-              raise SystemExit("Gresham permit module filter leaked non-permit rows")
+          if not permits:
+              raise SystemExit("Gresham production collector returned zero new-construction permits")
+          if invalid:
+              raise SystemExit(f"Gresham production invariants failed: {invalid}")
           PY
