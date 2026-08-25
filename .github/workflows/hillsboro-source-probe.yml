@@ -26,7 +26,7 @@ jobs:
         env:
           PYTHONPATH: src
         run: python -m unittest discover -s tests -v
-      - name: Validate prior Hillsboro windows
+      - name: Validate issued Hillsboro records in prior windows
         env:
           PYTHONPATH: src
         run: |
@@ -41,10 +41,11 @@ jobs:
           collector = HillsboroCollector()
           session = new_session()
           today = date.today()
-          total_candidates = 0
+          invalid_published = []
+          total_post_issue_structural = 0
+          total_new_candidates = 0
           total_validated = 0
           total_qualifying = 0
-          invalid_published = []
 
           windows = [
               ("DAYS_22_42", today - timedelta(days=42), today - timedelta(days=21)),
@@ -56,11 +57,19 @@ jobs:
               if rows is None:
                   raise SystemExit(f"{label}: Hillsboro search window failed")
               structural = [r for r in rows if collector.structural_re.search(r.get("record_type") or "")]
-              print("WINDOW", label, start.isoformat(), end.isoformat(), "ROWS", len(rows), "STRUCTURAL", len(structural))
+              post_issue = [
+                  r for r in structural
+                  if (r.get("status") or "").strip().lower() in collector.issued_statuses
+              ]
+              total_post_issue_structural += len(post_issue)
+              print("WINDOW", label, start.isoformat(), end.isoformat(),
+                    "ROWS", len(rows), "STRUCTURAL", len(structural),
+                    "POST_ISSUE_STRUCTURAL", len(post_issue),
+                    "POST_ISSUE_STATUSES", dict(Counter(r.get("status") for r in post_issue)))
 
               permits = []
               detail_failures = []
-              for row in structural:
+              for row in post_issue:
                   try:
                       detail = collector._detail(session, row["source_url"])
                   except Exception as exc:
@@ -69,13 +78,14 @@ jobs:
                       continue
 
                   subtype = detail.get("subtype") or ""
-                  if not collector.new_subtype_re.search(subtype):
+                  is_new = bool(collector.new_subtype_re.search(subtype))
+                  print("POST_ISSUE_DETAIL", label, row["permit_number"],
+                        "STATUS", row.get("status"), "SUBTYPE", repr(subtype), "NEW", is_new)
+                  if not is_new:
                       continue
 
-                  issued_validated = False
-                  if (row.get("status") or "").strip().lower() in collector.issued_statuses:
-                      issued_validated = collector._validate_issued(row["permit_number"])
-
+                  total_new_candidates += 1
+                  issued_validated = collector._validate_issued(row["permit_number"])
                   permit = collector._permit(row, detail, issued_validated, today)
                   if permit:
                       classify_permit(permit)
@@ -85,17 +95,14 @@ jobs:
               qualifying = [p for p in permits if p.qualifies]
               invalid = [p.permit_number for p in qualifying if (p.raw or {}).get("source_issued_validated") is not True]
               invalid_published.extend(invalid)
-              total_candidates += len(permits)
               total_validated += len(validated)
               total_qualifying += len(qualifying)
 
               print("WINDOW_RESULT", label,
-                    "CANDIDATES", len(permits),
+                    "NEW_POST_ISSUE_CANDIDATES", len(permits),
                     "VALIDATED_ISSUED", len(validated),
                     "QUALIFYING", len(qualifying),
                     "CLASSIFICATIONS", dict(Counter(p.classification for p in qualifying)),
-                    "STATUSES", dict(Counter((p.status or "UNKNOWN") for p in permits)),
-                    "SUBTYPES", dict(Counter((p.raw or {}).get("subtype") or "UNKNOWN" for p in permits)),
                     "DETAIL_FAILURES", len(detail_failures))
               for p in permits:
                   print("PERMIT", label, p.permit_number,
@@ -106,7 +113,8 @@ jobs:
                         "CLASS", p.classification)
 
           print("TOTAL_PRIOR_WINDOWS",
-                "CANDIDATES", total_candidates,
+                "POST_ISSUE_STRUCTURAL", total_post_issue_structural,
+                "NEW_POST_ISSUE_CANDIDATES", total_new_candidates,
                 "VALIDATED_ISSUED", total_validated,
                 "QUALIFYING", total_qualifying,
                 "INVALID_PUBLISHED", invalid_published)
