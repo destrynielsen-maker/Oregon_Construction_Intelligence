@@ -15,101 +15,34 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests beautifulsoup4
-      - name: Find Hillsboro issued-date source
+      - name: Trace Hillsboro processing-status loader
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          from datetime import date,timedelta
-          from urllib.parse import urljoin
-          from collections import Counter
           import re, requests
           from bs4 import BeautifulSoup
-
-          BASE='https://aca-prod.accela.com/HILLSBORO/'
-          SEARCH=urljoin(BASE,'Cap/CapHome.aspx?TabName=Building&module=Building')
+          URL='https://aca-prod.accela.com/HILLSBORO/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=003YO&agencyCode=HILLSBORO&IsToShowInspection='
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
-          s=requests.Session(); s.headers.update({'User-Agent':UA})
-
-          def controls(soup):
-              f=soup.find('form',id='aspnetForm')
-              if not f: raise RuntimeError('aspnetForm missing')
-              p={}
-              for i in f.find_all('input'):
-                  n=i.get('name'); t=(i.get('type') or 'text').lower()
-                  if not n or t in {'submit','button','image','file'}: continue
-                  if t in {'checkbox','radio'} and not i.has_attr('checked'): continue
-                  p[n]=i.get('value','')
-              for ta in f.find_all('textarea'):
-                  if ta.get('name'): p[ta['name']]=ta.get_text()
-              for sel in f.find_all('select'):
-                  if not sel.get('name'): continue
-                  o=sel.find('option',selected=True) or sel.find('option')
-                  p[sel['name']]=o.get('value','') if o else ''
-              return p
-
-          def post(url,soup,target):
-              p=controls(soup); p['__EVENTTARGET']=target; p['__EVENTARGUMENT']=''
-              rr=s.post(url,data=p,headers={'Referer':url,'Origin':'https://aca-prod.accela.com'},timeout=120)
-              rr.raise_for_status(); return BeautifulSoup(rr.text,'html.parser')
-
-          def parse_rows(soup):
-              t=soup.find('table',id='ctl00_PlaceHolderMain_dgvPermitList_gdvPermitList'); out=[]
-              if not t:return out
-              for tr in t.find_all('tr'):
-                  a=tr.find('a',id=re.compile(r'_hlPermitNumber$'))
-                  if not a: continue
-                  def v(sfx):
-                      x=tr.find(id=re.compile(re.escape(sfx)+r'$')); return ' '.join(x.stripped_strings) if x else ''
-                  out.append({'date':v('_lblUpdatedTime'),'number':' '.join(a.stripped_strings),'type':v('_lblType'),
-                              'description':v('_lblDescription'),'project':v('_lblProjectName'),'status':v('_lblStatus'),
-                              'address':v('_lblPermitAddress'),'url':urljoin(SEARCH,a.get('href',''))})
-              return out
-
-          r=s.get(SEARCH,timeout=90);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
-          p=controls(soup); today=date.today(); start=today-timedelta(days=21)
-          p['__EVENTTARGET']='ctl00$PlaceHolderMain$btnNewSearch';p['__EVENTARGUMENT']=''
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate']=start.strftime('%m/%d/%Y')
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate']=today.strftime('%m/%d/%Y')
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSStartDate_ext_ClientState']=''
-          p['ctl00$PlaceHolderMain$generalSearchForm$txtGSEndDate_ext_ClientState']=''
-          rr=s.post(SEARCH,data=p,headers={'Referer':SEARCH,'Origin':'https://aca-prod.accela.com'},timeout=120);rr.raise_for_status();soup=BeautifulSoup(rr.text,'html.parser')
-          rows=[]
-          for page in range(1,16):
-              rs=parse_rows(soup);rows.extend(rs)
-              print('PAGE',page,'ROWS',len(rs),'STATUS',dict(Counter(x['status'] for x in rs)))
-              nxt=next((a for a in soup.find_all('a',href=True) if ' '.join(a.stripped_strings)=='Next >'),None)
-              if not nxt:break
-              m=re.search(r"__doPostBack\('([^']+)'",nxt['href'])
-              if not m:break
-              soup=post(SEARCH,soup,m.group(1))
-          issued=[x for x in rows if x['status']=='Issued']
-          inspection=[x for x in rows if x['status']=='Inspection Phase' and 'Structural Permit' in x['type']]
-          print('ISSUED_ROWS',len(issued));
-          for x in issued[:20]:print('ISSUED',x)
-          print('STRUCT_INSPECTION',len(inspection));
-          for x in inspection[:20]:print('INSPECT',x)
-
-          samples=(issued[:2]+inspection[:2])
-          for item in samples:
-              d=s.get(item['url'],headers={'Referer':SEARCH},timeout=90);d.raise_for_status();ds=BeautifulSoup(d.text,'html.parser')
-              print('\nDETAIL',item)
-              print('TOP_TEXT', ' '.join(ds.stripped_strings)[:2200])
-              print('DATE_STATUS_IDS')
-              for tag in ds.find_all(id=True):
-                  ident=tag.get('id','');txt=' '.join(tag.stripped_strings)
-                  if re.search(r'(date|status|issue|record)',ident,re.I) and len(txt)<1000:
-                      print(tag.name,ident,'=>',repr(txt[:900]))
-              print('STATUS_PROCESS_LINKS')
-              for a in ds.find_all('a',href=True):
-                  txt=' '.join(a.stripped_strings);href=a.get('href','')
-                  blob=txt+' '+href+' '+a.get('id','')
-                  if re.search(r'(process|status|workflow|inspection|record info|recordinfo|history|activity)',blob,re.I):
-                      print(a.get('id'),repr(txt),repr(urljoin(item['url'],href)))
-              print('TAB_OR_BUTTONS')
-              for tag in ds.find_all(['input','button','span','div']):
-                  ident=' '.join(filter(None,[tag.get('id',''),tag.get('name',''),tag.get('value','') if tag.name=='input' else '']))
-                  txt=' '.join(tag.stripped_strings)
-                  if re.search(r'(process|status|workflow|inspection|record info|history)',ident+' '+txt,re.I) and len(txt)<800:
-                      print(tag.name,ident,repr(txt[:700]))
+          s=requests.Session();s.headers.update({'User-Agent':UA})
+          r=s.get(URL,timeout=90);r.raise_for_status();text=r.text;soup=BeautifulSoup(text,'html.parser')
+          print('STATUS',r.status_code,'BYTES',len(r.content))
+          for key in ['tab-processing_status','divHistoryList','btnSearchHistory','Processing Status','processing_status','SearchHistory']:
+              print('\n=== CONTEXT',key,'===')
+              for m in list(re.finditer(re.escape(key),text,re.I))[:20]:
+                  a=max(0,m.start()-1000);b=min(len(text),m.end()+1800)
+                  print(text[a:b].replace('\n',' ')[:3000])
+          print('\n=== FULL RELEVANT TAGS ===')
+          for tag in soup.find_all(id=re.compile(r'(processing|history|status)',re.I)):
+              print(str(tag)[:3500])
+          print('\n=== RELEVANT SCRIPTS ===')
+          for script in soup.find_all('script'):
+              src=script.get('src','');body=script.get_text('\n',strip=True)
+              if re.search(r'(processing_status|SearchHistory|divHistoryList|btnSearchHistory|processing status)',src+' '+body,re.I):
+                  print('SRC',src)
+                  print(body[:10000])
+          print('\n=== SCRIPT SRCS ===')
+          for script in soup.find_all('script',src=True):
+              src=script['src']
+              if re.search(r'(cap|detail|common|history|status)',src,re.I): print(src)
           PY
