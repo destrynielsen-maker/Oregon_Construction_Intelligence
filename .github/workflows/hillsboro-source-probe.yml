@@ -26,39 +26,90 @@ jobs:
         env:
           PYTHONPATH: src
         run: python -m unittest discover -s tests -v
-      - name: Run current-window Hillsboro collector
+      - name: Validate prior Hillsboro windows
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
           from collections import Counter
+          from datetime import date, timedelta
+
           from oregon_permits.classify import classify_permit
+          from oregon_permits.collectors.base import new_session
           from oregon_permits.collectors.hillsboro import HillsboroCollector
 
           collector = HillsboroCollector()
-          collector.windows = 1
-          result = collector.collect()
-          permits = result.permits
-          for permit in permits:
-              classify_permit(permit)
+          session = new_session()
+          today = date.today()
+          total_candidates = 0
+          total_validated = 0
+          total_qualifying = 0
+          invalid_published = []
 
-          validated = [p for p in permits if (p.raw or {}).get("source_issued_validated") is True]
-          qualifying = [p for p in permits if p.qualifies]
-          invalid = [p.permit_number for p in qualifying if (p.raw or {}).get("source_issued_validated") is not True]
+          windows = [
+              ("DAYS_22_42", today - timedelta(days=42), today - timedelta(days=21)),
+              ("DAYS_43_63", today - timedelta(days=63), today - timedelta(days=42)),
+          ]
 
-          print("SOURCE", result.source)
-          print("CANDIDATES", len(permits))
-          print("VALIDATED_ISSUED", len(validated))
-          print("QUALIFYING", len(qualifying))
-          print("CLASSIFICATIONS", dict(Counter(p.classification for p in qualifying)))
-          print("STATUSES", dict(Counter((p.status or "UNKNOWN") for p in permits)))
-          print("SUBTYPES", dict(Counter((p.raw or {}).get("subtype") or "UNKNOWN" for p in permits)))
-          print("INVALID_PUBLISHED", invalid)
-          for p in permits:
-              print("PERMIT", p.permit_number, "STATUS", p.status, "SUBTYPE", (p.raw or {}).get("subtype"), "ISSUED_VALIDATED", (p.raw or {}).get("source_issued_validated"), "QUALIFIES", p.qualifies, "CLASS", p.classification)
+          for label, start, end in windows:
+              rows = collector._search_window(session, start, end)
+              if rows is None:
+                  raise SystemExit(f"{label}: Hillsboro search window failed")
+              structural = [r for r in rows if collector.structural_re.search(r.get("record_type") or "")]
+              print("WINDOW", label, start.isoformat(), end.isoformat(), "ROWS", len(rows), "STRUCTURAL", len(structural))
 
-          if invalid:
+              permits = []
+              detail_failures = []
+              for row in structural:
+                  try:
+                      detail = collector._detail(session, row["source_url"])
+                  except Exception as exc:
+                      detail_failures.append((row["permit_number"], type(exc).__name__, str(exc)))
+                      print("DETAIL_FAIL", label, row["permit_number"], type(exc).__name__, str(exc))
+                      continue
+
+                  subtype = detail.get("subtype") or ""
+                  if not collector.new_subtype_re.search(subtype):
+                      continue
+
+                  issued_validated = False
+                  if (row.get("status") or "").strip().lower() in collector.issued_statuses:
+                      issued_validated = collector._validate_issued(row["permit_number"])
+
+                  permit = collector._permit(row, detail, issued_validated, today)
+                  if permit:
+                      classify_permit(permit)
+                      permits.append(permit)
+
+              validated = [p for p in permits if (p.raw or {}).get("source_issued_validated") is True]
+              qualifying = [p for p in permits if p.qualifies]
+              invalid = [p.permit_number for p in qualifying if (p.raw or {}).get("source_issued_validated") is not True]
+              invalid_published.extend(invalid)
+              total_candidates += len(permits)
+              total_validated += len(validated)
+              total_qualifying += len(qualifying)
+
+              print("WINDOW_RESULT", label,
+                    "CANDIDATES", len(permits),
+                    "VALIDATED_ISSUED", len(validated),
+                    "QUALIFYING", len(qualifying),
+                    "CLASSIFICATIONS", dict(Counter(p.classification for p in qualifying)),
+                    "STATUSES", dict(Counter((p.status or "UNKNOWN") for p in permits)),
+                    "SUBTYPES", dict(Counter((p.raw or {}).get("subtype") or "UNKNOWN" for p in permits)),
+                    "DETAIL_FAILURES", len(detail_failures))
+              for p in permits:
+                  print("PERMIT", label, p.permit_number,
+                        "STATUS", p.status,
+                        "SUBTYPE", (p.raw or {}).get("subtype"),
+                        "ISSUED_VALIDATED", (p.raw or {}).get("source_issued_validated"),
+                        "QUALIFIES", p.qualifies,
+                        "CLASS", p.classification)
+
+          print("TOTAL_PRIOR_WINDOWS",
+                "CANDIDATES", total_candidates,
+                "VALIDATED_ISSUED", total_validated,
+                "QUALIFYING", total_qualifying,
+                "INVALID_PUBLISHED", invalid_published)
+          if invalid_published:
               raise SystemExit("Hillsboro safety invariant failed: unvalidated permit qualified")
-          if not permits:
-              raise SystemExit("Hillsboro current-window collector returned no new-construction candidates")
           PY
