@@ -16,69 +16,53 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4
-      - name: Probe Beaverton CIVICS instrument endpoints
+      - run: pip install requests
+      - name: Probe bounded Beaverton CIVICS Building search
         run: |
           python - <<'PY'
           from urllib.parse import urljoin, quote
-          import re
           import requests
-          from bs4 import BeautifulSoup
 
           base='https://prod.buildinginbeaverton.org/'
           api=urljoin(base,'delegate/civics-api/api/')
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
-          page=s.get(urljoin(base,'lookup-record'),timeout=60)
-          page.raise_for_status()
-          auth=s.get(urljoin(api,'anonymous/auth'),headers={'Referer':page.url,'Accept':'application/json, text/plain, */*'},timeout=60)
-          print('AUTH',auth.status_code,' '.join(auth.text[:300].split()))
+          lookup=urljoin(base,'lookup-record')
+          s.get(lookup,timeout=20).raise_for_status()
+          auth=s.get(urljoin(api,'anonymous/auth'),headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'},timeout=20)
+          print('AUTH',auth.status_code,' '.join(auth.text[:250].split()))
           auth.raise_for_status()
-          headers={'Referer':page.url,'Accept':'application/json, text/plain, */*'}
+          headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'}
 
-          soup=BeautifulSoup(page.text,'html.parser')
-          html=' '.join(page.text.split())
-          for needle in ['rhythmcivicsInstrumentListViewportlet_WAR_rhythmcivicsInstrumentListViewportlet','portletNamespace','filterGroups','dataTypes','cm_dataTypes','InstrumentListView']:
-              p=html.find(needle)
-              if p>=0:
-                  print('HTML_CTX',needle,html[max(0,p-600):p+1800])
-
-          portlet_names=[
+          for name in [
               'rhythmcivicsInstrumentListViewportlet',
               'rhythmcivicsInstrumentListViewportlet_WAR_rhythmcivicsInstrumentListViewportlet',
-          ]
-          for name in portlet_names:
+          ]:
               path='portlet/configuration?portletName='+quote(name,safe='')
-              r=s.get(urljoin(api,path),headers=headers,timeout=60)
-              print('CONFIG',name,r.status_code,'LEN',len(r.text),'BODY',' '.join(r.text[:3000].split()))
-
-          candidates=[
-              'core/views/instruments',
-              'core/views/instruments?Page=1',
-              'core/views/instruments?Page=1,10',
-              'core/views/instruments?Page=1&PageSize=10',
-              'core/views/instruments?OrderBy=InstrumentDateTime%20desc&Page=1,10',
-              'cdr/applicationtypes/Building',
-              'cdr/applicationtypes/building',
-          ]
-          for path in candidates:
               try:
-                  r=s.get(urljoin(api,path),headers=headers,timeout=90)
-                  print('GET',path,'STATUS',r.status_code,'CTYPE',r.headers.get('content-type'),'LEN',len(r.text),'BODY',' '.join(r.text[:5000].split()))
+                  r=s.get(urljoin(api,path),headers=headers,timeout=20)
+                  print('CONFIG',name,r.status_code,'LEN',len(r.text),'BODY',' '.join(r.text[:5000].split()))
               except Exception as e:
-                  print('GET_FAIL',path,type(e).__name__,str(e))
+                  print('CONFIG_FAIL',name,type(e).__name__,str(e))
 
-          scripts=[urljoin(page.url,x.get('src')) for x in soup.find_all('script',src=True)]
-          target=next((u for u in scripts if 'InstrumentListView-portlet' in u),None)
-          if target:
-              text=s.get(target,timeout=90).text
-              for needle in ['core/views/instruments','LookupInstrumentsStoredProcedure','dataTypes:', 'dataTypes =', 'new CollectionManager', 'cm_dataTypes', 'url: \'core/views/instruments\'', 'urlRoot']:
-                  start=0
-                  hits=0
-                  while hits<10:
-                      p=text.find(needle,start)
-                      if p<0: break
-                      print('BUNDLE_CTX',needle,re.sub(r'\s+',' ',text[max(0,p-1200):p+2600]))
-                      start=p+len(needle)
-                      hits+=1
+          for path in ['cdr/applicationtypes/Building','cdr/applicationtypes/building']:
+              try:
+                  r=s.get(urljoin(api,path),headers=headers,timeout=20)
+                  print('TYPES',path,r.status_code,'LEN',len(r.text),'BODY',' '.join(r.text[:7000].split()))
+              except Exception as e:
+                  print('TYPES_FAIL',path,type(e).__name__,str(e))
+
+          filters=[
+              'Page=1,10&OrderBy=InstrumentDateTime%20desc&FilterString=%5B%7Bproperty%3AInstrumentType%2Cvalue%3ABuilding%2Coperator%3AEqual%7D%5D',
+              'Page=1,10&OrderBy=InstrumentDateTime%20desc&ExtendedFilter=%5B%7Boperator%3AEqual%2Cproperty%3AInstrumentType%2Cvalue%3ABuilding%7D%5D',
+              'Page=1,10&FilterString=%5B%7Bproperty%3AInstrumentType%2Cvalue%3ABuilding%7D%5D',
+              'Page=1,10&Filter=Building',
+          ]
+          for qs in filters:
+              path='core/views/instruments?'+qs
+              try:
+                  r=s.get(urljoin(api,path),headers=headers,timeout=20)
+                  print('SEARCH',qs,'STATUS',r.status_code,'CTYPE',r.headers.get('content-type'),'LEN',len(r.text),'BODY',' '.join(r.text[:9000].split()))
+              except Exception as e:
+                  print('SEARCH_FAIL',qs,type(e).__name__,str(e))
           PY
