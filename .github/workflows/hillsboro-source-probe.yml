@@ -14,42 +14,59 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q requests
-      - name: Probe Hillsboro Accela API gateway
+      - run: pip install -q requests beautifulsoup4
+      - name: Probe Hillsboro permit search inputs and print view
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          import requests, json
-          BASE='https://api.hillsboro-oregon.gov/'
+          from urllib.parse import urljoin
+          import json,re,requests
+          from bs4 import BeautifulSoup
+
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
-          s=requests.Session(); s.headers.update({'User-Agent':UA,'Accept':'application/json,text/plain,*/*','Referer':'https://inspections.hillsboro-oregon.gov/'})
-          paths=[
-            '', 'swagger', 'swagger/index.html', 'swagger/v1/swagger.json', 'openapi.json',
-            'Api/Accela/Address/Search?Address=1820%20NE%2012TH%25',
-            'Api/Accela/Permit/Search?PermitNumber=STR26-0548',
-            'Api/Accela/Permit/Search?permit_number=STR26-0548',
-            'Api/Accela/Permit/Detail?PermitNumber=STR26-0548',
-            'Api/Accela/Permit/Details?PermitNumber=STR26-0548',
-            'Api/Accela/Permits/Search?PermitNumber=STR26-0548',
-            'Api/Accela/Record/Search?RecordNumber=STR26-0548',
-            'Api/Accela/Records/Search?RecordNumber=STR26-0548',
-            'Api/Accela/Inspection/Search?PermitNumber=STR26-0548',
-            'Api/Accela/Inspections/Search?PermitNumber=STR26-0548',
-          ]
-          for path in paths:
-              u=BASE+path
+          GATE='https://api.hillsboro-oregon.gov/Api/Accela/Permit/Search'
+          gs=requests.Session(); gs.headers.update({'User-Agent':UA,'Accept':'application/json,text/plain,*/*','Referer':'https://inspections.hillsboro-oregon.gov/'})
+
+          keys=['PermitNumber','permitNumber','Permit_Number','permit_number','PermitNo','permitNo','RecordNumber','recordNumber','Record_Number','record_number','Number','number','pno','PNo']
+          for key in keys:
+              for method in ('GET','POSTFORM','POSTJSON'):
+                  try:
+                      if method=='GET': r=gs.get(GATE,params={key:'STR26-0548'},timeout=30)
+                      elif method=='POSTFORM': r=gs.post(GATE,data={key:'STR26-0548'},timeout=30)
+                      else: r=gs.post(GATE,json={key:'STR26-0548'},timeout=30)
+                      body=r.text.strip()
+                      if body not in ('{}','{ }','', 'null') or r.status_code!=200:
+                          print('PERMIT_SEARCH',method,key,'HTTP',r.status_code,'TYPE',r.headers.get('content-type'),'BODY',repr(body[:5000]))
+                  except Exception as exc: print('SEARCH_FAIL',method,key,type(exc).__name__,exc)
+
+          # Establish an issued-permit session in the City inspection application.
+          BASE='https://inspections.hillsboro-oregon.gov/'
+          s=requests.Session(); s.headers.update({'User-Agent':UA})
+          h=s.get(BASE,timeout=90); h.raise_for_status(); hs=BeautifulSoup(h.text,'html.parser')
+          token=(hs.find('input',{'name':'_token'}) or {}).get('value'); meta=(hs.find('meta',{'name':'csrf-token'}) or {}).get('content')
+          headers={'Referer':BASE,'Origin':'https://inspections.hillsboro-oregon.gov','X-Requested-With':'XMLHttpRequest'}
+          if meta: headers['X-CSRF-TOKEN']=meta
+          q=s.post(urljoin(BASE,'permits/search_submit'),data={'_token':token,'permit_number':'STR26-0548','address':''},headers=headers,timeout=90)
+          q.raise_for_status(); print('INSPECTION_SEARCH',q.text[:1000])
+          detail=s.get(urljoin(BASE,'permit/detail'),headers={'Referer':BASE},timeout=90); detail.raise_for_status(); ds=BeautifulSoup(detail.text,'html.parser')
+          print('DETAIL',detail.status_code,len(detail.content),ds.title.get_text(' ',strip=True) if ds.title else '')
+
+          print('PRINT_CONTROLS')
+          for tag in ds.find_all(['a','button','input']):
+              txt=' '.join(tag.stripped_strings); attrs=' '.join(f'{k}={v}' for k,v in tag.attrs.items())
+              if re.search(r'print',txt+' '+attrs,re.I): print(tag.name,attrs[:2500],'=>',repr(txt))
+          print('PRINT_SCRIPTS')
+          for script in ds.find_all('script'):
+              body=script.get_text(' ',strip=True)
+              if re.search(r'print',body,re.I): print(body[:12000])
+
+          # Try obvious print routes in the established session; only surface non-404 responses.
+          for path in ['permit/print','permit/detail/print','permit/print/detail','permit/print_details','permit/details/print','permit/detail?print=1']:
+              u=urljoin(BASE,path)
               try:
-                  r=s.get(u,timeout=45,allow_redirects=True)
-                  ctype=r.headers.get('content-type','')
-                  print('\nURL',u,'FINAL',r.url,'HTTP',r.status_code,'TYPE',ctype,'BYTES',len(r.content))
-                  print('BODY',repr(r.text[:3500]))
-              except Exception as exc: print('FAIL',u,type(exc).__name__,exc)
-          # OPTIONS on the known working namespace and likely record paths can reveal allowed verbs/routes.
-          for path in ['Api/Accela/Address/Search','Api/Accela/Permit/Search','Api/Accela/Permit/Detail','Api/Accela/Record/Search']:
-              u=BASE+path
-              try:
-                  r=s.options(u,timeout=30)
-                  print('OPTIONS',u,r.status_code,'ALLOW',r.headers.get('allow'),'BODY',repr(r.text[:1000]))
-              except Exception as exc: print('OPTIONS_FAIL',u,exc)
+                  r=s.get(u,headers={'Referer':detail.url},timeout=45,allow_redirects=True)
+                  if r.status_code != 404:
+                      print('PRINT_ROUTE',u,'FINAL',r.url,'HTTP',r.status_code,'TYPE',r.headers.get('content-type'),'BYTES',len(r.content),'HEAD',repr(r.text[:3000]))
+              except Exception as exc: print('PRINT_FAIL',u,type(exc).__name__,exc)
           PY
