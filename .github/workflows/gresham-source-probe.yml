@@ -21,80 +21,63 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Probe anonymous Gresham EnerGov search
+      - name: Map Gresham EnerGov anonymous module filters
         run: |
           python - <<'PY'
           import copy
-          import json
           import requests
 
           base = "https://greshamor-energovweb.tylerhost.net/apps/SelfService/"
-          criteria_url = base + "api/energov/search/criteria"
-          search_url = base + "api/energov/search/search"
-
           session = requests.Session()
           session.headers.update({
               "User-Agent": "Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)",
               "Referer": base,
           })
+          tenant = {
+              "tenantId": "1",
+              "tenantName": "GreshamOrProd",
+              "Tyler-TenantUrl": "GreshamOrProd",
+              "Tyler-Tenant-Culture": "en-US",
+              "Accept": "application/json, text/plain, */*",
+              "Content-Type": "application/json;charset=UTF-8",
+          }
 
-          home = session.get(base, timeout=60)
-          print("HOME", home.status_code, home.url)
-          home.raise_for_status()
+          session.get(base, timeout=60).raise_for_status()
+          c = session.get(base + "api/energov/search/criteria", headers=tenant, timeout=60)
+          c.raise_for_status()
+          template = c.json()["Result"]
+          url = base + "api/energov/search/search"
 
-          criteria = session.get(criteria_url, headers={"Accept": "application/json, text/plain, */*"}, timeout=60)
-          print("CRITERIA", criteria.status_code, criteria.headers.get("content-type"))
-          criteria.raise_for_status()
-          payload = criteria.json()["Result"]
-          print("TOP_LEVEL_KEYS", sorted(payload.keys()))
-          print("PERMIT_KEYS", sorted((payload.get("PermitCriteria") or {}).keys()))
-
-          body = copy.deepcopy(payload)
-          body["SearchModule"] = 1
-          body["FilterModule"] = 1
-          body["PageNumber"] = 1
-          body["PageSize"] = 10
-          body["Keyword"] = ""
-          body["ExactMatch"] = False
-          permit = body.setdefault("PermitCriteria", {})
-          permit["IssueDateFrom"] = "08/01/2026"
-          permit["IssueDateTo"] = "08/25/2026"
-
-          attempts = [
-              ("session_only", {}),
-              ("tenant_guess", {
-                  "tenantId": "1",
-                  "tenantName": "GreshamOrProd",
-                  "Tyler-TenantUrl": "GreshamOrProd",
-                  "Tyler-Tenant-Culture": "en-US",
-              }),
-          ]
-
-          success = False
-          for label, extra in attempts:
-              headers = {"Accept": "application/json, text/plain, */*", "Content-Type": "application/json;charset=UTF-8", **extra}
-              r = session.post(search_url, headers=headers, data=json.dumps(body), timeout=90)
-              print("POST", label, "STATUS", r.status_code, "CTYPE", r.headers.get("content-type"), "LEN", len(r.text))
-              print("POST_BODY_PREFIX", label, " ".join(r.text[:1200].split()))
+          for module in range(0, 12):
+              body = copy.deepcopy(template)
+              body["SearchModule"] = 1
+              body["FilterModule"] = module
+              body["PageNumber"] = 1
+              body["PageSize"] = 3
+              body["Keyword"] = ""
+              body["ExactMatch"] = False
+              r = session.post(url, headers=tenant, json=body, timeout=90)
               if r.status_code != 200:
+                  print("MODULE", module, "STATUS", r.status_code, "BODY", " ".join(r.text[:300].split()))
                   continue
-              try:
-                  data = r.json()
-              except ValueError:
-                  continue
-              result = data.get("Result", data)
-              if isinstance(result, dict):
-                  print("RESULT_KEYS", sorted(result.keys()))
-                  for key, value in result.items():
-                      if isinstance(value, list):
-                          print("LIST_FIELD", key, "COUNT", len(value))
-                          if value:
-                              first = value[0]
-                              print("FIRST_RECORD_KEYS", key, sorted(first.keys()) if isinstance(first, dict) else type(first).__name__)
-                              print("FIRST_RECORD", key, json.dumps(first, default=str)[:3000])
-                  success = True
-              break
-
-          if not success:
-              raise SystemExit("Gresham EnerGov anonymous search POST did not return a usable JSON result")
+              result = r.json().get("Result", {})
+              print(
+                  "MODULE", module,
+                  "TOTAL", result.get("TotalFound"),
+                  "PERMITS", result.get("PermitsFound"),
+                  "PLANS", result.get("PlansFound"),
+                  "BUSINESS", result.get("BusinessLicensesFound"),
+                  "CODE", result.get("CodeCasesFound"),
+                  "INSPECTIONS", result.get("InspectionsFound"),
+              )
+              for item in (result.get("EntityResults") or [])[:3]:
+                  print(
+                      "ITEM", module,
+                      "MODULE_NAME", item.get("ModuleName"),
+                      "NUMBER", item.get("CaseNumber"),
+                      "TYPE", item.get("CaseType"),
+                      "WORKCLASS", item.get("CaseWorkclass"),
+                      "STATUS", item.get("CaseStatus"),
+                      "ISSUE", item.get("IssueDate"),
+                  )
           PY
