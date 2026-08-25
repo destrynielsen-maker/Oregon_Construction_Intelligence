@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:56:19+00:00",
+  "generated_at": "2026-08-25T18:37:14+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -854,18 +854,6 @@
       "top_score": 38
     },
     {
-      "contractor": "ADVANCED ENERGY SYSTEM",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "OREGON BUILDERS DEVELOPERS LLC",
       "permits_90d": 1,
       "single_family": 0,
@@ -876,6 +864,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "ADVANCED ENERGY SYSTEM",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
     }
   ]
 }

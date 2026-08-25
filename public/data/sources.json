@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T16:56:19+00:00",
+  "generated_at": "2026-08-25T18:37:14+00:00",
   "sources": [
     {
       "source": "Portland",
@@ -15,8 +15,8 @@
       "freshness_threshold_days": 10,
       "previous_records_seen": 8000,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-08-25T16:56:19+00:00",
-      "last_success_at": "2026-08-25T16:56:19+00:00",
+      "last_attempt_at": "2026-08-25T18:37:14+00:00",
+      "last_success_at": "2026-08-25T18:37:14+00:00",
       "cached_data_available": true,
       "source_url": "https://www.portlandmaps.com/arcgis/rest/services/Public/BDS_Permit/FeatureServer",
       "note": "Official City of Portland BDS Permit FeatureServer construction layers 2 and 5"
@@ -35,8 +35,8 @@
       "freshness_threshold_days": 10,
       "previous_records_seen": 186,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-08-25T16:56:19+00:00",
-      "last_success_at": "2026-08-25T16:56:19+00:00",
+      "last_attempt_at": "2026-08-25T18:37:14+00:00",
+      "last_success_at": "2026-08-25T18:37:14+00:00",
       "cached_data_available": true,
       "source_url": "https://pdd.eugene-or.gov/BuildingPermits/PermitReports",
       "note": "Official City of Eugene issued building permit Excel export; rolling 45-day window"
@@ -53,13 +53,33 @@
       "oldest_permit_date": "2024-05-31",
       "days_since_newest_permit": 1,
       "freshness_threshold_days": 10,
-      "previous_records_seen": null,
-      "record_count_change_pct": null,
-      "last_attempt_at": "2026-08-25T16:56:19+00:00",
-      "last_success_at": "2026-08-25T16:56:19+00:00",
+      "previous_records_seen": 1908,
+      "record_count_change_pct": 0.0,
+      "last_attempt_at": "2026-08-25T18:37:14+00:00",
+      "last_success_at": "2026-08-25T18:37:14+00:00",
       "cached_data_available": true,
       "source_url": "https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0",
       "note": "Official City of Bend nightly open-data tables; issued new-construction building applications"
+    },
+    {
+      "source": "Hillsboro",
+      "status": "no_data",
+      "technical_status": "ok",
+      "freshness_status": "unknown",
+      "volume_status": "normal",
+      "records_seen": 0,
+      "qualifying_records": 0,
+      "newest_permit_date": null,
+      "oldest_permit_date": null,
+      "days_since_newest_permit": null,
+      "freshness_threshold_days": 14,
+      "previous_records_seen": null,
+      "record_count_change_pct": null,
+      "last_attempt_at": "2026-08-25T18:37:14+00:00",
+      "last_success_at": "2026-08-25T18:37:14+00:00",
+      "cached_data_available": false,
+      "source_url": "https://aca-prod.accela.com/HILLSBORO/Cap/CapHome.aspx?TabName=Building&module=Building",
+      "note": "Official OpenHillsboro rolling 21-day structural permit search/detail plus City inspection-system issuance validation; issued date is first observed issued when the public systems do not expose the exact issue timestamp"
     }
   ]
 }

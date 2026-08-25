@@ -25,26 +25,6 @@ Units: </description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202604101</guid>
-      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). End Unit 24. Plans transferred from PROT202506967 chw
-COB 1'
-HB2306 path 1
-
-PRNC202604101 Lot 24 reviewed under this one
-PRNC202604102 Lot 25
-PRNC202604104 Lot 26</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202604101
-Issued: 2026-08-24
-Address: 479 SW SHEVLIN HIXON DR, BEND, OR 97702
-Contractor: Christiansen's Contracting Company (QC)
-Valuation: 434581.34
-Units: </description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202604102</guid>
       <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). Middle Unit 25.
 COB 1'
@@ -61,6 +41,26 @@ Issued: 2026-08-24
 Address: 477 SW SHEVLIN HIXON DR, BEND, OR 97702
 Contractor: Christiansen's Contracting Company (QC)
 Valuation: 434581.41
+Units: </description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604101</guid>
+      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). End Unit 24. Plans transferred from PROT202506967 chw
+COB 1'
+HB2306 path 1
+
+PRNC202604101 Lot 24 reviewed under this one
+PRNC202604102 Lot 25
+PRNC202604104 Lot 26</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202604101
+Issued: 2026-08-24
+Address: 479 SW SHEVLIN HIXON DR, BEND, OR 97702
+Contractor: Christiansen's Contracting Company (QC)
+Valuation: 434581.34
 Units: </description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1001,6 +1001,24 @@ Units: </description>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202600843</guid>
+      <title>[Bend] Adding a garage with 2 ADUs to the back of property at 464NE Irving (Per applicant, one total structure w/three single car garages and two, one bedroom ADUs)*** SN
+***Building Use changed from ADU to Duplex*** SN
+***COB Water (meter added)*** SN
+***No Conditions/No Expired*** SN
+***Applicant to apply for Demo permit for detached garage (condition added) - PRDE202601324*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202600843
+Issued: 2026-08-05
+Address: 464 NE IRVING AVE, BEND, OR 97701
+Contractor: Red River Remodel and Construction
+Valuation: 300327.44
+Units: </description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202503617</guid>
       <title>[Bend] Parrell Road Lot 9 TH (lots 9-12) 
 *conditions, see comments*SF
@@ -1019,24 +1037,6 @@ Issued: 2026-08-05
 Address: 61030 SE BUXTON LOOP, BEND, OR 97702
 Contractor: DR Horton, Inc
 Valuation: 272563.03
-Units: </description>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600843</guid>
-      <title>[Bend] Adding a garage with 2 ADUs to the back of property at 464NE Irving (Per applicant, one total structure w/three single car garages and two, one bedroom ADUs)*** SN
-***Building Use changed from ADU to Duplex*** SN
-***COB Water (meter added)*** SN
-***No Conditions/No Expired*** SN
-***Applicant to apply for Demo permit for detached garage (condition added) - PRDE202601324*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202600843
-Issued: 2026-08-05
-Address: 464 NE IRVING AVE, BEND, OR 97701
-Contractor: Red River Remodel and Construction
-Valuation: 300327.44
 Units: </description>
       <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2263,6 +2263,26 @@ Units: 30</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202602370</guid>
+      <title>[Bend] Construct a new duplex townhome dwelling; Master Reissue Program:  PROT202601422
+**No conditions**SF
+**No active SIMP**SF
+**CoB water**SF
+
+*PRNC202602273 - Lot 14 - Plans reviewed under this permit**
+*PRNC202602370 - Lot 15 - 2817 NE Huettl Ln</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602370
+Issued: 2026-07-01
+Address: 2817 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 239086.8
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202505949</guid>
       <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 37,38 AND 39 TRIPLEX
 
@@ -2366,26 +2386,6 @@ Issued: 2026-07-01
 Address: 21451 LIVINGSTON DR, BEND, OR 97701
 Contractor: Hayden Homes
 Valuation: 258700.38
-Units: </description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602370</guid>
-      <title>[Bend] Construct a new duplex townhome dwelling; Master Reissue Program:  PROT202601422
-**No conditions**SF
-**No active SIMP**SF
-**CoB water**SF
-
-*PRNC202602273 - Lot 14 - Plans reviewed under this permit**
-*PRNC202602370 - Lot 15 - 2817 NE Huettl Ln</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202602370
-Issued: 2026-07-01
-Address: 2817 NE HUETTL LN, BEND, OR 97701
-Contractor: SIMPLICITY HOMES LLC
-Valuation: 239086.8
 Units: </description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2693,6 +2693,25 @@ Units: </description>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202602100</guid>
+      <title>[Bend] Construction of a new single-family townhouse dwelling.
+***PE - This is a standalone townhome application (Lot 4).  Other standalone townhome application is on PRNC202602098 (Lot 3)*** SN
+
+***COB Water (water meter added)*** SN
+***Fill Lot*** SN
+***Retaining wall, route to engineering (see comments)*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602100
+Issued: 2026-06-22
+Address: 2804 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 200795.58
+Units: </description>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202505880</guid>
       <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 37,38 AND 39 TRIPLEX
 
@@ -2796,25 +2815,6 @@ Issued: 2026-06-22
 Address: 21434 LIVINGSTON DR, BEND, OR 97701
 Contractor: Hayden Homes
 Valuation: 284379.73
-Units: </description>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602100</guid>
-      <title>[Bend] Construction of a new single-family townhouse dwelling.
-***PE - This is a standalone townhome application (Lot 4).  Other standalone townhome application is on PRNC202602098 (Lot 3)*** SN
-
-***COB Water (water meter added)*** SN
-***Fill Lot*** SN
-***Retaining wall, route to engineering (see comments)*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202602100
-Issued: 2026-06-22
-Address: 2804 NE HUETTL LN, BEND, OR 97701
-Contractor: SIMPLICITY HOMES LLC
-Valuation: 200795.58
 Units: </description>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3242,25 +3242,6 @@ Units: 1</description>
       <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202602305</guid>
-      <title>[Bend] New construction of single-family duplex townhome.  Master Reissue program:  PROT202601422
-**No conditions, see comments**SF
-**CoB water**SF 
-
-*PRNC202602305 - Lot 12 - Plan reviewed under this permit*
-*PRNC202602366 - Lot 13 - 2809 NE Huettl Ln*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202602305
-Issued: 2026-06-10
-Address: 2805 NE HUETTL LN, BEND, OR 97701
-Contractor: SIMPLICITY HOMES LLC
-Valuation: 240101.34
-Units: </description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202602366</guid>
       <title>[Bend] New construction of single-family duplex townhome.  Master Reissue program:  PROT202601422
 **No conditions, see comments**SF
@@ -3276,6 +3257,25 @@ Issued: 2026-06-10
 Address: 2809 NE HUETTL LN, BEND, OR 97701
 Contractor: SIMPLICITY HOMES LLC
 Valuation: 239086.8
+Units: </description>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602305</guid>
+      <title>[Bend] New construction of single-family duplex townhome.  Master Reissue program:  PROT202601422
+**No conditions, see comments**SF
+**CoB water**SF 
+
+*PRNC202602305 - Lot 12 - Plan reviewed under this permit*
+*PRNC202602366 - Lot 13 - 2809 NE Huettl Ln*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202602305
+Issued: 2026-06-10
+Address: 2805 NE HUETTL LN, BEND, OR 97701
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 240101.34
 Units: </description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3876,45 +3876,6 @@ Units: 1</description>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202403522</guid>
-      <title>[Bend] Townhome unit - UNIT F Utility review and inspections on PRNC202403521
-Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
-MULTIPAGE FILE BETA TEST PROJECT
-Development across two tax lots will result in (2) Four unit Townhouse buildings
-**Addressing needed**No conditions** chw
-Customer says this is not going to be middle housing                                                           **Route to Engineering and Planning</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202403522
-Issued: 2026-06-01
-Address: 553 NE MARSHALL AVE, UNIT:1, BEND, OR 97701
-Contractor: Deschutes Custom Homes LLC
-Valuation: 194691.71
-Units: </description>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202403519</guid>
-      <title>[Bend] 1 Townhome unit - UNIT C
-Utilities will be assessed and inspected on unit A (PRNC202403025)
-Units A - D will be on this parcel . 
-Customer says this is not going to be middle housing
-MULTIPAGE FILE BETA TEST PROJECT
-Development across two tax lots will result in (2) Four Unit Townhouse buildings.
-**no conditions** Addressing needed** chw</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202403519
-Issued: 2026-06-01
-Address: 543 NE MARSHALL AVE, UNIT:3, BEND, OR 97701
-Contractor: Deschutes Custom Homes LLC
-Valuation: 255228.04
-Units: </description>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202403524</guid>
       <title>[Bend] Townhome unit - UNIT H - Utility review and inspections on PRNC202403521
 MULTIPAGE FILE BETA TEST PROJECT
@@ -3930,6 +3891,45 @@ Issued: 2026-06-01
 Address: 553 NE MARSHALL AVE, UNIT:4, BEND, OR 97701
 Contractor: Deschutes Custom Homes LLC
 Valuation: 279714.72
+Units: </description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403523</guid>
+      <title>[Bend] Townhome unit - UNIT G -Utility review and inspections for units E-H will be on PRNC202403521
+MULTIPAGE FILE BETA TEST PROJECT
+Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
+Development across two tax lots will result in (2) Four unit Townhouse buildings
+**Addressing needed**
+No conditions chw
+Customer says this is not going to be middle housing                                                          **Route to Engineering and Planning</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403523
+Issued: 2026-06-01
+Address: 553 NE MARSHALL AVE, UNIT:3, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 279714.72
+Units: </description>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403522</guid>
+      <title>[Bend] Townhome unit - UNIT F Utility review and inspections on PRNC202403521
+Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
+MULTIPAGE FILE BETA TEST PROJECT
+Development across two tax lots will result in (2) Four unit Townhouse buildings
+**Addressing needed**No conditions** chw
+Customer says this is not going to be middle housing                                                           **Route to Engineering and Planning</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202403522
+Issued: 2026-06-01
+Address: 553 NE MARSHALL AVE, UNIT:1, BEND, OR 97701
+Contractor: Deschutes Custom Homes LLC
+Valuation: 194691.71
 Units: </description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3954,22 +3954,22 @@ Units: </description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202403523</guid>
-      <title>[Bend] Townhome unit - UNIT G -Utility review and inspections for units E-H will be on PRNC202403521
+      <guid isPermaLink="false">OR|bend|prnc202403519</guid>
+      <title>[Bend] 1 Townhome unit - UNIT C
+Utilities will be assessed and inspected on unit A (PRNC202403025)
+Units A - D will be on this parcel . 
+Customer says this is not going to be middle housing
 MULTIPAGE FILE BETA TEST PROJECT
-Units E - H will be on TAX LOT: 171233BA07500, BEND, OR 97701
-Development across two tax lots will result in (2) Four unit Townhouse buildings
-**Addressing needed**
-No conditions chw
-Customer says this is not going to be middle housing                                                          **Route to Engineering and Planning</title>
+Development across two tax lots will result in (2) Four Unit Townhouse buildings.
+**no conditions** Addressing needed** chw</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: MULTIFAMILY
 Score: 48
-Permit: PRNC202403523
+Permit: PRNC202403519
 Issued: 2026-06-01
-Address: 553 NE MARSHALL AVE, UNIT:3, BEND, OR 97701
+Address: 543 NE MARSHALL AVE, UNIT:3, BEND, OR 97701
 Contractor: Deschutes Custom Homes LLC
-Valuation: 279714.72
+Valuation: 255228.04
 Units: </description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>

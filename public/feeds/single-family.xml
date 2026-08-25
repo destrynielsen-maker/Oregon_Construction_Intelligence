@@ -288,6 +288,23 @@ Units: </description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202603850</guid>
+      <title>[Bend] Brooksmill HS 16_ Clark Farmhouse_G_FEL_ Combo Building Permit
+
+*CoB water - meter needed*
+*no conditions/no active SIMPs*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603850
+Issued: 2026-08-13
+Address: 1295 SW SILVER LAKE BLVD, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 347011.96
+Units: </description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202603097</guid>
       <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 49
 
@@ -302,23 +319,6 @@ Issued: 2026-08-13
 Address: 61081 NE UNITY PL, BEND, OR 97701
 Contractor: Hayden Homes
 Valuation: 354702.91
-Units: </description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603850</guid>
-      <title>[Bend] Brooksmill HS 16_ Clark Farmhouse_G_FEL_ Combo Building Permit
-
-*CoB water - meter needed*
-*no conditions/no active SIMPs*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603850
-Issued: 2026-08-13
-Address: 1295 SW SILVER LAKE BLVD, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 347011.96
 Units: </description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -500,23 +500,6 @@ Units: 1</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202601545</guid>
-      <title>[Bend] SFD WITH ATTACHED GARAGE
-***Avion Water*** SN
-***No relevant conditions/No expired*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202601545
-Issued: 2026-08-07
-Address: 60851 RIVER RIM DR, BEND, OR 97702
-Contractor: MCD Homes LLC
-Valuation: 693221.12
-Units: </description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202601745</guid>
       <title>[Bend] SFD WITH ATTACHED GARAGE
 **Lot 31**
@@ -533,6 +516,23 @@ Issued: 2026-08-07
 Address: 62651 NW EMBER PL, BEND, OR 97703
 Contractor: MCD Homes LLC
 Valuation: 585704.36
+Units: </description>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202601545</guid>
+      <title>[Bend] SFD WITH ATTACHED GARAGE
+***Avion Water*** SN
+***No relevant conditions/No expired*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202601545
+Issued: 2026-08-07
+Address: 60851 RIVER RIM DR, BEND, OR 97702
+Contractor: MCD Homes LLC
+Valuation: 693221.12
 Units: </description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1410,24 +1410,6 @@ Units: </description>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202600396</guid>
-      <title>[Bend] New single family residence - Lot 55 Talline
-***Used 2664 Skyline Ranch Rd for conditions*** SN
-***COB Water (meter added)*** SN
-***PRSIMP202408071*** SN
-***HB2306 - Talline Phase 3 - Pre-Plat Review Path 3*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600396
-Issued: 2026-07-15
-Address: 2648 SKYLINE RANCH RD, BEND, OR 97703
-Contractor: MCD Homes LLC
-Valuation: 445007.91
-Units: </description>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202602693</guid>
       <title>[Bend] Brooksmill HS 8_ Cypress Farmhouse GL
 PRDE202405312
@@ -1442,6 +1424,24 @@ Issued: 2026-07-15
 Address: 1229 SW BONNIEWOOD PL, BEND, OR 97702
 Contractor: Skylight Homebuilders, Inc.
 Valuation: 402575.73
+Units: </description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202600396</guid>
+      <title>[Bend] New single family residence - Lot 55 Talline
+***Used 2664 Skyline Ranch Rd for conditions*** SN
+***COB Water (meter added)*** SN
+***PRSIMP202408071*** SN
+***HB2306 - Talline Phase 3 - Pre-Plat Review Path 3*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202600396
+Issued: 2026-07-15
+Address: 2648 SKYLINE RANCH RD, BEND, OR 97703
+Contractor: MCD Homes LLC
+Valuation: 445007.91
 Units: </description>
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1761,23 +1761,6 @@ Units: </description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202600922</guid>
-      <title>[Bend] NHC_ Acadia Pointe HS 122_ LEVERICH GL_ Combo Building Permit 
-***COB Water*** SN
-***HB2306 - Acadia Pointe Phase 6 - Pre-plat review Path 3 (condition added)*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600922
-Issued: 2026-07-01
-Address: 63107 NE HENNINGSEN PL, BEND, OR 97701
-Contractor: Lennar Northwest LLC
-Valuation: 488495.2
-Units: </description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202602971</guid>
       <title>[Bend] EST256 - 60932 SE Apollo Pl - Single Family Dwelling 
 
@@ -1791,6 +1774,23 @@ Issued: 2026-07-01
 Address: 60932 SE APOLLO PL, BEND, OR 97702
 Contractor: PAHLISCH HOMES
 Valuation: 235978.88
+Units: </description>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202600922</guid>
+      <title>[Bend] NHC_ Acadia Pointe HS 122_ LEVERICH GL_ Combo Building Permit 
+***COB Water*** SN
+***HB2306 - Acadia Pointe Phase 6 - Pre-plat review Path 3 (condition added)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202600922
+Issued: 2026-07-01
+Address: 63107 NE HENNINGSEN PL, BEND, OR 97701
+Contractor: Lennar Northwest LLC
+Valuation: 488495.2
 Units: </description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1880,22 +1880,6 @@ Units: </description>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202601901</guid>
-      <title>[Bend] New single family residence
-**No expired or conditions**SF 
-**CoB water**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202601901
-Issued: 2026-06-25
-Address: 254 NW CONGRESS ST, UNIT:1, BEND, OR 97703
-Contractor: EVOLVE BUILDING &amp; DEVELOPMENT
-Valuation: 543240.96
-Units: </description>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202602536</guid>
       <title>[Bend] PT389 - 3059 NE Brownstone Pl - Single Family Dwelling
 *Lot 389*
@@ -1914,18 +1898,18 @@ Units: </description>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202602681</guid>
-      <title>[Bend] Acadia Pointe HS 120_ Leverich American GR
-COB water
-no expired/conditions chw</title>
+      <guid isPermaLink="false">OR|bend|prnc202601901</guid>
+      <title>[Bend] New single family residence
+**No expired or conditions**SF 
+**CoB water**SF</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602681
+Score: 28
+Permit: PRNC202601901
 Issued: 2026-06-25
-Address: 63115 NE HENNINGSEN PL, BEND, OR 97701
-Contractor: Lennar Northwest LLC
-Valuation: 488495.2
+Address: 254 NW CONGRESS ST, UNIT:1, BEND, OR 97703
+Contractor: EVOLVE BUILDING &amp; DEVELOPMENT
+Valuation: 543240.96
 Units: </description>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1943,6 +1927,22 @@ Issued: 2026-06-25
 Address: 20898 SE CALDERA DR, BEND, OR 97702
 Contractor: PAHLISCH HOMES
 Valuation: 443142.2
+Units: </description>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602681</guid>
+      <title>[Bend] Acadia Pointe HS 120_ Leverich American GR
+COB water
+no expired/conditions chw</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202602681
+Issued: 2026-06-25
+Address: 63115 NE HENNINGSEN PL, BEND, OR 97701
+Contractor: Lennar Northwest LLC
+Valuation: 488495.2
 Units: </description>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3254,21 +3254,6 @@ Units: </description>
       <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202600432</guid>
-      <title>[Bend] Single Family Home Lot 24 **Fill lot**
-no expired/conditions chw</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600432
-Issued: 2026-05-07
-Address: 21748 SE STROMBOLI LN, BEND, OR 97702
-Contractor: DR Horton, Inc
-Valuation: 301931.2
-Units: </description>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202601792</guid>
       <title>[Bend] A new cottage home with an attached garage is being added to an existing cottage development in NW Bend off NW Juniper. Design mimics designs completed in 2021; permitted in 2020. Designer used prescriptive method for structural components.
 *Fill Lot*
@@ -3318,6 +3303,21 @@ Issued: 2026-05-07
 Address: 21729 SE STROMBOLI LN, BEND, OR 97702
 Contractor: D.R. HORTON
 Valuation: 376075.55
+Units: </description>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202600432</guid>
+      <title>[Bend] Single Family Home Lot 24 **Fill lot**
+no expired/conditions chw</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202600432
+Issued: 2026-05-07
+Address: 21748 SE STROMBOLI LN, BEND, OR 97702
+Contractor: DR Horton, Inc
+Valuation: 301931.2
 Units: </description>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3457,6 +3457,23 @@ Units: </description>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202502897</guid>
+      <title>[Bend] New Construction - Plan 2160BGL – Stone Creek B2/B3 Lot# 361. Please reference expired application PRNC202202142
+**CoB water**
+ **no conditions, see comments**SF
+**no active SIMPs**SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202502897
+Issued: 2026-05-04
+Address: 20604 KIRA DR, BEND, OR 97702
+Contractor: FRANKLIN BROTHERS LLC
+Valuation: 400653.41
+Units: </description>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202502893</guid>
       <title>[Bend] New Construction - Plan 2130AGL – Stone Creek B2/B3 Lot# 358
 ***COB Water*** SN
@@ -3525,23 +3542,6 @@ Issued: 2026-05-04
 Address: 20579 SE NINA AVE, BEND, OR 97702
 Contractor: FRANKLIN BROTHERS LLC
 Valuation: 273660.86
-Units: </description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202502897</guid>
-      <title>[Bend] New Construction - Plan 2160BGL – Stone Creek B2/B3 Lot# 361. Please reference expired application PRNC202202142
-**CoB water**
- **no conditions, see comments**SF
-**no active SIMPs**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202502897
-Issued: 2026-05-04
-Address: 20604 KIRA DR, BEND, OR 97702
-Contractor: FRANKLIN BROTHERS LLC
-Valuation: 400653.41
 Units: </description>
       <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>

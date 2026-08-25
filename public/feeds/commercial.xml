@@ -682,18 +682,18 @@ Units: </description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202600779</guid>
-      <title>[Bend] New Mini-storage self-service storage building in a new mini-storage facility development. 5,660 sq ft. unconditioned space.
+      <guid isPermaLink="false">OR|bend|prnc202600796</guid>
+      <title>[Bend] New Mini-storage self-service storage building in a new mini-storage facility development.  BUILDING #8, 3,900 sq ft, unconditioned space.
 TECH: Margaret
 *** SIMP - PRSIMP202508503 ***</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: COMMERCIAL
 Score: 38
-Permit: PRNC202600779
+Permit: PRNC202600796
 Issued: 2026-05-07
 Address: 62881 MERCURY PL, BEND, OR 97701
 Contractor: Awbrey Butte Construction LLC
-Valuation: 496551.8
+Valuation: 342147.0
 Units: </description>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -714,18 +714,18 @@ Units: </description>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202600796</guid>
-      <title>[Bend] New Mini-storage self-service storage building in a new mini-storage facility development.  BUILDING #8, 3,900 sq ft, unconditioned space.
+      <guid isPermaLink="false">OR|bend|prnc202600779</guid>
+      <title>[Bend] New Mini-storage self-service storage building in a new mini-storage facility development. 5,660 sq ft. unconditioned space.
 TECH: Margaret
 *** SIMP - PRSIMP202508503 ***</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: COMMERCIAL
 Score: 38
-Permit: PRNC202600796
+Permit: PRNC202600779
 Issued: 2026-05-07
 Address: 62881 MERCURY PL, BEND, OR 97701
 Contractor: Awbrey Butte Construction LLC
-Valuation: 342147.0
+Valuation: 496551.8
 Units: </description>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -792,24 +792,6 @@ Units: </description>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202600579</guid>
-      <title>[Bend] Tenant: Juniper Ridge Lot 6 Bldg #1 - Shell ONLY
-Tech: Darcy
-Revised to make this a true cold Shell/Core Building, no utilities and just a metal shell building (MEP's removed). 
-*SIMP 202407105
-*Foundation Only 202507048</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 48
-Permit: PRNC202600579
-Issued: 2026-04-30
-Address: 20888 NE TRITON PL, BEND, OR 97701
-Contractor: SUNWEST BUILDERS
-Valuation: 1534400.0
-Units: </description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202600786</guid>
       <title>[Bend] Tenant: Juniper Ridge Lot 6 Bldg #2 - Shell Only
 Tech: Darcy 
@@ -824,6 +806,24 @@ Issued: 2026-04-30
 Address: 20888 NE TRITON PL, BEND, OR 97701
 Contractor: SUNWEST BUILDERS
 Valuation: 2550709.2
+Units: </description>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202600579</guid>
+      <title>[Bend] Tenant: Juniper Ridge Lot 6 Bldg #1 - Shell ONLY
+Tech: Darcy
+Revised to make this a true cold Shell/Core Building, no utilities and just a metal shell building (MEP's removed). 
+*SIMP 202407105
+*Foundation Only 202507048</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: COMMERCIAL
+Score: 48
+Permit: PRNC202600579
+Issued: 2026-04-30
+Address: 20888 NE TRITON PL, BEND, OR 97701
+Contractor: SUNWEST BUILDERS
+Valuation: 1534400.0
 Units: </description>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1406,22 +1406,6 @@ Units: </description>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202503823</guid>
-      <title>[Bend] Maintenance + Kayak and Bike Storage is a 1 story building of Type VB construction, located adjacent to the Clubhouse.
-****Simp permit is: PRSIMP202504142*****JOC
-Tech: Lori D.</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: PRNC202503823
-Issued: 2026-02-02
-Address: 61071 SE NEW JOURNEY DR, BEND, OR 97702
-Contractor: CS CONSTRUCTION
-Valuation: 92756.0
-Units: </description>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202506953</guid>
       <title>[Bend] The 2 Trash Enclosures on the South Parcel Tax Lot 800 are 1 story structures of type VB construction.
 Tech: Lori</title>
@@ -1447,6 +1431,22 @@ Issued: 2026-02-02
 Address: 61071 SE NEW JOURNEY DR, BEND, OR 97702
 Contractor: CS CONSTRUCTION
 Valuation: 25951.0
+Units: </description>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202503823</guid>
+      <title>[Bend] Maintenance + Kayak and Bike Storage is a 1 story building of Type VB construction, located adjacent to the Clubhouse.
+****Simp permit is: PRSIMP202504142*****JOC
+Tech: Lori D.</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: PRNC202503823
+Issued: 2026-02-02
+Address: 61071 SE NEW JOURNEY DR, BEND, OR 97702
+Contractor: CS CONSTRUCTION
+Valuation: 92756.0
 Units: </description>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3049,25 +3049,6 @@ Units: </description>
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202501614</guid>
-      <title>[Bend] Bike Shelter 
-**** SIMP PRSIMP202408118**** 
-Building Permit - PRNC202408135
-Trash Enclosure - PRNC202501616
-Bike Shelter - PRNC202501614
-Tech: Margaret</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: PRNC202501614
-Issued: 2025-05-27
-Address: 2720 NE CONNERS AVE, BEND, OR 97701
-Contractor: R &amp; H CONSTRUCTION CO
-Valuation: 5000.0
-Units: </description>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202501616</guid>
       <title>[Bend] Trash Enclosure - 
 **** SIMP PRSIMP202408118**** 
@@ -3083,6 +3064,25 @@ Issued: 2025-05-27
 Address: 2720 NE CONNERS AVE, BEND, OR 97701
 Contractor: R &amp; H CONSTRUCTION CO
 Valuation: 30420.0
+Units: </description>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202501614</guid>
+      <title>[Bend] Bike Shelter 
+**** SIMP PRSIMP202408118**** 
+Building Permit - PRNC202408135
+Trash Enclosure - PRNC202501616
+Bike Shelter - PRNC202501614
+Tech: Margaret</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: PRNC202501614
+Issued: 2025-05-27
+Address: 2720 NE CONNERS AVE, BEND, OR 97701
+Contractor: R &amp; H CONSTRUCTION CO
+Valuation: 5000.0
 Units: </description>
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
@@ -3185,12 +3185,12 @@ Units: </description>
       <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202502318</guid>
-      <title>[Bend] WEST TRASH ENCLOSURE &amp; BIKE SHELTER FOR PHASE III. SITE IMPROVEMENTS ARE SUBMITTED UNDER A SEPARATE PERMIT (PRSIMP202307380).</title>
+      <guid isPermaLink="false">OR|bend|prnc202502319</guid>
+      <title>[Bend] EAST TRASH ENCLOSURE &amp; BIKE SHELTER FOR PHASE VI . SITE IMPROVEMENTS ARE SUBMITTED UNDER A SEPARATE PERMIT (PRSIMP202307380).</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: COMMERCIAL
 Score: 33
-Permit: PRNC202502318
+Permit: PRNC202502319
 Issued: 2025-05-13
 Address: 
 Contractor: 
@@ -3199,12 +3199,12 @@ Units: </description>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202502319</guid>
-      <title>[Bend] EAST TRASH ENCLOSURE &amp; BIKE SHELTER FOR PHASE VI . SITE IMPROVEMENTS ARE SUBMITTED UNDER A SEPARATE PERMIT (PRSIMP202307380).</title>
+      <guid isPermaLink="false">OR|bend|prnc202502318</guid>
+      <title>[Bend] WEST TRASH ENCLOSURE &amp; BIKE SHELTER FOR PHASE III. SITE IMPROVEMENTS ARE SUBMITTED UNDER A SEPARATE PERMIT (PRSIMP202307380).</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: COMMERCIAL
 Score: 33
-Permit: PRNC202502319
+Permit: PRNC202502318
 Issued: 2025-05-13
 Address: 
 Contractor: 
@@ -3544,6 +3544,24 @@ Units: </description>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202407501</guid>
+      <title>[Bend] Tenant: New warehouse- Bldg #6 (BLDG) 
+Tech: Darcy
+19,993 SF PEMB, Type VB Industrial/Commercial Warehouse Building. Include Spec TI spaces with office and restroom. Loading dock Building #6.
+SIMP: 202405970 (water meter under the SIMP permit)
+Foundation Only:</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: COMMERCIAL
+Score: 48
+Permit: PRNC202407501
+Issued: 2025-04-01
+Address: 63622 NE ANDESITE ST, BEND, OR 97701
+Contractor: SUNWEST BUILDERS
+Valuation: 1917928.49
+Units: </description>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202407500</guid>
       <title>[Bend] Tenant: Juniper Ridge Bldg #8 (BLDG and TI)
 Tech: Darcy
@@ -3560,24 +3578,6 @@ Issued: 2025-04-01
 Address: 63626 NE ANDESITE ST, BEND, OR 97701
 Contractor: SUNWEST BUILDERS
 Valuation: 1647981.47
-Units: </description>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202407501</guid>
-      <title>[Bend] Tenant: New warehouse- Bldg #6 (BLDG) 
-Tech: Darcy
-19,993 SF PEMB, Type VB Industrial/Commercial Warehouse Building. Include Spec TI spaces with office and restroom. Loading dock Building #6.
-SIMP: 202405970 (water meter under the SIMP permit)
-Foundation Only:</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 48
-Permit: PRNC202407501
-Issued: 2025-04-01
-Address: 63622 NE ANDESITE ST, BEND, OR 97701
-Contractor: SUNWEST BUILDERS
-Valuation: 1917928.49
 Units: </description>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
     </item>
@@ -3709,21 +3709,6 @@ Units: </description>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202403967</guid>
-      <title>[Bend] Building #7
-TECH: Julie</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 43
-Permit: PRNC202403967
-Issued: 2025-03-13
-Address: 20715 ROLEN AVE, BEND, OR 97702
-Contractor: AM-1 ROOFING INC
-Valuation: 780096.0
-Units: </description>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202403976</guid>
       <title>[Bend] BUILDING #10
 TECH: JULIE</title>
@@ -3739,18 +3724,33 @@ Units: </description>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202403964</guid>
-      <title>[Bend] Building #6
-Tech: Julie OConnor
+      <guid isPermaLink="false">OR|bend|prnc202403967</guid>
+      <title>[Bend] Building #7
+TECH: Julie</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: COMMERCIAL
+Score: 43
+Permit: PRNC202403967
+Issued: 2025-03-13
+Address: 20715 ROLEN AVE, BEND, OR 97702
+Contractor: AM-1 ROOFING INC
+Valuation: 780096.0
+Units: </description>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202403972</guid>
+      <title>[Bend] Building #9
+TECH JULIE OConnor
 PE: Kendra Cole</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: COMMERCIAL
 Score: 33
-Permit: PRNC202403964
+Permit: PRNC202403972
 Issued: 2025-03-13
 Address: 20715 ROLEN AVE, BEND, OR 97702
 Contractor: 
-Valuation: 304200.0
+Valuation: 411937.5
 Units: </description>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>
@@ -3771,18 +3771,18 @@ Units: </description>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202403972</guid>
-      <title>[Bend] Building #9
-TECH JULIE OConnor
+      <guid isPermaLink="false">OR|bend|prnc202403964</guid>
+      <title>[Bend] Building #6
+Tech: Julie OConnor
 PE: Kendra Cole</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: COMMERCIAL
 Score: 33
-Permit: PRNC202403972
+Permit: PRNC202403964
 Issued: 2025-03-13
 Address: 20715 ROLEN AVE, BEND, OR 97702
 Contractor: 
-Valuation: 411937.5
+Valuation: 304200.0
 Units: </description>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>
