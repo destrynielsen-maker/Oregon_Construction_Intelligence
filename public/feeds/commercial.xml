@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-048658-000-00-co</guid>
+      <title>[Portland] SINGLE PDF - 40' CONTAINER FOR NEW BOTTLE DROP</title>
+      <link>https://www.portlandmaps.com/detail/permit/5271597_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-048658-000-00-CO
+Issued: 2026-08-21
+Address: 1555 N TOMAHAWK ISLAND DR, PORTLAND, OR
+Contractor: 
+Valuation: 69925.0
+Units: </description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-020055-000-00-co</guid>
       <title>[Portland] PDOX PS - PERSONAL WIRELESS SERVICE FACILITY - WIRELESS ROOFTOP - APPLICATION #2 - ROOFTOP: PROPOSED NEW TELECOMMUNICATIONS FACILITY TO INSTALL ALL NEW (3) FRP ENCLOUSURES, (1) 10'x15' EQUIPMENT PLATFORM, (1) HANDRAIL AROUND ROOF HATCH, ANTENNAS AND EQUIPMENT. NO GROUNDWORK PROPOSED.</title>
       <link>https://www.portlandmaps.com/detail/permit/5241867_did/</link>
@@ -3499,20 +3513,6 @@ Contractor:
 Valuation: 8000.0
 Units: </description>
       <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-031017-000-00-co</guid>
-      <title>[Portland] U of P FRANZ CAMPUS -install new yard water hydrant with concrete pad to the ex. sand volleyball court, water line will be extended from Boathouse, excess water will run off into sand area.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5032558_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2024-031017-000-00-CO
-Issued: 2024-05-07
-Address: 6320 N VAN HOUTEN PL, PORTLAND, OR
-Contractor: 
-Valuation: 7700.0
-Units: </description>
-      <pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
