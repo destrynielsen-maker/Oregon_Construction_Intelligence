@@ -26,42 +26,39 @@ jobs:
         env:
           PYTHONPATH: src
         run: python -m unittest discover -s tests -v
-      - name: Inspect bounded Hillsboro detail sample
+      - name: Run current-window Hillsboro collector
         env:
           PYTHONPATH: src
         run: |
           python - <<'PY'
-          from datetime import date, timedelta
+          from collections import Counter
+          from oregon_permits.classify import classify_permit
           from oregon_permits.collectors.hillsboro import HillsboroCollector
-          from oregon_permits.collectors.base import new_session
 
           collector = HillsboroCollector()
-          session = new_session()
-          today = date.today()
-          rows = collector._search_window(session, today - timedelta(days=21), today)
-          if rows is None:
-              raise SystemExit("Hillsboro search window failed")
+          collector.windows = 1
+          result = collector.collect()
+          permits = result.permits
+          for permit in permits:
+              classify_permit(permit)
 
-          structural = [r for r in rows if collector.structural_re.search(r.get("record_type") or "")]
-          print("ROWS", len(rows), "STRUCTURAL", len(structural))
-          preferred = [r for r in structural if r.get("permit_number") == "STR26-0552"]
-          sample = (preferred + [r for r in structural if r.get("permit_number") != "STR26-0552"])[:3]
-          if not sample:
-              raise SystemExit("No Hillsboro structural records available for detail validation")
+          validated = [p for p in permits if (p.raw or {}).get("source_issued_validated") is True]
+          qualifying = [p for p in permits if p.qualifies]
+          invalid = [p.permit_number for p in qualifying if (p.raw or {}).get("source_issued_validated") is not True]
 
-          parsed = 0
-          for row in sample:
-              try:
-                  detail = collector._detail(session, row["source_url"])
-              except Exception as exc:
-                  print("DETAIL_FAIL", row["permit_number"], type(exc).__name__, str(exc))
-                  continue
-              subtype = detail.get("subtype")
-              is_new = bool(subtype and collector.new_subtype_re.search(subtype))
-              parsed += 1
-              print("DETAIL", row["permit_number"], "STATUS", row.get("status"), "SUBTYPE", repr(subtype), "NEW", is_new)
+          print("SOURCE", result.source)
+          print("CANDIDATES", len(permits))
+          print("VALIDATED_ISSUED", len(validated))
+          print("QUALIFYING", len(qualifying))
+          print("CLASSIFICATIONS", dict(Counter(p.classification for p in qualifying)))
+          print("STATUSES", dict(Counter((p.status or "UNKNOWN") for p in permits)))
+          print("SUBTYPES", dict(Counter((p.raw or {}).get("subtype") or "UNKNOWN" for p in permits)))
+          print("INVALID_PUBLISHED", invalid)
+          for p in permits:
+              print("PERMIT", p.permit_number, "STATUS", p.status, "SUBTYPE", (p.raw or {}).get("subtype"), "ISSUED_VALIDATED", (p.raw or {}).get("source_issued_validated"), "QUALIFIES", p.qualifies, "CLASS", p.classification)
 
-          print("PARSED_SAMPLE", parsed, "OF", len(sample))
-          if parsed == 0:
-              raise SystemExit("Bounded Hillsboro detail sample could not be parsed")
+          if invalid:
+              raise SystemExit("Hillsboro safety invariant failed: unvalidated permit qualified")
+          if not permits:
+              raise SystemExit("Hillsboro current-window collector returned no new-construction candidates")
           PY
