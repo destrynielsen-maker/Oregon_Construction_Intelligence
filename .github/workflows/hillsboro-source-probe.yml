@@ -11,33 +11,40 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect OpenHillsboro Accela public search
+      - name: Inspect Hillsboro Accela Building search form
         shell: bash
         run: |
           set -euo pipefail
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
-          URLS=(
-            'https://form.hillsboro-oregon.gov/Economic%20and%20Community%20Development/Permits/Plumbing'
-            'https://form.hillsboro-oregon.gov/CitizenAccess/Default.aspx'
-            'https://form.hillsboro-oregon.gov/CitizenAccess/Cap/CapHome.aspx?module=Building'
-            'https://form.hillsboro-oregon.gov/Default.aspx'
-            'https://form.hillsboro-oregon.gov/Cap/CapHome.aspx?module=Building'
-          )
-          i=0
-          for URL in "${URLS[@]}"; do
-            i=$((i+1))
-            OUT="/tmp/hillsboro-$i.html"
-            HDR="/tmp/hillsboro-$i.headers"
-            CODE=$(curl -LsS --max-time 60 -A "$UA" -D "$HDR" -o "$OUT" -w '%{http_code}' "$URL" || true)
-            echo "=== $URL ==="
-            echo "HTTP=$CODE BYTES=$(wc -c <"$OUT" 2>/dev/null || echo 0)"
-            grep -Ei '^(content-type:|location:|set-cookie:)' "$HDR" | head -n 30 || true
-            echo '--- TITLE / FORMS ---'
-            grep -oiE '<title>[^<]*</title>|<form[^>]*>' "$OUT" | head -n 40 || true
-            echo '--- HIDDEN / SEARCH CONTROLS ---'
-            grep -oiE '<(input|select|button)[^>]*>' "$OUT" | grep -Ei '__VIEWSTATE|__EVENTVALIDATION|search|permit|record|date|module|cap' | head -n 180 || true
-            echo '--- LINKS / ACTIONS ---'
-            grep -oiE 'href="[^"]+"|action="[^"]+"|src="[^"]+"' "$OUT" | grep -Ei 'Cap|Search|Building|Permit|Citizen|Default|Script|WebService|Ajax' | head -n 220 || true
-            echo '--- JS MARKERS ---'
-            grep -inE 'CapHome|GeneralSearch|SearchRecords|WebService|Ajax|Building|module=' "$OUT" | head -n 160 || true
-          done
+          URL='https://aca-prod.accela.com/HILLSBORO/Cap/CapHome.aspx?TabName=Building&module=Building'
+          curl -LsS --max-time 90 -A "$UA" -c /tmp/hillsboro.cookies -D /tmp/hillsboro.headers "$URL" -o /tmp/hillsboro.html
+          echo '--- HEADERS ---'
+          grep -Ei '^(HTTP/|content-type:|location:|set-cookie:)' /tmp/hillsboro.headers | head -n 60 || true
+          echo '--- SIZE / TITLE / FORM ---'
+          wc -c /tmp/hillsboro.html
+          grep -oiE '<title>[^<]*</title>|<form[^>]*>' /tmp/hillsboro.html | head -n 40 || true
+          echo '--- SEARCH INPUTS ---'
+          grep -oiE '<input[^>]*>' /tmp/hillsboro.html | grep -Ei 'GeneralSearch|Search|Date|Record|Permit|Project|Button|VIEWSTATE|EVENTVALIDATION|EVENTTARGET' | head -n 260 || true
+          echo '--- SELECTS ---'
+          grep -oiE '<select[^>]*>' /tmp/hillsboro.html | head -n 160 || true
+          echo '--- BUILDING SEARCH BUTTON / POSTBACK MARKERS ---'
+          grep -inE 'GeneralSearch|btnNewSearch|btnSearch|SearchRecords|CapHome|__doPostBack|Record Number|Record Type|Start Date|End Date' /tmp/hillsboro.html | head -n 320 || true
+          echo '--- RECORD TYPE OPTIONS AROUND BUILDING ---'
+          python - <<'PY'
+          import re, html
+          text=open('/tmp/hillsboro.html',encoding='utf-8',errors='ignore').read()
+          for m in re.finditer(r'<select[^>]+name="([^"]+)"[^>]*>(.*?)</select>', text, flags=re.I|re.S):
+              name=m.group(1)
+              body=m.group(2)
+              opts=[]
+              for o in re.finditer(r'<option[^>]*value="([^"]*)"[^>]*>(.*?)</option>', body, flags=re.I|re.S):
+                  label=re.sub(r'<[^>]+>',' ',o.group(2))
+                  label=html.unescape(re.sub(r'\s+',' ',label)).strip()
+                  value=html.unescape(o.group(1)).strip()
+                  if label or value:
+                      opts.append((value,label))
+              if 'GeneralSearch' in name or any('Building' in x[1] or 'Commercial' in x[1] or 'Residential' in x[1] for x in opts):
+                  print('SELECT',name)
+                  for value,label in opts[:120]:
+                      print('OPTION',repr(value),repr(label))
+          PY
