@@ -16,55 +16,53 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests beautifulsoup4
-      - name: Map Beaverton CIVICS paging schema
+      - run: pip install requests
+      - name: Query Beaverton public building records
         run: |
           python - <<'PY'
-          from urllib.parse import urljoin, urlencode
+          from urllib.parse import urljoin
           import json
-          import re
           import requests
-          from bs4 import BeautifulSoup
 
           base='https://prod.buildinginbeaverton.org/'
           api=urljoin(base,'delegate/civics-api/api/')
           lookup=urljoin(base,'lookup-record')
           s=requests.Session()
           s.headers.update({'User-Agent':'Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)'})
-          page=s.get(lookup,timeout=20); page.raise_for_status()
+          s.get(lookup,timeout=20).raise_for_status()
           auth=s.get(urljoin(api,'anonymous/auth'),headers={'Referer':lookup,'Accept':'application/json'},timeout=20)
           print('AUTH',auth.status_code,' '.join(auth.text[:250].split())); auth.raise_for_status()
           headers={'Referer':lookup,'Accept':'application/json, text/plain, */*'}
 
-          types=s.get(urljoin(api,'cdr/applicationtypes/Building'),headers=headers,timeout=20)
-          print('TYPES_STATUS',types.status_code,'LEN',len(types.text)); types.raise_for_status()
-          data=(types.json().get('data') or [])
-          for x in data:
-              print('TYPE',x.get('id'),x.get('instrumentTypeID'),repr(x.get('code')),repr(x.get('description')),x.get('isPublic'),x.get('showInPortal'))
-
-          soup=BeautifulSoup(page.text,'html.parser')
-          scripts=[urljoin(page.url,x.get('src')) for x in soup.find_all('script',src=True)]
-          target=next((u for u in scripts if 'InstrumentListView-portlet' in u),None)
-          if target:
-              text=s.get(target,timeout=30).text
-              for needle in ['buildFilterPage:', 'buildFilterPage =', 'buildFilterPage(', 'setPage:', 'setPage =', 'setPage(', 'buildTypeFilter:', 'buildTypeFilter =', 'buildTypeFilter(']:
-                  p=text.find(needle)
-                  if p>=0:
-                      print('BUNDLE_CTX',needle,re.sub(r'\s+',' ',text[max(0,p-1200):p+2600]))
-
-          page_values=[
-              {'page':1,'pageSize':10},
-              {'pageNumber':1,'pageSize':10},
-              {'PageNumber':1,'PageSize':10},
-              {'page':1,'max':10},
-              {'number':1,'size':10},
-          ]
-          for val in page_values:
-              params={'Page':json.dumps(val,separators=(',',':')),'OrderBy':'InstrumentDateTime desc'}
-              url=urljoin(api,'core/views/instruments')+'?'+urlencode(params)
-              try:
-                  r=s.get(url,headers=headers,timeout=15)
-                  print('PAGE_TRY',val,'STATUS',r.status_code,'LEN',len(r.text),'BODY',' '.join(r.text[:2500].split()))
-              except Exception as e:
-                  print('PAGE_FAIL',val,type(e).__name__,str(e))
+          params={
+              'Page':'[{max:25,start:1}]',
+              'OrderBy':'[{property:InstrumentDateTime,direction:Desc}]',
+              'FilterString':'[{Type:[{Code:C,ID:7},{Code:MF,ID:7},{Code:R,ID:7}]}]',
+          }
+          r=s.get(urljoin(api,'core/views/instruments'),params=params,headers=headers,timeout=30)
+          print('SEARCH_URL',r.url)
+          print('SEARCH',r.status_code,r.headers.get('content-type'),'LEN',len(r.text))
+          print('BODY_PREFIX',' '.join(r.text[:12000].split()))
+          r.raise_for_status()
+          payload=r.json()
+          print('TOP_KEYS',sorted(payload.keys()) if isinstance(payload,dict) else type(payload).__name__)
+          data=payload.get('data') if isinstance(payload,dict) else payload
+          if isinstance(data,dict):
+              print('DATA_KEYS',sorted(data.keys()))
+              lists=[(k,v) for k,v in data.items() if isinstance(v,list)]
+              for k,v in lists:
+                  print('LIST',k,'COUNT',len(v))
+                  for x in v[:15]:
+                      if isinstance(x,dict):
+                          print('ROW_KEYS',k,sorted(x.keys()))
+                          print('ROW',k,json.dumps(x,default=str)[:5000])
+                      else:
+                          print('ROW',k,repr(x)[:1000])
+          elif isinstance(data,list):
+              print('DATA_LIST_COUNT',len(data))
+              for x in data[:20]:
+                  print('ROW_KEYS',sorted(x.keys()) if isinstance(x,dict) else type(x).__name__)
+                  print('ROW',json.dumps(x,default=str)[:5000] if isinstance(x,dict) else repr(x)[:1000])
+          if r.status_code != 200:
+              raise SystemExit('Beaverton instrument query failed')
           PY
