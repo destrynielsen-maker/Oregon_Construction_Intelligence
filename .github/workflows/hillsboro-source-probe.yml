@@ -15,34 +15,39 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -q requests beautifulsoup4
-      - name: Trace Hillsboro processing-status loader
+      - name: Trace Hillsboro processing-status JavaScript
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
+          from urllib.parse import urljoin
           import re, requests
           from bs4 import BeautifulSoup
           URL='https://aca-prod.accela.com/HILLSBORO/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=26CAP&capID2=00000&capID3=003YO&agencyCode=HILLSBORO&IsToShowInspection='
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
           s=requests.Session();s.headers.update({'User-Agent':UA})
-          r=s.get(URL,timeout=90);r.raise_for_status();text=r.text;soup=BeautifulSoup(text,'html.parser')
-          print('STATUS',r.status_code,'BYTES',len(r.content))
-          for key in ['tab-processing_status','divHistoryList','btnSearchHistory','Processing Status','processing_status','SearchHistory']:
-              print('\n=== CONTEXT',key,'===')
-              for m in list(re.finditer(re.escape(key),text,re.I))[:20]:
-                  a=max(0,m.start()-1000);b=min(len(text),m.end()+1800)
-                  print(text[a:b].replace('\n',' ')[:3000])
-          print('\n=== FULL RELEVANT TAGS ===')
-          for tag in soup.find_all(id=re.compile(r'(processing|history|status)',re.I)):
-              print(str(tag)[:3500])
-          print('\n=== RELEVANT SCRIPTS ===')
-          for script in soup.find_all('script'):
-              src=script.get('src','');body=script.get_text('\n',strip=True)
-              if re.search(r'(processing_status|SearchHistory|divHistoryList|btnSearchHistory|processing status)',src+' '+body,re.I):
-                  print('SRC',src)
-                  print(body[:10000])
-          print('\n=== SCRIPT SRCS ===')
+          r=s.get(URL,timeout=90);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
+          srcs=[]
           for script in soup.find_all('script',src=True):
-              src=script['src']
-              if re.search(r'(cap|detail|common|history|status)',src,re.I): print(src)
+              u=urljoin(URL,script['src'])
+              if u not in srcs:srcs.append(u)
+          print('SCRIPT_COUNT',len(srcs))
+          keys=re.compile(r'(processing[_ -]?status|processingstatus|workflow|process status|capdetail|record status|load.*status|get.*status)',re.I)
+          for idx,u in enumerate(srcs):
+              try:
+                  rr=s.get(u,headers={'Referer':URL},timeout=90);rr.raise_for_status();text=rr.text
+              except Exception as exc:
+                  print('FETCH_FAIL',u,type(exc).__name__,exc);continue
+              hits=list(keys.finditer(text))
+              if not hits:continue
+              print('\n=== SCRIPT',idx,u,'BYTES',len(rr.content),'HITS',len(hits),'===')
+              for m in hits[:80]:
+                  a=max(0,m.start()-900);b=min(len(text),m.end()+1800)
+                  context=text[a:b].replace('\n',' ')
+                  print('CTX',context[:2700])
+          # Also expose inline code around the actual tab identifier and any AJAX URLs.
+          page=r.text
+          print('\n=== INLINE AJAX/PROCESSING ===')
+          pat=re.compile(r'.{0,1000}(?:tab-processing_status|processing[_ -]?status|ajax[^\"\']*|webservice[^\"\']*).{0,1800}',re.I|re.S)
+          for m in list(pat.finditer(page))[:60]:print(m.group(0).replace('\n',' ')[:2800])
           PY
