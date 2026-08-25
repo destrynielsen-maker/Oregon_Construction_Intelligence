@@ -14,53 +14,42 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q requests beautifulsoup4
-      - name: Query Hillsboro issued permit in inspection system
+      - run: pip install -q requests
+      - name: Probe Hillsboro Accela API gateway
         shell: bash
         run: |
           set -euo pipefail
           python - <<'PY'
-          from urllib.parse import urljoin
-          import json,re,requests
-          from bs4 import BeautifulSoup
-
-          BASE='https://inspections.hillsboro-oregon.gov/'
-          SEARCH=urljoin(BASE,'permits/search_submit')
+          import requests, json
+          BASE='https://api.hillsboro-oregon.gov/'
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36'
-          s=requests.Session();s.headers.update({'User-Agent':UA})
-          r=s.get(BASE,timeout=90);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
-          token=(soup.find('input',{'name':'_token'}) or {}).get('value')
-          meta=(soup.find('meta',{'name':'csrf-token'}) or {}).get('content')
-          print('TOKENS',bool(token),bool(meta),'COOKIES',[(c.name,c.domain) for c in s.cookies])
-          if not token: raise SystemExit('search token missing')
-          headers={'Referer':BASE,'Origin':'https://inspections.hillsboro-oregon.gov','X-Requested-With':'XMLHttpRequest'}
-          if meta: headers['X-CSRF-TOKEN']=meta
-          p=s.post(SEARCH,data={'_token':token,'permit_number':'STR26-0548','address':''},headers=headers,timeout=90)
-          print('POST',p.status_code,p.headers.get('content-type'),'BYTES',len(p.content),'TEXT',p.text[:2500])
-          p.raise_for_status()
-          try: data=p.json()
-          except Exception: raise SystemExit('search response not JSON')
-          print('JSON',json.dumps(data,indent=2,default=str)[:5000])
-          redirect=((data.get('data') or {}).get('redirect_url') if isinstance(data,dict) else None)
-          if not redirect: raise SystemExit('no redirect for issued permit')
-          u=urljoin(BASE,redirect)
-          d=s.get(u,headers={'Referer':BASE},timeout=90);d.raise_for_status();ds=BeautifulSoup(d.text,'html.parser')
-          print('DETAIL_URL',d.url,'HTTP',d.status_code,'BYTES',len(d.content),'TITLE',ds.title.get_text(' ',strip=True) if ds.title else '')
-          plain=' '.join(ds.stripped_strings)
-          print('HEAD_TEXT',plain[:5000])
-          print('USEFUL_ROWS')
-          for tag in ds.find_all(['tr','div','section','li']):
-              txt=' '.join(tag.stripped_strings)
-              if txt and re.search(r'(permit|issued|issue date|application|inspection|status|address|description|contractor|owner|type)',txt,re.I) and len(txt)<1800:
-                  print(tag.name,tag.get('id'),'=>',txt[:1700])
-          print('ID_FIELDS')
-          for tag in ds.find_all(id=True):
-              ident=tag.get('id','');txt=' '.join(tag.stripped_strings)
-              if re.search(r'(permit|issue|date|status|inspection|address)',ident,re.I) and len(txt)<1200:
-                  print(ident,'=>',repr(txt[:1100]))
-          print('DETAIL_SCRIPTS')
-          for script in ds.find_all('script'):
-              src=script.get('src','');body=script.get_text(' ',strip=True)
-              if re.search(r'(permit|inspection|issue|history|api|ajax)',src+' '+body,re.I):
-                  print('SRC',src);print(body[:8000])
+          s=requests.Session(); s.headers.update({'User-Agent':UA,'Accept':'application/json,text/plain,*/*','Referer':'https://inspections.hillsboro-oregon.gov/'})
+          paths=[
+            '', 'swagger', 'swagger/index.html', 'swagger/v1/swagger.json', 'openapi.json',
+            'Api/Accela/Address/Search?Address=1820%20NE%2012TH%25',
+            'Api/Accela/Permit/Search?PermitNumber=STR26-0548',
+            'Api/Accela/Permit/Search?permit_number=STR26-0548',
+            'Api/Accela/Permit/Detail?PermitNumber=STR26-0548',
+            'Api/Accela/Permit/Details?PermitNumber=STR26-0548',
+            'Api/Accela/Permits/Search?PermitNumber=STR26-0548',
+            'Api/Accela/Record/Search?RecordNumber=STR26-0548',
+            'Api/Accela/Records/Search?RecordNumber=STR26-0548',
+            'Api/Accela/Inspection/Search?PermitNumber=STR26-0548',
+            'Api/Accela/Inspections/Search?PermitNumber=STR26-0548',
+          ]
+          for path in paths:
+              u=BASE+path
+              try:
+                  r=s.get(u,timeout=45,allow_redirects=True)
+                  ctype=r.headers.get('content-type','')
+                  print('\nURL',u,'FINAL',r.url,'HTTP',r.status_code,'TYPE',ctype,'BYTES',len(r.content))
+                  print('BODY',repr(r.text[:3500]))
+              except Exception as exc: print('FAIL',u,type(exc).__name__,exc)
+          # OPTIONS on the known working namespace and likely record paths can reveal allowed verbs/routes.
+          for path in ['Api/Accela/Address/Search','Api/Accela/Permit/Search','Api/Accela/Permit/Detail','Api/Accela/Record/Search']:
+              u=BASE+path
+              try:
+                  r=s.options(u,timeout=30)
+                  print('OPTIONS',u,r.status_code,'ALLOW',r.headers.get('allow'),'BODY',repr(r.text[:1000]))
+              except Exception as exc: print('OPTIONS_FAIL',u,exc)
           PY
