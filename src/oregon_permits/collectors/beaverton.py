@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import date, timedelta
 import re
+import time
 
 import requests
 
@@ -32,18 +33,7 @@ class BeavertonCollector:
         session.headers.update({
             "User-Agent": "Mozilla/5.0 (compatible; OregonConstructionIntelligence/0.1; public-permit-research)",
         })
-
-        landing = session.get(self.lookup_url, timeout=45)
-        landing.raise_for_status()
-        auth = session.get(
-            self.auth_url,
-            headers={"Referer": self.lookup_url, "Accept": "application/json"},
-            timeout=45,
-        )
-        auth.raise_for_status()
-        auth_payload = auth.json()
-        if not isinstance(auth_payload, dict) or not auth_payload.get("sessionId"):
-            raise RuntimeError("Beaverton CIVICS anonymous authentication schema changed")
+        self._authenticate(session)
 
         today = self._today()
         cutoff = today - timedelta(days=self.lookback_days)
@@ -86,6 +76,40 @@ class BeavertonCollector:
             "Official City of Beaverton BEPS/Rhythm CIVICS public building applications; anonymous WorkType-filtered "
             "collection sorted by authoritative issuedDateTime with a locally enforced rolling 45-day cutoff",
         )
+
+    @classmethod
+    def _authenticate(cls, session: requests.Session) -> None:
+        last_error = "unknown authentication failure"
+        for attempt in range(3):
+            try:
+                landing = session.get(cls.lookup_url, timeout=45)
+                landing.raise_for_status()
+                referer = getattr(landing, "url", None) or cls.lookup_url
+                auth = session.get(
+                    cls.auth_url,
+                    headers={"Referer": referer, "Accept": "application/json"},
+                    timeout=45,
+                )
+                if auth.status_code != 200:
+                    last_error = f"HTTP {auth.status_code}"
+                else:
+                    payload = auth.json()
+                    if isinstance(payload, dict) and payload.get("sessionId"):
+                        return
+                    last_error = "200 response missing sessionId"
+            except (requests.RequestException, ValueError, RuntimeError) as exc:
+                last_error = str(exc)
+
+            if attempt < 2:
+                cookies = getattr(session, "cookies", None)
+                if cookies is not None:
+                    try:
+                        cookies.clear()
+                    except (AttributeError, KeyError):
+                        pass
+                time.sleep(attempt + 1)
+
+        raise RuntimeError(f"Beaverton CIVICS anonymous authentication failed after retries: {last_error}")
 
     @classmethod
     def _query(cls, session: requests.Session, work_type: str, start: int) -> list[dict]:
