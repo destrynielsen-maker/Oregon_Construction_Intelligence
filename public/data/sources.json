@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T01:59:05+00:00",
+  "generated_at": "2026-08-25T07:24:37+00:00",
   "sources": [
     {
       "source": "Portland",
@@ -15,8 +15,8 @@
       "freshness_threshold_days": 10,
       "previous_records_seen": 8000,
       "record_count_change_pct": 0.0,
-      "last_attempt_at": "2026-08-25T01:59:05+00:00",
-      "last_success_at": "2026-08-25T01:59:05+00:00",
+      "last_attempt_at": "2026-08-25T07:24:37+00:00",
+      "last_success_at": "2026-08-25T07:24:37+00:00",
       "cached_data_available": true,
       "source_url": "https://www.portlandmaps.com/arcgis/rest/services/Public/BDS_Permit/FeatureServer",
       "note": "Official City of Portland BDS Permit FeatureServer construction layers 2 and 5"
