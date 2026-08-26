@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-8586-01</guid>
+      <title>[Eugene] 3-Story triplex with shared access. Units A-C (increasing east to west)</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8586-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 58
+Permit: 25-8586-01
+Issued: 2026-08-26
+Address: 1520 HIGH ST UNIT A, Eugene, OR
+Contractor: RAVI32 LLC
+Valuation: 1241870.15
+Units: </description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202604104</guid>
       <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). End Unit 
 COB 1'
@@ -869,7 +883,7 @@ Units: 1</description>
 Score: 48
 Permit: PRNC202602078
 Issued: 2026-08-10
-Address: 62799 EAGLE RD, BEND, OR 97701
+Address: 62799 EAGLE RD, UNIT:3, BEND, OR 97701
 Contractor: 
 Valuation: 682377.59
 Units: </description>
@@ -968,7 +982,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604661
 Issued: 2026-08-06
-Address: 61074 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61074 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -993,7 +1007,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604659
 Issued: 2026-08-06
-Address: 61078 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61078 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -1506,7 +1520,7 @@ PER ARCHITECT, THERE ARE NOT ANY VAN ACCESSIBLE PARKING SPACES UNDER CARPORTS. a
 Score: 48
 Permit: PRNC202602476
 Issued: 2026-07-24
-Address: 63226 BRITTA ST, BEND, OR 97703
+Address: 63234 BRITTA ST, BEND, OR 97703
 Contractor: CS CONSTRUCTION
 Valuation: 265000.0
 Units: </description>
@@ -1902,7 +1916,7 @@ Units: 4</description>
 Score: 48
 Permit: PRNC202601980
 Issued: 2026-07-13
-Address: 61189 SW BEVERLY WAY, UNIT:2, BEND, OR 97702
+Address: 61189 SW BEVERLY WAY, UNIT:1, BEND, OR 97702
 Contractor: Solaire Residential LLC
 Valuation: 312518.39
 Units: </description>
@@ -4184,21 +4198,6 @@ SEPARATE*TRUSSES*SEE 25-070581/93-RS FOR DEMOS* W/ 25-093938/44/45/51/52/58/59-R
       <description>Category: MULTIFAMILY
 Score: 40
 Permit: 2025-093951-000-00-RS
-Issued: 2026-05-28
-Address: 2432 SE 67TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 184249.0
-Units: 1</description>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-093945-000-00-rs</guid>
-      <title>[Portland] FULL PDOX MHLD BATCH NEW 3 OF 7 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED UNDER MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/
-TRUSSES*SEE 25-070581/93-RS FOR DEMOS*W/ 25-093938/44/45/51/52/58/59-RS W/ 25-093967-SD  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5210895_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-093945-000-00-RS
 Issued: 2026-05-28
 Address: 2432 SE 67TH AVE, PORTLAND, OR
 Contractor: 

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-26T13:33:14+00:00",
+  "generated_at": "2026-08-26T20:31:08+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 30,
-      "single_family": 26,
+      "permits_90d": 31,
+      "single_family": 27,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 11839152.23,
+      "combined_valuation": 12218803.13,
       "jurisdictions": [
         "Bend"
       ],
@@ -358,6 +358,18 @@
       "combined_valuation": 1700000.0,
       "jurisdictions": [
         "Bend"
+      ],
+      "top_score": 58
+    },
+    {
+      "contractor": "RAVI32 LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 1241870.15,
+      "jurisdictions": [
+        "Eugene"
       ],
       "top_score": 58
     },
@@ -768,6 +780,18 @@
         "Eugene"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "CRAWFORD OBRIEN CONSTRUCTION O",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 50000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
     },
     {
       "contractor": "NEIL KELLY COMPANY",

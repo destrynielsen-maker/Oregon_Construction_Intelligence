@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3737-01</guid>
+      <title>[Eugene] Outdoor patio expansion (335 SF) with freestanding pergola at existing courtyard area.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3737-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-3737-01
+Issued: 2026-08-26
+Address: 1000 VALLEY RIVER WAY, Eugene, OR
+Contractor: CRAWFORD OBRIEN CONSTRUCTION O
+Valuation: 50000.0
+Units: </description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2022-153756-000-00-co</guid>
       <title>[Portland] BLDG C - Construct new tilt warehouse w/ office and fabrication area. **w/22-155777-CO &amp; 22-154820-MT**</title>
       <link>https://www.portlandmaps.com/detail/permit/4816619_did/</link>
@@ -1600,7 +1614,7 @@ NEW 5,670 SF (FOOTPRINT) STRUCTURE FOR CONTRACTOR DESIGN CENTER USE.
 Score: 48
 Permit: PRNC202504396
 Issued: 2026-01-08
-Address: 571 NW YORK DR, BEND, OR 97703
+Address: 561 NW YORK DR, BEND, OR 97703
 Contractor: RD Building and Design
 Valuation: 1500000.0
 Units: </description>
@@ -3779,22 +3793,6 @@ Issued: 2025-03-13
 Address: 20715 ROLEN AVE, BEND, OR 97702
 Contractor: 
 Valuation: 411937.5
-Units: </description>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202403968</guid>
-      <title>[Bend] Building #8
-TECH JULIE OConnor
-PE: Kendra Cole</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 33
-Permit: PRNC202403968
-Issued: 2025-03-13
-Address: 20715 ROLEN AVE, BEND, OR 97702
-Contractor: 
-Valuation: 405600.0
 Units: </description>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>

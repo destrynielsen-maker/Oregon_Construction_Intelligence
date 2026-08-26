@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-8586-01</guid>
+      <title>[Eugene] 3-Story triplex with shared access. Units A-C (increasing east to west)</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8586-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 58
+Permit: 25-8586-01
+Issued: 2026-08-26
+Address: 1520 HIGH ST UNIT A, Eugene, OR
+Contractor: RAVI32 LLC
+Valuation: 1241870.15
+Units: </description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-3737-01</guid>
+      <title>[Eugene] Outdoor patio expansion (335 SF) with freestanding pergola at existing courtyard area.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3737-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-3737-01
+Issued: 2026-08-26
+Address: 1000 VALLEY RIVER WAY, Eugene, OR
+Contractor: CRAWFORD OBRIEN CONSTRUCTION O
+Valuation: 50000.0
+Units: </description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2022-153756-000-00-co</guid>
       <title>[Portland] BLDG C - Construct new tilt warehouse w/ office and fabrication area. **w/22-155777-CO &amp; 22-154820-MT**</title>
       <link>https://www.portlandmaps.com/detail/permit/4816619_did/</link>
@@ -1038,7 +1066,7 @@ Units: </description>
 Score: 48
 Permit: PRNC202602078
 Issued: 2026-08-10
-Address: 62799 EAGLE RD, BEND, OR 97701
+Address: 62799 EAGLE RD, UNIT:3, BEND, OR 97701
 Contractor: 
 Valuation: 682377.59
 Units: </description>
@@ -1156,7 +1184,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604661
 Issued: 2026-08-06
-Address: 61074 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61074 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -1181,7 +1209,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604659
 Issued: 2026-08-06
-Address: 61078 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61078 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -1768,7 +1796,7 @@ PER ARCHITECT, THERE ARE NOT ANY VAN ACCESSIBLE PARKING SPACES UNDER CARPORTS. a
 Score: 48
 Permit: PRNC202602476
 Issued: 2026-07-24
-Address: 63226 BRITTA ST, BEND, OR 97703
+Address: 63234 BRITTA ST, BEND, OR 97703
 Contractor: CS CONSTRUCTION
 Valuation: 265000.0
 Units: </description>
@@ -2248,7 +2276,7 @@ Units: 4</description>
 Score: 48
 Permit: PRNC202601980
 Issued: 2026-07-13
-Address: 61189 SW BEVERLY WAY, UNIT:2, BEND, OR 97702
+Address: 61189 SW BEVERLY WAY, UNIT:1, BEND, OR 97702
 Contractor: Solaire Residential LLC
 Valuation: 312518.39
 Units: </description>
@@ -4119,35 +4147,6 @@ Address: 543 NE MARSHALL AVE, UNIT:2, BEND, OR 97701
 Contractor: Deschutes Custom Homes LLC
 Valuation: 166946.58
 Units: </description>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-106568-000-00-co</guid>
-      <title>[Portland] PORT OF PORTLAND - BERTH 315 - Modernize the mooring infrastructure to provide layberthing space to safely moor two nested U.S. MARAD vehicle cargo ships. Improvements include adding an approach trestle, associated platforms, two new breasting dolphins, catwalks, berth dredging, upland mooring structures, shoreline restoration and revegetation.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5111111_did/</link>
-      <description>Category: COMMERCIAL
-Score: 45
-Permit: 2024-106568-000-00-CO
-Issued: 2026-06-08
-Address: 5225 N CHANNEL AVE, PORTLAND, OR
-Contractor: 
-Valuation: 7400000.0
-Units: </description>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-040340-000-00-rs</guid>
-      <title>[Portland] FULL PDOX MHLD 4 OF 4 UNIT TOWN HOMES ON SHARED LOT/ LOT TO BE DIVIDED UNDER FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX/ ET PT MT ENTERED/
- *TRUSSES INCLUDED* ** W/ 25/040313/19/29/40-RS W/ 25-040356-SD ** 13D FIRE SPRINKLERS AS A DFS*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5155091_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-040340-000-00-RS
-Issued: 2026-06-08
-Address: 4827 SW BRUGGER ST, PORTLAND, OR
-Contractor: 
-Valuation: 140515.0
-Units: 1</description>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -5,6 +5,51 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-8586-01</guid>
+      <title>[Eugene] 3-Story triplex with shared access. Units A-C (increasing east to west)</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8586-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 58
+Permit: 25-8586-01
+Issued: 2026-08-26
+Address: 1520 HIGH ST UNIT A, Eugene, OR
+Contractor: RAVI32 LLC
+Valuation: 1241870.15
+Units: </description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-3737-01</guid>
+      <title>[Eugene] Outdoor patio expansion (335 SF) with freestanding pergola at existing courtyard area.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3737-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-3737-01
+Issued: 2026-08-26
+Address: 1000 VALLEY RIVER WAY, Eugene, OR
+Contractor: CRAWFORD OBRIEN CONSTRUCTION O
+Valuation: 50000.0
+Units: </description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603987</guid>
+      <title>[Bend] EST241 - 60927 SE Apollo Pl - Single Family Dwelling
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No relevant SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603987
+Issued: 2026-08-25
+Address: 60927 SE APOLLO PL, BEND, OR 97702
+Contractor: PAHLISCH HOMES
+Valuation: 379650.9
+Units: </description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2026-01592</guid>
       <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 109</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -1485,7 +1530,7 @@ Units: </description>
 Score: 48
 Permit: PRNC202602078
 Issued: 2026-08-10
-Address: 62799 EAGLE RD, BEND, OR 97701
+Address: 62799 EAGLE RD, UNIT:3, BEND, OR 97701
 Contractor: 
 Valuation: 682377.59
 Units: </description>
@@ -1806,7 +1851,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604661
 Issued: 2026-08-06
-Address: 61074 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61074 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -1831,7 +1876,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604659
 Issued: 2026-08-06
-Address: 61078 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61078 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -2948,7 +2993,7 @@ PER ARCHITECT, THERE ARE NOT ANY VAN ACCESSIBLE PARKING SPACES UNDER CARPORTS. a
 Score: 48
 Permit: PRNC202602476
 Issued: 2026-07-24
-Address: 63226 BRITTA ST, BEND, OR 97703
+Address: 63234 BRITTA ST, BEND, OR 97703
 Contractor: CS CONSTRUCTION
 Valuation: 265000.0
 Units: </description>
@@ -3787,7 +3832,7 @@ Units: </description>
 Score: 28
 Permit: PRNC202603126
 Issued: 2026-07-15
-Address: 3102 NW CELILO LN, BEND, OR 97703
+Address: 0 NW CELILO LN, LOT:43, BEND, OR 97703
 Contractor: PAHLISCH HOMES
 Valuation: 533847.45
 Units: </description>
@@ -3988,52 +4033,6 @@ Contractor: Lennar Northwest LLC
 Valuation: 346539.12
 Units: </description>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-018760-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - LOT 13 - NEW SINGLE FAMILY RES/2 STORY/ WITH GARAGE/ SLOPED LOT/COMPLEX /***ET ,MT, PT SEPARATE *SEE LU 18-228103 - DFS NFPA 13D Fire Sprinklers</title>
-      <link>https://www.portlandmaps.com/detail/permit/5132613_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-018760-000-00-RS
-Issued: 2026-07-14
-Address: 14230 SE ELLIS ST, PORTLAND, OR
-Contractor: 
-Valuation: 341402.0
-Units: 1</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601980</guid>
-      <title>[Bend] New residential single family dwelling with attached adu
-**No conditions, see comments**SF 
-**No active SIMP**SF
-**CoB water, meter needed**SF
-***Changed building use to Duplex*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202601980
-Issued: 2026-07-13
-Address: 61189 SW BEVERLY WAY, UNIT:2, BEND, OR 97702
-Contractor: Solaire Residential LLC
-Valuation: 312518.39
-Units: </description>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-2869-01</guid>
-      <title>[Eugene] Replacing existing Trane roof top unit with new.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-2869-01&amp;pdf=False</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: 26-2869-01
-Issued: 2026-07-13
-Address: 1060 VALLEY RIVER WAY, Eugene, OR
-Contractor: CLAY'S REFRIGERATION
-Valuation: 500.0
-Units: </description>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

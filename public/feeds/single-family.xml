@@ -5,6 +5,23 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202603987</guid>
+      <title>[Bend] EST241 - 60927 SE Apollo Pl - Single Family Dwelling
+***Avion Water*** SN
+***No Conditions (see comments)*** SN
+***No relevant SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603987
+Issued: 2026-08-25
+Address: 60927 SE APOLLO PL, BEND, OR 97702
+Contractor: PAHLISCH HOMES
+Valuation: 379650.9
+Units: </description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2026-01592</guid>
       <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 109</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -1597,7 +1614,7 @@ Units: </description>
 Score: 28
 Permit: PRNC202603126
 Issued: 2026-07-15
-Address: 3102 NW CELILO LN, BEND, OR 97703
+Address: 0 NW CELILO LN, LOT:43, BEND, OR 97703
 Contractor: PAHLISCH HOMES
 Valuation: 533847.45
 Units: </description>
@@ -4002,24 +4019,6 @@ Contractor: Hayden Homes
 Valuation: 266895.25
 Units: </description>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600809</guid>
-      <title>[Bend] NHC_ Acadia Pointe HS 131_ Combo Building Permit 
-**Fill Lot**SF 
-**No active SIMP**SF
-**HB2306 Pre-plat Path 3, condition added**SF
-**CoB water**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600809
-Issued: 2026-04-28
-Address: 63106 NE HENNINGSEN PL, BEND, OR 97701
-Contractor: Lennar Northwest LLC
-Valuation: 424204.38
-Units: </description>
-      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
