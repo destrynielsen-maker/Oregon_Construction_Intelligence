@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2022-153756-000-00-co</guid>
+      <title>[Portland] BLDG C - Construct new tilt warehouse w/ office and fabrication area. **w/22-155777-CO &amp; 22-154820-MT**</title>
+      <link>https://www.portlandmaps.com/detail/permit/4816619_did/</link>
+      <description>Category: COMMERCIAL
+Score: 50
+Permit: 2022-153756-000-00-CO
+Issued: 2026-08-24
+Address: 8001 NE KILLINGSWORTH ST, PORTLAND, OR
+Contractor: 
+Valuation: 11144037.0
+Units: </description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-1619-01</guid>
       <title>[Eugene] New fitness center in exsiting building; additional use A3 added this permit</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1619-01&amp;pdf=False</link>
@@ -29,6 +43,20 @@ Issued: 2026-08-21
 Address: 1555 N TOMAHAWK ISLAND DR, PORTLAND, OR
 Contractor: 
 Valuation: 69925.0
+Units: </description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-032348-000-00-co</guid>
+      <title>[Portland] PDOX - NEW MODIFIED SHIPPING CONTAINER TO BE USED FOR BOTTLE DROP ATM STYLE DOOR.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5254647_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-032348-000-00-CO
+Issued: 2026-08-21
+Address: 3527 SE 122ND AVE, PORTLAND, OR
+Contractor: 
+Valuation: 57975.0
 Units: </description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3767,36 +3795,6 @@ Issued: 2025-03-13
 Address: 20715 ROLEN AVE, BEND, OR 97702
 Contractor: 
 Valuation: 405600.0
-Units: </description>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202403964</guid>
-      <title>[Bend] Building #6
-Tech: Julie OConnor
-PE: Kendra Cole</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 33
-Permit: PRNC202403964
-Issued: 2025-03-13
-Address: 20715 ROLEN AVE, BEND, OR 97702
-Contractor: 
-Valuation: 304200.0
-Units: </description>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-057415-000-00-co</guid>
-      <title>[Portland] SINGLE PDF - NEW PREFAB METAL BUILDING FOR EQUIPMENT SHELTER, MOUNTED ON TOP OF EXISTING CONCRETE SLAB.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5060025_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2024-057415-000-00-CO
-Issued: 2025-03-13
-Address: 1875 SW PARK AVE, PORTLAND, OR
-Contractor: 
-Valuation: 89228.0
 Units: </description>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>
