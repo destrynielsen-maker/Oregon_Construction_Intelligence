@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:31:08+00:00",
+  "generated_at": "2026-08-27T10:06:09+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -51,11 +51,11 @@
     },
     {
       "contractor": "Lennar Northwest LLC",
-      "permits_90d": 17,
-      "single_family": 17,
+      "permits_90d": 16,
+      "single_family": 16,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 6885335.63,
+      "combined_valuation": 6540120.19,
       "jurisdictions": [
         "Bend"
       ],
@@ -372,6 +372,18 @@
         "Eugene"
       ],
       "top_score": 58
+    },
+    {
+      "contractor": "APEX MECHANICAL LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 1200000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "KELLCON INC",
@@ -770,18 +782,6 @@
       "top_score": 23
     },
     {
-      "contractor": "J 3 16 CONTRACTING INC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 50000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "CRAWFORD OBRIEN CONSTRUCTION O",
       "permits_90d": 1,
       "single_family": 0,
@@ -792,6 +792,18 @@
         "Eugene"
       ],
       "top_score": 38
+    },
+    {
+      "contractor": "J 3 16 CONTRACTING INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 50000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "NEIL KELLY COMPANY",

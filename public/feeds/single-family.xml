@@ -36,6 +36,34 @@ Units: </description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-009041-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD: NEW 2 OF 2 (UNIT B) SINGLE FAMILY RESIDENCES ON SHARED LOT WITH AN EXISTING SFR (COTTAGE CLUSTER). LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE w/26-009040-RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5230367_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-009041-000-00-RS
+Issued: 2026-08-25
+Address: 8019 N ST JOHNS AVE, PORTLAND, OR
+Contractor: 
+Valuation: 216020.0
+Units: 1</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-009040-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD: NEW 1 OF 2 (UNIT A) SINGLE FAMILY RESIDENCES ON SHARED LOT WITH AN EXISTING SFR (COTTAGE CLUSTER). LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE w/26-009041-RS Septic Decommissioning Required.  Call for Inspection 842.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5230366_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-009040-000-00-RS
+Issued: 2026-08-25
+Address: 8019 N ST JOHNS AVE, PORTLAND, OR
+Contractor: 
+Valuation: 216020.0
+Units: 1</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4600-01</guid>
       <title>[Eugene] New deck</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4600-01&amp;pdf=False</link>
@@ -3985,40 +4013,6 @@ Contractor: FRANKLIN BROTHERS LLC
 Valuation: 267593.0
 Units: </description>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202502872</guid>
-      <title>[Bend] New Construction - Plan 1500BGL – Stone Creek B2/B3 Lot# 347
-***COB Water (water meter added)*** SN
-***No Conditions (see comments)*** SN
-***Fill Lot*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202502872
-Issued: 2026-04-30
-Address: 20551 SE NINA AVE, BEND, OR 97702
-Contractor: FRANKLIN BROTHERS LLC
-Valuation: 277101.14
-Units: </description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600566</guid>
-      <title>[Bend] Parkside Place New Construction Single Family Lot 68 **Fill Lot** Per Resi Checklist Route to engineering**
-Avion Water
-no expired/conditions chw</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600566
-Issued: 2026-04-29
-Address: 21541 NE GATHER PL, BEND, OR 97701
-Contractor: Hayden Homes
-Valuation: 266895.25
-Units: </description>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

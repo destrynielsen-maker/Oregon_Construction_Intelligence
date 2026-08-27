@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4104-01</guid>
+      <title>[Eugene] New mechanical cooling systems.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4104-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 48
+Permit: 26-4104-01
+Issued: 2026-08-26
+Address: 3307 HONEYWOOD ST, Eugene, OR
+Contractor: APEX MECHANICAL LLC
+Valuation: 1200000.0
+Units: </description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3737-01</guid>
       <title>[Eugene] Outdoor patio expansion (335 SF) with freestanding pergola at existing courtyard area.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3737-01&amp;pdf=False</link>
@@ -17,6 +31,20 @@ Contractor: CRAWFORD OBRIEN CONSTRUCTION O
 Valuation: 50000.0
 Units: </description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-038638-000-00-co</guid>
+      <title>[Portland] PDOX - NEW TRASH ENCLOSURE TO REPLACE EXISTING. W 26-038641-CO</title>
+      <link>https://www.portlandmaps.com/detail/permit/5261210_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-038638-000-00-CO
+Issued: 2026-08-25
+Address: 247 SE 160TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 45000.0
+Units: </description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2022-153756-000-00-co</guid>
@@ -3762,37 +3790,6 @@ Issued: 2025-03-13
 Address: 20715 ROLEN AVE, BEND, OR 97702
 Contractor: AM-1 ROOFING INC
 Valuation: 798451.2
-Units: </description>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202403967</guid>
-      <title>[Bend] Building #7
-TECH: Julie</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 43
-Permit: PRNC202403967
-Issued: 2025-03-13
-Address: 20715 ROLEN AVE, BEND, OR 97702
-Contractor: AM-1 ROOFING INC
-Valuation: 780096.0
-Units: </description>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202403972</guid>
-      <title>[Bend] Building #9
-TECH JULIE OConnor
-PE: Kendra Cole</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 33
-Permit: PRNC202403972
-Issued: 2025-03-13
-Address: 20715 ROLEN AVE, BEND, OR 97702
-Contractor: 
-Valuation: 411937.5
 Units: </description>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>
