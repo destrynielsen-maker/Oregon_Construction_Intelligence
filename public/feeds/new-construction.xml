@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-0525-01</guid>
+      <title>[Eugene] New single family dwelling.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-0525-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: 26-0525-01
+Issued: 2026-08-27
+Address: 3036 TIMBERLINE DR, Eugene, OR
+Contractor: WEST COAST HOME SOLUTIONS LLC
+Valuation: 583251.0
+Units: </description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-01599</guid>
+      <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 108</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-01599
+Issued: 2026-08-27
+Address: 12740 SW DOUBLETOP DR BEAVERTON OR 97007
+Contractor: Taylor Morrison - Scott Nelson
+Valuation: 385952.1
+Units: </description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-8586-01</guid>
       <title>[Eugene] 3-Story triplex with shared access. Units A-C (increasing east to west)</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8586-01&amp;pdf=False</link>
@@ -1907,7 +1935,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604661
 Issued: 2026-08-06
-Address: 61074 SW THISTLE LN, UNIT:2, BEND, OR 97702
+Address: 61074 SW THISTLE LN, UNIT:1, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -1932,7 +1960,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604659
 Issued: 2026-08-06
-Address: 61078 SW THISTLE LN, UNIT:2, BEND, OR 97702
+Address: 61078 SW THISTLE LN, UNIT:1, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -2745,7 +2773,7 @@ Units: </description>
 Score: 18
 Permit: PRNC202600997
 Issued: 2026-07-29
-Address: 61185 SW Beverly Way, Bend, OR 97702
+Address: 61185 SW BEVERLY WAY, BEND, OR 97702
 Contractor: 
 Valuation: 425798.41
 Units: </description>
@@ -3997,34 +4025,6 @@ Score: 15
 Permit: BLDR-25-05975
 Issued: 2026-07-15
 Address: 3559 SW HARTLEY AVE GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-25-05974</guid>
-      <title>[Gresham] Terrace at Pleasant Valley</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/4cfba091-2a6f-446f-82ec-7f0af66a4367</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: BLDR-25-05974
-Issued: 2026-07-15
-Address: 3593 SW HARTLEY AVE GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-25-05960</guid>
-      <title>[Gresham] Terrace at Pleasant Valley</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/fda00087-d906-44b4-a2a6-998f1443febe</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: BLDR-25-05960
-Issued: 2026-07-15
-Address: 3545 SW HARTLEY AVE GRESHAM OR 97080
 Contractor: 
 Valuation: 
 Units: </description>

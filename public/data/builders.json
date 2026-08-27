@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T10:06:09+00:00",
+  "generated_at": "2026-08-27T22:28:11+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -494,6 +494,18 @@
       "top_score": 25
     },
     {
+      "contractor": "WEST COAST HOME SOLUTIONS LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 583251.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "KIMBALL PROPERTIES LLC",
       "permits_90d": 1,
       "single_family": 0,
@@ -596,6 +608,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 399074.94,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "Taylor Morrison - Scott Nelson",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 385952.1,
       "jurisdictions": [
         "Beaverton"
       ],

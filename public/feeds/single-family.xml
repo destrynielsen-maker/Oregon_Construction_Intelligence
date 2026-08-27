@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-0525-01</guid>
+      <title>[Eugene] New single family dwelling.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-0525-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: 26-0525-01
+Issued: 2026-08-27
+Address: 3036 TIMBERLINE DR, Eugene, OR
+Contractor: WEST COAST HOME SOLUTIONS LLC
+Valuation: 583251.0
+Units: </description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-01599</guid>
+      <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 108</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-01599
+Issued: 2026-08-27
+Address: 12740 SW DOUBLETOP DR BEAVERTON OR 97007
+Contractor: Taylor Morrison - Scott Nelson
+Valuation: 385952.1
+Units: </description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202603987</guid>
       <title>[Bend] EST241 - 60927 SE Apollo Pl - Single Family Dwelling
 ***Avion Water*** SN
@@ -1057,7 +1085,7 @@ Units: </description>
 Score: 18
 Permit: PRNC202600997
 Issued: 2026-07-29
-Address: 61185 SW Beverly Way, Bend, OR 97702
+Address: 61185 SW BEVERLY WAY, BEND, OR 97702
 Contractor: 
 Valuation: 425798.41
 Units: </description>
@@ -3975,42 +4003,6 @@ Issued: 2026-04-30
 Address: 20567 SE NINA AVE, BEND, OR 97702
 Contractor: FRANKLIN BROTHERS LLC
 Valuation: 253227.07
-Units: </description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202502876</guid>
-      <title>[Bend] New Construction - Plan 1500AGL – Stone Creek B2/B3 Lot# 349
-***COB Water (water meter added, waiting for Checklist for sizing)*** SN
-***No Conditions (see comments)*** SN
-***Fill Lot*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202502876
-Issued: 2026-04-30
-Address: 20559 SE NINA AVE, BEND, OR 97702
-Contractor: FRANKLIN BROTHERS LLC
-Valuation: 283127.1
-Units: </description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202502875</guid>
-      <title>[Bend] New Construction - Plan 1449AGR – Stone Creek B2/B3 Lot# 348
-***COB Water (water meter added)*** SN
-***No Conditions (see comments)*** SN
-***Fill Lot*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202502875
-Issued: 2026-04-30
-Address: 20555 SE NINA AVE, BEND, OR 97702
-Contractor: FRANKLIN BROTHERS LLC
-Valuation: 267593.0
 Units: </description>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
