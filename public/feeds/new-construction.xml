@@ -5,6 +5,61 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202600955</guid>
+      <title>[Bend] Construction of new single family dwelling.
+*PRDE202600879 - Demolition permit*
+*PRNC202600972 - new duplex *
+**No expired permits**
+*COB water 1"*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: PRNC202600955
+Issued: 2026-08-28
+Address: 139 NW ST HELENS PL, BEND, OR 97703
+Contractor: Craftsman Homes by Design
+Valuation: 614590.82
+Units: </description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603759</guid>
+      <title>[Bend] Renovation of a house located at 61060 Sky Harbor Dr. 
+4 1/2 bath, 3 bedroom, 13,543 s/f house and gym
+*Demo PRDE202603780*
+*Septic to sewer PRPL202602382*
+*No expireds*SF
+*Avion water district*SF
+*ROUTE TO ENGINEERING*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 33
+Permit: PRNC202603759
+Issued: 2026-08-28
+Address: 61060 SKY HARBOR DR, BEND, OR 97702
+Contractor: NEIL KELLY CO INC
+Valuation: 2576830.61
+Units: </description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604087</guid>
+      <title>[Bend] Brooksmill HS 25_ Aubrey Farmhouse_ GL 
+WM COB 3/4"
+Hardening applicable
+no expired/conditions chw</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202604087
+Issued: 2026-08-28
+Address: 1234 SW BRYANWOOD PL, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 365066.75
+Units: </description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-0525-01</guid>
       <title>[Eugene] New single family dwelling.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-0525-01&amp;pdf=False</link>
@@ -2038,7 +2093,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604661
 Issued: 2026-08-06
-Address: 61074 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61074 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -2087,7 +2142,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604658
 Issued: 2026-08-06
-Address: 61080 SW THISTLE LN, UNIT:2, BEND, OR 97702
+Address: 61080 SW THISTLE LN, UNIT:1, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -3180,7 +3235,7 @@ PER ARCHITECT, THERE ARE NOT ANY VAN ACCESSIBLE PARKING SPACES UNDER CARPORTS. a
 Score: 48
 Permit: PRNC202602476
 Issued: 2026-07-24
-Address: 63226 BRITTA ST, BEND, OR 97703
+Address: 63230 BRITTA ST, BEND, OR 97703
 Contractor: CS CONSTRUCTION
 Valuation: 265000.0
 Units: </description>
@@ -3972,58 +4027,6 @@ Contractor: BRYAN PARSONS CONSTRUCTION LLC
 Valuation: 167652.0
 Units: </description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602909</guid>
-      <title>[Bend] Brooksmill HS 26_ Aubrey Farmhouse_ GR_ Combo Building Permit 
-
-*CoB water - meter needed* 
-*no conditions*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602909
-Issued: 2026-07-16
-Address: 1230 SW BRYANWOOD PL, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 380845.5
-Units: </description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601742</guid>
-      <title>[Bend] SFD WITH ATTACHED GARAGE 
-
-*CoB Water - meter needed* 
-*no conditions/active SIMPs*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601742
-Issued: 2026-07-16
-Address: 3460 NW JESSE PL, BEND, OR 97703
-Contractor: MCD Homes LLC
-Valuation: 
-Units: </description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603126</guid>
-      <title>[Bend] CL43 - TBD NW Celilo Ln. - single family dwelling
-***COB Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN
-***Needs Addressing*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202603126
-Issued: 2026-07-15
-Address: 3102 NW CELILO LN, BEND, OR 97703
-Contractor: PAHLISCH HOMES
-Valuation: 533847.45
-Units: </description>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

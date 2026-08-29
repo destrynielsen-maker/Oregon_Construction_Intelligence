@@ -5,6 +5,44 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202600955</guid>
+      <title>[Bend] Construction of new single family dwelling.
+*PRDE202600879 - Demolition permit*
+*PRNC202600972 - new duplex *
+**No expired permits**
+*COB water 1"*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: PRNC202600955
+Issued: 2026-08-28
+Address: 139 NW ST HELENS PL, BEND, OR 97703
+Contractor: Craftsman Homes by Design
+Valuation: 614590.82
+Units: </description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603759</guid>
+      <title>[Bend] Renovation of a house located at 61060 Sky Harbor Dr. 
+4 1/2 bath, 3 bedroom, 13,543 s/f house and gym
+*Demo PRDE202603780*
+*Septic to sewer PRPL202602382*
+*No expireds*SF
+*Avion water district*SF
+*ROUTE TO ENGINEERING*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 33
+Permit: PRNC202603759
+Issued: 2026-08-28
+Address: 61060 SKY HARBOR DR, BEND, OR 97702
+Contractor: NEIL KELLY CO INC
+Valuation: 2576830.61
+Units: </description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-8586-01</guid>
       <title>[Eugene] 3-Story triplex with shared access. Units A-C (increasing east to west)</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8586-01&amp;pdf=False</link>
@@ -1287,7 +1325,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604661
 Issued: 2026-08-06
-Address: 61074 SW THISTLE LN, UNIT:1, BEND, OR 97702
+Address: 61074 SW THISTLE LN, UNIT:2, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -1336,7 +1374,7 @@ Related permits include:
 Score: 48
 Permit: PRNC202604658
 Issued: 2026-08-06
-Address: 61080 SW THISTLE LN, UNIT:2, BEND, OR 97702
+Address: 61080 SW THISTLE LN, UNIT:1, BEND, OR 97702
 Contractor: HIVE DEVELOPMENT LLC
 Valuation: 481684.52
 Units: </description>
@@ -1899,7 +1937,7 @@ PER ARCHITECT, THERE ARE NOT ANY VAN ACCESSIBLE PARKING SPACES UNDER CARPORTS. a
 Score: 48
 Permit: PRNC202602476
 Issued: 2026-07-24
-Address: 63226 BRITTA ST, BEND, OR 97703
+Address: 63230 BRITTA ST, BEND, OR 97703
 Contractor: CS CONSTRUCTION
 Valuation: 265000.0
 Units: </description>
@@ -4076,34 +4114,6 @@ Units: </description>
       <description>Category: MULTIFAMILY
 Score: 40
 Permit: 2026-009820-000-00-RS
-Issued: 2026-06-10
-Address: 4555 NE 34TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 159116.0
-Units: 1</description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-009819-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 3 OF 4 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ NO GARAGE/ 2 STORY/ COMPLEX/ SLOPED LOT *** ET PT MT INCLUDED** SEE 25 020055 RS FOR DEMO W/ 26-009805/10/19/20/22</title>
-      <link>https://www.portlandmaps.com/detail/permit/5231171_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-009819-000-00-RS
-Issued: 2026-06-10
-Address: 4555 NE 34TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 159116.0
-Units: 1</description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-009810-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 2 OF 4 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ NO GARAGE/ 2 STORY/ COMPLEX/ SLOPED LOT *** ET PT MT INCLUDED** SEE 25 020055 RS FOR DEMO W/ 26-009805/10/19/20/22</title>
-      <link>https://www.portlandmaps.com/detail/permit/5231162_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-009810-000-00-RS
 Issued: 2026-06-10
 Address: 4555 NE 34TH AVE, PORTLAND, OR
 Contractor: 

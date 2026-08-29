@@ -5,6 +5,43 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202603759</guid>
+      <title>[Bend] Renovation of a house located at 61060 Sky Harbor Dr. 
+4 1/2 bath, 3 bedroom, 13,543 s/f house and gym
+*Demo PRDE202603780*
+*Septic to sewer PRPL202602382*
+*No expireds*SF
+*Avion water district*SF
+*ROUTE TO ENGINEERING*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 33
+Permit: PRNC202603759
+Issued: 2026-08-28
+Address: 61060 SKY HARBOR DR, BEND, OR 97702
+Contractor: NEIL KELLY CO INC
+Valuation: 2576830.61
+Units: </description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604087</guid>
+      <title>[Bend] Brooksmill HS 25_ Aubrey Farmhouse_ GL 
+WM COB 3/4"
+Hardening applicable
+no expired/conditions chw</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202604087
+Issued: 2026-08-28
+Address: 1234 SW BRYANWOOD PL, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 365066.75
+Units: </description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-0525-01</guid>
       <title>[Eugene] New single family dwelling.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-0525-01&amp;pdf=False</link>
@@ -1698,7 +1735,7 @@ Units: </description>
 Score: 28
 Permit: PRNC202603126
 Issued: 2026-07-15
-Address: 3102 NW CELILO LN, BEND, OR 97703
+Address: 0 NW CELILO LN, LOT:43, BEND, OR 97703
 Contractor: PAHLISCH HOMES
 Valuation: 533847.45
 Units: </description>
@@ -3965,40 +4002,6 @@ Issued: 2026-04-30
 Address: 20608 KIRA DR, BEND, OR 97702
 Contractor: FRANKLIN BROTHERS LLC
 Valuation: 283127.1
-Units: </description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202502895</guid>
-      <title>[Bend] New Construction - Plan 2526CGL – Stone Creek B2/B3 Lot# 359
-***COB Water*** SN
-***No Conditions (see comments)*** SN
-***Fill Lot*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202502895
-Issued: 2026-04-30
-Address: 20612 KIRA DR, BEND, OR 97702
-Contractor: FRANKLIN BROTHERS LLC
-Valuation: 453601.34
-Units: </description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202502882</guid>
-      <title>[Bend] New Construction - Plan 1500AGL – Stone Creek B2/B3 Lot# 353
-**fill lot**
-*CoB water, meter added**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202502882
-Issued: 2026-04-30
-Address: 20575 SE NINA AVE, BEND, OR 97702
-Contractor: FRANKLIN BROTHERS LLC
-Valuation: 282961.6
 Units: </description>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
