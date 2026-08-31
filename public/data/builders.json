@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T21:21:03+00:00",
+  "generated_at": "2026-08-31T05:53:29+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -92,18 +92,6 @@
       "multifamily": 5,
       "commercial": 0,
       "combined_valuation": 2270938.12,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
-      "contractor": "Deschutes Custom Homes LLC",
-      "permits_90d": 7,
-      "single_family": 1,
-      "multifamily": 6,
-      "commercial": 0,
-      "combined_valuation": 2223531.54,
       "jurisdictions": [
         "Bend"
       ],
@@ -228,6 +216,18 @@
         "Bend"
       ],
       "top_score": 28
+    },
+    {
+      "contractor": "Deschutes Custom Homes LLC",
+      "permits_90d": 2,
+      "single_family": 1,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 1019490.64,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "PALMER HOMES",
@@ -548,18 +548,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 543240.96,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
-      "contractor": "STRUCTURE DEVELOPMENT NW LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 513878.52,
       "jurisdictions": [
         "Bend"
       ],
