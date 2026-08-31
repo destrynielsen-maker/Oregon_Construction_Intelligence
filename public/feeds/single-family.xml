@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5066-01</guid>
+      <title>[Eugene] Gazebo/Pavilion</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5066-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-5066-01
+Issued: 2026-08-31
+Address: 45 RUSTIC PL, Eugene, OR
+Contractor: RG BROS GENERAL CONSTRUCTION L
+Valuation: 25000.0
+Units: </description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202603759</guid>
       <title>[Bend] Renovation of a house located at 61060 Sky Harbor Dr. 
 4 1/2 bath, 3 bedroom, 13,543 s/f house and gym
@@ -3984,24 +3998,6 @@ Issued: 2026-04-30
 Address: 20596 KIRA DR, BEND, OR 97702
 Contractor: FRANKLIN BROTHERS LLC
 Valuation: 395853.91
-Units: </description>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202502896</guid>
-      <title>[Bend] New Construction - Plan 1500AGR – Stone Creek B2/B3 Lot# 360
-**Lot 360, fill lot**
-**no conditions, see comments**
-**CoB water*
-*No active SIMPs**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202502896
-Issued: 2026-04-30
-Address: 20608 KIRA DR, BEND, OR 97702
-Contractor: FRANKLIN BROTHERS LLC
-Valuation: 283127.1
 Units: </description>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>

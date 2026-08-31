@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T14:15:27+00:00",
+  "generated_at": "2026-08-31T22:57:43+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -884,6 +884,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 28404.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "RG BROS GENERAL CONSTRUCTION L",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 25000.0,
       "jurisdictions": [
         "Eugene"
       ],

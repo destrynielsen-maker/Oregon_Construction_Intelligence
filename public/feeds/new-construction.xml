@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5066-01</guid>
+      <title>[Eugene] Gazebo/Pavilion</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5066-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-5066-01
+Issued: 2026-08-31
+Address: 45 RUSTIC PL, Eugene, OR
+Contractor: RG BROS GENERAL CONSTRUCTION L
+Valuation: 25000.0
+Units: </description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202600955</guid>
       <title>[Bend] Construction of new single family dwelling.
 *PRDE202600879 - Demolition permit*
@@ -4011,20 +4025,6 @@ Issued: 2026-07-16
 Address: 1175 MCLEAN BLVD, Eugene, OR
 Contractor: ADVANCED ENERGY SYSTEM
 Valuation: 
-Units: </description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-2050-01</guid>
-      <title>[Eugene] New Single-Family Dwelling</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-2050-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-2050-01
-Issued: 2026-07-16
-Address: 3955 E AMAZON DR UNIT A, Eugene, OR
-Contractor: BRYAN PARSONS CONSTRUCTION LLC
-Valuation: 167652.0
 Units: </description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
