@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T22:57:43+00:00",
+  "generated_at": "2026-09-01T05:26:45+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -20,18 +20,6 @@
       "multifamily": 15,
       "commercial": 0,
       "combined_valuation": 3973804.93,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
-      "contractor": "D.R. HORTON",
-      "permits_90d": 18,
-      "single_family": 2,
-      "multifamily": 16,
-      "commercial": 0,
-      "combined_valuation": 5364970.91,
       "jurisdictions": [
         "Bend"
       ],
@@ -60,6 +48,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "D.R. HORTON",
+      "permits_90d": 16,
+      "single_family": 0,
+      "multifamily": 16,
+      "commercial": 0,
+      "combined_valuation": 4669462.51,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "Christiansen's Contracting Company (QC)",
@@ -248,18 +248,6 @@
       "multifamily": 1,
       "commercial": 0,
       "combined_valuation": 904986.5700000001,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
-      "contractor": "Momentasize Construction Inc.",
-      "permits_90d": 2,
-      "single_family": 1,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 825002.25,
       "jurisdictions": [
         "Bend"
       ],
@@ -540,6 +528,18 @@
         "Eugene"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "Momentasize Construction Inc.",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 550002.25,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "EVOLVE BUILDING & DEVELOPMENT",
