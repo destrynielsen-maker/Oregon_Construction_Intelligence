@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T16:49:03+00:00",
+  "generated_at": "2026-09-01T21:12:02+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -72,6 +72,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "Risewell Homes",
+      "permits_90d": 11,
+      "single_family": 11,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3664686.64,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "MCD Homes LLC",
@@ -480,6 +492,18 @@
         "Bend"
       ],
       "top_score": 43
+    },
+    {
+      "contractor": "TNHC OREGON, LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 606085.45,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 25
     },
     {
       "contractor": "NNI CONSTRUCTION CO",
