@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5712-01</guid>
+      <title>[Eugene] REPLACE (1) 2.5-TON GAS PACKAGE ROOFTOP UNIT, USING CURB ADAPTER. REUSING EXISTING THERMOSTAT.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5712-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-5712-01
+Issued: 2026-09-02
+Address: 2200 MARTIN LUTHER KING J BLVD, Eugene, OR
+Contractor: COMFORT FLOW HEATING COMPANY L
+Valuation: 500.0
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202600955</guid>
       <title>[Bend] Construction of new single family dwelling.
 *PRDE202600879 - Demolition permit*
@@ -4105,20 +4119,6 @@ Address: 2805 NE HUETTL LN, BEND, OR 97701
 Contractor: SIMPLICITY HOMES LLC
 Valuation: 240101.34
 Units: </description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-009820-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - NEW 4 OF 4 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ NO GARAGE/ 2 STORY/ COMPLEX/ SLOPED LOT *** ET PT MT INCLUDED** SEE 25 020055 RS FOR DEMO W/ 26-009805/10/19/20/22</title>
-      <link>https://www.portlandmaps.com/detail/permit/5231172_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-009820-000-00-RS
-Issued: 2026-06-10
-Address: 4555 NE 34TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 159116.0
-Units: 1</description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

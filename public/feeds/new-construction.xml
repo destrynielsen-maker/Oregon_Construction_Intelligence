@@ -5,6 +5,72 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5712-01</guid>
+      <title>[Eugene] REPLACE (1) 2.5-TON GAS PACKAGE ROOFTOP UNIT, USING CURB ADAPTER. REUSING EXISTING THERMOSTAT.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5712-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-5712-01
+Issued: 2026-09-02
+Address: 2200 MARTIN LUTHER KING J BLVD, Eugene, OR
+Contractor: COMFORT FLOW HEATING COMPANY L
+Valuation: 500.0
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604898</guid>
+      <title>[Bend] NEW SINGLE FAMILY HOME, OUTCROP LOT 31
+***COB Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202604898
+Issued: 2026-09-01
+Address: 1895 NW MT WASHINGTON DR, BEND, OR 97703
+Contractor: STONE BRIDGE HOMES NW LLC
+Valuation: 619399.08
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604319</guid>
+      <title>[Bend] Lot 314 Discovery West; Single Family Dwelling
+***COB Water (meter added)*** SN
+***No Conditions*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202604319
+Issued: 2026-09-01
+Address: 3418 NW CELILO LN, BEND, OR 97703
+Contractor: STRUCTURE DEVELOPMENT NW LLC
+Valuation: 676873.77
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603069</guid>
+      <title>[Bend] New SFR 2675sqft 
+***COB Water*** SN
+***Fill Lot*** SN
+***No Active SIMPs*** SN
+***Stormwater marked on Checklist*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202603069
+Issued: 2026-09-01
+Address: 61234 SW GROTTO PL, BEND, OR 97702
+Contractor: Heritage Homes of Molalla
+Valuation: 506228.17
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2025-06579</guid>
       <title>[Beaverton] Vineyard Phase 2 - Lot 227 - 4034ALDL</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -29,6 +95,23 @@ Issued: 2026-09-01
 Address: 445 HAZEL CT, Eugene, OR
 Contractor: PARKER &amp; LEE INC
 Valuation: 50031.0
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603708</guid>
+      <title>[Bend] New Construction single family home in place of existing double wide manufactured home.
+*demo under PRDE202603646*SF
+*No expireds, see comments*SF
+*Avion water*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603708
+Issued: 2026-09-01
+Address: 19940 WINDFLOWER WAY, BEND, OR 97702
+Contractor: Brothers Building LLC
+Valuation: 462501.97
 Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3949,84 +4032,6 @@ Contractor: Momentasize Construction Inc.
 Valuation: 550002.25
 Units: </description>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-4063-01</guid>
-      <title>[Eugene] (2) new decks</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4063-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-4063-01
-Issued: 2026-07-21
-Address: 2683 CRESTA DE RUTA ST, Eugene, OR
-Contractor: WOODSTONE STRUCTURES
-Valuation: 40000.0
-Units: </description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602873</guid>
-      <title>[Bend] Brooksmill HS 21_ Calloway Farmhouse _G-FEL_ Combo Building Permit 
-***COB Water*** SN
-***No Conditions*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602873
-Issued: 2026-07-21
-Address: 1250 SW BRYANWOOD PL, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 357493.96
-Units: </description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603202</guid>
-      <title>[Bend] NEW CONSTRUCTION OF SINGLE-FAMILY RESIDENCE, WITH ATTACHED 2-CAR GARAGE.
-**LOT 30**
-*No expired or conditions, see comments*SF
-*No active SIMP*SF
-*CoB water*SF
-**Grading marked on checklist, route to Engineering**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202603202
-Issued: 2026-07-20
-Address: 62643 NW EMBER PL, BEND, OR 97703
-Contractor: Fusion Home Builders
-Valuation: 685566.36
-Units: </description>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-3980-01</guid>
-      <title>[Eugene] Move existing kitchen to new locn, install beam, remove non load bearing walls</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3980-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-3980-01
-Issued: 2026-07-20
-Address: 1719 BEST LN, Eugene, OR
-Contractor: DMOIR CONSTRUCTION LLC
-Valuation: 80000.0
-Units: </description>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-25-05976</guid>
-      <title>[Gresham] Terrace at Pleasant Valley</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/e883d117-6172-4651-aca7-a1a7a6d3afa4</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: BLDR-25-05976
-Issued: 2026-07-20
-Address: 3567 SW HARTLEY AVE GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5712-01</guid>
+      <title>[Eugene] REPLACE (1) 2.5-TON GAS PACKAGE ROOFTOP UNIT, USING CURB ADAPTER. REUSING EXISTING THERMOSTAT.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5712-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-5712-01
+Issued: 2026-09-02
+Address: 2200 MARTIN LUTHER KING J BLVD, Eugene, OR
+Contractor: COMFORT FLOW HEATING COMPANY L
+Valuation: 500.0
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4104-01</guid>
       <title>[Eugene] New mechanical cooling systems.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4104-01&amp;pdf=False</link>
@@ -1800,7 +1814,7 @@ E101 &amp; E130- Wiring method in POOL EQUIPMENT room [120] to comply with 680.1
 Score: 48
 Permit: PRNC202403686
 Issued: 2025-12-08
-Address: 20505 NE TERRA PARK DR, BEND, OR 97701
+Address: 20467 NELS ANDERSON PL, BEND, OR 97701
 Contractor: EMPIRE CONSTRUCTION &amp; DEV
 Valuation: 1571869.0
 Units: </description>
@@ -2129,7 +2143,7 @@ Sheet E200-G3,4,5 - Provide lighting in garage***</title>
 Score: 38
 Permit: PRNC202407497
 Issued: 2025-10-27
-Address: 850 SE 15TH ST, BEND, OR 97702
+Address: 750 SE 15TH ST, BEND, OR 97702
 Contractor: 
 Valuation: 972668.52
 Units: </description>
@@ -3777,21 +3791,6 @@ Contractor:
 Valuation: 410000.0
 Units: </description>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202403976</guid>
-      <title>[Bend] BUILDING #10
-TECH: JULIE</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 43
-Permit: PRNC202403976
-Issued: 2025-03-13
-Address: 20715 ROLEN AVE, BEND, OR 97702
-Contractor: AM-1 ROOFING INC
-Valuation: 798451.2
-Units: </description>
-      <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

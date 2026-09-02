@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T11:34:38+00:00",
+  "generated_at": "2026-09-02T16:46:09+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -110,6 +110,18 @@
       "top_score": 48
     },
     {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 6,
+      "single_family": 6,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3052691.19,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "DR Horton, Inc",
       "permits_90d": 6,
       "single_family": 5,
@@ -120,18 +132,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "STONE BRIDGE HOMES NW LLC",
-      "permits_90d": 5,
-      "single_family": 5,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2433292.11,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "CS CONSTRUCTION",
@@ -240,6 +240,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "Heritage Homes of Molalla",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 970770.8899999999,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "PALMER HOMES",
@@ -446,6 +458,18 @@
       "top_score": 28
     },
     {
+      "contractor": "STRUCTURE DEVELOPMENT NW LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 676873.77,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "HANSEN RODD",
       "permits_90d": 1,
       "single_family": 0,
@@ -602,12 +626,12 @@
       "top_score": 23
     },
     {
-      "contractor": "Heritage Homes of Molalla",
+      "contractor": "Brothers Building LLC",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 464542.72,
+      "combined_valuation": 462501.97,
       "jurisdictions": [
         "Bend"
       ],
@@ -987,6 +1011,18 @@
     },
     {
       "contractor": "CLAY'S REFRIGERATION",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 500.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "COMFORT FLOW HEATING COMPANY L",
       "permits_90d": 1,
       "single_family": 0,
       "multifamily": 0,

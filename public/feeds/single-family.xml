@@ -5,6 +5,58 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202604898</guid>
+      <title>[Bend] NEW SINGLE FAMILY HOME, OUTCROP LOT 31
+***COB Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202604898
+Issued: 2026-09-01
+Address: 1895 NW MT WASHINGTON DR, BEND, OR 97703
+Contractor: STONE BRIDGE HOMES NW LLC
+Valuation: 619399.08
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604319</guid>
+      <title>[Bend] Lot 314 Discovery West; Single Family Dwelling
+***COB Water (meter added)*** SN
+***No Conditions*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202604319
+Issued: 2026-09-01
+Address: 3418 NW CELILO LN, BEND, OR 97703
+Contractor: STRUCTURE DEVELOPMENT NW LLC
+Valuation: 676873.77
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603069</guid>
+      <title>[Bend] New SFR 2675sqft 
+***COB Water*** SN
+***Fill Lot*** SN
+***No Active SIMPs*** SN
+***Stormwater marked on Checklist*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202603069
+Issued: 2026-09-01
+Address: 61234 SW GROTTO PL, BEND, OR 97702
+Contractor: Heritage Homes of Molalla
+Valuation: 506228.17
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2025-06579</guid>
       <title>[Beaverton] Vineyard Phase 2 - Lot 227 - 4034ALDL</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -29,6 +81,23 @@ Issued: 2026-09-01
 Address: 445 HAZEL CT, Eugene, OR
 Contractor: PARKER &amp; LEE INC
 Valuation: 50031.0
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603708</guid>
+      <title>[Bend] New Construction single family home in place of existing double wide manufactured home.
+*demo under PRDE202603646*SF
+*No expireds, see comments*SF
+*Avion water*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603708
+Issued: 2026-09-01
+Address: 19940 WINDFLOWER WAY, BEND, OR 97702
+Contractor: Brothers Building LLC
+Valuation: 462501.97
 Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3893,74 +3962,6 @@ Contractor: PAHLISCH HOMES
 Valuation: 362511.23
 Units: </description>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202506522</guid>
-      <title>[Bend] PT363 - 3891 NE Petrosa Ave - Single Family Dwelling
-*HB2306 Pre-plat, Path 2*SF
-*Conditions added, see comments*SF
-*Avion water*SF 
-*no active SIMP*SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202506522
-Issued: 2026-05-06
-Address: 3891 NE PETROSA AVE, BEND, OR 97701
-Contractor: PAHLISCH HOMES
-Valuation: 372573.7
-Units: </description>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-020129-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW 14x35 FT IN-GROUND SWIMMING POOL WITH 36 IN PERIMETER WALKWAY AND AUTO SAFETY COVER**ET PERMIT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5241945_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-020129-000-00-RS
-Issued: 2026-05-06
-Address: 10925 S RIVERWOOD RD, PORTLAND, OR
-Contractor: 
-Valuation: 125000.0
-Units: </description>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600117</guid>
-      <title>[Bend] custom home build
-***COB Water*** SN
-***No Conditions*** SN
-***No Active SIMPs*** SN
-***Grading marked on Checklist, route to Engineering*** SN
-***Special Inspection required for Welding (Schedule A), Concrete Construction (Schedule B), Special Cases (Schedule G)***</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202600117
-Issued: 2026-05-05
-Address: 3473 NW GREENLEAF WAY, BEND, OR 97703
-Contractor: Sun Forest Construction
-Valuation: 618751.88
-Units: </description>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202508388</guid>
-      <title>[Bend] new residence and ADU
-*No expired*SF
-*Demolition permit required, condition added*SF
-*CoB water district*SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202508388
-Issued: 2026-05-04
-Address: 415 NW FEDERAL ST, BEND, OR 97703
-Contractor: NEW ERA HOMES LLC
-Valuation: 635134.43
-Units: </description>
-      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
