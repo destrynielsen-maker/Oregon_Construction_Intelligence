@@ -19,72 +19,16 @@ Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|beaverton|r2025-06010</guid>
-      <title>[Beaverton] Fox Hollow 2A - Lot 153 - 2230CLTU</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <guid isPermaLink="false">OR|eugene|26-5655-01</guid>
+      <title>[Eugene] Remove an existing sub-standard sized beam and install a new gluelam beam to meet the span requireme</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5655-01&amp;pdf=False</link>
       <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2025-06010
+Score: 23
+Permit: 26-5655-01
 Issued: 2026-09-01
-Address: 18552 SW HOWLOCK LN BEAVERTON OR 97007
-Contractor: Risewell Homes
-Valuation: 327504.66
-Units: </description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2025-06012</guid>
-      <title>[Beaverton] Fox Hollow 2A - Lot 152 - 2240ALTU</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2025-06012
-Issued: 2026-09-01
-Address: 18572 SW HOWLOCK LN BEAVERTON OR 97007
-Contractor: Risewell Homes
-Valuation: 385308.23
-Units: </description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2025-06011</guid>
-      <title>[Beaverton] Fox Hollow 2A - Lot 123 - 2230BR</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2025-06011
-Issued: 2026-09-01
-Address: 18570 SW BACHELOR LN BEAVERTON OR 97007
-Contractor: Risewell Homes
-Valuation: 263440.4
-Units: </description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2025-06008</guid>
-      <title>[Beaverton] Fox Hollow 2A - Lot 122 - 2240AR</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2025-06008
-Issued: 2026-09-01
-Address: 18550 SW BACHELOR LN BEAVERTON OR 97007
-Contractor: Risewell Homes
-Valuation: 322669.95
-Units: </description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2025-06006</guid>
-      <title>[Beaverton] Fox Hollow 2A - Lot 120 - 2240AR (Model)</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2025-06006
-Issued: 2026-09-01
-Address: 18520 SW BACHELOR LN BEAVERTON OR 97007
-Contractor: Risewell Homes
-Valuation: 322669.95
+Address: 445 HAZEL CT, Eugene, OR
+Contractor: PARKER &amp; LEE INC
+Valuation: 50031.0
 Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -117,6 +61,76 @@ Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2025-06012</guid>
+      <title>[Beaverton] Fox Hollow 2A - Lot 152 - 2240ALTU</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2025-06012
+Issued: 2026-09-01
+Address: 18572 SW HOWLOCK LN BEAVERTON OR 97007
+Contractor: Risewell Homes
+Valuation: 385308.23
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2025-06011</guid>
+      <title>[Beaverton] Fox Hollow 2A - Lot 123 - 2230BR</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2025-06011
+Issued: 2026-09-01
+Address: 18570 SW BACHELOR LN BEAVERTON OR 97007
+Contractor: Risewell Homes
+Valuation: 263440.4
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2025-06010</guid>
+      <title>[Beaverton] Fox Hollow 2A - Lot 153 - 2230CLTU</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2025-06010
+Issued: 2026-09-01
+Address: 18552 SW HOWLOCK LN BEAVERTON OR 97007
+Contractor: Risewell Homes
+Valuation: 327504.66
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2025-06008</guid>
+      <title>[Beaverton] Fox Hollow 2A - Lot 122 - 2240AR</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2025-06008
+Issued: 2026-09-01
+Address: 18550 SW BACHELOR LN BEAVERTON OR 97007
+Contractor: Risewell Homes
+Valuation: 322669.95
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2025-06006</guid>
+      <title>[Beaverton] Fox Hollow 2A - Lot 120 - 2240AR (Model)</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2025-06006
+Issued: 2026-09-01
+Address: 18520 SW BACHELOR LN BEAVERTON OR 97007
+Contractor: Risewell Homes
+Valuation: 322669.95
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2025-06005</guid>
       <title>[Beaverton] Fox Hollow 2A - Lot 119 - 2230BR Model</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -127,20 +141,6 @@ Issued: 2026-09-01
 Address: 18500 SW BACHELOR LN BEAVERTON OR 97007
 Contractor: Risewell Homes
 Valuation: 263440.4
-Units: </description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2025-00268</guid>
-      <title>[Beaverton] Fox Hollow Phase 1 - Lot 65</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2025-00268
-Issued: 2026-09-01
-Address: 11756 SW 182ND AVE BEAVERTON OR 97007
-Contractor: Risewell Homes
-Valuation: 405506.16
 Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -169,6 +169,20 @@ Issued: 2026-09-01
 Address: 11734 SW 182ND AVE BEAVERTON OR 97007
 Contractor: Risewell Homes
 Valuation: 244027.53
+Units: </description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2025-00268</guid>
+      <title>[Beaverton] Fox Hollow Phase 1 - Lot 65</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2025-00268
+Issued: 2026-09-01
+Address: 11756 SW 182ND AVE BEAVERTON OR 97007
+Contractor: Risewell Homes
+Valuation: 405506.16
 Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -4013,20 +4027,6 @@ Contractor:
 Valuation: 
 Units: </description>
       <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-026791-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW DETACHED DUPLEX TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX *** ET PT MT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5248857_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-026791-000-00-RS
-Issued: 2026-07-17
-Address: 537 NE MORGAN ST, PORTLAND, OR
-Contractor: 
-Valuation: 226986.0
-Units: 1</description>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

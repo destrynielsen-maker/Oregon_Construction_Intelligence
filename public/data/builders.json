@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-01T21:12:02+00:00",
+  "generated_at": "2026-09-02T04:53:16+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 29,
-      "single_family": 25,
+      "permits_90d": 28,
+      "single_family": 24,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 11421935.87,
+      "combined_valuation": 11041537.0,
       "jurisdictions": [
         "Bend"
       ],
@@ -26,18 +26,6 @@
       "top_score": 48
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 17,
-      "single_family": 17,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 6905186.94,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "Hayden Homes",
       "permits_90d": 17,
       "single_family": 4,
@@ -48,6 +36,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 16,
+      "single_family": 16,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 6457621.100000001,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "D.R. HORTON",
@@ -110,18 +110,6 @@
       "top_score": 48
     },
     {
-      "contractor": "STONE BRIDGE HOMES NW LLC",
-      "permits_90d": 6,
-      "single_family": 6,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2942589.4,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "DR Horton, Inc",
       "permits_90d": 6,
       "single_family": 5,
@@ -132,6 +120,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 5,
+      "single_family": 5,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2433292.11,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "CS CONSTRUCTION",
@@ -336,18 +336,6 @@
         "Bend"
       ],
       "top_score": 33
-    },
-    {
-      "contractor": "SUNWEST BUILDERS",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 2250000.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "EMPIRE CONSTRUCTION & DEV",
@@ -836,6 +824,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 80000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "PARKER & LEE INC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 50031.0,
       "jurisdictions": [
         "Eugene"
       ],
