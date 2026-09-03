@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-1844-01</guid>
+      <title>[Eugene] New single family dwelling.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1844-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-1844-01
+Issued: 2026-09-03
+Address: 2618 PARK FOREST DR, Eugene, OR
+Contractor: HELIKSON HOMES LLC
+Valuation: 245228.0
+Units: </description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5712-01</guid>
       <title>[Eugene] REPLACE (1) 2.5-TON GAS PACKAGE ROOFTOP UNIT, USING CURB ADAPTER. REUSING EXISTING THERMOSTAT.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5712-01&amp;pdf=False</link>
@@ -4028,20 +4042,6 @@ Score: 15
 Permit: BLDR-26-02447
 Issued: 2026-07-22
 Address: 2384 SW 37TH ST GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-26-02446</guid>
-      <title>[Gresham] Butler Creek Subdivision- DR Horton</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/12c55529-7616-47d7-a14e-984a04911198</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: BLDR-26-02446
-Issued: 2026-07-22
-Address: 2419 SW 39TH` ST GRESHAM OR 97080
 Contractor: 
 Valuation: 
 Units: </description>

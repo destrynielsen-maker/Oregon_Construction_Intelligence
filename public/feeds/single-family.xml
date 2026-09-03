@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-1844-01</guid>
+      <title>[Eugene] New single family dwelling.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1844-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-1844-01
+Issued: 2026-09-03
+Address: 2618 PARK FOREST DR, Eugene, OR
+Contractor: HELIKSON HOMES LLC
+Valuation: 245228.0
+Units: </description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202604411</guid>
       <title>[Bend] New detached single-family residence
 *Lot 50*
@@ -3942,28 +3956,6 @@ Contractor:
 Valuation: 474716.0
 Units: 1</description>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202508002</guid>
-      <title>[Bend] New Home
-***Existing home was demo'd under PRDE202503148***SN
-***COB Water (meter exists, SFD demoed under PRDE202503148**SF
-***No Conditions*** SN
-***No Active SIMPs*** SN
-***On Septic, route to Septic Authorization Review*** SN
-***Rock wall higher than 4', route to Engineering*** SN
-***Grading marked on Checklist, route to Engineering*** SN
-     SPECIAL INSPECTION-FF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 33
-Permit: PRNC202508002
-Issued: 2026-05-08
-Address: 61485 WEST RIDGE AVE, BEND, OR 97702
-Contractor: Bend Originals LLC
-Valuation: 1036469.74
-Units: </description>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
