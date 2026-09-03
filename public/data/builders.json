@@ -1,17 +1,29 @@
 {
-  "generated_at": "2026-09-03T11:30:06+00:00",
+  "generated_at": "2026-09-03T16:36:20+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 27,
-      "single_family": 23,
+      "permits_90d": 28,
+      "single_family": 24,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 10619937.18,
+      "combined_valuation": 11099486.98,
       "jurisdictions": [
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 18,
+      "single_family": 18,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 7048339.73,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "Hayden Homes",
@@ -24,18 +36,6 @@
         "Bend"
       ],
       "top_score": 53
-    },
-    {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 16,
-      "single_family": 16,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 6457621.100000001,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "D.R. HORTON",
@@ -482,6 +482,18 @@
       "top_score": 53
     },
     {
+      "contractor": "COPPERLINE HOMES",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 636305.42,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "Craftsman Homes by Design",
       "permits_90d": 1,
       "single_family": 0,
@@ -584,6 +596,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 543240.96,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "Luxe Homes LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 501543.26,
       "jurisdictions": [
         "Bend"
       ],

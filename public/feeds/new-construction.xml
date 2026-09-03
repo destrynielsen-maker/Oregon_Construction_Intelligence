@@ -19,6 +19,109 @@ Units: </description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202604411</guid>
+      <title>[Bend] New detached single-family residence
+*Lot 50*
+*No expired or conditions*
+*No active SIMP*SF
+*CoB water*SF 
+*Grading marked on checklist, route to Engineering*SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202604411
+Issued: 2026-09-02
+Address: 62677 BIG SAGE WAY, BEND, OR 97703
+Contractor: COPPERLINE HOMES
+Valuation: 636305.42
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202601732</guid>
+      <title>[Bend] Luxe DW 284. New construction of single story single family residence with attached garage
+***COB Water*** SN
+***No Conditions*** SN
+***No Active SIMPs*** SN
+***Grading marked on Checklist, route to Engineering*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202601732
+Issued: 2026-09-02
+Address: 3381 NW CELILO LN, BEND, OR 97703
+Contractor: Luxe Homes LLC
+Valuation: 501543.26
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604571</guid>
+      <title>[Bend] EST254 - 60924 SE Apollo Pl - Single Family Dwelling 
+**Lot 254**
+**Active PRSIMP202301296**SF 
+**No conditions, see comments**SF
+**Avion water district**SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202604571
+Issued: 2026-09-02
+Address: 60924 SE APOLLO PL, BEND, OR 97702
+Contractor: PAHLISCH HOMES
+Valuation: 479549.8
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603839</guid>
+      <title>[Bend] Old Farm HS 12_ Astoria Farmhouse
+no expired/conditions chw
+*ROATs water 3/4"*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603839
+Issued: 2026-09-02
+Address: 20406 SE BACKCOUNTRY CT, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 280684.68
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603826</guid>
+      <title>[Bend] Old Farm HS 9_ Whitney 
+no expired/conditions</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603826
+Issued: 2026-09-02
+Address: 61532 PARRELL RD, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 310033.95
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603249</guid>
+      <title>[Bend] Lodges Lot 48 New SFR 2568sqft
+***COB Water*** SN
+***Fill Lot*** SN
+***No Active SIMPs*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: PRNC202603249
+Issued: 2026-09-02
+Address: 61239 SW GROTTO PL, BEND, OR 97702
+Contractor: 
+Valuation: 491030.04
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202604898</guid>
       <title>[Bend] NEW SINGLE FAMILY HOME, OUTCROP LOT 31
 ***COB Water*** SN
@@ -3943,95 +4046,6 @@ Contractor:
 Valuation: 
 Units: </description>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-26-02445</guid>
-      <title>[Gresham] Butler Creek Subdivision- DR Horton</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/9a8c6c30-8774-4fc6-9702-9be2d6ed4202</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: BLDR-26-02445
-Issued: 2026-07-22
-Address: 2407 SW 39TH` ST GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-26-02296</guid>
-      <title>[Gresham] Butler Creek Subdivision- DR Horton</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/bb6c8651-b05e-4dfc-846b-607952203d18</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: BLDR-26-02296
-Issued: 2026-07-22
-Address: 2414 SW 37TH ST GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-26-02295</guid>
-      <title>[Gresham] Butler Creek Subdivision- DR Horton</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/fb5a13a8-44fd-4cb6-b74c-c79a148f902d</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: BLDR-26-02295
-Issued: 2026-07-22
-Address: 2402 SW 37TH ST GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-012169-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BUILDING A NEW 1 OF  3 UNIT TOWNHOUSE AND 6 UNIT TOWN HOUSE ON SHARED LOT/ NO GARAGE/ 2 STORY/ COMPLEX/ FLAT LOT ***  w/ 26-012169/70/71/72/75/77/78/79/80/81  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5233640_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-012169-000-00-RS
-Issued: 2026-07-21
-Address: 2624 N ROSA PARKS WAY, PORTLAND, OR
-Contractor: 
-Valuation: 148294.0
-Units: 1</description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602261</guid>
-      <title>[Bend] construction of trash enclosure</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 33
-Permit: PRNC202602261
-Issued: 2026-07-21
-Address: 21085 DON ST, BEND, OR 97701
-Contractor: 
-Valuation: 10000.0
-Units: </description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600706</guid>
-      <title>[Bend] New Construction, Single Family Home
-***COB Water*** SN
-***Condition: Attn: Plans Examiner - All habitable (R3) structures and all additions to such need to be sprinkled. U occupancies are not required to be sprinkled*** SN
-***No Active SIMPs*** SN
-*Needs addressing* 
-Preplat***MS</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202600706
-Issued: 2026-07-21
-Address: 19316 SW CLOUD CHASER PL, BEND, OR 97702
-Contractor: Momentasize Construction Inc.
-Valuation: 550002.25
-Units: </description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
