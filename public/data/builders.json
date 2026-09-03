@@ -1,25 +1,13 @@
 {
-  "generated_at": "2026-09-02T21:11:24+00:00",
+  "generated_at": "2026-09-03T04:50:49+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 28,
-      "single_family": 24,
+      "permits_90d": 27,
+      "single_family": 23,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 11041537.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 19,
-      "single_family": 4,
-      "multifamily": 15,
-      "commercial": 0,
-      "combined_valuation": 3973804.93,
+      "combined_valuation": 10619937.18,
       "jurisdictions": [
         "Bend"
       ],
@@ -74,6 +62,18 @@
       "top_score": 48
     },
     {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 14,
+      "single_family": 4,
+      "multifamily": 10,
+      "commercial": 0,
+      "combined_valuation": 3111669.65,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
       "contractor": "Risewell Homes",
       "permits_90d": 11,
       "single_family": 11,
@@ -120,18 +120,6 @@
         "Bend"
       ],
       "top_score": 28
-    },
-    {
-      "contractor": "DR Horton, Inc",
-      "permits_90d": 6,
-      "single_family": 5,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 2246316.9,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "CS CONSTRUCTION",
@@ -204,6 +192,18 @@
         "Beaverton"
       ],
       "top_score": 20
+    },
+    {
+      "contractor": "DR Horton, Inc",
+      "permits_90d": 3,
+      "single_family": 2,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 984064.99,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "Fusion Home Builders",
@@ -732,18 +732,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "Tumalo Construction LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 277016.67,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "Bonaventure Community Construction",
