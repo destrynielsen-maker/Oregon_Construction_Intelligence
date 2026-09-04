@@ -105,6 +105,20 @@ Units: </description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-043307-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF NEW SINGLE FAMILY RESIDENCE/ 2 STORY/ WITH GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT ENTERED* TRUSSES *SEE 26-034092-RS FOR DEMOLITION OF EXISTING HOUSE**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5266046_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: 2026-043307-000-00-RS
+Issued: 2026-09-02
+Address: 3633 SE HENDERSON ST, PORTLAND, OR
+Contractor: 
+Valuation: 626986.0
+Units: 1</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202603249</guid>
       <title>[Bend] Lodges Lot 48 New SFR 2568sqft
 ***COB Water*** SN
@@ -118,6 +132,34 @@ Issued: 2026-09-02
 Address: 61239 SW GROTTO PL, BEND, OR 97702
 Contractor: 
 Valuation: 491030.04
+Units: </description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-003630-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 1-STORY / 1-CAR GARAGE / FLAT LOT / COMPLEX</title>
+      <link>https://www.portlandmaps.com/detail/permit/5224758_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-003630-000-00-RS
+Issued: 2026-09-02
+Address: SE YAMHILL ST, PORTLAND, OR
+Contractor: 
+Valuation: 207086.0
+Units: 1</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-044535-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - CONSTRUCT 20'x24', 480 SF STORAGE SHED***Structural Special Inspection required at Titen bolts: 3/S3***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5267315_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-044535-000-00-RS
+Issued: 2026-09-02
+Address: 8311 SW 57TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 34115.0
 Units: </description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3907,55 +3949,6 @@ Contractor:
 Valuation: 40000.0
 Units: </description>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600936</guid>
-      <title>[Bend] 6,482 sq ft, 5 bedroom, 5.5 bathroom single family dwelling.
-***COB Water*** SN
-***No Conditions*** SN
-***No Active SIMPs*** SN
-***4' retaining wall on site plan, route to Engineering*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 33
-Permit: PRNC202600936
-Issued: 2026-05-13
-Address: 3230 NW METKE PL, BEND, OR 97703
-Contractor: Momentasize Construction Inc.
-Valuation: 1266186.11
-Units: </description>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601783</guid>
-      <title>[Bend] Construction of a new replacement single-family dwelling.
-
-*route to engineering--see coments* 
-*avion water*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601783
-Issued: 2026-05-12
-Address: 19987 ALDERWOOD CIR, BEND, OR 97702
-Contractor: SIMPLICITY HOMES LLC
-Valuation: 382532.28
-Units: </description>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-100018-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES W/ DETACHED ADU/ 2 STORY/ WITH / FLAT LOT / COMPLEX *** ET PT MT SEPARATE W/ 25 100021 000 00 RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5217233_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-100018-000-00-RS
-Issued: 2026-05-11
-Address: 4305 SE YAMHILL ST, PORTLAND, OR
-Contractor: 
-Valuation: 474716.0
-Units: 1</description>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

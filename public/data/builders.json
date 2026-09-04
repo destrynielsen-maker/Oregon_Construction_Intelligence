@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:12:17+00:00",
+  "generated_at": "2026-09-04T04:53:53+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -63,11 +63,11 @@
     },
     {
       "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 14,
+      "permits_90d": 13,
       "single_family": 4,
-      "multifamily": 10,
+      "multifamily": 9,
       "commercial": 0,
-      "combined_valuation": 3111669.65,
+      "combined_valuation": 2871568.31,
       "jurisdictions": [
         "Bend"
       ],
@@ -704,18 +704,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 375000.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "JF Homes",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 368863.2,
       "jurisdictions": [
         "Bend"
       ],
