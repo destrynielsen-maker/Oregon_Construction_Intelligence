@@ -86,29 +86,6 @@ Units: </description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202505656</guid>
-      <title>[Bend] Parrell RD Lots 17-23
-PRNC202505590 - Plans reviewed under this permit
-PRNC202505653 - lot 18
-PRNC202505654 - lot 19
-PRNC202505655 - lot 20
-PRNC202505656 - lot 21
-PRNC202505657 - lot 22
-PRNC202505658 - lot 23
-*conditions and comments added*
-**Roats water**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202505656
-Issued: 2026-09-03
-Address: 61029 SE BUXTON LOOP, BEND, OR 97702
-Contractor: D.R. HORTON
-Valuation: 267105.84
-Units: </description>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202505658</guid>
       <title>[Bend] Parrell RD Lots 17-23
 PRNC202505590 - Plans reviewed under this permit
@@ -149,6 +126,29 @@ Score: 48
 Permit: PRNC202505657
 Issued: 2026-09-03
 Address: 61031 SE BUXTON LOOP, BEND, OR 97702
+Contractor: D.R. HORTON
+Valuation: 267105.84
+Units: </description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202505656</guid>
+      <title>[Bend] Parrell RD Lots 17-23
+PRNC202505590 - Plans reviewed under this permit
+PRNC202505653 - lot 18
+PRNC202505654 - lot 19
+PRNC202505655 - lot 20
+PRNC202505656 - lot 21
+PRNC202505657 - lot 22
+PRNC202505658 - lot 23
+*conditions and comments added*
+**Roats water**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202505656
+Issued: 2026-09-03
+Address: 61029 SE BUXTON LOOP, BEND, OR 97702
 Contractor: D.R. HORTON
 Valuation: 267105.84
 Units: </description>
