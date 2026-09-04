@@ -5,6 +5,39 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202604568</guid>
+      <title>[Bend] PT369 - 3064 NE Brownstone Pl - Single Family Dwelling 
+*see conditions in comments*
+**COB Water 3/4"**</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202604568
+Issued: 2026-09-03
+Address: 3064 NE BROWNSTONE PL, BEND, OR 97701
+Contractor: PAHLISCH HOMES
+Valuation: 573483.19
+Units: </description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202602812</guid>
+      <title>[Bend] NEW SINGLE FAMILY HOME, COUNTRYSIDE LOT 154
+**No active SIMP**
+**No conditions**
+**CoB water district**SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202602812
+Issued: 2026-09-03
+Address: 61229 SE WAGYU DR, BEND, OR 97702
+Contractor: STONE BRIDGE HOMES NW LLC
+Valuation: 546176.86
+Units: </description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-1844-01</guid>
       <title>[Eugene] New single family dwelling.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1844-01&amp;pdf=False</link>
@@ -3921,34 +3954,6 @@ Contractor: PAHLISCH HOMES
 Valuation: 372573.7
 Units: </description>
       <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-024207-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW INGROUND CONCRETE SWIMMING POOL WITH AUTOCOVER *** MT INCLUDED** PT ET SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5246176_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-024207-000-00-RS
-Issued: 2026-05-15
-Address: 8021 SW 54TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 28000.0
-Units: </description>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2023-034469-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF-  CONSTRUCT NEW 759 SF ACCESSORY STRUCTURE WITH LIVING SPACE.   NEW SPACE TO INCLUDE 3 NEW BEDROOMS, 2 FUTURE BATHROOMS AND FAMILY ROOM.  ALL ASSOCIATED UTILITIES TO BE INCLUDED WITH THIS PERMIT, MT, ET AND PT.  (SUBS ENTERED) *NOT PERMTTED AS AN ADU*</title>
-      <link>https://www.portlandmaps.com/detail/permit/4917361_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2023-034469-000-00-RS
-Issued: 2026-05-14
-Address: 9300 SE TENINO CT, PORTLAND, OR
-Contractor: 
-Valuation: 40000.0
-Units: </description>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-09-04T11:33:20+00:00",
+  "generated_at": "2026-09-04T16:31:18+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 28,
-      "single_family": 24,
+      "permits_90d": 29,
+      "single_family": 25,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 11099486.98,
+      "combined_valuation": 11672970.17,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "D.R. HORTON",
+      "permits_90d": 20,
+      "single_family": 0,
+      "multifamily": 20,
+      "commercial": 0,
+      "combined_valuation": 5745804.38,
       "jurisdictions": [
         "Bend"
       ],
@@ -36,18 +48,6 @@
         "Bend"
       ],
       "top_score": 53
-    },
-    {
-      "contractor": "D.R. HORTON",
-      "permits_90d": 16,
-      "single_family": 0,
-      "multifamily": 16,
-      "commercial": 0,
-      "combined_valuation": 4669462.51,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "Christiansen's Contracting Company (QC)",
@@ -98,6 +98,18 @@
       "top_score": 53
     },
     {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 7,
+      "single_family": 7,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3598868.05,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "HAYDEN HOMES LLC",
       "permits_90d": 7,
       "single_family": 2,
@@ -110,16 +122,16 @@
       "top_score": 48
     },
     {
-      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "contractor": "DR Horton, Inc",
       "permits_90d": 6,
-      "single_family": 6,
-      "multifamily": 0,
+      "single_family": 2,
+      "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 3052691.19,
+      "combined_valuation": 1793301.02,
       "jurisdictions": [
         "Bend"
       ],
-      "top_score": 28
+      "top_score": 48
     },
     {
       "contractor": "CS CONSTRUCTION",
@@ -128,6 +140,18 @@
       "multifamily": 1,
       "commercial": 3,
       "combined_valuation": 3880000.0,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "BEND-REDMOND HABITAT FOR HUMANITY contractor",
+      "permits_90d": 4,
+      "single_family": 0,
+      "multifamily": 4,
+      "commercial": 0,
+      "combined_valuation": 1897241.12,
       "jurisdictions": [
         "Bend"
       ],
@@ -192,18 +216,6 @@
         "Beaverton"
       ],
       "top_score": 20
-    },
-    {
-      "contractor": "DR Horton, Inc",
-      "permits_90d": 3,
-      "single_family": 2,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 984064.99,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "Fusion Home Builders",
