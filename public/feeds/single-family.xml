@@ -52,12 +52,12 @@ Units: </description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2026-043003-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD - 1 OF 2 NEW COTTAGE CLUSTER  ON LOT TO BE DIVIDED BY FUTURE MHLD. EXISTING SFR TO REMAIN. 2 STORY. NO GARAGE/ COMPLEX. SLOPED LOT/ *** ET PT MT INCLUDED.  W/ 26 043014 000 00 RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5265731_did/</link>
+      <guid isPermaLink="false">OR|portland|2026-043014-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD - 2 OF 2 NEW COTTAGE CLUSTER  ON LOT TO BE DIVIDED BY FUTURE MHLD. EXISTING SFR TO REMAIN. 2 STORY. NO GARAGE/ COMPLEX. SLOPED LOT/ *** ET PT MT INCLUDED. W/ 26 043003 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5265742_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2026-043003-000-00-RS
+Permit: 2026-043014-000-00-RS
 Issued: 2026-09-03
 Address: 305 SE 75TH AVE, PORTLAND, OR
 Contractor: 
@@ -66,12 +66,12 @@ Units: 1</description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2026-043014-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD - 2 OF 2 NEW COTTAGE CLUSTER  ON LOT TO BE DIVIDED BY FUTURE MHLD. EXISTING SFR TO REMAIN. 2 STORY. NO GARAGE/ COMPLEX. SLOPED LOT/ *** ET PT MT INCLUDED. W/ 26 043003 000 00 RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5265742_did/</link>
+      <guid isPermaLink="false">OR|portland|2026-043003-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD - 1 OF 2 NEW COTTAGE CLUSTER  ON LOT TO BE DIVIDED BY FUTURE MHLD. EXISTING SFR TO REMAIN. 2 STORY. NO GARAGE/ COMPLEX. SLOPED LOT/ *** ET PT MT INCLUDED.  W/ 26 043014 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5265731_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
-Permit: 2026-043014-000-00-RS
+Permit: 2026-043003-000-00-RS
 Issued: 2026-09-03
 Address: 305 SE 75TH AVE, PORTLAND, OR
 Contractor: 
@@ -211,20 +211,6 @@ Units: </description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2026-003630-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 1-STORY / 1-CAR GARAGE / FLAT LOT / COMPLEX</title>
-      <link>https://www.portlandmaps.com/detail/permit/5224758_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-003630-000-00-RS
-Issued: 2026-09-02
-Address: SE YAMHILL ST, PORTLAND, OR
-Contractor: 
-Valuation: 207086.0
-Units: 1</description>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|portland|2026-029370-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 2-STORY WITH BASEMENT / NO GARAGE / FLAT LOT / COMPLEX *ET, MT PERMITS SEPARATE - 13D FIRE SPRINKLERS AS DFS REQUIRED PER TVFR  *ADDED PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5251528_did/</link>
@@ -235,6 +221,20 @@ Issued: 2026-09-02
 Address: 15739 NW SHELTERED NOOK RD, PORTLAND, OR
 Contractor: 
 Valuation: 369085.0
+Units: 1</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-003630-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 1-STORY / 1-CAR GARAGE / FLAT LOT / COMPLEX</title>
+      <link>https://www.portlandmaps.com/detail/permit/5224758_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-003630-000-00-RS
+Issued: 2026-09-02
+Address: SE YAMHILL ST, PORTLAND, OR
+Contractor: 
+Valuation: 207086.0
 Units: 1</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
