@@ -52,6 +52,34 @@ Units: </description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-043003-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD - 1 OF 2 NEW COTTAGE CLUSTER  ON LOT TO BE DIVIDED BY FUTURE MHLD. EXISTING SFR TO REMAIN. 2 STORY. NO GARAGE/ COMPLEX. SLOPED LOT/ *** ET PT MT INCLUDED.  W/ 26 043014 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5265731_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-043003-000-00-RS
+Issued: 2026-09-03
+Address: 305 SE 75TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 195473.0
+Units: 1</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-043014-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - MHLD - 2 OF 2 NEW COTTAGE CLUSTER  ON LOT TO BE DIVIDED BY FUTURE MHLD. EXISTING SFR TO REMAIN. 2 STORY. NO GARAGE/ COMPLEX. SLOPED LOT/ *** ET PT MT INCLUDED. W/ 26 043003 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5265742_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-043014-000-00-RS
+Issued: 2026-09-03
+Address: 305 SE 75TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 195473.0
+Units: 1</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202604411</guid>
       <title>[Bend] New detached single-family residence
 *Lot 50*
@@ -193,6 +221,20 @@ Issued: 2026-09-02
 Address: SE YAMHILL ST, PORTLAND, OR
 Contractor: 
 Valuation: 207086.0
+Units: 1</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-029370-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 2-STORY WITH BASEMENT / NO GARAGE / FLAT LOT / COMPLEX *ET, MT PERMITS SEPARATE - 13D FIRE SPRINKLERS AS DFS REQUIRED PER TVFR  *ADDED PLUMBING*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5251528_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-029370-000-00-RS
+Issued: 2026-09-02
+Address: 15739 NW SHELTERED NOOK RD, PORTLAND, OR
+Contractor: 
+Valuation: 369085.0
 Units: 1</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3905,55 +3947,6 @@ Contractor:
 Valuation: 164527.0
 Units: 1</description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202508253</guid>
-      <title>[Bend] EST169 - 20896 SE Caldera Dr - Single Family Dwelling
-*Lot 169*SF
-*No active SIMP*SF
-*No conditions*SF
-*Avion water*SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202508253
-Issued: 2026-05-18
-Address: 20896 SE CALDERA DR, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 372573.7
-Units: </description>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-072566-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF NEW DETACHED ACCESSORY STRUCTURE OVER EXISTING FOUNDATION.NO ET, MT, OR PT PROPOSED***DFS FOR ROOF TRUSSES</title>
-      <link>https://www.portlandmaps.com/detail/permit/5075808_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-072566-000-00-RS
-Issued: 2026-05-18
-Address: 2137 NE CLACKAMAS ST, PORTLAND, OR
-Contractor: 
-Valuation: 30000.0
-Units: </description>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202507533</guid>
-      <title>[Bend] EST159 - 20895 SE Caldera Dr - Single Family Dwelling
-***Avion Water*** SN
-***No Conditions*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202507533
-Issued: 2026-05-15
-Address: 20895 SE CALDERA DR, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 372573.7
-Units: </description>
-      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
