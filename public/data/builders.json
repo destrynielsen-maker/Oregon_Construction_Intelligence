@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:37:47+00:00",
+  "generated_at": "2026-09-07T05:00:41+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -50,24 +50,24 @@
       "top_score": 53
     },
     {
-      "contractor": "Christiansen's Contracting Company (QC)",
-      "permits_90d": 14,
-      "single_family": 0,
-      "multifamily": 14,
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 12,
+      "single_family": 4,
+      "multifamily": 8,
       "commercial": 0,
-      "combined_valuation": 6011623.55,
+      "combined_valuation": 2755445.02,
       "jurisdictions": [
         "Bend"
       ],
       "top_score": 48
     },
     {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 13,
-      "single_family": 4,
-      "multifamily": 9,
+      "contractor": "Christiansen's Contracting Company (QC)",
+      "permits_90d": 11,
+      "single_family": 0,
+      "multifamily": 11,
       "commercial": 0,
-      "combined_valuation": 2871568.31,
+      "combined_valuation": 4732051.36,
       "jurisdictions": [
         "Bend"
       ],
@@ -242,18 +242,6 @@
       "top_score": 28
     },
     {
-      "contractor": "Deschutes Custom Homes LLC",
-      "permits_90d": 2,
-      "single_family": 1,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 1019490.64,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "Heritage Homes of Molalla",
       "permits_90d": 2,
       "single_family": 2,
@@ -420,6 +408,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "Deschutes Custom Homes LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 852544.06,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "KELLCON",
