@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:41:12+00:00",
+  "generated_at": "2026-09-08T04:59:22+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -236,18 +236,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 1214604.24,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
-      "contractor": "Heritage Homes of Molalla",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 970770.8899999999,
       "jurisdictions": [
         "Bend"
       ],
@@ -608,6 +596,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 543240.96,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "Heritage Homes of Molalla",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 506228.17,
       "jurisdictions": [
         "Bend"
       ],
