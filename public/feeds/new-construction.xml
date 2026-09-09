@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-5937-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5937-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5937-01
+Issued: 2026-09-08
+Address: 817 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-077009-000-00-rs</guid>
       <title>[Portland] FULL PDOX -  (BUILDING A) NEW 6 OF 6 UNIT TOWNHOUSES ON SHARED LOT /2 STORY/NO GARAGE/FLAT LOT/COMPLEX /***ET ,MT,  INCLUDED PT SEPARATE W/ 25-077002/04/05/06/07/09 RS 25-077014 SD</title>
       <link>https://www.portlandmaps.com/detail/permit/5193253_did/</link>
@@ -4070,29 +4084,6 @@ Issued: 2026-07-28
 Address: 664 SW COLUMBIA ST, BEND, OR 97702
 Contractor: Christiansen's Contracting Company (QC)
 Valuation: 422495.39
-Units: </description>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602484</guid>
-      <title>[Bend] Construction of new townhome building #9 under master permit PROT202506966. 
-
-*CoB water - meter needed* 
-*All Units are Fill Lots*
-*PRSIMP202501442* 
-
-PRNC202602484 - lot 5 *reviews happening under this application* 
-PRNC202604065 - lot 6
-PRNC202604066 - lot 7 
-PRNC202604067 - lot 8</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202602484
-Issued: 2026-07-28
-Address: 662 SW COLUMBIA ST, BEND, OR 97702
-Contractor: Christiansen's Contracting Company (QC)
-Valuation: 434581.41
 Units: </description>
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>

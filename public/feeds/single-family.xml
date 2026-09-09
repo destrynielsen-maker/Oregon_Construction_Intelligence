@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-5937-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5937-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5937-01
+Issued: 2026-09-08
+Address: 817 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202604568</guid>
       <title>[Bend] PT369 - 3064 NE Brownstone Pl - Single Family Dwelling 
 *see conditions in comments*
@@ -3931,20 +3945,6 @@ Issued: 2026-05-19
 Address: 5006 SE KNAPP ST, PORTLAND, OR
 Contractor: 
 Valuation: 169768.0
-Units: 1</description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-005773-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 1 OF 2 SINGLE FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR (COTTAGE CLUSTER) / LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/26-005776-RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226978_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-005773-000-00-RS
-Issued: 2026-05-19
-Address: 5006 SE KNAPP ST, PORTLAND, OR
-Contractor: 
-Valuation: 164527.0
 Units: 1</description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>

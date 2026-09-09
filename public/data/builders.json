@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-08T21:18:41+00:00",
+  "generated_at": "2026-09-09T04:58:40+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 29,
-      "single_family": 25,
+      "permits_90d": 28,
+      "single_family": 24,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 11672970.17,
+      "combined_valuation": 11282639.65,
       "jurisdictions": [
         "Bend"
       ],
@@ -26,18 +26,6 @@
       "top_score": 48
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 18,
-      "single_family": 18,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 7048339.73,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "Hayden Homes",
       "permits_90d": 17,
       "single_family": 4,
@@ -50,16 +38,16 @@
       "top_score": 53
     },
     {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 12,
-      "single_family": 4,
-      "multifamily": 8,
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 15,
+      "single_family": 15,
+      "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 2755445.02,
+      "combined_valuation": 5864230.57,
       "jurisdictions": [
         "Bend"
       ],
-      "top_score": 48
+      "top_score": 23
     },
     {
       "contractor": "Christiansen's Contracting Company (QC)",
@@ -84,6 +72,18 @@
         "Beaverton"
       ],
       "top_score": 20
+    },
+    {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 10,
+      "single_family": 4,
+      "multifamily": 6,
+      "commercial": 0,
+      "combined_valuation": 2276256.88,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "MCD Homes LLC",
@@ -194,18 +194,6 @@
       "top_score": 53
     },
     {
-      "contractor": "Heritage Homes of Mollala",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1378802.58,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "South Cooper Mountain Owner LLC",
       "permits_90d": 3,
       "single_family": 3,
@@ -264,6 +252,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "Heritage Homes of Mollala",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 779107.69,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "ADAIR HOMES INC.",
