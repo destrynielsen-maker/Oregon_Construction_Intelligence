@@ -5,25 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202506726</guid>
-      <title>[Bend] Two sets of townhomes will be built on this lot that will then be divided into 4 separate townhomes/lots. - ** Middle Housing Land Division (PLLD20250332).
-Other duplex/townhome permit: PRNC202506727
-
-***PRNC202506726 - Lot 2, Plans reviewed under this permit***
-***PRNC202508466 - Lot 1 (clone)
-
-***COB Water (meter added)*** SF
-***Demo permit condition added***
-***No Active SIMPs*** SN
-**Needs addressing**SF</title>
+      <guid isPermaLink="false">OR|bend|prnc202602719</guid>
+      <title>[Bend] DUPLEX WITH ATTACHED GARAGES
+MASTER RE-ISSUE PROT202501303
+***COB Water*** SN
+***No Conditions (see comments)*** SN
+***No Active SIMPs*** SN</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: MULTIFAMILY
 Score: 48
-Permit: PRNC202506726
+Permit: PRNC202602719
 Issued: 2026-09-08
-Address: 1133 NE 5TH ST, BEND, OR 97701
-Contractor: Spring River Builders, LLC
-Valuation: 360363.68
+Address: 63277 NW SKI LN, BEND, OR 97703
+Contractor: H &amp; B Developers
+Valuation: 455793.2
 Units: </description>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -50,20 +45,25 @@ Units: </description>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202602719</guid>
-      <title>[Bend] DUPLEX WITH ATTACHED GARAGES
-MASTER RE-ISSUE PROT202501303
-***COB Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN</title>
+      <guid isPermaLink="false">OR|bend|prnc202506726</guid>
+      <title>[Bend] Two sets of townhomes will be built on this lot that will then be divided into 4 separate townhomes/lots. - ** Middle Housing Land Division (PLLD20250332).
+Other duplex/townhome permit: PRNC202506727
+
+***PRNC202506726 - Lot 2, Plans reviewed under this permit***
+***PRNC202508466 - Lot 1 (clone)
+
+***COB Water (meter added)*** SF
+***Demo permit condition added***
+***No Active SIMPs*** SN
+**Needs addressing**SF</title>
       <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
       <description>Category: MULTIFAMILY
 Score: 48
-Permit: PRNC202602719
+Permit: PRNC202506726
 Issued: 2026-09-08
-Address: 63277 NW SKI LN, BEND, OR 97703
-Contractor: H &amp; B Developers
-Valuation: 455793.2
+Address: 1133 NE 5TH ST, BEND, OR 97701
+Contractor: Spring River Builders, LLC
+Valuation: 360363.68
 Units: </description>
       <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
