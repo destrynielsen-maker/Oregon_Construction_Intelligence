@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T11:40:45+00:00",
+  "generated_at": "2026-09-09T16:49:07+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -206,6 +206,18 @@
       "top_score": 20
     },
     {
+      "contractor": "H & B Developers",
+      "permits_90d": 3,
+      "single_family": 0,
+      "multifamily": 3,
+      "commercial": 0,
+      "combined_valuation": 905321.16,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
       "contractor": "Fusion Home Builders",
       "permits_90d": 2,
       "single_family": 2,
@@ -278,24 +290,24 @@
       "top_score": 48
     },
     {
-      "contractor": "WOOD HILL HOMES INC",
+      "contractor": "Spring River Builders, LLC",
       "permits_90d": 2,
-      "single_family": 1,
-      "multifamily": 1,
+      "single_family": 0,
+      "multifamily": 2,
       "commercial": 0,
-      "combined_valuation": 621508.52,
+      "combined_valuation": 720727.36,
       "jurisdictions": [
         "Bend"
       ],
       "top_score": 48
     },
     {
-      "contractor": "H & B Developers",
+      "contractor": "WOOD HILL HOMES INC",
       "permits_90d": 2,
-      "single_family": 0,
-      "multifamily": 2,
+      "single_family": 1,
+      "multifamily": 1,
       "commercial": 0,
-      "combined_valuation": 449527.96,
+      "combined_valuation": 621508.52,
       "jurisdictions": [
         "Bend"
       ],
