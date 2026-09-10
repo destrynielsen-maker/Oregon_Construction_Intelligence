@@ -5,6 +5,22 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202603572</guid>
+      <title>[Bend] New single family residence
+***COB Water*** SN
+***No Conditions*** SN</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: PRNC202603572
+Issued: 2026-09-09
+Address: 2038 NW 8TH ST, BEND, OR 97703
+Contractor: Evolve Building &amp; Development
+Valuation: 579298.48
+Units: </description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-5937-01</guid>
       <title>[Eugene] Detached Single-Family Dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5937-01&amp;pdf=False</link>
@@ -1663,7 +1679,7 @@ Units: </description>
 Score: 18
 Permit: PRNC202600997
 Issued: 2026-07-29
-Address: 61185 SW BEVERLY WAY, BEND, OR 97702
+Address: 61185 SW Beverly Way, Bend, OR 97702
 Contractor: 
 Valuation: 425798.41
 Units: </description>
@@ -3934,20 +3950,6 @@ Address: 19401 NW CLEETWOOD AVE, PORTLAND, OR
 Contractor: 
 Valuation: 79601.0
 Units: </description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-005776-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 2 OF 2 SINGLE FAMILY RESIDENCES ON SHARED LOT WITH EXISTING SFR (COTTAGE CLUSTER) / LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/26-005773-RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226981_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-005776-000-00-RS
-Issued: 2026-05-19
-Address: 5006 SE KNAPP ST, PORTLAND, OR
-Contractor: 
-Valuation: 169768.0
-Units: 1</description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

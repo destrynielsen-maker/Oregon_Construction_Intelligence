@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:38:36+00:00",
+  "generated_at": "2026-09-10T16:35:22+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -134,6 +134,18 @@
       "top_score": 48
     },
     {
+      "contractor": "Spring River Builders LLC",
+      "permits_90d": 6,
+      "single_family": 0,
+      "multifamily": 6,
+      "commercial": 0,
+      "combined_valuation": 1751961.12,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
       "contractor": "CS CONSTRUCTION",
       "permits_90d": 4,
       "single_family": 0,
@@ -192,6 +204,18 @@
         "Eugene"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "Spring River Builders, LLC",
+      "permits_90d": 3,
+      "single_family": 0,
+      "multifamily": 3,
+      "commercial": 0,
+      "combined_valuation": 1081091.04,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "South Cooper Mountain Owner LLC",
@@ -290,18 +314,6 @@
       "top_score": 48
     },
     {
-      "contractor": "Spring River Builders, LLC",
-      "permits_90d": 2,
-      "single_family": 0,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 720727.36,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "WOOD HILL HOMES INC",
       "permits_90d": 2,
       "single_family": 1,
@@ -312,6 +324,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "SPRING RIVER BUILDERS LLC",
+      "permits_90d": 2,
+      "single_family": 0,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 583987.04,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
     },
     {
       "contractor": "Lease Crutcher Lewis, LLC",
@@ -574,6 +598,18 @@
       "combined_valuation": 583251.0,
       "jurisdictions": [
         "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "Evolve Building & Development",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 579298.48,
+      "jurisdictions": [
+        "Bend"
       ],
       "top_score": 28
     },
