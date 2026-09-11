@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T21:02:59+00:00",
+  "generated_at": "2026-09-11T04:57:56+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -75,11 +75,11 @@
     },
     {
       "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 10,
+      "permits_90d": 9,
       "single_family": 4,
-      "multifamily": 6,
+      "multifamily": 5,
       "commercial": 0,
-      "combined_valuation": 2276256.88,
+      "combined_valuation": 1996080.55,
       "jurisdictions": [
         "Bend"
       ],
