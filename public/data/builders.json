@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T21:00:05+00:00",
+  "generated_at": "2026-09-14T05:16:06+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 28,
-      "single_family": 24,
+      "permits_90d": 26,
+      "single_family": 22,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 11282639.65,
+      "combined_valuation": 10547511.64,
       "jurisdictions": [
         "Bend"
       ],
