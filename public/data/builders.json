@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:56:35+00:00",
+  "generated_at": "2026-09-15T05:07:42+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -39,27 +39,15 @@
     },
     {
       "contractor": "Lennar Northwest LLC",
-      "permits_90d": 15,
-      "single_family": 15,
+      "permits_90d": 14,
+      "single_family": 14,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 5864230.57,
+      "combined_valuation": 5430738.73,
       "jurisdictions": [
         "Bend"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "Christiansen's Contracting Company (QC)",
-      "permits_90d": 11,
-      "single_family": 0,
-      "multifamily": 11,
-      "commercial": 0,
-      "combined_valuation": 4732051.36,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "Risewell Homes",
@@ -108,6 +96,18 @@
         "Bend"
       ],
       "top_score": 28
+    },
+    {
+      "contractor": "Christiansen's Contracting Company (QC)",
+      "permits_90d": 7,
+      "single_family": 0,
+      "multifamily": 7,
+      "commercial": 0,
+      "combined_valuation": 3017897.76,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "HAYDEN HOMES LLC",
