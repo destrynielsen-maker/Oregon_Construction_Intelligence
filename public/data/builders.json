@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:36:15+00:00",
+  "generated_at": "2026-09-16T05:03:15+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -62,18 +62,6 @@
       "top_score": 20
     },
     {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 9,
-      "single_family": 4,
-      "multifamily": 5,
-      "commercial": 0,
-      "combined_valuation": 1996080.55,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "MCD Homes LLC",
       "permits_90d": 8,
       "single_family": 7,
@@ -84,6 +72,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 8,
+      "single_family": 4,
+      "multifamily": 4,
+      "commercial": 0,
+      "combined_valuation": 1765951.99,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "STONE BRIDGE HOMES NW LLC",
@@ -230,18 +230,6 @@
       "top_score": 20
     },
     {
-      "contractor": "H & B Developers",
-      "permits_90d": 3,
-      "single_family": 0,
-      "multifamily": 3,
-      "commercial": 0,
-      "combined_valuation": 905321.16,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "Fusion Home Builders",
       "permits_90d": 2,
       "single_family": 2,
@@ -336,6 +324,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "H & B Developers",
+      "permits_90d": 2,
+      "single_family": 0,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 455793.2,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "Lease Crutcher Lewis, LLC",
