@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4879-01</guid>
+      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4879-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4879-01
+Issued: 2026-09-16
+Address: 5775 DURST ST, Eugene, OR
+Contractor: LENNAR NORTHWEST LLC
+Valuation: 384366.0
+Units: </description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-071271-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW DUPLEX / 2 STORY/ W CARPORTS/ FLAT LOT/ COMPLEX *** ET PT MT SEPARATE  W/ 25 071296 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5187268_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 40
+Permit: 2025-071271-000-00-RS
+Issued: 2026-09-15
+Address: SE 77TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 453350.0
+Units: 2</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-081898-000-00-rs</guid>
       <title>[Portland] SINGLE PDF SINGLE FAMILY RESIDENCE PRE FAB QUONSET HUT WITH DETACHED PRE FAB QUONSET HUT GARAGE/ 1 STORY/ SLPOED LOT/ SIMPLE/ ET PT MT SEPERATE* RETAINING WALL AND DRIVE WAY WORK. W/ 25-081906-RS</title>
       <link>https://www.portlandmaps.com/detail/permit/5198337_did/</link>
@@ -4090,39 +4118,6 @@ Issued: 2026-07-30
 Address: 96 CHURCHVIEW DR, Eugene, OR
 Contractor: 
 Valuation: 533854.0
-Units: </description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603121</guid>
-      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 61
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN
-***Fill Lot*** SN
-***Grading marked on Checklist/Impervious Surface 50+%, route to Engineering*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603121
-Issued: 2026-07-30
-Address: 61067 NE GIVE PL, BEND, OR 97701
-Contractor: Hayden Homes
-Valuation: 450662.11
-Units: </description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-2693-01</guid>
-      <title>[Eugene] New single family dwelling with attached garage.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-2693-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 18
-Permit: 26-2693-01
-Issued: 2026-07-30
-Address: 509 HONEYSUCKLE LN, Eugene, OR
-Contractor: 
-Valuation: 360995.34
 Units: </description>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>

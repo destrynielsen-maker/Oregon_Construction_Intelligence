@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:31:01+00:00",
+  "generated_at": "2026-09-17T05:06:28+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -86,18 +86,6 @@
       "top_score": 48
     },
     {
-      "contractor": "STONE BRIDGE HOMES NW LLC",
-      "permits_90d": 7,
-      "single_family": 7,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 3598868.05,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "Christiansen's Contracting Company (QC)",
       "permits_90d": 7,
       "single_family": 0,
@@ -122,6 +110,18 @@
       "top_score": 48
     },
     {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 6,
+      "single_family": 6,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3180200.9899999998,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "DR Horton, Inc",
       "permits_90d": 6,
       "single_family": 2,
@@ -144,6 +144,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "LENNAR NORTHWEST LLC",
+      "permits_90d": 5,
+      "single_family": 5,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1832594.57,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "CS CONSTRUCTION",
@@ -180,18 +192,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "LENNAR NORTHWEST LLC",
-      "permits_90d": 4,
-      "single_family": 4,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1448228.57,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "TIMBERVIEW CONSTRUCTION LLC",
@@ -248,18 +248,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 1214604.24,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
-      "contractor": "PALMER HOMES",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 928383.02,
       "jurisdictions": [
         "Bend"
       ],
@@ -598,6 +586,18 @@
       "combined_valuation": 583251.0,
       "jurisdictions": [
         "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "PALMER HOMES",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 581558.1,
+      "jurisdictions": [
+        "Bend"
       ],
       "top_score": 28
     },

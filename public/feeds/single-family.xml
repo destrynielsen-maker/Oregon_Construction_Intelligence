@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4879-01</guid>
+      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4879-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4879-01
+Issued: 2026-09-16
+Address: 5775 DURST ST, Eugene, OR
+Contractor: LENNAR NORTHWEST LLC
+Valuation: 384366.0
+Units: </description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-081898-000-00-rs</guid>
       <title>[Portland] SINGLE PDF SINGLE FAMILY RESIDENCE PRE FAB QUONSET HUT WITH DETACHED PRE FAB QUONSET HUT GARAGE/ 1 STORY/ SLPOED LOT/ SIMPLE/ ET PT MT SEPERATE* RETAINING WALL AND DRIVE WAY WORK. W/ 25-081906-RS</title>
       <link>https://www.portlandmaps.com/detail/permit/5198337_did/</link>
@@ -2590,7 +2604,7 @@ Units: </description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-096378-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 3-STORIES INCLUDING PARTIALLY FINISHED BASEMENT / 2-CAR GARAGE / SLOPED LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE**DFS FOR TRUSSES</title>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 3-STORIES INCLUDING PARTIALLY FINISHED BASEMENT / 2-CAR GARAGE / SLOPED LOT / COMPLEX *MT, AND PT PERMITS SEPARATE**DFS FOR TRUSSES  *ADDED ELECTRICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5213431_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 20
@@ -3935,20 +3949,6 @@ Issued: 2026-05-19
 Address: 63126 NE HENNINGSEN PL, BEND, OR 97701
 Contractor: 
 Valuation: 380074.75
-Units: </description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-034103-000-00-rs</guid>
-      <title>[Portland] *SINGLE PDF*  NEW SINGLE STORY DETACHED WORKSHOP WITH POWDER ROOM.  ET PT MT INCLUDED.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5256459_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-034103-000-00-RS
-Issued: 2026-05-19
-Address: 5031 SE TOLMAN ST, PORTLAND, OR
-Contractor: 
-Valuation: 80000.0
 Units: </description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
