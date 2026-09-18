@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4917-01</guid>
+      <title>[Eugene] New Manufactured Home in Park</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4917-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 26-4917-01
+Issued: 2026-09-18
+Address: 3260 CINDY ST UNIT 4, Eugene, OR
+Contractor: 
+Valuation: 
+Units: </description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4879-01</guid>
       <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4879-01&amp;pdf=False</link>
@@ -3932,23 +3946,6 @@ Issued: 2026-05-19
 Address: 21756 SE STROMBOLI LN, BEND, OR 97702
 Contractor: DR Horton, Inc
 Valuation: 379584.0015
-Units: </description>
-      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601890</guid>
-      <title>[Bend] Acadia Pointe HS 136_ CARMICHAEL AMERICAN GL- Combo Building Permit 
-***COB Water***
-***Fill Lot*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 18
-Permit: PRNC202601890
-Issued: 2026-05-19
-Address: 63126 NE HENNINGSEN PL, BEND, OR 97701
-Contractor: 
-Valuation: 380074.75
 Units: </description>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>

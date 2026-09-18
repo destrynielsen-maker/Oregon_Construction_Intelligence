@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4917-01</guid>
+      <title>[Eugene] New Manufactured Home in Park</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4917-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 26-4917-01
+Issued: 2026-09-18
+Address: 3260 CINDY ST UNIT 4, Eugene, OR
+Contractor: 
+Valuation: 
+Units: </description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4879-01</guid>
       <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4879-01&amp;pdf=False</link>
@@ -4105,20 +4119,6 @@ Address: 13715 NW GERMANTOWN RD, PORTLAND, OR
 Contractor: 
 Valuation: 1192103.0
 Units: 1</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-1646-01</guid>
-      <title>[Eugene] New single family dwelling with attached garage.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1646-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-1646-01
-Issued: 2026-07-30
-Address: 96 CHURCHVIEW DR, Eugene, OR
-Contractor: 
-Valuation: 533854.0
-Units: </description>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
