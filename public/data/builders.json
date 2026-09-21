@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:57:51+00:00",
+  "generated_at": "2026-09-21T05:15:08+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -27,11 +27,11 @@
     },
     {
       "contractor": "Hayden Homes",
-      "permits_90d": 17,
+      "permits_90d": 15,
       "single_family": 4,
-      "multifamily": 13,
+      "multifamily": 11,
       "commercial": 0,
-      "combined_valuation": 6889149.84,
+      "combined_valuation": 6320390.38,
       "jurisdictions": [
         "Bend"
       ],
@@ -74,18 +74,6 @@
       "top_score": 53
     },
     {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 8,
-      "single_family": 4,
-      "multifamily": 4,
-      "commercial": 0,
-      "combined_valuation": 1765951.99,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "Christiansen's Contracting Company (QC)",
       "permits_90d": 7,
       "single_family": 0,
@@ -98,12 +86,12 @@
       "top_score": 48
     },
     {
-      "contractor": "HAYDEN HOMES LLC",
+      "contractor": "SIMPLICITY HOMES LLC",
       "permits_90d": 7,
-      "single_family": 2,
-      "multifamily": 5,
+      "single_family": 4,
+      "multifamily": 3,
       "commercial": 0,
-      "combined_valuation": 2270938.12,
+      "combined_valuation": 1565156.41,
       "jurisdictions": [
         "Bend"
       ],
@@ -188,6 +176,18 @@
       "multifamily": 3,
       "commercial": 0,
       "combined_valuation": 1553284.27,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "HAYDEN HOMES LLC",
+      "permits_90d": 4,
+      "single_family": 2,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 1345303.24,
       "jurisdictions": [
         "Bend"
       ],
@@ -864,18 +864,6 @@
         "Eugene"
       ],
       "top_score": 38
-    },
-    {
-      "contractor": "Rainbow Restoration (International) of Central Oregon",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 150000.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "TRAYLORS CONSTRUCTION LLC",
