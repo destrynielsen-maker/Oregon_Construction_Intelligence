@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4408-01</guid>
+      <title>[Eugene] Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4408-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4408-01
+Issued: 2026-09-21
+Address: 1792 CARMEL AVE, Eugene, OR
+Contractor: AKAMAI BUILDERS LLC
+Valuation: 162118.0
+Units: </description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4917-01</guid>
       <title>[Eugene] New Manufactured Home in Park</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4917-01&amp;pdf=False</link>
@@ -4097,24 +4111,6 @@ Issued: 2026-08-03
 Address: 537 NW OGDEN AVE, BEND, OR 97703
 Contractor: WOOD HILL HOMES INC
 Valuation: 332217.72
-Units: </description>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602538</guid>
-      <title>[Bend] PT390 - 3063 NE Brownstone Pl - Single Family Dwelling
-*Lot 390*
-*No active SIMP*SF
-*Avion water*SF
-*No conditions, see comments*SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602538
-Issued: 2026-08-03
-Address: 3063 NE BROWNSTONE PL, BEND, OR 97701
-Contractor: PAHLISCH HOMES
-Valuation: 378371.64
 Units: </description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>

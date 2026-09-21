@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:07:41+00:00",
+  "generated_at": "2026-09-21T22:06:02+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -848,6 +848,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 167652.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "AKAMAI BUILDERS LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 162118.0,
       "jurisdictions": [
         "Eugene"
       ],
