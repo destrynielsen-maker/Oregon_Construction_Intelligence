@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T23:47:46+00:00",
+  "generated_at": "2026-09-22T05:14:06+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -26,18 +26,6 @@
       "top_score": 48
     },
     {
-      "contractor": "Hayden Homes",
-      "permits_90d": 15,
-      "single_family": 4,
-      "multifamily": 11,
-      "commercial": 0,
-      "combined_valuation": 6320390.38,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "Lennar Northwest LLC",
       "permits_90d": 14,
       "single_family": 14,
@@ -48,6 +36,18 @@
         "Bend"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "Hayden Homes",
+      "permits_90d": 14,
+      "single_family": 4,
+      "multifamily": 10,
+      "commercial": 0,
+      "combined_valuation": 5418848.38,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
     },
     {
       "contractor": "Risewell Homes",
@@ -110,18 +110,6 @@
       "top_score": 28
     },
     {
-      "contractor": "DR Horton, Inc",
-      "permits_90d": 6,
-      "single_family": 2,
-      "multifamily": 4,
-      "commercial": 0,
-      "combined_valuation": 1793301.02,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "Spring River Builders LLC",
       "permits_90d": 6,
       "single_family": 0,
@@ -144,6 +132,18 @@
         "Eugene"
       ],
       "top_score": 28
+    },
+    {
+      "contractor": "DR Horton, Inc",
+      "permits_90d": 5,
+      "single_family": 1,
+      "multifamily": 4,
+      "commercial": 0,
+      "combined_valuation": 1417225.47,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "CS CONSTRUCTION",
@@ -338,18 +338,6 @@
       "top_score": 63
     },
     {
-      "contractor": "Stilson Builders",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 8420117.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "NEIL KELLY CO INC",
       "permits_90d": 1,
       "single_family": 1,
@@ -406,18 +394,6 @@
       "combined_valuation": 1200000.0,
       "jurisdictions": [
         "Eugene"
-      ],
-      "top_score": 48
-    },
-    {
-      "contractor": "KELLCON INC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 1082806.54,
-      "jurisdictions": [
-        "Bend"
       ],
       "top_score": 48
     },
