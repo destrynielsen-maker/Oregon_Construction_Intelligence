@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-5936-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5936-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5936-01
+Issued: 2026-09-22
+Address: 819 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4408-01</guid>
       <title>[Eugene] Single-Family Dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4408-01&amp;pdf=False</link>
@@ -4092,25 +4106,6 @@ Issued: 2026-08-03
 Address: 34 CONSTANTINE PL, Eugene, OR
 Contractor: RAINBOW VALLEY DESIGN &amp; CONSTR
 Valuation: 35281.29
-Units: </description>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602928</guid>
-      <title>[Bend] SFD 
-***Detached garage with ADU to be on a separate application PRNC202603107*** SN LOT 14
-***COB Water*** SN
-***No Active SIMPs*** SN
-***Demolition Permit on PRDE202601223*** SN
-****route to addressing****</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602928
-Issued: 2026-08-03
-Address: 537 NW OGDEN AVE, BEND, OR 97703
-Contractor: WOOD HILL HOMES INC
-Valuation: 332217.72
 Units: </description>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>

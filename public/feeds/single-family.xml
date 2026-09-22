@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-5936-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5936-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5936-01
+Issued: 2026-09-22
+Address: 819 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4408-01</guid>
       <title>[Eugene] Single-Family Dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4408-01&amp;pdf=False</link>
@@ -3927,20 +3941,6 @@ Address: 4606 NW 124TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 1179621.0
 Units: 1</description>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-025686-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW INGROUND SWIMMING POOL WITH AUTO COVER *** ET PT MT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5247701_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-025686-000-00-RS
-Issued: 2026-05-20
-Address: 6028 SE 32ND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 70000.0
-Units: </description>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
