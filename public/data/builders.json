@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T21:33:18+00:00",
+  "generated_at": "2026-09-23T04:58:31+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -26,18 +26,6 @@
       "top_score": 48
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 14,
-      "single_family": 14,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 5430738.73,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "Hayden Homes",
       "permits_90d": 14,
       "single_family": 4,
@@ -48,6 +36,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 13,
+      "single_family": 13,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 5057568.65,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "Risewell Homes",
@@ -86,18 +86,6 @@
       "top_score": 48
     },
     {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 7,
-      "single_family": 4,
-      "multifamily": 3,
-      "commercial": 0,
-      "combined_valuation": 1565156.41,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "STONE BRIDGE HOMES NW LLC",
       "permits_90d": 6,
       "single_family": 6,
@@ -120,6 +108,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 6,
+      "single_family": 4,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 1325055.07,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "LENNAR NORTHWEST LLC",
@@ -264,18 +264,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "Heritage Homes of Mollala",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 779107.69,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "ADAIR HOMES INC.",
@@ -692,6 +680,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 462501.97,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "Heritage Homes of Mollala",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 426405.71,
       "jurisdictions": [
         "Bend"
       ],

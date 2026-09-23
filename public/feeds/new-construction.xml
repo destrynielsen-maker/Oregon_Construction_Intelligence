@@ -33,6 +33,20 @@ Units: </description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2023-107835-000-00-rs</guid>
+      <title>[Portland] TEST for Easier Uploads Go-live - Leigh</title>
+      <link>https://www.portlandmaps.com/detail/permit/4993944_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2023-107835-000-00-RS
+Issued: 2026-09-21
+Address: 8922 N WESTANNA AVE, PORTLAND, OR
+Contractor: 
+Valuation: 1255.0
+Units: 1</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4917-01</guid>
       <title>[Eugene] New Manufactured Home in Park</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4917-01&amp;pdf=False</link>
@@ -43,6 +57,34 @@ Issued: 2026-09-18
 Address: 3260 CINDY ST UNIT 4, Eugene, OR
 Contractor: 
 Valuation: 
+Units: </description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-030557-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NSFR WITH ATTACHED ADU, ROOF TOP PATIO AND DETACHED BIKE STORAGE/ 2 STORY/NO GARAGE/ COMPLEX/ FLAT LOT/ *** ET PT MT SEPARATE W/ 26 030560 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5252789_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-030557-000-00-RS
+Issued: 2026-09-18
+Address: 2517 SE 14TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 429894.0
+Units: 2</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-030560-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW 257 SQFT DETACHED ART STUDIO WITH BATHROOM *** ET PT MT SEPARATE W/ 26 030557 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5252792_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-030560-000-00-RS
+Issued: 2026-09-18
+Address: 2517 SE 14TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 45212.0
 Units: </description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -4059,55 +4101,6 @@ Contractor: Lennar Northwest, LLC
 Valuation: 475351.7
 Units: </description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603577</guid>
-      <title>[Bend] Tenant: Parkside Place Apartment- Bldg G (Type A)
-Tech: Darcy
-New construction of a 3-story wood framed apartment building. **Re-issue of master PROT20260**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 53
-Permit: PRNC202603577
-Issued: 2026-08-03
-Address: 21494 OCONNOR WAY, BEND, OR 97701
-Contractor: Hayden Homes
-Valuation: 901542.0
-Units: </description>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602930</guid>
-      <title>[Bend] SFD 
-Lot 15 
-DETACHED GARAGE &amp; ACCESSORY DWELLING UNIT: PRNC202603108
-*route to addressing* 
-*open PRDE202601223 (now closed)* 
-*no conditions/no active SIMPs*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202602930
-Issued: 2026-08-03
-Address: 533 NW OGDEN AVE, BEND, OR 97703
-Contractor: WOOD HILL HOMES INC
-Valuation: 289290.8
-Units: </description>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-4664-01</guid>
-      <title>[Eugene] New deck and add deck cover</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4664-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-4664-01
-Issued: 2026-08-03
-Address: 34 CONSTANTINE PL, Eugene, OR
-Contractor: RAINBOW VALLEY DESIGN &amp; CONSTR
-Valuation: 35281.29
-Units: </description>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

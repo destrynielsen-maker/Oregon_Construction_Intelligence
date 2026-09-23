@@ -33,6 +33,20 @@ Units: </description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2023-107835-000-00-rs</guid>
+      <title>[Portland] TEST for Easier Uploads Go-live - Leigh</title>
+      <link>https://www.portlandmaps.com/detail/permit/4993944_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2023-107835-000-00-RS
+Issued: 2026-09-21
+Address: 8922 N WESTANNA AVE, PORTLAND, OR
+Contractor: 
+Valuation: 1255.0
+Units: 1</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4917-01</guid>
       <title>[Eugene] New Manufactured Home in Park</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4917-01&amp;pdf=False</link>
@@ -43,6 +57,34 @@ Issued: 2026-09-18
 Address: 3260 CINDY ST UNIT 4, Eugene, OR
 Contractor: 
 Valuation: 
+Units: </description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-030557-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NSFR WITH ATTACHED ADU, ROOF TOP PATIO AND DETACHED BIKE STORAGE/ 2 STORY/NO GARAGE/ COMPLEX/ FLAT LOT/ *** ET PT MT SEPARATE W/ 26 030560 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5252789_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-030557-000-00-RS
+Issued: 2026-09-18
+Address: 2517 SE 14TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 429894.0
+Units: 2</description>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-030560-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW 257 SQFT DETACHED ART STUDIO WITH BATHROOM *** ET PT MT SEPARATE W/ 26 030557 000 00 RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5252792_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-030560-000-00-RS
+Issued: 2026-09-18
+Address: 2517 SE 14TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 45212.0
 Units: </description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3900,48 +3942,6 @@ Contractor: Hayden Homes
 Valuation: 248403.79
 Units: </description>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-008981-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 2 OF 2 (UNIT 3) SINGLE FAMILY RESIDENCES ON SHARED LOT WITH AN EXISTING SFR (COTTAGE CLUSTER). LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE w/26-008979-RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5230305_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-008981-000-00-RS
-Issued: 2026-05-21
-Address: 6573 NE 6TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 200489.0
-Units: 1</description>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-008979-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 1 OF 2 (UNIT 2) SINGLE FAMILY RESIDENCES ON SHARED LOT WITH AN EXISTING SFR (COTTAGE CLUSTER). LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE w/26-008981-RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5230303_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-008979-000-00-RS
-Issued: 2026-05-21
-Address: 6573 NE 6TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 200489.0
-Units: 1</description>
-      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-095317-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF NEW SINGLE FAMILY RESIDENCE (MULT CO.) 2-STORY WITH ATTIC STORAGE/ WITH ATTACHED GARAGE/ SLOPED LOT/ COMPLEX/ *ET PT MT SEPARATE*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5212330_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 25
-Permit: 2025-095317-000-00-RS
-Issued: 2026-05-20
-Address: 4606 NW 124TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 1179621.0
-Units: 1</description>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
