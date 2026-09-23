@@ -5,6 +5,48 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02126</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 127</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02126
+Issued: 2026-09-23
+Address: 18600 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02125</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 126</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02125
+Issued: 2026-09-23
+Address: 18590 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02124</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 43</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02124
+Issued: 2026-09-23
+Address: 18680 SW SUGARLOAF LN BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-5936-01</guid>
       <title>[Eugene] Detached Single-Family Dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5936-01&amp;pdf=False</link>
@@ -4053,52 +4095,6 @@ Issued: 2026-08-04
 Address: 5767 DURST ST, Eugene, OR
 Contractor: LENNAR NORTHWEST LLC
 Valuation: 237640.0
-Units: </description>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-3991-01</guid>
-      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3991-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-3991-01
-Issued: 2026-08-04
-Address: 5785 BAINBRIDGE RD, Eugene, OR
-Contractor: LENNAR NORTHWEST LLC
-Valuation: 325478.57
-Units: </description>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-3990-01</guid>
-      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3990-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-3990-01
-Issued: 2026-08-04
-Address: 5780 BAINBRIDGE RD, Eugene, OR
-Contractor: LENNAR NORTHWEST LLC
-Valuation: 327523.0
-Units: </description>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602880</guid>
-      <title>[Bend] Brooksmill HS 7_ Jasmine Farmhouse GR_ Combo Building Permit
-Voluntary upgrades to R327 to be reviewed in field - Brad
-***COB Water*** SN
-***No Conditions*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602880
-Issued: 2026-08-04
-Address: 1228 SW BONNIEWOOD PL, BEND, OR 97702
-Contractor: Lennar Northwest, LLC
-Valuation: 475351.7
 Units: </description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>

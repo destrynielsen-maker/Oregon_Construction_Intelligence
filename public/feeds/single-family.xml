@@ -5,6 +5,48 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02126</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 127</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02126
+Issued: 2026-09-23
+Address: 18600 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02125</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 126</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02125
+Issued: 2026-09-23
+Address: 18590 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02124</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 43</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02124
+Issued: 2026-09-23
+Address: 18680 SW SUGARLOAF LN BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-5936-01</guid>
       <title>[Eugene] Detached Single-Family Dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5936-01&amp;pdf=False</link>
@@ -3888,60 +3930,6 @@ Contractor: PAHLISCH HOMES
 Valuation: 639122.74
 Units: </description>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602171</guid>
-      <title>[Bend] New SFR 3006sqft
-***COB Water*** SN
-***No Conditions*** SN
-***Fill Lot*** SN
-***No Active SIMPs*** SN
-***Stormwater marked on Checklist, route to Engineering*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602171
-Issued: 2026-05-27
-Address: 61246 SW GROTTO PL, BEND, OR 97702
-Contractor: 
-Valuation: 579275.63
-Units: </description>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601886</guid>
-      <title>[Bend] EST233 - 60846 SE Barstow Pl - Single Family Dwelling
-**No conditions, see comments**
-**Avion water**SF
-**PRSIMP202301296**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601886
-Issued: 2026-05-27
-Address: 60846 SE BARSTOW PL, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 307556.98
-Units: </description>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602195</guid>
-      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 64
-
-*Is A Fill Lot* 
-*avion water* 
-*grading checked--route to engineering*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602195
-Issued: 2026-05-22
-Address: 61079 NE GIVE PL, BEND, OR 97701
-Contractor: Hayden Homes
-Valuation: 248403.79
-Units: </description>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
