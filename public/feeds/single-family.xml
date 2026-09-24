@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3225-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3225-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: 26-3225-01
+Issued: 2026-09-23
+Address: 3199 SUMMIT SKY BLVD, Eugene, OR
+Contractor: WEST COAST HOME SOLUTIONS LLC
+Valuation: 575052.92
+Units: </description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2026-02126</guid>
       <title>[Beaverton] SCHOLLS HEIGHTS LOT 127</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -58,6 +72,20 @@ Address: 819 HORN LN, Eugene, OR
 Contractor: 
 Valuation: 109215.0
 Units: 1</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-055163-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW 30' X 33'-3" STORAGE BUILDING *** DEFERRED SUBMITTAL ROOF TRUSSES ***ANY ET PT OR MT SEPARATE***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5170546_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2025-055163-000-00-RS
+Issued: 2026-09-22
+Address: 5120 NE 102ND AVE, PORTLAND, OR
+Contractor: 
+Valuation: 87379.0
+Units: </description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3898,38 +3926,6 @@ Contractor: Lennar Northwest LLC
 Valuation: 345215.44
 Units: </description>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602174</guid>
-      <title>[Bend] New SFR - Lot 69 
-
-*Is a Fill Lot* 
-*CoB meter *   ***Water meter changed from 1" to 3/4" per customer request*** SN
-*stormwater checked--route to engineering*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202602174
-Issued: 2026-05-27
-Address: 61213 SW LAST CHANCE PL, BEND, OR 97702
-Contractor: Heritage Homes of Mollala
-Valuation: 529615.23
-Units: </description>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601529</guid>
-      <title>[Bend] CL35 - 3131 NW Celilo Ln - Single Family Dwelling</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202601529
-Issued: 2026-05-27
-Address: 3131 NW CELILO LN, BEND, OR 97703
-Contractor: PAHLISCH HOMES
-Valuation: 639122.74
-Units: </description>
-      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

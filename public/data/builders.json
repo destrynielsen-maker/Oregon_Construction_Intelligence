@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-23T21:39:26+00:00",
+  "generated_at": "2026-09-24T05:09:13+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 26,
-      "single_family": 22,
+      "permits_90d": 24,
+      "single_family": 20,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 10547511.64,
+      "combined_valuation": 9598381.35,
       "jurisdictions": [
         "Bend"
       ],
@@ -39,11 +39,11 @@
     },
     {
       "contractor": "Lennar Northwest LLC",
-      "permits_90d": 13,
-      "single_family": 13,
+      "permits_90d": 12,
+      "single_family": 12,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 5057568.65,
+      "combined_valuation": 4569073.45,
       "jurisdictions": [
         "Bend"
       ],
@@ -262,6 +262,18 @@
       "combined_valuation": 1214604.24,
       "jurisdictions": [
         "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "WEST COAST HOME SOLUTIONS LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1158303.92,
+      "jurisdictions": [
+        "Eugene"
       ],
       "top_score": 28
     },
@@ -554,18 +566,6 @@
       "top_score": 25
     },
     {
-      "contractor": "WEST COAST HOME SOLUTIONS LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 583251.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "PALMER HOMES",
       "permits_90d": 1,
       "single_family": 1,
@@ -608,18 +608,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 550002.25,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
-      "contractor": "EVOLVE BUILDING & DEVELOPMENT",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 543240.96,
       "jurisdictions": [
         "Bend"
       ],
