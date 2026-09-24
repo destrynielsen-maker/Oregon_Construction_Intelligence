@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3512-01</guid>
+      <title>[Eugene] New Duplex; 651/653 Bushnell Ln</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3512-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: 26-3512-01
+Issued: 2026-09-24
+Address: 651 BUSHNELL LN, Eugene, OR
+Contractor: TIMBERVIEW CONSTRUCTION LLC
+Valuation: 584116.69
+Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-013957-000-00-co</guid>
       <title>[Portland] BOBS METALS - New 2-Story Office Building &amp; In-Ground Pit Scale.  Associated Site Work Including Paving of Northern Drive Aisle Area.  See 25-064121-LU.  **w. demo of 'scale house' trailer 26-014483-CO* Mechanical separate submittal.</title>
       <link>https://www.portlandmaps.com/detail/permit/5235503_did/</link>
@@ -4089,26 +4103,6 @@ Issued: 2026-07-02
 Address: 21496 OCONNOR WAY, BEND, OR 97701
 Contractor: 
 Valuation: 901542.0
-Units: </description>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602924</guid>
-      <title>[Bend] New attached townhouse dwellings - Shepherd Townhomes lots 8 &amp; 9
-
-lot 8 - PRNC202602924 *reviews happening under this one* 
-lot 9 -PRNC202603163
-
-*no relevant conditions*
-*CoB water - meter needed*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 43
-Permit: PRNC202602924
-Issued: 2026-07-02
-Address: 2789 NE HUETTL LN, BEND, OR 97701
-Contractor: 
-Valuation: 200795.58
 Units: </description>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>

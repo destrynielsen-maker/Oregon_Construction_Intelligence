@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3512-01</guid>
+      <title>[Eugene] New Duplex; 651/653 Bushnell Ln</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3512-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: 26-3512-01
+Issued: 2026-09-24
+Address: 651 BUSHNELL LN, Eugene, OR
+Contractor: TIMBERVIEW CONSTRUCTION LLC
+Valuation: 584116.69
+Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4673-01</guid>
       <title>[Eugene] New Gazebo/covered patio.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4673-01&amp;pdf=False</link>
@@ -16,6 +30,34 @@ Address: 3865 MIRROR POND WAY, Eugene, OR
 Contractor: K W BUILDING &amp; DESIGN
 Valuation: 16491.0
 Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-3862-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3862-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-3862-01
+Issued: 2026-09-24
+Address: 1229 STONE FOREST CT, Eugene, OR
+Contractor: 
+Valuation: 521119.6
+Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|25-5935-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5935-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5935-01
+Issued: 2026-09-24
+Address: 821 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -3954,51 +3996,6 @@ Issued: 2026-08-07
 Address: 2644 SKYLINE RANCH RD, BEND, OR 97703
 Contractor: MCD Homes LLC
 Valuation: 461628.06
-Units: </description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602923</guid>
-      <title>[Bend] SFD WITH ATTACHED GARAGE - Lot 53 
-
-*CoB water - meter needed* 
-*no relevant conditions/no active SIMPs*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602923
-Issued: 2026-08-07
-Address: 2640 SKYLINE RANCH RD, BEND, OR 97703
-Contractor: MCD Homes LLC
-Valuation: 403828.35
-Units: </description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-0853-01</guid>
-      <title>[Eugene] New single family dwelling with attached garage</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-0853-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 18
-Permit: 26-0853-01
-Issued: 2026-08-07
-Address: 4337 KATY LN, Eugene, OR
-Contractor: 
-Valuation: 337688.13
-Units: </description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2026-01590</guid>
-      <title>[Beaverton] Lolich Farms SCHOLLS HEIGHTS LOT 107</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: R2026-01590
-Issued: 2026-08-07
-Address: 12720 SW DOUBLETOP DR BEAVERTON OR 97007
-Contractor: 
-Valuation: 323890.56
 Units: </description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>

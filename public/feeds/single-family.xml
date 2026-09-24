@@ -19,6 +19,34 @@ Units: </description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3862-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3862-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-3862-01
+Issued: 2026-09-24
+Address: 1229 STONE FOREST CT, Eugene, OR
+Contractor: 
+Valuation: 521119.6
+Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|25-5935-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5935-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5935-01
+Issued: 2026-09-24
+Address: 821 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3225-01</guid>
       <title>[Eugene] New single family dwelling with attached garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3225-01&amp;pdf=False</link>
@@ -3892,38 +3920,6 @@ Contractor: STRUCTURE DEVELOPMENT NW LLC
 Valuation: 513878.52
 Units: </description>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601821</guid>
-      <title>[Bend] CL36 - 3147 NW Celilo Ln - Single Family Dwelling
-*No active SIMP**SF
-**No expired or conditions, see comments**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601821
-Issued: 2026-05-29
-Address: 3147 NW CELILO LN, BEND, OR 97703
-Contractor: PAHLISCH HOMES
-Valuation: 432577.82
-Units: </description>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601076</guid>
-      <title>[Bend] PT388 - 3055 NE Brownstone Pl - Single Family Dwelling
-*see comments for conditions*
-**Avion Water**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601076
-Issued: 2026-05-29
-Address: 3055 NE BROWNSTONE PL, BEND, OR 97701
-Contractor: PAHLISCH HOMES
-Valuation: 364289.44
-Units: </description>
-      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

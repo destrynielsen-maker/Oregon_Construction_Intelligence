@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:26:08+00:00",
+  "generated_at": "2026-09-24T21:40:00+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -158,6 +158,18 @@
       "top_score": 48
     },
     {
+      "contractor": "TIMBERVIEW CONSTRUCTION LLC",
+      "permits_90d": 4,
+      "single_family": 0,
+      "multifamily": 4,
+      "commercial": 0,
+      "combined_valuation": 2604212.69,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 53
+    },
+    {
       "contractor": "BEND-REDMOND HABITAT FOR HUMANITY contractor",
       "permits_90d": 4,
       "single_family": 0,
@@ -204,18 +216,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "TIMBERVIEW CONSTRUCTION LLC",
-      "permits_90d": 3,
-      "single_family": 0,
-      "multifamily": 3,
-      "commercial": 0,
-      "combined_valuation": 2020096.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 53
     },
     {
       "contractor": "Spring River Builders, LLC",

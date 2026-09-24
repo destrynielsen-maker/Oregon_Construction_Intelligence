@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3512-01</guid>
+      <title>[Eugene] New Duplex; 651/653 Bushnell Ln</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3512-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: 26-3512-01
+Issued: 2026-09-24
+Address: 651 BUSHNELL LN, Eugene, OR
+Contractor: TIMBERVIEW CONSTRUCTION LLC
+Valuation: 584116.69
+Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-043509-000-00-rs</guid>
       <title>[Portland] FULL PDOX -  NEW MHLD 10 OF 10 UNIT COTTAGE CLUSTER ON SHARED LOT, LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX /***ET ,MT, PT SEPARATE</title>
       <link>https://www.portlandmaps.com/detail/permit/5158394_did/</link>
@@ -4190,27 +4204,6 @@ Issued: 2026-06-17
 Address: 63281 NW SKI LN, BEND, OR 97703
 Contractor: H &amp; B Developers
 Valuation: 449527.96
-Units: </description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601841</guid>
-      <title>[Bend] Construction of new single-family townhome duplex dwelling.
-**Lot 5**
-**Fill Lot**SF
-**No conditions, see comments**SF
-**CoB water**
-**No active SIMP**SF
-*PRNC202601842, Lot 6, Aspen*SF
-***Water Meter added*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202601841
-Issued: 2026-06-17
-Address: 2800 NE HUETTL LN, BEND, OR 97701
-Contractor: SIMPLICITY HOMES LLC
-Valuation: 230128.56
 Units: </description>
       <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
