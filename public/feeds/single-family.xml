@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4673-01</guid>
+      <title>[Eugene] New Gazebo/covered patio.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4673-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4673-01
+Issued: 2026-09-24
+Address: 3865 MIRROR POND WAY, Eugene, OR
+Contractor: K W BUILDING &amp; DESIGN
+Valuation: 16491.0
+Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3225-01</guid>
       <title>[Eugene] New single family dwelling with attached garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3225-01&amp;pdf=False</link>
@@ -3910,22 +3924,6 @@ Contractor: PAHLISCH HOMES
 Valuation: 364289.44
 Units: </description>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600731</guid>
-      <title>[Bend] NHC Acadia Pointe HS 124 Combo Building Permit 
-*HB2306 - Pre-plat 3* 
-*CoB water-meter needed*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600731
-Issued: 2026-05-28
-Address: 20655 TOWN DR, BEND, OR 97701
-Contractor: Lennar Northwest LLC
-Valuation: 345215.44
-Units: </description>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

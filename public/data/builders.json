@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:03:34+00:00",
+  "generated_at": "2026-09-24T17:26:08+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -980,6 +980,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 25000.5,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "K W BUILDING & DESIGN",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 16491.0,
       "jurisdictions": [
         "Eugene"
       ],

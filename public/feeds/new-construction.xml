@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4673-01</guid>
+      <title>[Eugene] New Gazebo/covered patio.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4673-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4673-01
+Issued: 2026-09-24
+Address: 3865 MIRROR POND WAY, Eugene, OR
+Contractor: K W BUILDING &amp; DESIGN
+Valuation: 16491.0
+Units: </description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3225-01</guid>
       <title>[Eugene] New single family dwelling with attached garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3225-01&amp;pdf=False</link>
@@ -3987,23 +4001,6 @@ Contractor:
 Valuation: 323890.56
 Units: </description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603010</guid>
-      <title>[Bend] SFD WITH ATTACHED GARAGE &amp; ACCESSORY DWELLING UNIT
-***COB Water*** SN
-***No Conditions*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 53
-Permit: PRNC202603010
-Issued: 2026-08-06
-Address: 3392 NW CELILO LN, UNIT:1, BEND, OR 97703
-Contractor: MCD Homes LLC
-Valuation: 636061.84
-Units: </description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
