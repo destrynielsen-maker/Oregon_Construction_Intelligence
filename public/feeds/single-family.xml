@@ -5,6 +5,48 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3520-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3520-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: 26-3520-01
+Issued: 2026-09-28
+Address: 2177 MAJESTIC PL, Eugene, OR
+Contractor: HEITMAN CUSTOM HOMES
+Valuation: 557723.0
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-5622-01</guid>
+      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5622-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-5622-01
+Issued: 2026-09-28
+Address: 2674 CASCARA DR, Eugene, OR
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 449946.01
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|25-5934-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5934-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5934-01
+Issued: 2026-09-28
+Address: 823 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4673-01</guid>
       <title>[Eugene] New Gazebo/covered patio.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4673-01&amp;pdf=False</link>
@@ -3871,55 +3913,6 @@ Contractor: D.R. HORTON
 Valuation: 335426.41
 Units: </description>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600637</guid>
-      <title>[Bend] Stevens Lot 25
-**Fill Lot**SF
-**No relevant SIMPs**SF
-**No conditions, see comments**SF 
-**Avion water**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600637
-Issued: 2026-06-02
-Address: 21752 SE STROMBOLI LN, BEND, OR 97702
-Contractor: D.R. HORTON
-Valuation: 360081.99
-Units: </description>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-018695-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - LOT 4 - NEW SINGLE FAMILY RES/2 STORY/ WITH GARAGE/ SLOPED LOT/COMPLEX /***13D FIRE SPRINKLERS PER LU***ET ,MT, PT SEPARATE *SEE LU 18-228103</title>
-      <link>https://www.portlandmaps.com/detail/permit/5132544_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-018695-000-00-RS
-Issued: 2026-06-02
-Address: 14230 SE ELLIS ST, PORTLAND, OR
-Contractor: 
-Valuation: 349241.0
-Units: 1</description>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602620</guid>
-      <title>[Bend] Single Family Dwelling; Lot 285 Discovery West
-
-*CoB Water - meter needed* 
-*No conditions/no active SIMPs*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202602620
-Issued: 2026-06-01
-Address: 3385 NW CELILO LN, BEND, OR 97703
-Contractor: STRUCTURE DEVELOPMENT NW LLC
-Valuation: 513878.52
-Units: </description>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

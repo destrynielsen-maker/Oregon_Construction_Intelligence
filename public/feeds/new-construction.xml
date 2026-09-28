@@ -5,6 +5,62 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|mf2026-02288</guid>
+      <title>[Beaverton] Henry Street Apartments</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: MULTIFAMILY
+Score: 60
+Permit: MF2026-02288
+Issued: 2026-09-28
+Address: 13286 SW HENRY ST BEAVERTON OR 97005
+Contractor: ONEILL WALSH COMMUNITY BUILDERS LLC
+Valuation: 7497301.54
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-3520-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3520-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: 26-3520-01
+Issued: 2026-09-28
+Address: 2177 MAJESTIC PL, Eugene, OR
+Contractor: HEITMAN CUSTOM HOMES
+Valuation: 557723.0
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-5622-01</guid>
+      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5622-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-5622-01
+Issued: 2026-09-28
+Address: 2674 CASCARA DR, Eugene, OR
+Contractor: SIMPLICITY HOMES LLC
+Valuation: 449946.01
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|25-5934-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5934-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5934-01
+Issued: 2026-09-28
+Address: 823 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3512-01</guid>
       <title>[Eugene] New Duplex; 651/653 Bushnell Ln</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3512-01&amp;pdf=False</link>
@@ -3895,69 +3951,6 @@ Contractor: MCINTYRE CONSTRUCTION
 Valuation: 350000.0
 Units: </description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-043114-000-00-co</guid>
-      <title>[Portland] GARDEN BROS CIRCUS - Temporary Circus tents for event: Big top tent 157' x 235', Entrance tent: 40' x 40', assembled seating.  NO ANIMALS.  Event 8/13/26 - 8/16/26</title>
-      <link>https://www.portlandmaps.com/detail/permit/5265847_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2026-043114-000-00-CO
-Issued: 2026-08-13
-Address: 1940 N VICTORY BLVD, PORTLAND, OR
-Contractor: 
-Valuation: 262220.0
-Units: </description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603850</guid>
-      <title>[Bend] Brooksmill HS 16_ Clark Farmhouse_G_FEL_ Combo Building Permit
-
-*CoB water - meter needed*
-*no conditions/no active SIMPs*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603850
-Issued: 2026-08-13
-Address: 1295 SW SILVER LAKE BLVD, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 347011.96
-Units: </description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603097</guid>
-      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOT 49
-
-*Is a Fill Lot* 
-*avion water* 
-*grading checked--route to engineering*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603097
-Issued: 2026-08-13
-Address: 61081 NE UNITY PL, BEND, OR 97701
-Contractor: Hayden Homes
-Valuation: 354702.91
-Units: </description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-062644-000-00-co</guid>
-      <title>[Portland] ALASKA HANGAR - New aircraft maintenance hangar for multiple aircrafts; ancillary spaces include storage, shops, restrooms, locker rooms, meeting rooms, offices, and other support spaces; site wok includes visitor and employee parking, landscaping, and airfield apron for maneuvering and parking aircraft *** w/25-062650-MT ***</title>
-      <link>https://www.portlandmaps.com/detail/permit/5178292_did/</link>
-      <description>Category: COMMERCIAL
-Score: 55
-Permit: 2025-062644-000-00-CO
-Issued: 2026-08-12
-Address: 7430 NE AIRTRANS WAY, PORTLAND, OR
-Contractor: 
-Valuation: 26500000.0
-Units: </description>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

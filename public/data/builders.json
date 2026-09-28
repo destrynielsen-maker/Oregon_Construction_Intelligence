@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:17:47+00:00",
+  "generated_at": "2026-09-28T23:25:40+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -86,6 +86,19 @@
       "top_score": 48
     },
     {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 7,
+      "single_family": 5,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 1775001.08,
+      "jurisdictions": [
+        "Bend",
+        "Eugene"
+      ],
+      "top_score": 48
+    },
+    {
       "contractor": "STONE BRIDGE HOMES NW LLC",
       "permits_90d": 6,
       "single_family": 6,
@@ -108,18 +121,6 @@
         "Bend"
       ],
       "top_score": 53
-    },
-    {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 6,
-      "single_family": 4,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 1325055.07,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "LENNAR NORTHWEST LLC",
@@ -348,6 +349,18 @@
         "Bend"
       ],
       "top_score": 63
+    },
+    {
+      "contractor": "ONEILL WALSH COMMUNITY BUILDERS LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 7497301.54,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 60
     },
     {
       "contractor": "NEIL KELLY CO INC",
@@ -586,6 +599,18 @@
       "combined_valuation": 579298.48,
       "jurisdictions": [
         "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "HEITMAN CUSTOM HOMES",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 557723.0,
+      "jurisdictions": [
+        "Eugene"
       ],
       "top_score": 28
     },

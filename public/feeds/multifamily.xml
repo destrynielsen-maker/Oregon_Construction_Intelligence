@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|mf2026-02288</guid>
+      <title>[Beaverton] Henry Street Apartments</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: MULTIFAMILY
+Score: 60
+Permit: MF2026-02288
+Issued: 2026-09-28
+Address: 13286 SW HENRY ST BEAVERTON OR 97005
+Contractor: ONEILL WALSH COMMUNITY BUILDERS LLC
+Valuation: 7497301.54
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3512-01</guid>
       <title>[Eugene] New Duplex; 651/653 Bushnell Ln</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3512-01&amp;pdf=False</link>
@@ -4133,26 +4147,6 @@ Score: 48
 Permit: PRNC202505855
 Issued: 2026-06-30
 Address: 21438 LIVINGSTON DR, BEND, OR 97701
-Contractor: Hayden Homes
-Valuation: 319345.1
-Units: </description>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202505785</guid>
-      <title>[Bend] PARKSIDE PLACE NEW CONSTRUCTION LOTS 32,33,34 TRIPLEX
-*avion water* 
-*engineering checked - route to engineering* 
-
-PRNC202505708 - Lot 34 
-PRNC202505784 - Lot 33
-PRNC202505785 - Lot 32</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202505785
-Issued: 2026-06-30
-Address: 21447 LIVINGSTON DR, BEND, OR 97701
 Contractor: Hayden Homes
 Valuation: 319345.1
 Units: </description>
