@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:12:08+00:00",
+  "generated_at": "2026-09-29T22:30:03+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -1117,6 +1117,30 @@
         "Eugene"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "COMMERCIAL INDUSTRIAL ROOFING",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "NATIONAL ROOFING AND CONSTRUCT",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
     }
   ]
 }

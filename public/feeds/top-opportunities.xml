@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-6422-01</guid>
+      <title>[Eugene] Recover existing roof with new high density poly-iso and 60mil TPO.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6422-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6422-01
+Issued: 2026-09-29
+Address: 2815 CHAD DR, Eugene, OR
+Contractor: COMMERCIAL INDUSTRIAL ROOFING
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-6518-01</guid>
+      <title>[Eugene] Tearing off old roof materials and installing new TPO membrane single ply material.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6518-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6518-01
+Issued: 2026-09-29
+Address: 3365 E AMAZON DR, Eugene, OR
+Contractor: NATIONAL ROOFING AND CONSTRUCT
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|mf2026-02288</guid>
       <title>[Beaverton] Henry Street Apartments</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -4013,48 +4041,6 @@ Contractor: CLAY'S REFRIGERATION
 Valuation: 500.0
 Units: </description>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202503787</guid>
-      <title>[Bend] Parrell RD TH Lots 13 (Lots 13-16)
-*HB2306 Path 2 - post plat* 
-*Routs Water* 
-
-PRNC202503565 - reviews happening under this permit (lot 13- southern most unit) 
-PRNC202503785 - lot 14
-PRNC202503786 - lot 15 
-PRNC202503787 - lot 16</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202503787
-Issued: 2026-07-10
-Address: 61016 SE BUXTON LOOP, BEND, OR 97702
-Contractor: D.R. HORTON
-Valuation: 277297.55
-Units: </description>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202503786</guid>
-      <title>[Bend] Parrell RD TH Lots 13 (Lots 13-16)
-*HB2306 Path 2 - post plat* 
-*Routs Water* 
-
-PRNC202503565 - reviews happening under this permit (lot 13- southern most unit) 
-PRNC202503785 - lot 14
-PRNC202503786 - lot 15 
-PRNC202503787 - lot 16</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202503786
-Issued: 2026-07-10
-Address: 61018 SE BUXTON LOOP, BEND, OR 97702
-Contractor: D.R. HORTON
-Valuation: 298768.39
-Units: </description>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

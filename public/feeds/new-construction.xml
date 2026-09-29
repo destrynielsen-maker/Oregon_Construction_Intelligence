@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-6422-01</guid>
+      <title>[Eugene] Recover existing roof with new high density poly-iso and 60mil TPO.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6422-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6422-01
+Issued: 2026-09-29
+Address: 2815 CHAD DR, Eugene, OR
+Contractor: COMMERCIAL INDUSTRIAL ROOFING
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-6518-01</guid>
+      <title>[Eugene] Tearing off old roof materials and installing new TPO membrane single ply material.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6518-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6518-01
+Issued: 2026-09-29
+Address: 3365 E AMAZON DR, Eugene, OR
+Contractor: NATIONAL ROOFING AND CONSTRUCT
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|mf2026-02288</guid>
       <title>[Beaverton] Henry Street Apartments</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -3917,34 +3945,6 @@ Units: 1</description>
       <description>Category: MULTIFAMILY
 Score: 40
 Permit: 2025-022192-000-00-RS
-Issued: 2026-08-13
-Address: 6047 SE LAMBERT ST, PORTLAND, OR
-Contractor: 
-Valuation: 166163.0
-Units: 1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-022191-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD: NEW 2 OF 4-UNIT TOWNHOUSES. LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/25-022190-RS, 25-022192-RS, 25-022194-RS, 25-022195-SD***ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5136157_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-022191-000-00-RS
-Issued: 2026-08-13
-Address: 6047 SE LAMBERT ST, PORTLAND, OR
-Contractor: 
-Valuation: 166163.0
-Units: 1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-022190-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD: NEW 1 OF 4-UNIT TOWNHOUSES. LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/25-022191-RS, 25-022192-RS, 25-022194-RS, 25-022195-SD***ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5136156_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-022190-000-00-RS
 Issued: 2026-08-13
 Address: 6047 SE LAMBERT ST, PORTLAND, OR
 Contractor: 
