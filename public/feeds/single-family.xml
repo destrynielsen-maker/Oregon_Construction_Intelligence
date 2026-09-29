@@ -47,6 +47,20 @@ Units: 1</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4239-01</guid>
+      <title>[Eugene] Single family dwelling with attached garage</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4239-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 26-4239-01
+Issued: 2026-09-28
+Address: 655 W 23RD AVE, Eugene, OR
+Contractor: 
+Valuation: 387841.0
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4673-01</guid>
       <title>[Eugene] New Gazebo/covered patio.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4673-01&amp;pdf=False</link>
@@ -3898,21 +3912,6 @@ Contractor:
 Valuation: 329184.0
 Units: 1</description>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600643</guid>
-      <title>[Bend] Stevens Lot 37 **Fill Lot** Avion water 3/4**
-No expired/conditions chw</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600643
-Issued: 2026-06-02
-Address: 21709 SE STROMBOLI LN, BEND, OR 97702
-Contractor: D.R. HORTON
-Valuation: 335426.41
-Units: </description>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

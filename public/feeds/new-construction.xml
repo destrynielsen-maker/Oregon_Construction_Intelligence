@@ -61,6 +61,20 @@ Units: 1</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4239-01</guid>
+      <title>[Eugene] Single family dwelling with attached garage</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4239-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 26-4239-01
+Issued: 2026-09-28
+Address: 655 W 23RD AVE, Eugene, OR
+Contractor: 
+Valuation: 387841.0
+Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3512-01</guid>
       <title>[Eugene] New Duplex; 651/653 Bushnell Ln</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3512-01&amp;pdf=False</link>
@@ -829,7 +843,7 @@ Units: 2</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2026-048210-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW SINGLE-FAMILY RESIDENCE (DETACHED DUPLEX - UNIT 2) ON SHARED LOT WITH AN EXISTING SFR (UNIT 1) / LOT TO BE DIVIDED BY FUTURE MHLD / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX**ET, MT, AND PT PERMITS SEPARATE</title>
+      <title>[Portland] SINGLE PDF - MHLD: NEW SINGLE-FAMILY RESIDENCE (DETACHED DUPLEX - UNIT 2) ON SHARED LOT WITH AN EXISTING SFR (UNIT 1) / LOT TO BE DIVIDED BY FUTURE MHLD / 2-STORY / NO GARAGE / SLOPED LOT / COMPLEX**  *ADDED ELECTRICAL PLUMBING AND MECHANICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5271134_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3936,20 +3950,6 @@ Address: 6047 SE LAMBERT ST, PORTLAND, OR
 Contractor: 
 Valuation: 166163.0
 Units: 1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-4976-01</guid>
-      <title>[Eugene] ADD NEW INTERIOR PARTITION, PASS THROUGH, AND DOOR TO AN EXISTING SPACE.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4976-01&amp;pdf=False</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: 26-4976-01
-Issued: 2026-08-13
-Address: 100 W 13TH AVE UNIT 100, Eugene, OR
-Contractor: MCINTYRE CONSTRUCTION
-Valuation: 350000.0
-Units: </description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
