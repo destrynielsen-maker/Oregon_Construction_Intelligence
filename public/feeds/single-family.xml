@@ -33,20 +33,6 @@ Units: </description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|eugene|25-5934-01</guid>
-      <title>[Eugene] Detached Single-Family Dwelling</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5934-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 18
-Permit: 25-5934-01
-Issued: 2026-09-28
-Address: 823 HORN LN, Eugene, OR
-Contractor: 
-Valuation: 109215.0
-Units: 1</description>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|eugene|26-4239-01</guid>
       <title>[Eugene] Single family dwelling with attached garage</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4239-01&amp;pdf=False</link>
@@ -58,6 +44,20 @@ Address: 655 W 23RD AVE, Eugene, OR
 Contractor: 
 Valuation: 387841.0
 Units: </description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|25-5934-01</guid>
+      <title>[Eugene] Detached Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-5934-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 25-5934-01
+Issued: 2026-09-28
+Address: 823 HORN LN, Eugene, OR
+Contractor: 
+Valuation: 109215.0
+Units: 1</description>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
