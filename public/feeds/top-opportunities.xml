@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-6046-01</guid>
+      <title>[Eugene] New wall sign on the East side of the building for The Venue.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6046-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6046-01
+Issued: 2026-09-30
+Address: 252 LAWRENCE ST, Eugene, OR
+Contractor: E S &amp; A SIGN &amp; AWNING DBA
+Valuation: 2575.0
+Units: </description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-6336-01</guid>
+      <title>[Eugene] Go over exiting TPO roof install new class A TPO roof.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6336-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6336-01
+Issued: 2026-09-30
+Address: 1031 GREEN ACRES RD, Eugene, OR
+Contractor: IRON HEAD ROOFING LLC
+Valuation: 
+Units: </description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4494-01</guid>
       <title>[Eugene] The Joel ADU for Middle Housing.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4494-01&amp;pdf=False</link>
@@ -4009,38 +4037,6 @@ Contractor: HANSEN RODD
 Valuation: 656710.94
 Units: </description>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|25-7058-01</guid>
-      <title>[Eugene] (2) attached stacked two-family dwellings (thus 4 dwelling units); 655/657 Bushnell Ln Units A &amp; B</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7058-01&amp;pdf=False</link>
-      <description>Category: MULTIFAMILY
-Score: 53
-Permit: 25-7058-01
-Issued: 2026-07-14
-Address: 655 BUSHNELL LN UNIT A &amp; B, Eugene, OR
-Contractor: TIMBERVIEW CONSTRUCTION LLC
-Valuation: 683121.0
-Units: 4</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601980</guid>
-      <title>[Bend] New residential single family dwelling with attached adu
-**No conditions, see comments**SF 
-**No active SIMP**SF
-**CoB water, meter needed**SF
-***Changed building use to Duplex*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202601980
-Issued: 2026-07-13
-Address: 61189 SW BEVERLY WAY, UNIT:2, BEND, OR 97702
-Contractor: Solaire Residential LLC
-Valuation: 312518.39
-Units: </description>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

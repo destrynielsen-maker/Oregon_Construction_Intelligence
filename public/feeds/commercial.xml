@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-6046-01</guid>
+      <title>[Eugene] New wall sign on the East side of the building for The Venue.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6046-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6046-01
+Issued: 2026-09-30
+Address: 252 LAWRENCE ST, Eugene, OR
+Contractor: E S &amp; A SIGN &amp; AWNING DBA
+Valuation: 2575.0
+Units: </description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-6336-01</guid>
+      <title>[Eugene] Go over exiting TPO roof install new class A TPO roof.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6336-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6336-01
+Issued: 2026-09-30
+Address: 1031 GREEN ACRES RD, Eugene, OR
+Contractor: IRON HEAD ROOFING LLC
+Valuation: 
+Units: </description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-6518-01</guid>
       <title>[Eugene] Tearing off old roof materials and installing new TPO membrane single ply material.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6518-01&amp;pdf=False</link>
@@ -3763,34 +3791,6 @@ Contractor:
 Valuation: 40000.0
 Units: </description>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-012774-000-00-co</guid>
-      <title>[Portland] PDOX PS - NEW DETACHED TRASH ENCLOSURE w/24-012768-CO &amp; 24-012777-MT</title>
-      <link>https://www.portlandmaps.com/detail/permit/5013643_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2024-012774-000-00-CO
-Issued: 2025-03-24
-Address: 3171 N LOMBARD ST, PORTLAND, OR
-Contractor: 
-Valuation: 30000.0
-Units: </description>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2023-106518-000-00-co</guid>
-      <title>[Portland] PDOX - NEW METAL BUILDING FOR EQUIPMENT STORAGE, WITH OFFICE, BREAK ROOM, RESTROOM, MEZZANINE, AND ASSOCIATED SITE WORK. W/23-106521,523-CO</title>
-      <link>https://www.portlandmaps.com/detail/permit/4992546_did/</link>
-      <description>Category: COMMERCIAL
-Score: 35
-Permit: 2023-106518-000-00-CO
-Issued: 2025-03-20
-Address: NE HOLLAND ST, PORTLAND, OR
-Contractor: 
-Valuation: 657878.0
-Units: </description>
-      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

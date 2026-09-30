@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:52:31+00:00",
+  "generated_at": "2026-09-30T22:27:59+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -1047,6 +1047,18 @@
       "top_score": 38
     },
     {
+      "contractor": "E S & A SIGN & AWNING DBA",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 2575.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
       "contractor": "STONEWOOD CONSTRUCTION",
       "permits_90d": 1,
       "single_family": 1,
@@ -1141,6 +1153,18 @@
         "Eugene"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "IRON HEAD ROOFING LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
     }
   ]
 }
