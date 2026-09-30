@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4762-01</guid>
+      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4762-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 26-4762-01
+Issued: 2026-09-29
+Address: 3574 COLONY OAKS DR, Eugene, OR
+Contractor: 
+Valuation: 448577.0
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3520-01</guid>
       <title>[Eugene] New single family dwelling with attached garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3520-01&amp;pdf=False</link>
@@ -3897,20 +3911,6 @@ Address: 63111 NE HENNINGSEN PL, BEND, OR 97701
 Contractor: 
 Valuation: 441597.03
 Units: </description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-014907-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE / 2-STORY / ATTACHED CARPORT / SLOPED LOT / COMPLEX  *ADDED MECHANICAL ELECTRICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5236489_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-014907-000-00-RS
-Issued: 2026-06-03
-Address: SE ALDER ST, PORTLAND, OR
-Contractor: 
-Valuation: 329184.0
-Units: 1</description>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -5,16 +5,16 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
-      <guid isPermaLink="false">OR|eugene|26-6422-01</guid>
-      <title>[Eugene] Recover existing roof with new high density poly-iso and 60mil TPO.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6422-01&amp;pdf=False</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: 26-6422-01
+      <guid isPermaLink="false">OR|eugene|26-4494-01</guid>
+      <title>[Eugene] The Joel ADU for Middle Housing.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4494-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 43
+Permit: 26-4494-01
 Issued: 2026-09-29
-Address: 2815 CHAD DR, Eugene, OR
-Contractor: COMMERCIAL INDUSTRIAL ROOFING
-Valuation: 
+Address: 1536 BARBER DR UNIT A, Eugene, OR
+Contractor: 
+Valuation: 101330.0
 Units: </description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -28,6 +28,20 @@ Permit: 26-6518-01
 Issued: 2026-09-29
 Address: 3365 E AMAZON DR, Eugene, OR
 Contractor: NATIONAL ROOFING AND CONSTRUCT
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-6422-01</guid>
+      <title>[Eugene] Recover existing roof with new high density poly-iso and 60mil TPO.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6422-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6422-01
+Issued: 2026-09-29
+Address: 2815 CHAD DR, Eugene, OR
+Contractor: COMMERCIAL INDUSTRIAL ROOFING
 Valuation: 
 Units: </description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
@@ -4025,20 +4039,6 @@ Issued: 2026-07-13
 Address: 61189 SW BEVERLY WAY, UNIT:2, BEND, OR 97702
 Contractor: Solaire Residential LLC
 Valuation: 312518.39
-Units: </description>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-2869-01</guid>
-      <title>[Eugene] Replacing existing Trane roof top unit with new.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-2869-01&amp;pdf=False</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: 26-2869-01
-Issued: 2026-07-13
-Address: 1060 VALLEY RIVER WAY, Eugene, OR
-Contractor: CLAY'S REFRIGERATION
-Valuation: 500.0
 Units: </description>
       <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
     </item>

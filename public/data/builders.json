@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-09-29T22:30:03+00:00",
+  "generated_at": "2026-09-30T05:48:16+00:00",
   "builders": [
-    {
-      "contractor": "PAHLISCH HOMES",
-      "permits_90d": 20,
-      "single_family": 16,
-      "multifamily": 4,
-      "commercial": 0,
-      "combined_valuation": 8003943.44,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
     {
       "contractor": "D.R. HORTON",
       "permits_90d": 20,
@@ -26,28 +14,16 @@
       "top_score": 48
     },
     {
-      "contractor": "Hayden Homes",
-      "permits_90d": 12,
-      "single_family": 4,
-      "multifamily": 8,
+      "contractor": "PAHLISCH HOMES",
+      "permits_90d": 19,
+      "single_family": 15,
+      "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 4780158.18,
+      "combined_valuation": 7767964.56,
       "jurisdictions": [
         "Bend"
       ],
-      "top_score": 53
-    },
-    {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 11,
-      "single_family": 11,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 4070658.27,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
+      "top_score": 48
     },
     {
       "contractor": "Risewell Homes",
@@ -62,12 +38,36 @@
       "top_score": 20
     },
     {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 10,
+      "single_family": 10,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 3582163.0700000003,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
       "contractor": "MCD Homes LLC",
       "permits_90d": 8,
       "single_family": 7,
       "multifamily": 1,
       "commercial": 0,
       "combined_valuation": 3825663.63,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "Hayden Homes",
+      "permits_90d": 8,
+      "single_family": 4,
+      "multifamily": 4,
+      "commercial": 0,
+      "combined_valuation": 3745356.66,
       "jurisdictions": [
         "Bend"
       ],
@@ -82,19 +82,6 @@
       "combined_valuation": 3017897.76,
       "jurisdictions": [
         "Bend"
-      ],
-      "top_score": 48
-    },
-    {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 7,
-      "single_family": 5,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 1775001.08,
-      "jurisdictions": [
-        "Bend",
-        "Eugene"
       ],
       "top_score": 48
     },
@@ -121,6 +108,19 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 6,
+      "single_family": 5,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 1535914.28,
+      "jurisdictions": [
+        "Bend",
+        "Eugene"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "LENNAR NORTHWEST LLC",
@@ -196,11 +196,11 @@
     },
     {
       "contractor": "HAYDEN HOMES LLC",
-      "permits_90d": 4,
+      "permits_90d": 3,
       "single_family": 2,
-      "multifamily": 2,
+      "multifamily": 1,
       "commercial": 0,
-      "combined_valuation": 1345303.24,
+      "combined_valuation": 1086602.8599999999,
       "jurisdictions": [
         "Bend"
       ],
@@ -241,18 +241,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "Fusion Home Builders",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1295267.24,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "CURTIS HOMES LLC",
@@ -477,6 +465,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 688445.48,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "Fusion Home Builders",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 685566.36,
       "jurisdictions": [
         "Bend"
       ],
@@ -1095,6 +1095,30 @@
       "top_score": 38
     },
     {
+      "contractor": "NATIONAL ROOFING AND CONSTRUCT",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "COMMERCIAL INDUSTRIAL ROOFING",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
       "contractor": "OREGON BUILDERS DEVELOPERS LLC",
       "permits_90d": 1,
       "single_family": 0,
@@ -1117,30 +1141,6 @@
         "Eugene"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "COMMERCIAL INDUSTRIAL ROOFING",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 38
-    },
-    {
-      "contractor": "NATIONAL ROOFING AND CONSTRUCT",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 38
     }
   ]
 }

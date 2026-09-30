@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4494-01</guid>
+      <title>[Eugene] The Joel ADU for Middle Housing.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4494-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 43
+Permit: 26-4494-01
+Issued: 2026-09-29
+Address: 1536 BARBER DR UNIT A, Eugene, OR
+Contractor: 
+Valuation: 101330.0
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|mf2026-02288</guid>
       <title>[Beaverton] Henry Street Apartments</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -4130,27 +4144,6 @@ Contractor:
 Valuation: 173150.0
 Units: 1</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202505855</guid>
-      <title>[Bend] Parkside pl. new construction lots 22,23,24 triplex building.
-PRNC202505243 - Lot 22 Plan review under this permit
-PRNC202505854 - Lot 23
-PRNC202505855 - Lot 24
-*no expireds, see comments for conditions*
-**fill lot**
-**Avion water, 1" meter**
-**excavation or fill within 2 feet of property line checked on RSC, route to engineering**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202505855
-Issued: 2026-06-30
-Address: 21438 LIVINGSTON DR, BEND, OR 97701
-Contractor: Hayden Homes
-Valuation: 319345.1
-Units: </description>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

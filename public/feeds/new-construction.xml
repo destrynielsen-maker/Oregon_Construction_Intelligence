@@ -5,16 +5,16 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
-      <guid isPermaLink="false">OR|eugene|26-6422-01</guid>
-      <title>[Eugene] Recover existing roof with new high density poly-iso and 60mil TPO.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6422-01&amp;pdf=False</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: 26-6422-01
+      <guid isPermaLink="false">OR|eugene|26-4494-01</guid>
+      <title>[Eugene] The Joel ADU for Middle Housing.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4494-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 43
+Permit: 26-4494-01
 Issued: 2026-09-29
-Address: 2815 CHAD DR, Eugene, OR
-Contractor: COMMERCIAL INDUSTRIAL ROOFING
-Valuation: 
+Address: 1536 BARBER DR UNIT A, Eugene, OR
+Contractor: 
+Valuation: 101330.0
 Units: </description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -29,6 +29,34 @@ Issued: 2026-09-29
 Address: 3365 E AMAZON DR, Eugene, OR
 Contractor: NATIONAL ROOFING AND CONSTRUCT
 Valuation: 
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-6422-01</guid>
+      <title>[Eugene] Recover existing roof with new high density poly-iso and 60mil TPO.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6422-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6422-01
+Issued: 2026-09-29
+Address: 2815 CHAD DR, Eugene, OR
+Contractor: COMMERCIAL INDUSTRIAL ROOFING
+Valuation: 
+Units: </description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-4762-01</guid>
+      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4762-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 26-4762-01
+Issued: 2026-09-29
+Address: 3574 COLONY OAKS DR, Eugene, OR
+Contractor: 
+Valuation: 448577.0
 Units: </description>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3921,34 +3949,6 @@ Issued: 2026-08-13
 Address: 3636 N MISSOURI AVE, PORTLAND, OR
 Contractor: 
 Valuation: 146772.0
-Units: 1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-022194-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD: NEW 4 OF 4-UNIT TOWNHOUSES. LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/25-022190-RS, 25-022191-RS, 25-022192-RS, 25-022195-SD***ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5136160_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-022194-000-00-RS
-Issued: 2026-08-13
-Address: 6047 SE LAMBERT ST, PORTLAND, OR
-Contractor: 
-Valuation: 163678.0
-Units: 1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-022192-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD: NEW 3 OF 4-UNIT TOWNHOUSES. LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX w/25-022190-RS, 25-022191-RS, 25-022194-RS, 25-022195-SD***ET, MT, AND PT PERMITS SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5136158_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-022192-000-00-RS
-Issued: 2026-08-13
-Address: 6047 SE LAMBERT ST, PORTLAND, OR
-Contractor: 
-Valuation: 166163.0
 Units: 1</description>
       <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
     </item>
