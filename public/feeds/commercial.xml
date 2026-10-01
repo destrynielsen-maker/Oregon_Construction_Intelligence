@@ -5,20 +5,6 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
-      <guid isPermaLink="false">OR|eugene|26-6046-01</guid>
-      <title>[Eugene] New wall sign on the East side of the building for The Venue.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6046-01&amp;pdf=False</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: 26-6046-01
-Issued: 2026-09-30
-Address: 252 LAWRENCE ST, Eugene, OR
-Contractor: E S &amp; A SIGN &amp; AWNING DBA
-Valuation: 2575.0
-Units: </description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|eugene|26-6336-01</guid>
       <title>[Eugene] Go over exiting TPO roof install new class A TPO roof.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6336-01&amp;pdf=False</link>
@@ -29,6 +15,20 @@ Issued: 2026-09-30
 Address: 1031 GREEN ACRES RD, Eugene, OR
 Contractor: IRON HEAD ROOFING LLC
 Valuation: 
+Units: </description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-6046-01</guid>
+      <title>[Eugene] New wall sign on the East side of the building for The Venue.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6046-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-6046-01
+Issued: 2026-09-30
+Address: 252 LAWRENCE ST, Eugene, OR
+Contractor: E S &amp; A SIGN &amp; AWNING DBA
+Valuation: 2575.0
 Units: </description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>

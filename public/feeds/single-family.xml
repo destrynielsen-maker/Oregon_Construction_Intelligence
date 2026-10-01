@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5610-01</guid>
+      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5610-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 18
+Permit: 26-5610-01
+Issued: 2026-09-30
+Address: 34 CHURCHVIEW DR, Eugene, OR
+Contractor: 
+Valuation: 303634.6
+Units: </description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4762-01</guid>
       <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4762-01&amp;pdf=False</link>
@@ -3893,23 +3907,6 @@ Issued: 2026-06-03
 Address: 63134 NE HENNINGSEN PL, BEND, OR 97701
 Contractor: Lennar Northwest LLC
 Valuation: 447565.84
-Units: </description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601993</guid>
-      <title>[Bend] Acadia Pointe HS 121_ CAMERON F3C_ GL_ Combo Building Permit 
-**No conditions, see comments**SF
-**No active SIMP**SF
-**CoB water**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 18
-Permit: PRNC202601993
-Issued: 2026-06-03
-Address: 63111 NE HENNINGSEN PL, BEND, OR 97701
-Contractor: 
-Valuation: 441597.03
 Units: </description>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5926-01</guid>
+      <title>[Eugene] New deck</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5926-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: 26-5926-01
+Issued: 2026-09-30
+Address: 1500 NORKENZIE RD UNIT 4, Eugene, OR
+Contractor: SCOTT CONTRACTING LLC
+Valuation: 14000.0
+Units: </description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4494-01</guid>
       <title>[Eugene] The Joel ADU for Middle Housing.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4494-01&amp;pdf=False</link>
@@ -4129,20 +4143,6 @@ Address: 21451 LIVINGSTON DR, BEND, OR 97701
 Contractor: Hayden Homes
 Valuation: 258700.38
 Units: </description>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-005498-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH - MHLD: NEW 1 OF 4-UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX**w/26-005500-RS, 26-005503-RS, 26-005504-RS, 26-005506-SD**SEPARATE PERMIT 25-100367-RS FOR DEMO OF EXISTING HOUSE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226690_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-005498-000-00-RS
-Issued: 2026-07-01
-Address: 8162 N DRUID AVE, PORTLAND, OR
-Contractor: 
-Valuation: 173150.0
-Units: 1</description>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
