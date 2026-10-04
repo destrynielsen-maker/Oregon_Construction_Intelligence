@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-6219-01</guid>
+      <title>[Eugene] Install three new windows in the first floor. Two in the living room and one in the dining room.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6219-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-6219-01
+Issued: 2026-10-03
+Address: 5125 NECTAR WAY, Eugene, OR
+Contractor: VALLEY RIVER BUILDERS
+Valuation: 6640.81
+Units: </description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-6560-01</guid>
       <title>[Eugene] Create wider opening at bathroom 3 doorway install new header.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6560-01&amp;pdf=False</link>
@@ -3887,23 +3901,6 @@ Issued: 2026-06-03
 Address: 61208 SE WAGYU DR, BEND, OR 97702
 Contractor: STONE BRIDGE HOMES NW LLC
 Valuation: 509297.29
-Units: </description>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602501</guid>
-      <title>[Bend] EST240 - 60931 SE Apollo Pl - Single Family Dwelling
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No relevant SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602501
-Issued: 2026-06-03
-Address: 60931 SE APOLLO PL, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 380398.87
 Units: </description>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>

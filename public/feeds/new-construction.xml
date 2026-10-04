@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-6219-01</guid>
+      <title>[Eugene] Install three new windows in the first floor. Two in the living room and one in the dining room.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6219-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-6219-01
+Issued: 2026-10-03
+Address: 5125 NECTAR WAY, Eugene, OR
+Contractor: VALLEY RIVER BUILDERS
+Valuation: 6640.81
+Units: </description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-019046-000-00-rs</guid>
       <title>[Portland] FULL PDOX - NEW 5 OF 5 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ NO GARAGE/ 2 STORY/ FLAT LOT/ COMPLEX/ ***13D AS A DFS*** ET PT MT SEPARATE - 26-019038/43/44/45/46-RS w/26-019048-SD</title>
       <link>https://www.portlandmaps.com/detail/permit/5240803_did/</link>
@@ -3921,21 +3935,6 @@ Units: 1</description>
       <description>Category: MULTIFAMILY
 Score: 40
 Permit: 2025-096412-000-00-RS
-Issued: 2026-08-13
-Address: 3636 N MISSOURI AVE, PORTLAND, OR
-Contractor: 
-Valuation: 146772.0
-Units: 1</description>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-096408-000-00-rs</guid>
-      <title>[Portland] *FULL PDOX BATCH NEW 2 BUILDINGS 6 UNITS EACH 11 OF 12 UNIT TOTAL TOWNHOUSES ON SHARED LOT/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT SEPERATE* 
-*DFS FOR TRUSSES**DFS FOR SOLAR* W/ 25096379/82/83/85/89/92/96/400/04/05/08/12-RS W/ 25-096417-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5213462_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-096408-000-00-RS
 Issued: 2026-08-13
 Address: 3636 N MISSOURI AVE, PORTLAND, OR
 Contractor: 
