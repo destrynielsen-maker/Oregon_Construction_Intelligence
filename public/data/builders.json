@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T21:44:44+00:00",
+  "generated_at": "2026-10-05T06:01:29+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -645,18 +645,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 501543.26,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
-      "contractor": "THIRD GENERATION CONTRUCTION",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 500514.16,
       "jurisdictions": [
         "Bend"
       ],
