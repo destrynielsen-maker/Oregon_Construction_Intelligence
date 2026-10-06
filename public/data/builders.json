@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:06:05+00:00",
+  "generated_at": "2026-10-06T00:13:45+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -62,18 +62,6 @@
       "top_score": 53
     },
     {
-      "contractor": "Hayden Homes",
-      "permits_90d": 8,
-      "single_family": 4,
-      "multifamily": 4,
-      "commercial": 0,
-      "combined_valuation": 3745356.66,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "Christiansen's Contracting Company (QC)",
       "permits_90d": 7,
       "single_family": 0,
@@ -86,16 +74,16 @@
       "top_score": 48
     },
     {
-      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "contractor": "Hayden Homes",
       "permits_90d": 6,
-      "single_family": 6,
-      "multifamily": 0,
+      "single_family": 4,
+      "multifamily": 2,
       "commercial": 0,
-      "combined_valuation": 3180200.9899999998,
+      "combined_valuation": 3176597.2,
       "jurisdictions": [
         "Bend"
       ],
-      "top_score": 28
+      "top_score": 53
     },
     {
       "contractor": "Spring River Builders LLC",
@@ -110,6 +98,18 @@
       "top_score": 53
     },
     {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 5,
+      "single_family": 5,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2670342.58,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "LENNAR NORTHWEST LLC",
       "permits_90d": 5,
       "single_family": 5,
@@ -120,18 +120,6 @@
         "Eugene"
       ],
       "top_score": 28
-    },
-    {
-      "contractor": "DR Horton, Inc",
-      "permits_90d": 5,
-      "single_family": 1,
-      "multifamily": 4,
-      "commercial": 0,
-      "combined_valuation": 1417225.47,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "SIMPLICITY HOMES LLC",
@@ -195,12 +183,12 @@
       "top_score": 48
     },
     {
-      "contractor": "HAYDEN HOMES LLC",
-      "permits_90d": 3,
-      "single_family": 2,
-      "multifamily": 1,
+      "contractor": "DR Horton, Inc",
+      "permits_90d": 4,
+      "single_family": 0,
+      "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 1086602.8599999999,
+      "combined_valuation": 1081799.06,
       "jurisdictions": [
         "Bend"
       ],
@@ -277,6 +265,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "HAYDEN HOMES LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 802223.13,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "ADAIR HOMES INC.",
