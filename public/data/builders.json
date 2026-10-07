@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:31:47+00:00",
+  "generated_at": "2026-10-07T06:16:53+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -327,6 +327,18 @@
       "top_score": 48
     },
     {
+      "contractor": "NEIL KELLY COMPANY",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 80000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
       "contractor": "Lease Crutcher Lewis, LLC",
       "permits_90d": 1,
       "single_family": 0,
@@ -399,6 +411,18 @@
       "top_score": 48
     },
     {
+      "contractor": "FETTERS CONSTRUCTION LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 933630.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 53
+    },
+    {
       "contractor": "Deschutes Custom Homes LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -421,18 +445,6 @@
         "Bend"
       ],
       "top_score": 43
-    },
-    {
-      "contractor": "HH PARKSIDE PLACE LLC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 737016.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
     },
     {
       "contractor": "DC EUGENE",
@@ -921,18 +933,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 50000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "NEIL KELLY COMPANY",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 40000.0,
       "jurisdictions": [
         "Eugene"
       ],

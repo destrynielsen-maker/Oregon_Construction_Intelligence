@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5062-01</guid>
+      <title>[Eugene] Two-Family Dwelling; 1394 Ferry St (east unit), 489 E 14th Ave (west unit)</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5062-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: 26-5062-01
+Issued: 2026-10-06
+Address: 1394 FERRY ST, Eugene, OR
+Contractor: FETTERS CONSTRUCTION LLC
+Valuation: 933630.0
+Units: </description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|eugene|26-2511-01</guid>
+      <title>[Eugene] New Deck</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-2511-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-2511-01
+Issued: 2026-10-06
+Address: 3941 MONROE ST, Eugene, OR
+Contractor: NEIL KELLY COMPANY
+Valuation: 40000.0
+Units: </description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-6219-01</guid>
       <title>[Eugene] Install three new windows in the first floor. Two in the living room and one in the dining room.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6219-01&amp;pdf=False</link>
@@ -57,6 +85,20 @@ Issued: 2026-10-02
 Address: 4430 SE WOODWARD ST, PORTLAND, OR
 Contractor: 
 Valuation: 163172.0
+Units: 1</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-093474-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE/ 2 STORY/ WITH GARAGE/ SLOPED LOT / COMPLEX *** DFS FIRE SPRINKLERS***  *ADDED PLUMBING ELECTRICAL AND MECHANICAL*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5210407_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: 2025-093474-000-00-RS
+Issued: 2026-10-02
+Address: SE 145TH CT, PORTLAND, OR
+Contractor: 
+Valuation: 654007.0
 Units: 1</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3881,62 +3923,6 @@ Contractor:
 Valuation: 180961.0
 Units: </description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-018755-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - LOT 10 - NEW SINGLE FAMILY RES/2 STORY/ WITH GARAGE/ SLOPED LOT/COMPLEX /***ET ,MT, PT SEPARATE *SEE LU 18-228103 DFS NFPA 13D Fire Sprinklers Required</title>
-      <link>https://www.portlandmaps.com/detail/permit/5132608_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2025-018755-000-00-RS
-Issued: 2026-08-17
-Address: 14230 SE ELLIS ST, PORTLAND, OR
-Contractor: 
-Valuation: 331794.0
-Units: 1</description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603285</guid>
-      <title>[Bend] PRNC202603198 - EST132 - 20744 SE Scout Pl - Single Family Dwelling (TH)    ***Plans reviewed under this permit*** SN
-
-PRNC202603285 - EST133 - 20746 SE Scout Pl - Single Family Dwelling (TH) 
-
-***Avion Water*** SN
-***No Conditions (see comments)*** Sn
-***Fill Lot*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202603285
-Issued: 2026-08-14
-Address: 20746 SE SCOUT PL, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 272785.9
-Units: </description>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603198</guid>
-      <title>[Bend] PRNC202603198 - EST132 - 20744 SE Scout Pl - Single Family Dwelling (TH)    ***Plans reviewed under this permit*** SN
-
-PRNC202603285 - EST133 - 20746 SE Scout Pl - Single Family Dwelling (TH) 
-
-***Avion Water*** SN
-***No Conditions (see comments)*** Sn
-***Fill Lots*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202603198
-Issued: 2026-08-14
-Address: 20744 SE SCOUT PL, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 272785.9
-Units: </description>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

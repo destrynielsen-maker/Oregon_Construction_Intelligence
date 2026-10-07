@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5062-01</guid>
+      <title>[Eugene] Two-Family Dwelling; 1394 Ferry St (east unit), 489 E 14th Ave (west unit)</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5062-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 53
+Permit: 26-5062-01
+Issued: 2026-10-06
+Address: 1394 FERRY ST, Eugene, OR
+Contractor: FETTERS CONSTRUCTION LLC
+Valuation: 933630.0
+Units: </description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-048528-000-00-rs</guid>
       <title>[Portland] FULL PDOX BATCH MHLD NEW 3 OF 3 UNITS TOWNHOUSES ON SHARED LOT/LOT TO BE DIVIDED UNDER FUTURE MLHD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX/ TRUSSES/ SEE 26-026698-PR* W/ 26-048525/26/28-RS W/ 26-048529-SD*ADDED MECHANICAL, ELECTRICAL AND PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5271456_did/</link>
@@ -4017,20 +4031,6 @@ Units: 2</description>
       <description>Category: MULTIFAMILY
 Score: 40
 Permit: 2025-082872-000-00-RS
-Issued: 2026-07-16
-Address: 3913 NE 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 154888.0
-Units: 1</description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-082871-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD  NEW 7 OF  8 UNIT COTTAGE CLUSTER ON SHARED LOT - LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/ (25-066376 RS FOR DEMO)/ w/25-082857/62/65/66/67/69/71/72 RS &amp; 25-082873 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5199341_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-082871-000-00-RS
 Issued: 2026-07-16
 Address: 3913 NE 47TH AVE, PORTLAND, OR
 Contractor: 
