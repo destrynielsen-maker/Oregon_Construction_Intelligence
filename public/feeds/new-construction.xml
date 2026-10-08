@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-1312-01</guid>
+      <title>[Eugene] 3-Story triplex with shared access. 1510 High St Unit A-C (increasing east to west).</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1312-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 58
+Permit: 26-1312-01
+Issued: 2026-10-08
+Address: 1510 HIGH ST UNIT A, Eugene, OR
+Contractor: RAVI32 LLC
+Valuation: 1517590.96
+Units: </description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5062-01</guid>
       <title>[Eugene] Two-Family Dwelling; 1394 Ferry St (east unit), 489 E 14th Ave (west unit)</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5062-01&amp;pdf=False</link>
@@ -3906,21 +3920,6 @@ Issued: 2026-08-17
 Address: 1535 NW REMARKABLE DR, BEND, OR 97703
 Contractor: Deschutes Custom Homes LLC
 Valuation: 852544.06
-Units: </description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-011873-000-00-rs</guid>
-      <title>[Portland] *SINGLE PDF* Detached bedroom with bedroom, 695 SQFT, full bathroom,and second floor loft, . All trades included.
-**NOT PERMITTED AS AN ADU**  26-027725 LU HISTORICAL RESOURCE REVIEW</title>
-      <link>https://www.portlandmaps.com/detail/permit/5233325_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-011873-000-00-RS
-Issued: 2026-08-17
-Address: 2243 SE CYPRESS AVE, PORTLAND, OR
-Contractor: 
-Valuation: 180961.0
 Units: </description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-1312-01</guid>
+      <title>[Eugene] 3-Story triplex with shared access. 1510 High St Unit A-C (increasing east to west).</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1312-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 58
+Permit: 26-1312-01
+Issued: 2026-10-08
+Address: 1510 HIGH ST UNIT A, Eugene, OR
+Contractor: RAVI32 LLC
+Valuation: 1517590.96
+Units: </description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5062-01</guid>
       <title>[Eugene] Two-Family Dwelling; 1394 Ferry St (east unit), 489 E 14th Ave (west unit)</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5062-01&amp;pdf=False</link>
@@ -4022,20 +4036,6 @@ Address: 3104 SE 20TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 379644.0
 Units: 2</description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-082872-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD  NEW 8 OF  8 UNIT COTTAGE CLUSTER ON SHARED LOT - LOT TO BE DIVIDED UNDER FUTURE MHLD/2 STORY/NO GARAGE/FLAT LOT/COMPLEX/ (25-066376 RS FOR DEMO)/ w/25-082857/62/65/66/67/69/71/72 RS &amp; 25-082873 SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5199342_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-082872-000-00-RS
-Issued: 2026-07-16
-Address: 3913 NE 47TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 154888.0
-Units: 1</description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-1312-01</guid>
+      <title>[Eugene] 3-Story triplex with shared access. 1510 High St Unit A-C (increasing east to west).</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1312-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 58
+Permit: 26-1312-01
+Issued: 2026-10-08
+Address: 1510 HIGH ST UNIT A, Eugene, OR
+Contractor: RAVI32 LLC
+Valuation: 1517590.96
+Units: </description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5062-01</guid>
       <title>[Eugene] Two-Family Dwelling; 1394 Ferry St (east unit), 489 E 14th Ave (west unit)</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5062-01&amp;pdf=False</link>
@@ -4086,20 +4100,6 @@ Address: 2789 NE HUETTL LN, BEND, OR 97701
 Contractor: 
 Valuation: 200795.58
 Units: </description>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-005504-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH - MHLD: NEW 4 OF 4-UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX**w/26-005498-RS, 26-005500-RS, 26-005503-RS, 26-005506-SD**SEPARATE PERMIT 25-100367-RS FOR DEMO OF EXISTING HOUSE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5226696_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-005504-000-00-RS
-Issued: 2026-07-02
-Address: 8162 N DRUID AVE, PORTLAND, OR
-Contractor: 
-Valuation: 219273.0
-Units: 1</description>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

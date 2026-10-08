@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:54:59+00:00",
+  "generated_at": "2026-10-08T23:29:27+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -231,6 +231,18 @@
       "top_score": 48
     },
     {
+      "contractor": "RAVI32 LLC",
+      "permits_90d": 2,
+      "single_family": 0,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 2759461.11,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 58
+    },
+    {
       "contractor": "CURTIS HOMES LLC",
       "permits_90d": 2,
       "single_family": 2,
@@ -385,18 +397,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "RAVI32 LLC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 1241870.15,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 58
     },
     {
       "contractor": "APEX MECHANICAL LLC",
