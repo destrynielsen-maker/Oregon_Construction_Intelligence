@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:14:21+00:00",
+  "generated_at": "2026-10-08T06:26:31+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -15,11 +15,11 @@
     },
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 19,
-      "single_family": 15,
+      "permits_90d": 18,
+      "single_family": 14,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 7767964.56,
+      "combined_valuation": 7210490.09,
       "jurisdictions": [
         "Bend"
       ],
