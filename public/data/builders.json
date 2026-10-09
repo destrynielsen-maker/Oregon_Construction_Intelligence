@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-10-08T23:29:27+00:00",
+  "generated_at": "2026-10-09T06:27:43+00:00",
   "builders": [
-    {
-      "contractor": "D.R. HORTON",
-      "permits_90d": 20,
-      "single_family": 0,
-      "multifamily": 20,
-      "commercial": 0,
-      "combined_valuation": 5745804.38,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
     {
       "contractor": "PAHLISCH HOMES",
       "permits_90d": 18,
@@ -20,6 +8,18 @@
       "multifamily": 4,
       "commercial": 0,
       "combined_valuation": 7210490.09,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "D.R. HORTON",
+      "permits_90d": 16,
+      "single_family": 0,
+      "multifamily": 16,
+      "commercial": 0,
+      "combined_valuation": 4593672.5,
       "jurisdictions": [
         "Bend"
       ],
@@ -693,18 +693,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 462501.97,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "Heritage Homes of Mollala",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 426405.71,
       "jurisdictions": [
         "Bend"
       ],
