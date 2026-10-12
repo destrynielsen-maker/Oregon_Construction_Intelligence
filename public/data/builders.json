@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T22:14:55+00:00",
+  "generated_at": "2026-10-12T06:17:19+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 18,
-      "single_family": 14,
+      "permits_90d": 17,
+      "single_family": 13,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 7210490.09,
+      "combined_valuation": 6821781.43,
       "jurisdictions": [
         "Bend"
       ],
@@ -74,24 +74,24 @@
       "top_score": 48
     },
     {
-      "contractor": "Hayden Homes",
-      "permits_90d": 6,
-      "single_family": 4,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 3176597.2,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "Spring River Builders LLC",
       "permits_90d": 6,
       "single_family": 0,
       "multifamily": 6,
       "commercial": 0,
       "combined_valuation": 1751961.12,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "Hayden Homes",
+      "permits_90d": 5,
+      "single_family": 3,
+      "multifamily": 2,
+      "commercial": 0,
+      "combined_valuation": 2900246.48,
       "jurisdictions": [
         "Bend"
       ],
@@ -267,18 +267,6 @@
       "top_score": 28
     },
     {
-      "contractor": "Solaire Residential LLC",
-      "permits_90d": 2,
-      "single_family": 1,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 904986.5700000001,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "HAYDEN HOMES LLC",
       "permits_90d": 2,
       "single_family": 2,
@@ -447,18 +435,6 @@
       "top_score": 43
     },
     {
-      "contractor": "DC EUGENE",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 693909.79,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "NORTHWEST MOUNTAIN BUILDERS",
       "permits_90d": 1,
       "single_family": 1,
@@ -577,6 +553,18 @@
         "Beaverton"
       ],
       "top_score": 25
+    },
+    {
+      "contractor": "Solaire Residential LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 592468.18,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "PALMER HOMES",
@@ -1072,18 +1060,6 @@
     },
     {
       "contractor": "COMFORT FLOW HEATING COMPANY L",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 500.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 38
-    },
-    {
-      "contractor": "CLAY'S REFRIGERATION",
       "permits_90d": 1,
       "single_family": 0,
       "multifamily": 0,
