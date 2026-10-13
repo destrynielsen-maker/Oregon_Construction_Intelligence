@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-008702-000-00-co</guid>
+      <title>[Portland] CAMERON CARE MLK - new 2-story building will be a 4,200 sf and contain a 16-bed residential treatment facility.**w. 26-008706-MT</title>
+      <link>https://www.portlandmaps.com/detail/permit/5230015_did/</link>
+      <description>Category: COMMERCIAL
+Score: 35
+Permit: 2026-008702-000-00-CO
+Issued: 2026-10-12
+Address: 4841 NE M L KING BLVD, PORTLAND, OR
+Contractor: 
+Valuation: 851072.0
+Units: </description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-1312-01</guid>
       <title>[Eugene] 3-Story triplex with shared access. 1510 High St Unit A-C (increasing east to west).</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1312-01&amp;pdf=False</link>
@@ -17,6 +31,20 @@ Contractor: RAVI32 LLC
 Valuation: 1517590.96
 Units: </description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-017797-000-00-co</guid>
+      <title>[Portland] *ALYSSA DAYE GARDENS -new 4-story 31 unit affordable housing building.  Ground floor program includes lobby, community room, offices, private courtyard and improved pedestrian circulation along SE 89th.** Includes roof top solar **w. 26-017798-CO trash encl**SEE COMMENTS*, 26-017799-MT, demo of existing SFR 26-020845-RS**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5239494_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 70
+Permit: 2026-017797-000-00-CO
+Issued: 2026-10-06
+Address: 3326 SE 89TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 10250000.0
+Units: 31</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|eugene|26-5062-01</guid>
@@ -33,6 +61,20 @@ Units: </description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-017798-000-00-co</guid>
+      <title>[Portland] ALYSSA DAYE GARDENS - relocating trash enclosure to serve existing building **submitted w. 26-017797-CO new building at 3390 SE 89th AVe, 26-017799-MT, and demo of SFD 26-020845-RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5239495_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-017798-000-00-CO
+Issued: 2026-10-06
+Address: 3326 SE 89TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 40000.0
+Units: </description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-2511-01</guid>
       <title>[Eugene] New Deck</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-2511-01&amp;pdf=False</link>
@@ -45,6 +87,34 @@ Contractor: NEIL KELLY COMPANY
 Valuation: 40000.0
 Units: </description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-037616-000-00-co</guid>
+      <title>[Portland] PDOX PS: RESTROOM AND TRASH ENCLOSURE STRUCTURE WITH ROOF DECK FOR SEATING. INCLUDES REORGANIZATION OF AN EXISTING FOOD CART PODS, RELOCATION OF DRIVEWAY, AND PAVED CENTRAL SEATING AREA. W 26-039222-CO</title>
+      <link>https://www.portlandmaps.com/detail/permit/5260167_did/</link>
+      <description>Category: COMMERCIAL
+Score: 35
+Permit: 2026-037616-000-00-CO
+Issued: 2026-10-05
+Address: 119 SE 28TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 575939.0
+Units: </description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-039222-000-00-co</guid>
+      <title>[Portland] PDOX PS: NEW COVERED SEATING DECK FOR FOOD CARTS. W26-037616-CO</title>
+      <link>https://www.portlandmaps.com/detail/permit/5261818_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-039222-000-00-CO
+Issued: 2026-10-05
+Address: 119 SE 28TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 107407.0
+Units: </description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|eugene|26-6219-01</guid>
@@ -3711,8 +3781,8 @@ Units: </description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-098667-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 3 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** MT SEPARATE SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
-*ADDED PLUMBING AND ELECTRICAL*</title>
+      <title>[Portland] FULL PDOX - 3 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
+*ADDED PLUMBING MECHANICAL AND ELECTRICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5215821_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3726,8 +3796,8 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-098666-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 2 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** MT SEPARATE SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
-*ADDED PLUMBING AND ELECTRICAL*</title>
+      <title>[Portland] FULL PDOX - 2 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
+*ADDED PLUMBING MECHANICAL AND ELECTRICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5215820_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3741,7 +3811,7 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-098665-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 1 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** MT SEPARATE SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD  *ADDED PLUMBING AND ELECTRICAL*</title>
+      <title>[Portland] FULL PDOX - 1 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD  *ADDED PLUMBING MECHANICAL AND ELECTRICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5215819_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3839,89 +3909,6 @@ Contractor: PAHLISCH HOMES
 Valuation: 422022.15
 Units: </description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-1282-01</guid>
-      <title>[Eugene] Adding 2 portable units to existing school to be used as class rooms.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1282-01&amp;pdf=False</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: 26-1282-01
-Issued: 2026-08-17
-Address: 1525 ECHO HOLLOW RD, Eugene, OR
-Contractor: BCE INC
-Valuation: 480000.0
-Units: </description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-4347-01</guid>
-      <title>[Eugene] New single family dwelling with attached garage.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4347-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: 26-4347-01
-Issued: 2026-08-17
-Address: 5756 DURST ST, Eugene, OR
-Contractor: LENNAR NORTHWEST LLC
-Valuation: 557587.0
-Units: </description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602178</guid>
-      <title>[Bend] Talline Lot 18 - New two-story, 2,738 SF home with a two-car garage in the Talline Community, Phase 1
-***Detached ADU on PRNC202602179*** SN
-***COB Water*** SN
-***No Conditions*** SN
-***No Active SIMPs*** SN
-***Per site plan, impervious surface over 5K, route to Engineering*** SN
-***Needs Addressing*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202602178
-Issued: 2026-08-17
-Address: 2745 NW NORDIC AVE, UNIT:1, BEND, OR 97703
-Contractor: CURTIS HOMES LLC
-Valuation: 540516.44
-Units: </description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602041</guid>
-      <title>[Bend] Talline Lot 36 - New two-story, 3,272 SF home with a three-car garage in the Talline Community, Phase 2
-**FILL LOT**
-**No active SIMP**SF
-**No conditions**
-**CoB water**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202602041
-Issued: 2026-08-17
-Address: 3035 NW POLARSTAR CT, BEND, OR 97703
-Contractor: CURTIS HOMES LLC
-Valuation: 674087.8
-Units: </description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202504428</guid>
-      <title>[Bend] Custom light wood framed home.
-COB 1"  **fill exceeding 3', route to engineering** 
-*no special conditions*
-*Special inspection for welding on stairs*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202504428
-Issued: 2026-08-17
-Address: 1535 NW REMARKABLE DR, BEND, OR 97703
-Contractor: Deschutes Custom Homes LLC
-Valuation: 852544.06
-Units: </description>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

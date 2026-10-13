@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-008702-000-00-co</guid>
+      <title>[Portland] CAMERON CARE MLK - new 2-story building will be a 4,200 sf and contain a 16-bed residential treatment facility.**w. 26-008706-MT</title>
+      <link>https://www.portlandmaps.com/detail/permit/5230015_did/</link>
+      <description>Category: COMMERCIAL
+Score: 35
+Permit: 2026-008702-000-00-CO
+Issued: 2026-10-12
+Address: 4841 NE M L KING BLVD, PORTLAND, OR
+Contractor: 
+Valuation: 851072.0
+Units: </description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-1312-01</guid>
       <title>[Eugene] 3-Story triplex with shared access. 1510 High St Unit A-C (increasing east to west).</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1312-01&amp;pdf=False</link>
@@ -19,6 +33,20 @@ Units: </description>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-017797-000-00-co</guid>
+      <title>[Portland] *ALYSSA DAYE GARDENS -new 4-story 31 unit affordable housing building.  Ground floor program includes lobby, community room, offices, private courtyard and improved pedestrian circulation along SE 89th.** Includes roof top solar **w. 26-017798-CO trash encl**SEE COMMENTS*, 26-017799-MT, demo of existing SFR 26-020845-RS**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5239494_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 70
+Permit: 2026-017797-000-00-CO
+Issued: 2026-10-06
+Address: 3326 SE 89TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 10250000.0
+Units: 31</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5062-01</guid>
       <title>[Eugene] Two-Family Dwelling; 1394 Ferry St (east unit), 489 E 14th Ave (west unit)</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5062-01&amp;pdf=False</link>
@@ -31,6 +59,48 @@ Contractor: FETTERS CONSTRUCTION LLC
 Valuation: 933630.0
 Units: </description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-017798-000-00-co</guid>
+      <title>[Portland] ALYSSA DAYE GARDENS - relocating trash enclosure to serve existing building **submitted w. 26-017797-CO new building at 3390 SE 89th AVe, 26-017799-MT, and demo of SFD 26-020845-RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5239495_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-017798-000-00-CO
+Issued: 2026-10-06
+Address: 3326 SE 89TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 40000.0
+Units: </description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-037616-000-00-co</guid>
+      <title>[Portland] PDOX PS: RESTROOM AND TRASH ENCLOSURE STRUCTURE WITH ROOF DECK FOR SEATING. INCLUDES REORGANIZATION OF AN EXISTING FOOD CART PODS, RELOCATION OF DRIVEWAY, AND PAVED CENTRAL SEATING AREA. W 26-039222-CO</title>
+      <link>https://www.portlandmaps.com/detail/permit/5260167_did/</link>
+      <description>Category: COMMERCIAL
+Score: 35
+Permit: 2026-037616-000-00-CO
+Issued: 2026-10-05
+Address: 119 SE 28TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 575939.0
+Units: </description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-039222-000-00-co</guid>
+      <title>[Portland] PDOX PS: NEW COVERED SEATING DECK FOR FOOD CARTS. W26-037616-CO</title>
+      <link>https://www.portlandmaps.com/detail/permit/5261818_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-039222-000-00-CO
+Issued: 2026-10-05
+Address: 119 SE 28TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 107407.0
+Units: </description>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2026-048528-000-00-rs</guid>
@@ -2492,8 +2562,8 @@ Units: </description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-098667-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 3 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** MT SEPARATE SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
-*ADDED PLUMBING AND ELECTRICAL*</title>
+      <title>[Portland] FULL PDOX - 3 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
+*ADDED PLUMBING MECHANICAL AND ELECTRICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5215821_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -2507,8 +2577,8 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-098666-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 2 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** MT SEPARATE SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
-*ADDED PLUMBING AND ELECTRICAL*</title>
+      <title>[Portland] FULL PDOX - 2 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD
+*ADDED PLUMBING MECHANICAL AND ELECTRICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5215820_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -2522,7 +2592,7 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-098665-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - 1 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** MT SEPARATE SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD  *ADDED PLUMBING AND ELECTRICAL*</title>
+      <title>[Portland] FULL PDOX - 1 OF 3 UNIT COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX **** SEE 25-XXXXXX RS FOR DEMO W/ 25-098665/66/67RS &amp; 25-098668 SD  *ADDED PLUMBING MECHANICAL AND ELECTRICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5215819_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3510,7 +3580,8 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-020412-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - 7 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***FIRE SPRINKLERS 13D AS A DFS***PT SEPARATE W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS</title>
+      <title>[Portland] FULL PDOX - MHLD - 7 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***FIRE SPRINKLERS 13D AS A DFS W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS 
+*ADDED PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5134312_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3524,7 +3595,7 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-020411-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - 6 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***13D FIRE SPRINKLERS REQUIRED AS A DFS***PT SEPARATE W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS</title>
+      <title>[Portland] FULL PDOX - MHLD - 6 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***13D FIRE SPRINKLERS REQUIRED AS A DFS***PT SEPARATE W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS   *ADDED PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5134311_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3538,7 +3609,7 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-020410-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - 5 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***FIRE SPRINKLERS 13D AS A DFS***PT SEPARATE W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS</title>
+      <title>[Portland] FULL PDOX - MHLD - 5 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***FIRE SPRINKLERS 13D AS A DFS W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS   *ADDED PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5134310_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3552,7 +3623,8 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-020409-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - 4 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***FIRE SPRINKLERS, 13D AS A DFS***PT SEPARATE W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS</title>
+      <title>[Portland] FULL PDOX - MHLD - 4 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***FIRE SPRINKLERS, 13D AS A DFS W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS 
+*ADDED PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5134309_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3967,76 +4039,6 @@ Contractor:
 Valuation: 149816.0
 Units: 1</description>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-042339-000-00-co</guid>
-      <title>[Portland] SINGLE PDF - NEW ORDER CANOPY, CLEARANCE BAR, AND MENU BOARDS FOR DRIVE THROUGH.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5265045_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2026-042339-000-00-CO
-Issued: 2026-07-22
-Address: 3504 SE 92ND AVE, PORTLAND, OR
-Contractor: 
-Valuation: 10000.0
-Units: </description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-012169-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BUILDING A NEW 1 OF  3 UNIT TOWNHOUSE AND 6 UNIT TOWN HOUSE ON SHARED LOT/ NO GARAGE/ 2 STORY/ COMPLEX/ FLAT LOT ***  w/ 26-012169/70/71/72/75/77/78/79/80/81  *ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5233640_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-012169-000-00-RS
-Issued: 2026-07-21
-Address: 2624 N ROSA PARKS WAY, PORTLAND, OR
-Contractor: 
-Valuation: 148294.0
-Units: 1</description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602261</guid>
-      <title>[Bend] construction of trash enclosure</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 33
-Permit: PRNC202602261
-Issued: 2026-07-21
-Address: 21085 DON ST, BEND, OR 97701
-Contractor: 
-Valuation: 10000.0
-Units: </description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-026791-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW DETACHED DUPLEX TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX *** ET PT MT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5248857_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-026791-000-00-RS
-Issued: 2026-07-17
-Address: 537 NE MORGAN ST, PORTLAND, OR
-Contractor: 
-Valuation: 226986.0
-Units: 1</description>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-023951-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW DUPLEX - 2 STORY WITH GARAGE/FLAT LOT/ COMPLEX *** ET PT MT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5245905_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-023951-000-00-RS
-Issued: 2026-07-16
-Address: 3104 SE 20TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 379644.0
-Units: 2</description>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
