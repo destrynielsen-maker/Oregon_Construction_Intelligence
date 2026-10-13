@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-7473-01</guid>
+      <title>[Eugene] Construction of single family dwelling.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7473-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 28
+Permit: 25-7473-01
+Issued: 2026-10-13
+Address: 3045 TIMBERLINE DR, Eugene, OR
+Contractor: WEST COAST HOME SOLUTIONS LLC
+Valuation: 637102.49
+Units: </description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-008702-000-00-co</guid>
       <title>[Portland] CAMERON CARE MLK - new 2-story building will be a 4,200 sf and contain a 16-bed residential treatment facility.**w. 26-008706-MT</title>
       <link>https://www.portlandmaps.com/detail/permit/5230015_did/</link>
@@ -3890,23 +3904,6 @@ Issued: 2026-08-18
 Address: 2452 MARJORIE AVE, Eugene, OR
 Contractor: UNITED PROPERTY IMPROVEMENT IN
 Valuation: 28404.0
-Units: </description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603980</guid>
-      <title>[Bend] PT366 - 3903 NE Petrosa Ave - Single Family Dwelling
-***Avion Water***
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603980
-Issued: 2026-08-18
-Address: 3903 NE PETROSA AVE, BEND, OR 97701
-Contractor: PAHLISCH HOMES
-Valuation: 422022.15
 Units: </description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>

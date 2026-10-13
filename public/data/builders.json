@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:27:37+00:00",
+  "generated_at": "2026-10-13T22:59:28+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -183,6 +183,18 @@
       "top_score": 48
     },
     {
+      "contractor": "WEST COAST HOME SOLUTIONS LLC",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1795406.4100000001,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "Spring River Builders, LLC",
       "permits_90d": 3,
       "single_family": 0,
@@ -251,18 +263,6 @@
       "combined_valuation": 1214604.24,
       "jurisdictions": [
         "Bend"
-      ],
-      "top_score": 28
-    },
-    {
-      "contractor": "WEST COAST HOME SOLUTIONS LLC",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1158303.92,
-      "jurisdictions": [
-        "Eugene"
       ],
       "top_score": 28
     },
