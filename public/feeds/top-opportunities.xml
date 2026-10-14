@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-2877-01</guid>
+      <title>[Eugene] Construction of new warehouse and office building</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-2877-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 25-2877-01
+Issued: 2026-10-13
+Address: 29854 CECIL AVE, Eugene, OR
+Contractor: BINEHAM CONSTRUCTION
+Valuation: 489995.0
+Units: </description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-008702-000-00-co</guid>
       <title>[Portland] CAMERON CARE MLK - new 2-story building will be a 4,200 sf and contain a 16-bed residential treatment facility.**w. 26-008706-MT</title>
       <link>https://www.portlandmaps.com/detail/permit/5230015_did/</link>
@@ -4023,20 +4037,6 @@ Issued: 2026-07-22
 Address: 2624 N ROSA PARKS WAY, PORTLAND, OR
 Contractor: 
 Valuation: 152352.0
-Units: 1</description>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-012170-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - BUILDING A NEW 2 OF  3 UNIT TOWNHOUSE AND 6 UNIT TOWN HOUSE ON SHARED LOT/ NO GARAGE/ 2 STORY/ COMPLEX/ FLAT LOT *** MT SEPARATE w/ 26-012169/70/71/72/75/77/78/79/80/81  *ADDED ELECTRICAL AND PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5233641_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-012170-000-00-RS
-Issued: 2026-07-22
-Address: 2624 N ROSA PARKS WAY, PORTLAND, OR
-Contractor: 
-Valuation: 149816.0
 Units: 1</description>
       <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
     </item>

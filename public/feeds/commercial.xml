@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-2877-01</guid>
+      <title>[Eugene] Construction of new warehouse and office building</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-2877-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 25-2877-01
+Issued: 2026-10-13
+Address: 29854 CECIL AVE, Eugene, OR
+Contractor: BINEHAM CONSTRUCTION
+Valuation: 489995.0
+Units: </description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-008702-000-00-co</guid>
       <title>[Portland] CAMERON CARE MLK - new 2-story building will be a 4,200 sf and contain a 16-bed residential treatment facility.**w. 26-008706-MT</title>
       <link>https://www.portlandmaps.com/detail/permit/5230015_did/</link>
@@ -3766,24 +3780,6 @@ Contractor:
 Valuation: 35917.0
 Units: </description>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202407501</guid>
-      <title>[Bend] Tenant: New warehouse- Bldg #6 (BLDG) 
-Tech: Darcy
-19,993 SF PEMB, Type VB Industrial/Commercial Warehouse Building. Include Spec TI spaces with office and restroom. Loading dock Building #6.
-SIMP: 202405970 (water meter under the SIMP permit)
-Foundation Only:</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 48
-Permit: PRNC202407501
-Issued: 2025-04-01
-Address: 63622 NE ANDESITE ST, BEND, OR 97701
-Contractor: SUNWEST BUILDERS
-Valuation: 1917928.49
-Units: </description>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-2877-01</guid>
+      <title>[Eugene] Construction of new warehouse and office building</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-2877-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 25-2877-01
+Issued: 2026-10-13
+Address: 29854 CECIL AVE, Eugene, OR
+Contractor: BINEHAM CONSTRUCTION
+Valuation: 489995.0
+Units: </description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-7473-01</guid>
       <title>[Eugene] Construction of single family dwelling.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7473-01&amp;pdf=False</link>
@@ -3890,20 +3904,6 @@ Issued: 2026-08-18
 Address: 2121 SE BELMONT ST, PORTLAND, OR
 Contractor: 
 Valuation: 50000.0
-Units: </description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-1445-01</guid>
-      <title>[Eugene] Install new manufactured home with attached garage.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1445-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-1445-01
-Issued: 2026-08-18
-Address: 2452 MARJORIE AVE, Eugene, OR
-Contractor: UNITED PROPERTY IMPROVEMENT IN
-Valuation: 28404.0
 Units: </description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>

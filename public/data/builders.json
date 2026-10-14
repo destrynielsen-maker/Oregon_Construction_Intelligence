@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-13T22:59:28+00:00",
+  "generated_at": "2026-10-14T05:10:19+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 17,
-      "single_family": 13,
+      "permits_90d": 16,
+      "single_family": 12,
       "multifamily": 4,
       "commercial": 0,
-      "combined_valuation": 6821781.43,
+      "combined_valuation": 6287933.98,
       "jurisdictions": [
         "Bend"
       ],
@@ -38,18 +38,6 @@
       "top_score": 20
     },
     {
-      "contractor": "MCD Homes LLC",
-      "permits_90d": 8,
-      "single_family": 7,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 3825663.63,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "Lennar Northwest LLC",
       "permits_90d": 8,
       "single_family": 8,
@@ -60,6 +48,18 @@
         "Bend"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "MCD Homes LLC",
+      "permits_90d": 7,
+      "single_family": 6,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 3380655.7199999997,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
     },
     {
       "contractor": "Christiansen's Contracting Company (QC)",
@@ -98,18 +98,6 @@
       "top_score": 53
     },
     {
-      "contractor": "STONE BRIDGE HOMES NW LLC",
-      "permits_90d": 5,
-      "single_family": 5,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2670342.58,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "LENNAR NORTHWEST LLC",
       "permits_90d": 5,
       "single_family": 5,
@@ -131,6 +119,18 @@
       "jurisdictions": [
         "Bend",
         "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2166103.31,
+      "jurisdictions": [
+        "Bend"
       ],
       "top_score": 28
     },
@@ -639,6 +639,18 @@
       "top_score": 28
     },
     {
+      "contractor": "BINEHAM CONSTRUCTION",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 489995.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
       "contractor": "BCE INC",
       "permits_90d": 1,
       "single_family": 0,
@@ -669,18 +681,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 462501.97,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "Skylight Homebuilders, Inc.",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 402575.73,
       "jurisdictions": [
         "Bend"
       ],
