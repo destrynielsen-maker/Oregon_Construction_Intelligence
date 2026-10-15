@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T21:51:33+00:00",
+  "generated_at": "2026-10-15T04:59:02+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -38,30 +38,6 @@
       "top_score": 20
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 8,
-      "single_family": 8,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2762632.04,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "MCD Homes LLC",
-      "permits_90d": 7,
-      "single_family": 6,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 3380655.7199999997,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "Christiansen's Contracting Company (QC)",
       "permits_90d": 7,
       "single_family": 0,
@@ -72,6 +48,30 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 7,
+      "single_family": 7,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2381786.54,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "MCD Homes LLC",
+      "permits_90d": 6,
+      "single_family": 5,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 3380655.7199999997,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
     },
     {
       "contractor": "Spring River Builders LLC",
@@ -783,18 +783,6 @@
       "top_score": 23
     },
     {
-      "contractor": "BRYAN PARSONS CONSTRUCTION LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 167652.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "AKAMAI BUILDERS LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -1035,18 +1023,6 @@
       "top_score": 23
     },
     {
-      "contractor": "ARTSYMAN DARYA",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 2000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 38
-    },
-    {
       "contractor": "COMFORT FLOW HEATING COMPANY L",
       "permits_90d": 1,
       "single_family": 0,
@@ -1105,18 +1081,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "ADVANCED ENERGY SYSTEM",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
     }
   ]
 }
