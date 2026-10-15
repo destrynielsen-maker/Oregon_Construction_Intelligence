@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4503-01</guid>
+      <title>[Eugene] Accessory Storage Building</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4503-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4503-01
+Issued: 2026-10-15
+Address: 2685 ELINOR ST, Eugene, OR
+Contractor: MATT BENNETT CONSTRUCTION LLC
+Valuation: 45378.0
+Units: </description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-2877-01</guid>
       <title>[Eugene] Construction of new warehouse and office building</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-2877-01&amp;pdf=False</link>
@@ -3890,20 +3904,6 @@ Issued: 2026-08-18
 Address: 1165 NE WATT WAY, BEND, OR 97701
 Contractor: CS CONSTRUCTION
 Valuation: 
-Units: </description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-020055-000-00-co</guid>
-      <title>[Portland] PDOX PS - PERSONAL WIRELESS SERVICE FACILITY - WIRELESS ROOFTOP - APPLICATION #2 - ROOFTOP: PROPOSED NEW TELECOMMUNICATIONS FACILITY TO INSTALL ALL NEW (3) FRP ENCLOUSURES, (1) 10'x15' EQUIPMENT PLATFORM, (1) HANDRAIL AROUND ROOF HATCH, ANTENNAS AND EQUIPMENT. NO GROUNDWORK PROPOSED.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5241867_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2026-020055-000-00-CO
-Issued: 2026-08-18
-Address: 2121 SE BELMONT ST, PORTLAND, OR
-Contractor: 
-Valuation: 50000.0
 Units: </description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4503-01</guid>
+      <title>[Eugene] Accessory Storage Building</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4503-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4503-01
+Issued: 2026-10-15
+Address: 2685 ELINOR ST, Eugene, OR
+Contractor: MATT BENNETT CONSTRUCTION LLC
+Valuation: 45378.0
+Units: </description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-7473-01</guid>
       <title>[Eugene] Construction of single family dwelling.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7473-01&amp;pdf=False</link>
@@ -3874,24 +3888,6 @@ Issued: 2026-06-04
 Address: 21361 SE KILIMANJARO LOOP, BEND, OR 97702
 Contractor: DR Horton, Inc
 Valuation: 379584.15
-Units: </description>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202506710</guid>
-      <title>[Bend] Stevens Ranch Lot 175
-21311 SE Kilimanjaro Loop 
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202506710
-Issued: 2026-06-04
-Address: 21311 SE KILIMANJARO LOOP, BEND, OR 97702
-Contractor: DR Horton, Inc
-Valuation: 463195.96
 Units: </description>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
