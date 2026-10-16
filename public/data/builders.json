@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:35:57+00:00",
+  "generated_at": "2026-10-16T04:48:10+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -349,6 +349,18 @@
         "Bend"
       ],
       "top_score": 63
+    },
+    {
+      "contractor": "C S CONSTRUCTION INC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 20300000.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 73
     },
     {
       "contractor": "ONEILL WALSH COMMUNITY BUILDERS LLC",

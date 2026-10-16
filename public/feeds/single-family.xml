@@ -19,6 +19,20 @@ Units: </description>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-011510-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE WITH BASEMENT ADU / 2-STORY / DETACHED GARAGE / SLOPED LOT / COMPLEX w/26-011511-RS*ET, MT, AND PT PERMITS SEPARATE**DFS FOR ROOF TRUSSES**REFER TO LU 25-051249-HR</title>
+      <link>https://www.portlandmaps.com/detail/permit/5232951_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-011510-000-00-RS
+Issued: 2026-10-14
+Address: NE 18TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 452997.0
+Units: 2</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-7473-01</guid>
       <title>[Eugene] Construction of single family dwelling.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7473-01&amp;pdf=False</link>
@@ -29,6 +43,35 @@ Issued: 2026-10-13
 Address: 3045 TIMBERLINE DR, Eugene, OR
 Contractor: WEST COAST HOME SOLUTIONS LLC
 Valuation: 637102.49
+Units: </description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-020844-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF NEW SINGLE FAMILY DWELLING WITH A DETACHED ADU.  ON SHARED LOT/ 2 STORY/ NO GARAGE/ SLOPED LOT/ PT MT*/ TRUSSES/   *ADDED ELECTRICAL*
+W/ 26-020844/63-RS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5242678_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-020844-000-00-RS
+Issued: 2026-10-13
+Address: SE CRYSTAL SPRINGS BLVD, PORTLAND, OR
+Contractor: 
+Valuation: 133065.0
+Units: 1</description>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-047940-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF NEW DETACHED WORK SHOP(26X26).  *ET PT MT SEPARATE*</title>
+      <link>https://www.portlandmaps.com/detail/permit/5270861_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-047940-000-00-RS
+Issued: 2026-10-13
+Address: 4604 NE GOING ST, PORTLAND, OR
+Contractor: 
+Valuation: 48045.0
 Units: </description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3835,61 +3878,6 @@ Contractor: JF Homes
 Valuation: 368863.2
 Units: </description>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602389</guid>
-      <title>[Bend] EST206 - 60840 SE Epic Pl - Single Family Dwelling
-*special conditions added to comments*
-**COB water 3/4"**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602389
-Issued: 2026-06-04
-Address: 60840 SE EPIC PL, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 421599.82
-Units: </description>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601690</guid>
-      <title>[Bend] PRNC202601690 - Kendall. Phase 3 New home construction, new primary residence, existing residence to become ADU
-*no expired permits*
-**historic district**
-*needs addressing*
-*COB water 1"*
-PRRE202507608 – Phase 1 Garage relocation/alteration
-PRAD202508204 – Phase 2 Alteration/remodel existing residence</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601690
-Issued: 2026-06-04
-Address: 334 NW CHAMBERLAIN ST, UNIT:1, BEND, OR 97703
-Contractor: Tumalo Construction LLC
-Valuation: 277016.67
-Units: </description>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600196</guid>
-      <title>[Bend] Steven's Ranch Lot 162 
-21361 SE Kilimanjaro Loop
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No relevant SIMPs*** SN
-***Needs Addressing*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600196
-Issued: 2026-06-04
-Address: 21361 SE KILIMANJARO LOOP, BEND, OR 97702
-Contractor: DR Horton, Inc
-Valuation: 379584.15
-Units: </description>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
