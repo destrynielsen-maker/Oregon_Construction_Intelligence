@@ -5,6 +5,48 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-03529</guid>
+      <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 44</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-03529
+Issued: 2026-10-16
+Address: 18690 SW SUGARLOAF LN BEAVERTON OR 97007
+Contractor: South Cooper Mountain Owner LLC
+Valuation: 431828.01
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-01950</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 111</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-01950
+Issued: 2026-10-16
+Address: 18665 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 323575.56
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02077</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 110</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02077
+Issued: 2026-10-16
+Address: 12780 SW DOUBLETOP DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-1601-01</guid>
       <title>[Eugene] New 6-story multi-family building with ground floor mixed use lease space</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1601-01&amp;pdf=False</link>
@@ -3765,84 +3807,6 @@ Issued: 2026-08-18
 Address: 21501 NE MCPHERSON PL, BEND, OR 97701
 Contractor: D.R. HORTON
 Valuation: 277926.45
-Units: </description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202503689</guid>
-      <title>[Bend] Eagle Road THs- Lots 25-33
-PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
-PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
-PRNC202503684 - Lot 27 (21513 NE McPherson PL)
-PRNC202503685 - Lot 28 (21511 NE McPherson PL)
-PRNC202503686 - Lot 29 (21509) NE McPherson PL)
-PRNC202503687 - Lot 30 (21507 NE McPherson PL)
-PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
-PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
-PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202503689
-Issued: 2026-08-18
-Address: 21503 NE MCPHERSON PL, BEND, OR 97701
-Contractor: D.R. HORTON
-Valuation: 298768.39
-Units: </description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202503688</guid>
-      <title>[Bend] Eagle Road THs- Lots 25-33
-PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
-PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
-PRNC202503684 - Lot 27 (21513 NE McPherson PL)
-PRNC202503685 - Lot 28 (21511 NE McPherson PL)
-PRNC202503686 - Lot 29 (21509) NE McPherson PL)
-PRNC202503687 - Lot 30 (21507 NE McPherson PL)
-PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
-PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
-PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202503688
-Issued: 2026-08-18
-Address: 21505 NE MCPHERSON PL, BEND, OR 97701
-Contractor: D.R. HORTON
-Valuation: 298768.39
-Units: </description>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202503687</guid>
-      <title>[Bend] Eagle Road THs- Lots 25-33
-PRNC202503389 - Lot 25 (21517 NE McPherson Pl) - All townhome lots being reviewed under this permit.
-PRNC202503683 - Lot 26 (21515 NE McPherson PL)  
-PRNC202503684 - Lot 27 (21513 NE McPherson PL)
-PRNC202503685 - Lot 28 (21511 NE McPherson PL)
-PRNC202503686 - Lot 29 (21509) NE McPherson PL)
-PRNC202503687 - Lot 30 (21507 NE McPherson PL)
-PRNC202503688 - Lot 31 (21505 NE McPherson Pl)
-PRNC202503689 - Lot 32 (21503 NE McPherson Pl)
-PRNC202503690 - Lot 33 (21501 NE McPherson Pl) 
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202503687
-Issued: 2026-08-18
-Address: 21507 NE MCPHERSON PL, BEND, OR 97701
-Contractor: D.R. HORTON
-Valuation: 298768.39
 Units: </description>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>

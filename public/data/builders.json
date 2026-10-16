@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:44:09+00:00",
+  "generated_at": "2026-10-16T16:50:37+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -72,6 +72,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "TAYLOR MORRISON",
+      "permits_90d": 6,
+      "single_family": 6,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2318950.26,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "Spring River Builders LLC",
@@ -147,18 +159,6 @@
       "top_score": 48
     },
     {
-      "contractor": "TAYLOR MORRISON",
-      "permits_90d": 4,
-      "single_family": 4,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1596299.76,
-      "jurisdictions": [
-        "Beaverton"
-      ],
-      "top_score": 20
-    },
-    {
       "contractor": "HIVE DEVELOPMENT LLC",
       "permits_90d": 4,
       "single_family": 1,
@@ -169,6 +169,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "South Cooper Mountain Owner LLC",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1511437.1400000001,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "DR Horton, Inc",
@@ -205,18 +217,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "South Cooper Mountain Owner LLC",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1079609.13,
-      "jurisdictions": [
-        "Beaverton"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "CS CONSTRUCTION",

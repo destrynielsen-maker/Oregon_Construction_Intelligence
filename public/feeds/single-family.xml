@@ -5,6 +5,48 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-03529</guid>
+      <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 44</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-03529
+Issued: 2026-10-16
+Address: 18690 SW SUGARLOAF LN BEAVERTON OR 97007
+Contractor: South Cooper Mountain Owner LLC
+Valuation: 431828.01
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-01950</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 111</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-01950
+Issued: 2026-10-16
+Address: 18665 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 323575.56
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02077</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 110</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02077
+Issued: 2026-10-16
+Address: 12780 SW DOUBLETOP DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 399074.94
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4503-01</guid>
       <title>[Eugene] Accessory Storage Building</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4503-01&amp;pdf=False</link>
@@ -3829,55 +3871,6 @@ Contractor:
 Valuation: 227767.0
 Units: 1</description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601366</guid>
-      <title>[Bend] New SFR 2568 sq ft
-**No active SIMP**SF
-**Fill lot**SF
-**No conditions, see comments**SF
-**CoB water**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601366
-Issued: 2026-06-09
-Address: 61238 SW GROTTO PL, BEND, OR 97702
-Contractor: Heritage Homes of Molalla
-Valuation: 464542.72
-Units: </description>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-025701-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW PREFAB POOL,  NEW DECK, SITE WORK , TREE REMOVAL *** ET PT MT SEPARATE</title>
-      <link>https://www.portlandmaps.com/detail/permit/5247716_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-025701-000-00-RS
-Issued: 2026-06-08
-Address: 2834 NE ALAMEDA ST, PORTLAND, OR
-Contractor: 
-Valuation: 180000.0
-Units: </description>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601563</guid>
-      <title>[Bend] New SFD/Replacement of Existing Dwelling 
-***Roats Water*** SN
-***No Conditions/No Expired/Demo Condition added*** SN
-***Demo permit on PRDE202603349*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601563
-Issued: 2026-06-05
-Address: 61373 BENHAM RD, BEND, OR 97702
-Contractor: JF Homes
-Valuation: 368863.2
-Units: </description>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
