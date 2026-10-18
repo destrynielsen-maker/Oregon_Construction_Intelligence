@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-6564-01</guid>
+      <title>[Eugene] New window in exterior living room wall of SFD</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6564-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-6564-01
+Issued: 2026-10-18
+Address: 2154 PRINCETON DR, Eugene, OR
+Contractor: 2ND CHANCE ROOF AND CHIMNEY LL
+Valuation: 2100.0
+Units: </description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2026-03529</guid>
       <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 44</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -3768,25 +3782,6 @@ Contractor: South Cooper Mountain Owner LLC
 Valuation: 431828.01
 Units: </description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202507429</guid>
-      <title>[Bend] PRNC202507271 - CL74 - 1320 NW Ochoa Dr - Single Family Dwelling (TH) - ***Plans reviewed under this permit*** 
-PRNC202507429 - CL75 - 1316 NW Ochoa Dr - Single Family Dwelling (TH)
-
-***COB Water*** SN
-***No Conditions (see comments)*** SN
-***No Active SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202507429
-Issued: 2026-08-19
-Address: 1316 NW OCHOA DR, BEND, OR 97703
-Contractor: PAHLISCH HOMES
-Valuation: 392752.78
-Units: </description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
