@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-02127</guid>
+      <title>[Beaverton] SCHOLLS HEIGHTS LOT 128</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-02127
+Issued: 2026-10-19
+Address: 18610 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: TAYLOR MORRISON
+Valuation: 321189.9
+Units: </description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-6564-01</guid>
       <title>[Eugene] New window in exterior living room wall of SFD</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-6564-01&amp;pdf=False</link>
@@ -3767,20 +3781,6 @@ Address: 4666 NW WOODSIDE TER, PORTLAND, OR
 Contractor: 
 Valuation: 899595.0
 Units: 1</description>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2026-03528</guid>
-      <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 42</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2026-03528
-Issued: 2026-08-20
-Address: 18670 SW SUGARLOAF LN BEAVERTON OR 97007
-Contractor: South Cooper Mountain Owner LLC
-Valuation: 431828.01
-Units: </description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
