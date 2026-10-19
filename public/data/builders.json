@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:57:35+00:00",
+  "generated_at": "2026-10-19T05:03:13+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -459,18 +459,6 @@
       "top_score": 28
     },
     {
-      "contractor": "Fusion Home Builders",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 685566.36,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "STRUCTURE DEVELOPMENT NW LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -849,18 +837,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 100000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "DMOIR CONSTRUCTION LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 80000.0,
       "jurisdictions": [
         "Eugene"
       ],
