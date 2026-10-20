@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T22:32:48+00:00",
+  "generated_at": "2026-10-20T05:05:50+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -62,18 +62,6 @@
       "top_score": 20
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 7,
-      "single_family": 7,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2381786.54,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "MCD Homes LLC",
       "permits_90d": 6,
       "single_family": 5,
@@ -84,6 +72,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 6,
+      "single_family": 6,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2024292.58,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "Spring River Builders LLC",
@@ -603,18 +603,6 @@
       "top_score": 53
     },
     {
-      "contractor": "Momentasize Construction Inc.",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 550002.25,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "Heritage Homes of Molalla",
       "permits_90d": 1,
       "single_family": 1,
@@ -885,18 +873,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 45378.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "WOODSTONE STRUCTURES",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 40000.0,
       "jurisdictions": [
         "Eugene"
       ],
