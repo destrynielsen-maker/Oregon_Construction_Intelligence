@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4827-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage. Middle housing.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4827-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: 26-4827-01
+Issued: 2026-10-20
+Address: 2288 JEFFERSON ALY, Eugene, OR
+Contractor: MARKUS-THOMPSON CONSTRUCTION
+Valuation: 368677.02
+Units: </description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-063288-000-00-co</guid>
       <title>[Portland] Construct canopy roof structure on existing posts</title>
       <link>https://www.portlandmaps.com/detail/permit/5286777_did/</link>
@@ -4010,20 +4024,6 @@ Issued: 2026-07-24
 Address: 63226 BRITTA ST, BEND, OR 97703
 Contractor: CS CONSTRUCTION
 Valuation: 265000.0
-Units: </description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-020363-000-00-co</guid>
-      <title>[Portland] Construct new storage building for softball field and associated site work **w/25-100717-MG/26-020360/62/66/68-CO**</title>
-      <link>https://www.portlandmaps.com/detail/permit/5242192_did/</link>
-      <description>Category: COMMERCIAL
-Score: 40
-Permit: 2026-020363-000-00-CO
-Issued: 2026-07-24
-Address: 5210 N KERBY AVE, PORTLAND, OR
-Contractor: 
-Valuation: 4069034.0
 Units: </description>
       <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     </item>

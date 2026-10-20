@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:24:58+00:00",
+  "generated_at": "2026-10-20T21:46:56+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -697,6 +697,18 @@
         "Bend"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "MARKUS-THOMPSON CONSTRUCTION",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 368677.02,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "HARVEY & PRICE CO",

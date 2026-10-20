@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4827-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage. Middle housing.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4827-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: 26-4827-01
+Issued: 2026-10-20
+Address: 2288 JEFFERSON ALY, Eugene, OR
+Contractor: MARKUS-THOMPSON CONSTRUCTION
+Valuation: 368677.02
+Units: </description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-1601-01</guid>
       <title>[Eugene] New 6-story multi-family building with ground floor mixed use lease space</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-1601-01&amp;pdf=False</link>
@@ -4044,21 +4058,6 @@ Issued: 2026-07-09
 Address: 5624 NE 15TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 155888.0
-Units: 1</description>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-012989-000-00-rs</guid>
-      <title>[Portland] FULL PDOX BATCH MHLD 1 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/*ET PT MT/ 
-SEE DEMOS 26-003813/14-RS/ TRUSSES/ *W/ 26-012989/93/94/3003-RS W/ 26-013006-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5234504_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-012989-000-00-RS
-Issued: 2026-07-09
-Address: 5624 NE 15TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 168438.0
 Units: 1</description>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>

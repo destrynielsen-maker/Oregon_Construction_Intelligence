@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4827-01</guid>
+      <title>[Eugene] New single family dwelling with attached garage. Middle housing.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4827-01&amp;pdf=False</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: 26-4827-01
+Issued: 2026-10-20
+Address: 2288 JEFFERSON ALY, Eugene, OR
+Contractor: MARKUS-THOMPSON CONSTRUCTION
+Valuation: 368677.02
+Units: </description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2026-02127</guid>
       <title>[Beaverton] SCHOLLS HEIGHTS LOT 128</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -3767,20 +3781,6 @@ Address: 21085 DON ST, BEND, OR 97701
 Contractor: Bonaventure Community Construction
 Valuation: 225000.0
 Units: </description>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-056087-000-00-rs</guid>
-      <title>[Portland] FULL PDOX NEW 2 OF 3 UNIT COTTAGE CLUSTER PLUS SHED (199 SQFT). ON SHARED LOT.  LOT TO BE DIVIDED UNDER FUTURE MHLD DIVISION/ 2 STORY/ NO GARAGE/ SLOPED LOT/ COMPLEX/ *ET PT MT SEPERATE** SEE 24-097833-EA* *W/ 25-056081/87/99-RS W/ 25-056107-CO ***DFS ROOF + FLOOR TRUSSES***DFS NFPA 13D Fire Sprinklers Required</title>
-      <link>https://www.portlandmaps.com/detail/permit/5171494_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-056087-000-00-RS
-Issued: 2026-08-20
-Address: 2453 N HUMBOLDT ST, PORTLAND, OR
-Contractor: 
-Valuation: 230303.0
-Units: 1</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
