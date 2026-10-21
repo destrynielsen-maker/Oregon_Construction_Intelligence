@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:30:46+00:00",
+  "generated_at": "2026-10-21T21:52:37+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -74,6 +74,18 @@
       "top_score": 53
     },
     {
+      "contractor": "LENNAR NORTHWEST LLC",
+      "permits_90d": 6,
+      "single_family": 6,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2216960.57,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "Lennar Northwest LLC",
       "permits_90d": 6,
       "single_family": 6,
@@ -108,18 +120,6 @@
         "Bend"
       ],
       "top_score": 53
-    },
-    {
-      "contractor": "LENNAR NORTHWEST LLC",
-      "permits_90d": 5,
-      "single_family": 5,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1832594.57,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "SIMPLICITY HOMES LLC",
