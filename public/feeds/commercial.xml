@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4015-01</guid>
+      <title>[Eugene] Accessory open-sided cover storage</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4015-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-4015-01
+Issued: 2026-10-20
+Address: 1820 ROOSEVELT BLVD, Eugene, OR
+Contractor: 3D EXCAVATION LLC
+Valuation: 7500.0
+Units: </description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-063288-000-00-co</guid>
       <title>[Portland] Construct canopy roof structure on existing posts</title>
       <link>https://www.portlandmaps.com/detail/permit/5286777_did/</link>
@@ -3766,20 +3780,6 @@ Contractor:
 Valuation: 500000.0
 Units: </description>
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2023-034865-000-00-co</guid>
-      <title>[Portland] PDOX PS - NEW ONE STORY CONVENIENCE STORE AND COFFEE SHOP WITH DRIVE UP WINDOW. ASSOCIATED SITEWORK AND GRADING TO CREATE GAS/DIESEL FILLING STATION. DETACHED TRASH ENCLOSURE &lt;120 SQFT. **W/23-034865/873/875-CO, 23-043209-MT**</title>
-      <link>https://www.portlandmaps.com/detail/permit/4917777_did/</link>
-      <description>Category: COMMERCIAL
-Score: 40
-Permit: 2023-034865-000-00-CO
-Issued: 2025-04-03
-Address: NE COLUMBIA BLVD, PORTLAND, OR
-Contractor: 
-Valuation: 1229700.0
-Units: </description>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
