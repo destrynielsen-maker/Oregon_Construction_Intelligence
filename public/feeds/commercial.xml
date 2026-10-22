@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3054-01</guid>
+      <title>[Eugene] New paved parking lot and stite/storm improvements</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3054-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-3054-01
+Issued: 2026-10-22
+Address: 555 DAY ISLAND RD, Eugene, OR
+Contractor: RIVERBEND CONSTRUCTION INC
+Valuation: 500.0
+Units: </description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4015-01</guid>
       <title>[Eugene] Accessory open-sided cover storage</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4015-01&amp;pdf=False</link>
@@ -3754,30 +3768,6 @@ Contractor:
 Valuation: 500000.0
 Units: </description>
       <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202403136</guid>
-      <title>[Bend] The project proposes to develop an approximate 6,815 square foot AutoZone store on mostly 
-Parcel 4000. Parcel 1800 is encumbered with an existing Swalley District irrigation easement and 
-other public easements in almost its entirety. The subject site is currently commercially 
-developed land with an existing building and pavement.  A property line adjustment will be 
-completed separately by the Owner to support the proposed AutoZone use. In addition to the 
-new building, there will be parking, landscaping, lighting, pedestrian access, and circulation, 
-stormwater, and utility infrastructure improvements to serve the proposed use in accordance 
-with the city of Bend development codes and standards.  Normal hours of operation are typically 
-between 8:00am to 9:00pm seven days a week. Delivery hours vary, but typically occur once 
-during the midday hours of the middle of the week.
-TECH JULIE OConnor</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 48
-Permit: PRNC202403136
-Issued: 2025-04-08
-Address: 2940 N HWY 97 , BEND, OR 97703
-Contractor: Hanna Design Group
-Valuation: 1361210.0
-Units: </description>
-      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

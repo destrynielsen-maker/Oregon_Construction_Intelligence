@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:27:48+00:00",
+  "generated_at": "2026-10-22T21:49:59+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -1024,6 +1024,18 @@
     },
     {
       "contractor": "COMFORT FLOW HEATING COMPANY L",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 500.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "RIVERBEND CONSTRUCTION INC",
       "permits_90d": 1,
       "single_family": 0,
       "multifamily": 0,

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3054-01</guid>
+      <title>[Eugene] New paved parking lot and stite/storm improvements</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3054-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-3054-01
+Issued: 2026-10-22
+Address: 555 DAY ISLAND RD, Eugene, OR
+Contractor: RIVERBEND CONSTRUCTION INC
+Valuation: 500.0
+Units: </description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4880-01</guid>
       <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4880-01&amp;pdf=False</link>
@@ -3756,20 +3770,6 @@ Score: 40
 Permit: BLDR-26-02722
 Issued: 2026-08-24
 Address: 4667 SE 2ND ST GRESHAM OR 97080
-Contractor: 
-Valuation: 
-Units: </description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|gresham|bldr-26-02720</guid>
-      <title>[Gresham] Beaver Creek Meadows</title>
-      <link>https://greshamor-energovweb.tylerhost.net/apps/SelfService/#/permit/4c197e95-9692-4de2-b226-e5c6a92e7749</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: BLDR-26-02720
-Issued: 2026-08-24
-Address: 4621 SE 2ND ST GRESHAM OR 97080
 Contractor: 
 Valuation: 
 Units: </description>

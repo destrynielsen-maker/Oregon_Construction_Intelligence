@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-3054-01</guid>
+      <title>[Eugene] New paved parking lot and stite/storm improvements</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3054-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-3054-01
+Issued: 2026-10-22
+Address: 555 DAY ISLAND RD, Eugene, OR
+Contractor: RIVERBEND CONSTRUCTION INC
+Valuation: 500.0
+Units: </description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4827-01</guid>
       <title>[Eugene] New single family dwelling with attached garage. Middle housing.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4827-01&amp;pdf=False</link>
@@ -3969,21 +3983,6 @@ Issued: 2026-07-29
 Address: 6828 SE 87TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 164748.0
-Units: 1</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-020409-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - 4 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ NO GARAGE /FLAT LOT/COMPLEX/***FIRE SPRINKLERS, 13D AS A DFS W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS 
-*ADDED PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5134309_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-020409-000-00-RS
-Issued: 2026-07-29
-Address: 6828 SE 87TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 186100.0
 Units: 1</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
