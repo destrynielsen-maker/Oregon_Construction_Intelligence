@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:52:37+00:00",
+  "generated_at": "2026-10-22T05:10:17+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -50,18 +50,6 @@
       "top_score": 48
     },
     {
-      "contractor": "TAYLOR MORRISON",
-      "permits_90d": 7,
-      "single_family": 7,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2640140.16,
-      "jurisdictions": [
-        "Beaverton"
-      ],
-      "top_score": 20
-    },
-    {
       "contractor": "MCD Homes LLC",
       "permits_90d": 6,
       "single_family": 5,
@@ -72,6 +60,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "TAYLOR MORRISON",
+      "permits_90d": 6,
+      "single_family": 6,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 2241065.22,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "LENNAR NORTHWEST LLC",
@@ -265,18 +265,6 @@
         "Bend"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "ADAIR HOMES INC.",
-      "permits_90d": 2,
-      "single_family": 0,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 731064.02,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "WOOD HILL HOMES INC",
