@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T05:03:59+00:00",
+  "generated_at": "2026-10-25T11:53:40+00:00",
   "permits": [
     {
       "state": "OR",
@@ -39,7 +39,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-24T04:52:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -79,7 +79,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-24T04:52:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -119,7 +119,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-24T04:52:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -159,7 +159,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-23T21:33:48+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -240,7 +240,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-22T21:49:59+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -280,7 +280,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-22T21:49:59+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -320,7 +320,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-23T05:10:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -360,7 +360,7 @@
       "score": 38,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-22T21:49:59+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -482,7 +482,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-22T05:10:17+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -522,7 +522,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-21T21:52:37+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -562,7 +562,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-22T05:10:17+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -602,7 +602,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-22T05:10:17+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -642,7 +642,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-21T21:52:37+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -682,7 +682,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-22T05:10:17+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -845,7 +845,7 @@
       "score": 48,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-20T21:46:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -885,7 +885,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-21T05:07:29+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -925,7 +925,7 @@
       "score": 38,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-21T05:07:29+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1133,7 +1133,7 @@
       "score": 20,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-19T22:32:48+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1173,7 +1173,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-18T16:02:33+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1459,7 +1459,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-17T04:48:06+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1503,7 +1503,7 @@
       "score": 20,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-16T16:50:37+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1547,7 +1547,7 @@
       "score": 20,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-16T16:50:37+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1591,7 +1591,7 @@
       "score": 20,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-16T16:50:37+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1795,7 +1795,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-15T21:35:57+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1835,7 +1835,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-16T04:48:10+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1875,7 +1875,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-16T04:48:10+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1915,7 +1915,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-15T21:35:57+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1955,7 +1955,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-15T17:14:43+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -1995,7 +1995,7 @@
       "score": 73,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-16T04:48:10+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2486,7 +2486,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-14T17:26:34+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2526,7 +2526,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-14T21:51:33+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2566,7 +2566,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-14T21:51:33+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2606,7 +2606,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-14T17:26:34+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2769,7 +2769,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-14T05:10:19+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2809,7 +2809,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T22:59:28+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2849,7 +2849,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T14:27:37+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2889,7 +2889,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T22:59:28+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2929,7 +2929,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T22:59:28+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -2969,7 +2969,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T22:59:28+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3009,7 +3009,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T22:59:28+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3049,7 +3049,7 @@
       "score": 28,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-13T22:59:28+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3089,7 +3089,7 @@
       "score": 38,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-14T05:10:19+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3170,7 +3170,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T00:53:46+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3210,7 +3210,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-13T00:53:46+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3250,7 +3250,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-09T18:26:55+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3290,7 +3290,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-08T23:29:27+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3330,7 +3330,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-08T23:29:27+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3370,7 +3370,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-08T23:29:27+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3410,7 +3410,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-08T23:29:27+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3450,7 +3450,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-08T23:29:27+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3490,7 +3490,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-09T06:27:43+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3530,7 +3530,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-08T23:29:27+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3570,7 +3570,7 @@
       "score": 58,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-08T23:29:27+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3774,7 +3774,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-07T23:14:21+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3814,7 +3814,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-07T23:14:21+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3854,7 +3854,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-07T13:42:06+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -3976,7 +3976,7 @@
       "score": 53,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-07T06:16:53+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4016,7 +4016,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-07T06:16:53+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4179,7 +4179,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-06T00:13:45+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4219,7 +4219,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-06T00:13:45+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4259,7 +4259,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-06T00:13:45+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4299,7 +4299,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-06T00:13:45+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4339,7 +4339,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-04T06:10:06+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4830,7 +4830,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-01T22:49:35+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4870,7 +4870,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-01T22:49:35+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4910,7 +4910,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-01T22:49:35+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4950,7 +4950,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-02T05:58:46+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -4990,7 +4990,7 @@
       "score": 38,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-30T22:27:59+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5030,7 +5030,7 @@
       "score": 38,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-30T22:27:59+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5070,7 +5070,7 @@
       "score": 48,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-01T06:19:21+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5110,7 +5110,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-10-01T06:19:21+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5191,7 +5191,7 @@
       "score": 38,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-29T22:30:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5231,7 +5231,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-29T22:30:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5271,7 +5271,7 @@
       "score": 38,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-29T22:30:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5311,7 +5311,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-29T22:30:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5351,7 +5351,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-29T22:30:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5391,7 +5391,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-30T05:48:16+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5431,7 +5431,7 @@
       "score": 43,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-30T05:48:16+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5471,7 +5471,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-28T23:25:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5511,7 +5511,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-29T05:58:50+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5551,7 +5551,7 @@
       "score": 28,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-28T23:25:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5591,7 +5591,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-28T23:25:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5631,7 +5631,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-28T23:25:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5671,7 +5671,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-28T23:25:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5715,7 +5715,7 @@
       "score": 60,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-28T23:25:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5755,7 +5755,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-28T05:41:22+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5795,7 +5795,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-25T17:24:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5835,7 +5835,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-25T21:44:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5875,7 +5875,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-25T17:24:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5915,7 +5915,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-25T21:44:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -5996,7 +5996,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-24T21:40:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6036,7 +6036,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-24T21:40:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6076,7 +6076,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-24T21:40:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6116,7 +6116,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-24T17:26:08+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6156,7 +6156,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-24T21:40:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6196,7 +6196,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-24T21:40:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6236,7 +6236,7 @@
       "score": 53,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-24T21:40:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6276,7 +6276,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-24T21:40:00+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -6316,7 +6316,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-24T17:26:08+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -7012,7 +7012,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-24T05:09:13+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -7052,7 +7052,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-24T05:09:13+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -7092,7 +7092,7 @@
       "score": 28,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-24T05:09:13+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -7136,7 +7136,7 @@
       "score": 20,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-23T21:39:26+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -7180,7 +7180,7 @@
       "score": 20,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-23T21:39:26+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -7224,7 +7224,7 @@
       "score": 20,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-23T21:39:26+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8330,7 +8330,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T17:08:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8370,7 +8370,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T21:33:18+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8410,7 +8410,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-23T04:58:31+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8450,7 +8450,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T17:08:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8490,7 +8490,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T21:33:18+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8530,7 +8530,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T21:33:18+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8570,7 +8570,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T17:08:03+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8610,7 +8610,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-23T04:58:31+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8650,7 +8650,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T21:33:18+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8690,7 +8690,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-23T04:58:31+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8730,7 +8730,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-22T21:33:18+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8893,7 +8893,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8933,7 +8933,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -8973,7 +8973,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9013,7 +9013,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9053,7 +9053,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9093,7 +9093,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9133,7 +9133,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-22T05:14:06+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9173,7 +9173,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9213,7 +9213,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9253,7 +9253,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9293,7 +9293,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9333,7 +9333,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9373,7 +9373,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-21T22:06:02+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9495,7 +9495,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9535,7 +9535,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9575,7 +9575,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9615,7 +9615,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9655,7 +9655,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9695,7 +9695,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9735,7 +9735,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9775,7 +9775,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9815,7 +9815,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9855,7 +9855,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9895,7 +9895,7 @@
       "score": 18,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9935,7 +9935,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -9975,7 +9975,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T21:05:42+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10261,7 +10261,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-17T17:11:24+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10301,7 +10301,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-17T17:11:24+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10341,7 +10341,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-18T04:58:30+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10422,7 +10422,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-16T17:12:10+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10462,7 +10462,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-16T17:12:10+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10502,7 +10502,7 @@
       "score": 23,
       "new_construction_confidence": "HIGH",
       "first_seen_at": "2026-09-17T05:06:28+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10583,7 +10583,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-15T21:36:15+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10623,7 +10623,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-16T05:03:15+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10663,7 +10663,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-15T21:36:15+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10703,7 +10703,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-15T17:11:13+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10743,7 +10743,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-15T21:36:15+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10783,7 +10783,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-15T21:36:15+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10864,7 +10864,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-14T21:56:35+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -10986,7 +10986,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-12T04:50:40+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -11026,7 +11026,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-11T21:07:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -11066,7 +11066,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-11T21:07:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -11106,7 +11106,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-11T16:40:18+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -11146,7 +11146,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-11T21:07:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -11473,7 +11473,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-11T04:57:56+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -11513,7 +11513,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-10T21:02:59+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -11553,7 +11553,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-09-10T21:02:59+00:00",
-      "last_seen_at": "2026-10-25T05:03:59+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
@@ -430423,7 +430423,7 @@
       "score": 0,
       "new_construction_confidence": "LOW",
       "first_seen_at": "2026-10-19T22:32:48+00:00",
-      "last_seen_at": "2026-10-23T05:10:00+00:00"
+      "last_seen_at": "2026-10-25T11:53:40+00:00"
     },
     {
       "state": "OR",
