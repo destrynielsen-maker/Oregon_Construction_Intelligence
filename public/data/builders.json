@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T21:03:03+00:00",
+  "generated_at": "2026-10-26T05:07:24+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -349,18 +349,6 @@
         "Bend"
       ],
       "top_score": 33
-    },
-    {
-      "contractor": "EMPIRE CONSTRUCTION & DEV",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 1950670.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "APEX MECHANICAL LLC",
@@ -793,18 +781,6 @@
         "Eugene"
       ],
       "top_score": 38
-    },
-    {
-      "contractor": "BILL MARTIN CONSTRUCTION INC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 100000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "PARKER & LEE INC",
