@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-013495-000-00-co</guid>
+      <title>[Portland] SEI GARFIELD - New 45,530 sf, 6-story, 59-unit apartment building with ground level community room, shared outdoor space, shared laundry, and support office space; includes associated site work *** w/26-013499-MT ***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5235024_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 70
+Permit: 2026-013495-000-00-CO
+Issued: 2026-10-23
+Address: 3816 NE GARFIELD AVE, PORTLAND, OR
+Contractor: 
+Valuation: 8488703.0
+Units: 59</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-021624-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW DUPLEX/TWO-FAMILY DWELLING / 2-STORY WITH FINISHED BASEMENT / NO GARAGE / SLOPED LOT / COMPLEX**ET, MT, AND PT PERMITS SEPARATE**13 FIRE SPRINKLERS AS A DFS**DEMO OF EXISTING SFR SEPARATE***Cesspool decommission required. Call inspection #842 prior to new house construction*** Septic Decommissioning Required.  Call for Inspection 842.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5243498_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 45
+Permit: 2026-021624-000-00-RS
+Issued: 2026-10-23
+Address: 1734 SW TROY ST, PORTLAND, OR
+Contractor: 
+Valuation: 722200.0
+Units: 2</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3054-01</guid>
       <title>[Eugene] New paved parking lot and stite/storm improvements</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3054-01&amp;pdf=False</link>
@@ -3739,40 +3767,6 @@ Address: 477 SW SHEVLIN HIXON DR, BEND, OR 97702
 Contractor: Christiansen's Contracting Company (QC)
 Valuation: 434581.41
 Units: </description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202604101</guid>
-      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). End Unit 24. Plans transferred from PROT202506967 chw
-COB 1'
-HB2306 path 1
-
-PRNC202604101 Lot 24 reviewed under this one
-PRNC202604102 Lot 25
-PRNC202604104 Lot 26</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202604101
-Issued: 2026-08-24
-Address: 479 SW SHEVLIN HIXON DR, BEND, OR 97702
-Contractor: Christiansen's Contracting Company (QC)
-Valuation: 434581.34
-Units: </description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-032457-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW DUPLEX/ NO GARAGE/ 2 STORY/ FLAT LOT/ COMPLEX *** ET MT SEPARATE  *ADDED PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5254758_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2026-032457-000-00-RS
-Issued: 2026-08-24
-Address: 1405 NE 63RD AVE, PORTLAND, OR
-Contractor: 
-Valuation: 447023.0
-Units: 2</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:48:53+00:00",
+  "generated_at": "2026-10-27T05:21:56+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -36,18 +36,6 @@
         "Beaverton"
       ],
       "top_score": 20
-    },
-    {
-      "contractor": "Christiansen's Contracting Company (QC)",
-      "permits_90d": 7,
-      "single_family": 0,
-      "multifamily": 7,
-      "commercial": 0,
-      "combined_valuation": 3017897.76,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "MCD Homes LLC",
@@ -158,18 +146,6 @@
       "top_score": 48
     },
     {
-      "contractor": "South Cooper Mountain Owner LLC",
-      "permits_90d": 4,
-      "single_family": 4,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1511437.1400000001,
-      "jurisdictions": [
-        "Beaverton"
-      ],
-      "top_score": 20
-    },
-    {
       "contractor": "DR Horton, Inc",
       "permits_90d": 4,
       "single_family": 0,
@@ -207,6 +183,30 @@
       "top_score": 28
     },
     {
+      "contractor": "Christiansen's Contracting Company (QC)",
+      "permits_90d": 3,
+      "single_family": 0,
+      "multifamily": 3,
+      "commercial": 0,
+      "combined_valuation": 1303744.16,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "South Cooper Mountain Owner LLC",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1187546.58,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
+    },
+    {
       "contractor": "Spring River Builders, LLC",
       "permits_90d": 3,
       "single_family": 0,
@@ -241,18 +241,6 @@
         "Bend"
       ],
       "top_score": 28
-    },
-    {
-      "contractor": "HAYDEN HOMES LLC",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 802223.13,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "WOOD HILL HOMES INC",
@@ -397,18 +385,6 @@
         "Bend"
       ],
       "top_score": 43
-    },
-    {
-      "contractor": "NORTHWEST MOUNTAIN BUILDERS",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 688445.48,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "STRUCTURE DEVELOPMENT NW LLC",
@@ -687,6 +663,18 @@
       "top_score": 23
     },
     {
+      "contractor": "HAYDEN HOMES LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 351561.02,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
+    },
+    {
       "contractor": "MCINTYRE CONSTRUCTION",
       "permits_90d": 1,
       "single_family": 0,
@@ -757,18 +745,6 @@
         "Eugene"
       ],
       "top_score": 38
-    },
-    {
-      "contractor": "TRAYLORS CONSTRUCTION LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 127094.2,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "MEILI CONSTRUCTION",
