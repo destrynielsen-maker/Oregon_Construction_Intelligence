@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4409-01</guid>
+      <title>[Eugene] Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4409-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4409-01
+Issued: 2026-10-28
+Address: 1794 CARMEL AVE, Eugene, OR
+Contractor: AKAMAI BUILDERS LLC
+Valuation: 143755.0
+Units: </description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-013495-000-00-co</guid>
       <title>[Portland] SEI GARFIELD - New 45,530 sf, 6-story, 59-unit apartment building with ground level community room, shared outdoor space, shared laundry, and support office space; includes associated site work *** w/26-013499-MT ***</title>
       <link>https://www.portlandmaps.com/detail/permit/5235024_did/</link>
@@ -3741,26 +3755,6 @@ Issued: 2026-08-24
 Address: 8001 NE KILLINGSWORTH ST, PORTLAND, OR
 Contractor: 
 Valuation: 11144037.0
-Units: </description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202604104</guid>
-      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). End Unit 
-COB 1'
-HB2306 path 1
-
-PRNC202604101 Lot 24 reviewed under this one
-PRNC202604102 Lot 25
-PRNC202604104 Lot 26</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202604104
-Issued: 2026-08-24
-Address: 475 SW SHEVLIN HIXON DR, BEND, OR 97702
-Contractor: Christiansen's Contracting Company (QC)
-Valuation: 434581.41
 Units: </description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>

@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4409-01</guid>
+      <title>[Eugene] Single-Family Dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4409-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4409-01
+Issued: 2026-10-28
+Address: 1794 CARMEL AVE, Eugene, OR
+Contractor: AKAMAI BUILDERS LLC
+Valuation: 143755.0
+Units: </description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2025-057504-000-00-rs</guid>
       <title>[Portland] FULL PDOX -  NEW SINGLE FAMILY DWELLING/2 STORY/WITH GARAGE/ SLOPED LOT/COMPLEX/*13D FIRE SPRINKLERS DFS***ET ,MT, PT SEPARATE</title>
       <link>https://www.portlandmaps.com/detail/permit/5172971_did/</link>
@@ -3854,22 +3868,6 @@ Issued: 2026-06-10
 Address: 63114 NE HENNINGSEN PL, BEND, OR 97701
 Contractor: Lennar Northwest LLC
 Valuation: 366000.75
-Units: </description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202508306</guid>
-      <title>[Bend] PT365 - 3899 NE Petrosa Ave - Single Family Dwelling
-*avion water* 
-*no relevant conditions*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202508306
-Issued: 2026-06-10
-Address: 3899 NE PETROSA AVE, BEND, OR 97701
-Contractor: PAHLISCH HOMES
-Valuation: 390330.52
 Units: </description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>

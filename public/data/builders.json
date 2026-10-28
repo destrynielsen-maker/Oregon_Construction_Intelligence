@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:20:10+00:00",
+  "generated_at": "2026-10-28T22:44:38+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -264,6 +264,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "AKAMAI BUILDERS LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 305873.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "NEIL KELLY COMPANY",
@@ -720,18 +732,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "AKAMAI BUILDERS LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 162118.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "BHM CONSTRUCTION LLC",
