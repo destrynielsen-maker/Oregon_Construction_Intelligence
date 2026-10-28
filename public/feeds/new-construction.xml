@@ -33,6 +33,20 @@ Units: 2</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-026123-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW TWO-FAMILY DWELLING (DUPLEX) / 2-STORY WITH FINISHED BASEMENT / NO GARAGE / SLOPED LOT / COMPLEX *13D Fire Sprinklers as a DFS**ET, MT, AND PT PERMITS SEPARATE</title>
+      <link>https://www.portlandmaps.com/detail/permit/5248149_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 45
+Permit: 2026-026123-000-00-RS
+Issued: 2026-10-23
+Address: SW TROY ST, PORTLAND, OR
+Contractor: 
+Valuation: 756473.0
+Units: 2</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3054-01</guid>
       <title>[Eugene] New paved parking lot and stite/storm improvements</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3054-01&amp;pdf=False</link>
@@ -538,7 +552,8 @@ Units: </description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2026-011510-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE WITH BASEMENT ADU / 2-STORY / DETACHED GARAGE / SLOPED LOT / COMPLEX w/26-011511-RS*ET, MT, AND PT PERMITS SEPARATE**DFS FOR ROOF TRUSSES**REFER TO LU 25-051249-HR</title>
+      <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RESIDENCE WITH BASEMENT ADU / 2-STORY / DETACHED GARAGE / SLOPED LOT / COMPLEX w/26-011511-RS   **DFS FOR ROOF TRUSSES**REFER TO LU 25-051249-HR
+*ADDED ELECTRICAL MECHANICAL AND PLUMBING*</title>
       <link>https://www.portlandmaps.com/detail/permit/5232951_did/</link>
       <description>Category: SINGLE_FAMILY
 Score: 15
@@ -3744,26 +3759,6 @@ Score: 48
 Permit: PRNC202604104
 Issued: 2026-08-24
 Address: 475 SW SHEVLIN HIXON DR, BEND, OR 97702
-Contractor: Christiansen's Contracting Company (QC)
-Valuation: 434581.41
-Units: </description>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202604102</guid>
-      <title>[Bend] Construction of a new townhome building #7 under master permit #PROT202506967. Includes lots (24-26). Middle Unit 25.
-COB 1'
-HB2306 path 1
-
-PRNC202604101 Lot 24 reviewed under this one
-PRNC202604102 Lot 25
-PRNC202604104 Lot 26</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202604102
-Issued: 2026-08-24
-Address: 477 SW SHEVLIN HIXON DR, BEND, OR 97702
 Contractor: Christiansen's Contracting Company (QC)
 Valuation: 434581.41
 Units: </description>

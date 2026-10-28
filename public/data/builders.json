@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:27:52+00:00",
+  "generated_at": "2026-10-28T06:00:22+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -74,18 +74,6 @@
       "top_score": 28
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 6,
-      "single_family": 6,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2024292.58,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "Spring River Builders LLC",
       "permits_90d": 6,
       "single_family": 0,
@@ -108,6 +96,18 @@
         "Bend"
       ],
       "top_score": 53
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 5,
+      "single_family": 5,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1662886.05,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "STONE BRIDGE HOMES NW LLC",
@@ -156,19 +156,6 @@
         "Bend"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "SIMPLICITY HOMES LLC",
-      "permits_90d": 4,
-      "single_family": 4,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 709096.36,
-      "jurisdictions": [
-        "Bend",
-        "Eugene"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "WEST COAST HOME SOLUTIONS LLC",
@@ -611,6 +598,18 @@
       "combined_valuation": 462501.97,
       "jurisdictions": [
         "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "SIMPLICITY HOMES LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 449946.01,
+      "jurisdictions": [
+        "Eugene"
       ],
       "top_score": 23
     },
