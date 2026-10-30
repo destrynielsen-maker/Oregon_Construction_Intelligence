@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-8316-01</guid>
+      <title>[Eugene] Replace existing EWEB (Jessen) Substation with improved equipment.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8316-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 43
+Permit: 25-8316-01
+Issued: 2026-10-30
+Address: 4400 JESSEN DR, Eugene, OR
+Contractor: WILDISH BUILDING CO
+Valuation: 840000.0
+Units: </description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4409-01</guid>
       <title>[Eugene] Single-Family Dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4409-01&amp;pdf=False</link>
@@ -3742,20 +3756,6 @@ Address: 12760 SW DOUBLETOP DR BEAVERTON OR 97007
 Contractor: South Cooper Mountain Owner LLC
 Valuation: 323890.56
 Units: </description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-009041-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD: NEW 2 OF 2 (UNIT B) SINGLE FAMILY RESIDENCES ON SHARED LOT WITH AN EXISTING SFR (COTTAGE CLUSTER). LOT TO BE DIVIDED UNDER FUTURE MHLD / 2-STORY / NO GARAGE / FLAT LOT / COMPLEX *ET, MT, AND PT PERMITS SEPARATE w/26-009040-RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5230367_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-009041-000-00-RS
-Issued: 2026-08-25
-Address: 8019 N ST JOHNS AVE, PORTLAND, OR
-Contractor: 
-Valuation: 216020.0
-Units: 1</description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
