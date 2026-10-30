@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:53:48+00:00",
+  "generated_at": "2026-10-30T06:10:32+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -98,18 +98,6 @@
       "top_score": 23
     },
     {
-      "contractor": "Hayden Homes",
-      "permits_90d": 4,
-      "single_family": 2,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 2449584.37,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "STONE BRIDGE HOMES NW LLC",
       "permits_90d": 4,
       "single_family": 4,
@@ -168,6 +156,18 @@
         "Eugene"
       ],
       "top_score": 28
+    },
+    {
+      "contractor": "Hayden Homes",
+      "permits_90d": 3,
+      "single_family": 2,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 1548042.37,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
     },
     {
       "contractor": "Christiansen's Contracting Company (QC)",
