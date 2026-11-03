@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-032956-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE-FAMILY RESIDENCE ON LOT WITH EXISTING SFR (DETACHED DUPLEX) / 2-STORY W/GARAGE ON FIRST LEVEL / SLOPED LOT / COMPLEX *** DEFERRED SUBMITTAL ROOF TRUSSES *** ET, MT, AND PT PERMITS SEPARATE**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5255276_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 40
+Permit: 2026-032956-000-00-RS
+Issued: 2026-10-30
+Address: 9956 N JAMES ST, PORTLAND, OR
+Contractor: 
+Valuation: 211029.0
+Units: 1</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-013495-000-00-co</guid>
       <title>[Portland] SEI GARFIELD - New 45,530 sf, 6-story, 59-unit apartment building with ground level community room, shared outdoor space, shared laundry, and support office space; includes associated site work *** w/26-013499-MT ***</title>
       <link>https://www.portlandmaps.com/detail/permit/5235024_did/</link>
@@ -1169,7 +1183,7 @@ Units: 1</description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-071271-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW DUPLEX / 2 STORY/ W CARPORTS/ FLAT LOT/ COMPLEX *** ET PT MT SEPARATE  W/ 25 071296 000 00 RS</title>
+      <title>[Portland] SINGLE PDF - NEW DUPLEX / 2 STORY/ W CARPORTS/ FLAT LOT/ COMPLEX *** ET PT SEPARATE  W/ 25 071296 000 00 RS  *ADDED MECHANICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5187268_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -4010,20 +4024,6 @@ Contractor:
 Valuation: 154888.0
 Units: 1</description>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|25-7061-01</guid>
-      <title>[Eugene] (2) attached stacked two-family dwellings (thus 4 dwelling units); 669/671 Bushnell Ln Units A &amp; B</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-7061-01&amp;pdf=False</link>
-      <description>Category: MULTIFAMILY
-Score: 53
-Permit: 25-7061-01
-Issued: 2026-07-14
-Address: 669 BUSHNELL LN UNIT A &amp; B, Eugene, OR
-Contractor: TIMBERVIEW CONSTRUCTION LLC
-Valuation: 683121.0
-Units: 4</description>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

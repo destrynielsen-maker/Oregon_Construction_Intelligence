@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-6727-01</guid>
+      <title>[Eugene] Installation of new prefabricated metal building from West Coat Metal Buildings, Inc.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-6727-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 25-6727-01
+Issued: 2026-11-02
+Address: 1965 HWY 99N, Eugene, OR
+Contractor: EMERALD EXCAVATING
+Valuation: 201659.0
+Units: </description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-8316-01</guid>
       <title>[Eugene] Replace existing EWEB (Jessen) Substation with improved equipment.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8316-01&amp;pdf=False</link>
@@ -3754,20 +3768,6 @@ Contractor:
 Valuation: 120000.0
 Units: </description>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-018193-000-00-co</guid>
-      <title>[Portland] BES STEP - New Racking permit associated with new storage tent permitted under 23-055922-CO (permit required per building inspector).</title>
-      <link>https://www.portlandmaps.com/detail/permit/5132026_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2025-018193-000-00-CO
-Issued: 2025-04-15
-Address: 5001 N COLUMBIA BLVD, PORTLAND, OR
-Contractor: 
-Valuation: 30000.0
-Units: </description>
-      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

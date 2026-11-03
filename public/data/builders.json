@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T21:51:16+00:00",
+  "generated_at": "2026-11-03T07:05:28+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -60,18 +60,6 @@
         "Beaverton"
       ],
       "top_score": 20
-    },
-    {
-      "contractor": "LENNAR NORTHWEST LLC",
-      "permits_90d": 6,
-      "single_family": 6,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2216960.57,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "Spring River Builders LLC",
@@ -152,6 +140,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 1795406.4100000001,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
+    },
+    {
+      "contractor": "LENNAR NORTHWEST LLC",
+      "permits_90d": 3,
+      "single_family": 3,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1326319.0,
       "jurisdictions": [
         "Eugene"
       ],
@@ -240,18 +240,6 @@
         "Bend"
       ],
       "top_score": 53
-    },
-    {
-      "contractor": "H & B Developers",
-      "permits_90d": 2,
-      "single_family": 0,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 455793.2,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "AKAMAI BUILDERS LLC",
@@ -578,18 +566,6 @@
       "top_score": 38
     },
     {
-      "contractor": "Lennar Northwest, LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 475351.7,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "Brothers Building LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -600,6 +576,18 @@
         "Bend"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "H & B Developers",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 455793.2,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
     },
     {
       "contractor": "SIMPLICITY HOMES LLC",
@@ -720,6 +708,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "EMERALD EXCAVATING",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 201659.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
     },
     {
       "contractor": "MEILI CONSTRUCTION",
@@ -984,18 +984,6 @@
         "Bend"
       ],
       "top_score": 38
-    },
-    {
-      "contractor": "OREGON BUILDERS DEVELOPERS LLC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     }
   ]
 }

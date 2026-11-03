@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-6727-01</guid>
+      <title>[Eugene] Installation of new prefabricated metal building from West Coat Metal Buildings, Inc.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-6727-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 25-6727-01
+Issued: 2026-11-02
+Address: 1965 HWY 99N, Eugene, OR
+Contractor: EMERALD EXCAVATING
+Valuation: 201659.0
+Units: </description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-8316-01</guid>
       <title>[Eugene] Replace existing EWEB (Jessen) Substation with improved equipment.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8316-01&amp;pdf=False</link>
@@ -16,6 +30,20 @@ Address: 4400 JESSEN DR, Eugene, OR
 Contractor: WILDISH BUILDING CO
 Valuation: 840000.0
 Units: </description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-032956-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE-FAMILY RESIDENCE ON LOT WITH EXISTING SFR (DETACHED DUPLEX) / 2-STORY W/GARAGE ON FIRST LEVEL / SLOPED LOT / COMPLEX *** DEFERRED SUBMITTAL ROOF TRUSSES *** ET, MT, AND PT PERMITS SEPARATE**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5255276_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 40
+Permit: 2026-032956-000-00-RS
+Issued: 2026-10-30
+Address: 9956 N JAMES ST, PORTLAND, OR
+Contractor: 
+Valuation: 211029.0
+Units: 1</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -2040,7 +2068,7 @@ Units: </description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-071271-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW DUPLEX / 2 STORY/ W CARPORTS/ FLAT LOT/ COMPLEX *** ET PT MT SEPARATE  W/ 25 071296 000 00 RS</title>
+      <title>[Portland] SINGLE PDF - NEW DUPLEX / 2 STORY/ W CARPORTS/ FLAT LOT/ COMPLEX *** ET PT SEPARATE  W/ 25 071296 000 00 RS  *ADDED MECHANICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5187268_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3724,37 +3752,6 @@ Issued: 2026-08-25
 Address: 247 SE 160TH AVE, PORTLAND, OR
 Contractor: 
 Valuation: 45000.0
-Units: </description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603987</guid>
-      <title>[Bend] EST241 - 60927 SE Apollo Pl - Single Family Dwelling
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No relevant SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603987
-Issued: 2026-08-25
-Address: 60927 SE APOLLO PL, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 379650.9
-Units: </description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|beaverton|r2026-01592</guid>
-      <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 109</title>
-      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
-      <description>Category: SINGLE_FAMILY
-Score: 20
-Permit: R2026-01592
-Issued: 2026-08-25
-Address: 12760 SW DOUBLETOP DR BEAVERTON OR 97007
-Contractor: South Cooper Mountain Owner LLC
-Valuation: 323890.56
 Units: </description>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>

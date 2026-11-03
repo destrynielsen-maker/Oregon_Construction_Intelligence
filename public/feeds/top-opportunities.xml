@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-6727-01</guid>
+      <title>[Eugene] Installation of new prefabricated metal building from West Coat Metal Buildings, Inc.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-6727-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 25-6727-01
+Issued: 2026-11-02
+Address: 1965 HWY 99N, Eugene, OR
+Contractor: EMERALD EXCAVATING
+Valuation: 201659.0
+Units: </description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-8316-01</guid>
       <title>[Eugene] Replace existing EWEB (Jessen) Substation with improved equipment.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8316-01&amp;pdf=False</link>
@@ -16,6 +30,20 @@ Address: 4400 JESSEN DR, Eugene, OR
 Contractor: WILDISH BUILDING CO
 Valuation: 840000.0
 Units: </description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-032956-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW SINGLE-FAMILY RESIDENCE ON LOT WITH EXISTING SFR (DETACHED DUPLEX) / 2-STORY W/GARAGE ON FIRST LEVEL / SLOPED LOT / COMPLEX *** DEFERRED SUBMITTAL ROOF TRUSSES *** ET, MT, AND PT PERMITS SEPARATE**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5255276_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 40
+Permit: 2026-032956-000-00-RS
+Issued: 2026-10-30
+Address: 9956 N JAMES ST, PORTLAND, OR
+Contractor: 
+Valuation: 211029.0
+Units: 1</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1421,7 +1449,7 @@ Units: </description>
     </item>
     <item>
       <guid isPermaLink="false">OR|portland|2025-071271-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - NEW DUPLEX / 2 STORY/ W CARPORTS/ FLAT LOT/ COMPLEX *** ET PT MT SEPARATE  W/ 25 071296 000 00 RS</title>
+      <title>[Portland] SINGLE PDF - NEW DUPLEX / 2 STORY/ W CARPORTS/ FLAT LOT/ COMPLEX *** ET PT SEPARATE  W/ 25 071296 000 00 RS  *ADDED MECHANICAL*</title>
       <link>https://www.portlandmaps.com/detail/permit/5187268_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
@@ -3954,35 +3982,6 @@ Contractor: BHM CONSTRUCTION LLC
 Valuation: 155000.0
 Units: </description>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602946</guid>
-      <title>[Bend] This project is a removal of an existing hazardous material locker and replacing it with a new hazardous material locker outside the main building on the property.  
-Tech: Julie</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: PRNC202602946
-Issued: 2026-07-30
-Address: 62925 18TH ST, BEND, OR 97701
-Contractor: CS CONSTRUCTION
-Valuation: 15000.0
-Units: </description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-020416-000-00-rs</guid>
-      <title>[Portland] FULL PDOX - MHLD - 11 of 11 NEW 11 UNIT COTTAGE CLUSTER ON SHARED LOT/2 STORY/ WITH GARAGE /FLAT LOT/COMPLEX/*** W/ 25-020402/04/08/09/10/11/12/13/14/15/16 RS  *ADDED PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5134316_did/</link>
-      <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-020416-000-00-RS
-Issued: 2026-07-29
-Address: 6828 SE 87TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 218398.0
-Units: 1</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
