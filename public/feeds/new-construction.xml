@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5098-01</guid>
+      <title>[Eugene] New exterior accessory structure</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5098-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-5098-01
+Issued: 2026-11-03
+Address: 2897 TOMAHAWK LN, Eugene, OR
+Contractor: A &amp; J CONSTRUCTION
+Valuation: 41033.41
+Units: </description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|25-6727-01</guid>
       <title>[Eugene] Installation of new prefabricated metal building from West Coat Metal Buildings, Inc.</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-6727-01&amp;pdf=False</link>
@@ -3740,20 +3754,6 @@ Contractor: CRAWFORD OBRIEN CONSTRUCTION O
 Valuation: 50000.0
 Units: </description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-038638-000-00-co</guid>
-      <title>[Portland] PDOX - NEW TRASH ENCLOSURE TO REPLACE EXISTING. W 26-038641-CO</title>
-      <link>https://www.portlandmaps.com/detail/permit/5261210_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2026-038638-000-00-CO
-Issued: 2026-08-25
-Address: 247 SE 160TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 45000.0
-Units: </description>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

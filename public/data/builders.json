@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:05:28+00:00",
+  "generated_at": "2026-11-03T19:41:32+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -776,6 +776,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 45378.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "A & J CONSTRUCTION",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 41033.41,
       "jurisdictions": [
         "Eugene"
       ],

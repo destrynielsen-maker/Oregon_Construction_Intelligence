@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5098-01</guid>
+      <title>[Eugene] New exterior accessory structure</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5098-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-5098-01
+Issued: 2026-11-03
+Address: 2897 TOMAHAWK LN, Eugene, OR
+Contractor: A &amp; J CONSTRUCTION
+Valuation: 41033.41
+Units: </description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4409-01</guid>
       <title>[Eugene] Single-Family Dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4409-01&amp;pdf=False</link>
@@ -3846,24 +3860,6 @@ Issued: 2026-06-10
 Address: 63122 NE HENNINGSEN PL, BEND, OR 97701
 Contractor: Lennar Northwest LLC
 Valuation: 384616.57
-Units: </description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202601974</guid>
-      <title>[Bend] Acadia Pointe HS 134_ Ashland Farmhouse GL_ Combo Building Permit
-
-*Is A Fill Lot* 
-*no conditions/no active SIMPs* 
-*CoB water - meter needed*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202601974
-Issued: 2026-06-10
-Address: 63118 NE HENNINGSEN PL, BEND, OR 97701
-Contractor: Lennar Northwest LLC
-Valuation: 433491.84
 Units: </description>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
