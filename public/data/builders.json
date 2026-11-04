@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T19:41:32+00:00",
+  "generated_at": "2026-11-04T06:49:12+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -38,18 +38,6 @@
       "top_score": 48
     },
     {
-      "contractor": "MCD Homes LLC",
-      "permits_90d": 6,
-      "single_family": 5,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 3380655.7199999997,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
-    },
-    {
       "contractor": "TAYLOR MORRISON",
       "permits_90d": 6,
       "single_family": 6,
@@ -68,6 +56,18 @@
       "multifamily": 6,
       "commercial": 0,
       "combined_valuation": 1751961.12,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 53
+    },
+    {
+      "contractor": "MCD Homes LLC",
+      "permits_90d": 5,
+      "single_family": 4,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 2780443.73,
       "jurisdictions": [
         "Bend"
       ],
@@ -116,18 +116,6 @@
       "multifamily": 3,
       "commercial": 0,
       "combined_valuation": 1553284.27,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
-      "contractor": "DR Horton, Inc",
-      "permits_90d": 4,
-      "single_family": 0,
-      "multifamily": 4,
-      "commercial": 0,
-      "combined_valuation": 1081799.06,
       "jurisdictions": [
         "Bend"
       ],
@@ -188,6 +176,18 @@
       "multifamily": 3,
       "commercial": 0,
       "combined_valuation": 1081091.04,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "DR Horton, Inc",
+      "permits_90d": 3,
+      "single_family": 0,
+      "multifamily": 3,
+      "commercial": 0,
+      "combined_valuation": 809236.03,
       "jurisdictions": [
         "Bend"
       ],
@@ -674,18 +674,6 @@
       "top_score": 38
     },
     {
-      "contractor": "Red River Remodel and Construction",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 300327.44,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
-    {
       "contractor": "HELIKSON HOMES LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -756,18 +744,6 @@
         "Eugene"
       ],
       "top_score": 38
-    },
-    {
-      "contractor": "J 3 16 CONTRACTING INC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 50000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "MATT BENNETT CONSTRUCTION LLC",
