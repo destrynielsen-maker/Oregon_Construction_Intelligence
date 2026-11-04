@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5449-01</guid>
+      <title>[Eugene] New vestibule built under existing roof. Theater 2</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5449-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-5449-01
+Issued: 2026-11-04
+Address: 492 E 13TH AVE UNIT 100, Eugene, OR
+Contractor: MCCLAIN CONSTRUCTION LLC
+Valuation: 8000.0
+Units: </description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-038334-000-00-rs</guid>
       <title>[Portland] FULL PDOX MHLD NEW  4 OF 5 UNIT SINGLE FAMILY COTTAGE CLUSTER ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ UNITS 1, 2 WITH GARAGE/ UNITS 3,4,5 NO GARAGE/ FLAT LOT/ COMPLEX/ *ET SEPARATE*/ SEE 24-060653-RS 25-060524-RS FOR DEMOS/ TRUSSES/ 
 W/ 26-038330/32/33/34/35-RS W/ 26-038340-SD  *ADDED MECHANICAL ELECTRICAL AND PLUMBING*</title>
@@ -3929,27 +3943,6 @@ Score: 48
 Permit: PRNC202503997
 Issued: 2026-08-06
 Address: 61026 SE BUXTON LOOP, BEND, OR 97702
-Contractor: D.R. HORTON
-Valuation: 298768.0
-Units: </description>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202503996</guid>
-      <title>[Bend] Parrell Road Lot 10 TH (lots 9-12) 
-*conditions, see comments*SF
-*HB2306, Path 2 post plat* SF
-*Roats water district*SF
-PRNC202503617- Lot 9 - Plans reviewed under this permit
-PRNC202503996 - Lot 10
-PRNC202503997 - Lot 11
-PRNC202503998 - Lot 12</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202503996
-Issued: 2026-08-06
-Address: 61028 SE BUXTON LOOP, BEND, OR 97702
 Contractor: D.R. HORTON
 Valuation: 298768.0
 Units: </description>

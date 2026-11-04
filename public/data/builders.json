@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:49:12+00:00",
+  "generated_at": "2026-11-04T19:57:24+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -838,6 +838,18 @@
       "combined_valuation": 10000.0,
       "jurisdictions": [
         "Bend"
+      ],
+      "top_score": 38
+    },
+    {
+      "contractor": "MCCLAIN CONSTRUCTION LLC",
+      "permits_90d": 1,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 1,
+      "combined_valuation": 8000.0,
+      "jurisdictions": [
+        "Eugene"
       ],
       "top_score": 38
     },

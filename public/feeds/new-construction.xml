@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-5449-01</guid>
+      <title>[Eugene] New vestibule built under existing roof. Theater 2</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5449-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-5449-01
+Issued: 2026-11-04
+Address: 492 E 13TH AVE UNIT 100, Eugene, OR
+Contractor: MCCLAIN CONSTRUCTION LLC
+Valuation: 8000.0
+Units: </description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5098-01</guid>
       <title>[Eugene] New exterior accessory structure</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5098-01&amp;pdf=False</link>
@@ -3741,23 +3755,6 @@ Issued: 2026-08-28
 Address: 61060 SKY HARBOR DR, BEND, OR 97702
 Contractor: NEIL KELLY CO INC
 Valuation: 2576830.61
-Units: </description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202604087</guid>
-      <title>[Bend] Brooksmill HS 25_ Aubrey Farmhouse_ GL 
-WM COB 3/4"
-Hardening applicable
-no expired/conditions chw</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202604087
-Issued: 2026-08-28
-Address: 1234 SW BRYANWOOD PL, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 365066.75
 Units: </description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
