@@ -19,6 +19,20 @@ Units: </description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-071241-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW 16' x 22' TUFF SHED ANCHORED TO CONCRETE PIERS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5295051_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-071241-000-00-RS
+Issued: 2026-11-03
+Address: 2802 N TERRY ST, PORTLAND, OR
+Contractor: 
+Valuation: 25017.0
+Units: </description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-031006-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - NEW SINGLE FAMILY RES WITH ATTACHED GARAGE/ SINGLE STORY/ SIMPLE / FLAT LOT *** ET PT MT SEPARATE</title>
       <link>https://www.portlandmaps.com/detail/permit/5253255_did/</link>
@@ -3839,25 +3853,6 @@ Contractor:
 Valuation: 170212.0
 Units: 1</description>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602646</guid>
-      <title>[Bend] New SFR 3006sqft
-garage 669sqft
-***COB Water*** SN
-***No Active SIMPs*** SN
-***Fill Lot*** SN
-***Stormwater marked on Checklist, route to Engineering*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202602646
-Issued: 2026-06-10
-Address: 61237 SW LAST CHANCE PL, BEND, OR 97702
-Contractor: Heritage Homes of Mollala
-Valuation: 599694.89
-Units: </description>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

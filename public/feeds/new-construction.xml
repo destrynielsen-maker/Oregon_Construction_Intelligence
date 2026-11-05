@@ -19,6 +19,20 @@ Units: </description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-023078-000-00-co</guid>
+      <title>[Portland] FLATWORKS - New, 8-story, 143 unit affordable housing building with ground floor parking.  **w/ 26-023755-MT</title>
+      <link>https://www.portlandmaps.com/detail/permit/5245009_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 85
+Permit: 2026-023078-000-00-CO
+Issued: 2026-11-03
+Address: 240 SE GRAND AVE, PORTLAND, OR
+Contractor: 
+Valuation: 25000000.0
+Units: 143</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5098-01</guid>
       <title>[Eugene] New exterior accessory structure</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5098-01&amp;pdf=False</link>
@@ -29,6 +43,20 @@ Issued: 2026-11-03
 Address: 2897 TOMAHAWK LN, Eugene, OR
 Contractor: A &amp; J CONSTRUCTION
 Valuation: 41033.41
+Units: </description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-071241-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW 16' x 22' TUFF SHED ANCHORED TO CONCRETE PIERS</title>
+      <link>https://www.portlandmaps.com/detail/permit/5295051_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-071241-000-00-RS
+Issued: 2026-11-03
+Address: 2802 N TERRY ST, PORTLAND, OR
+Contractor: 
+Valuation: 25017.0
 Units: </description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3719,44 +3747,6 @@ Contractor: RG BROS GENERAL CONSTRUCTION L
 Valuation: 25000.5
 Units: </description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600955</guid>
-      <title>[Bend] Construction of new single family dwelling.
-*PRDE202600879 - Demolition permit*
-*PRNC202600972 - new duplex *
-**No expired permits**
-*COB water 1"*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 53
-Permit: PRNC202600955
-Issued: 2026-08-28
-Address: 139 NW ST HELENS PL, BEND, OR 97703
-Contractor: Craftsman Homes by Design
-Valuation: 614590.82
-Units: </description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603759</guid>
-      <title>[Bend] Renovation of a house located at 61060 Sky Harbor Dr. 
-4 1/2 bath, 3 bedroom, 13,543 s/f house and gym
-*Demo PRDE202603780*
-*Septic to sewer PRPL202602382*
-*No expireds*SF
-*Avion water district*SF
-*ROUTE TO ENGINEERING*SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 33
-Permit: PRNC202603759
-Issued: 2026-08-28
-Address: 61060 SKY HARBOR DR, BEND, OR 97702
-Contractor: NEIL KELLY CO INC
-Valuation: 2576830.61
-Units: </description>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
