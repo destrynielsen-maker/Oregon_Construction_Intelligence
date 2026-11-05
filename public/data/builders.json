@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T07:09:03+00:00",
+  "generated_at": "2026-11-05T20:10:51+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -848,6 +848,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 6640.81,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "HEDLUND CONSTRUCTION COMPANY",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 4000.0,
       "jurisdictions": [
         "Eugene"
       ],

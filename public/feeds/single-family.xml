@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-7445-01</guid>
+      <title>[Eugene] Installation of 3 new skylights in single family dwelling</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-7445-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-7445-01
+Issued: 2026-11-05
+Address: 1470 E 43RD AVE, Eugene, OR
+Contractor: HEDLUND CONSTRUCTION COMPANY
+Valuation: 4000.0
+Units: </description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5098-01</guid>
       <title>[Eugene] New exterior accessory structure</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5098-01&amp;pdf=False</link>
@@ -3837,20 +3851,6 @@ Issued: 2026-06-15
 Address: 5736 SE MALL ST, PORTLAND, OR
 Contractor: 
 Valuation: 196813.0
-Units: 1</description>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-024521-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF-MHLD- 1 OF 4 NEW COTTAGE CLUSTERS WITH EXISTING SFR TO REMAIN. SINGLE STORY/NO GARAGE/FLAT LOT/COMPLEX. **PENDING GARAGE DEMO &amp; EXISTING HOUSE EAVE &amp; STAIR MODIFICATIONS * W/ 24-024521/26/28/30 RS AND 24-024532 SD  *ADDED ELECTRICAL AND MECHANICAL*ADDED PLUMBING*</title>
-      <link>https://www.portlandmaps.com/detail/permit/5025834_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2024-024521-000-00-RS
-Issued: 2026-06-15
-Address: 5736 SE MALL ST, PORTLAND, OR
-Contractor: 
-Valuation: 170212.0
 Units: 1</description>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
     </item>
