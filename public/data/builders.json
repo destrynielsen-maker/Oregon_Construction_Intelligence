@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:10:51+00:00",
+  "generated_at": "2026-11-06T07:08:54+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -72,18 +72,6 @@
         "Bend"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "MCD Homes LLC",
-      "permits_90d": 4,
-      "single_family": 4,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2144381.89,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "BEND-REDMOND HABITAT FOR HUMANITY contractor",
@@ -384,18 +372,6 @@
         "Bend"
       ],
       "top_score": 53
-    },
-    {
-      "contractor": "Arrowood Development, LLC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 613859.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 43
     },
     {
       "contractor": "TNHC OREGON, LLC",
