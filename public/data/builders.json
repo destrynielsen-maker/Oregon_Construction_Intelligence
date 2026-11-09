@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:59:12+00:00",
+  "generated_at": "2026-11-09T22:36:37+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -740,6 +740,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 25000.5,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "ANTHONY PAUL KOACH",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 20000.0,
       "jurisdictions": [
         "Eugene"
       ],

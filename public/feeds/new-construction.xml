@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-4391-01</guid>
+      <title>[Eugene] Remove existing fireplace install new gas fireplace with new framed bump out.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4391-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 26-4391-01
+Issued: 2026-11-09
+Address: 1240 MONROE ST, Eugene, OR
+Contractor: ANTHONY PAUL KOACH
+Valuation: 20000.0
+Units: </description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-7445-01</guid>
       <title>[Eugene] Installation of 3 new skylights in single family dwelling</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-7445-01&amp;pdf=False</link>
@@ -3735,24 +3749,6 @@ Issued: 2026-09-01
 Address: 3418 NW CELILO LN, BEND, OR 97703
 Contractor: STRUCTURE DEVELOPMENT NW LLC
 Valuation: 676873.77
-Units: </description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603069</guid>
-      <title>[Bend] New SFR 2675sqft 
-***COB Water*** SN
-***Fill Lot*** SN
-***No Active SIMPs*** SN
-***Stormwater marked on Checklist*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202603069
-Issued: 2026-09-01
-Address: 61234 SW GROTTO PL, BEND, OR 97702
-Contractor: Heritage Homes of Molalla
-Valuation: 506228.17
 Units: </description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
