@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:19:37+00:00",
+  "generated_at": "2026-11-09T06:59:12+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -852,18 +852,6 @@
         "Eugene"
       ],
       "top_score": 38
-    },
-    {
-      "contractor": "STONEWOOD CONSTRUCTION",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2500.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "2ND CHANCE ROOF AND CHIMNEY LL",
