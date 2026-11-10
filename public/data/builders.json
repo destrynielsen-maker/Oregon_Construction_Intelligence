@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:36:37+00:00",
+  "generated_at": "2026-11-10T07:36:09+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -194,18 +194,6 @@
       "top_score": 28
     },
     {
-      "contractor": "Hayden Homes",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 646500.37,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "SPRING RIVER BUILDERS LLC",
       "permits_90d": 2,
       "single_family": 0,
@@ -326,18 +314,6 @@
       "top_score": 43
     },
     {
-      "contractor": "KELLCON",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 810000.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 43
-    },
-    {
       "contractor": "STRUCTURE DEVELOPMENT NW LLC",
       "permits_90d": 1,
       "single_family": 1,
@@ -408,18 +384,6 @@
         "Beaverton"
       ],
       "top_score": 25
-    },
-    {
-      "contractor": "Solaire Residential LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 592468.18,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "TIMBERVIEW CONSTRUCTION LLC",
@@ -614,12 +578,12 @@
       "top_score": 23
     },
     {
-      "contractor": "HAYDEN HOMES LLC",
+      "contractor": "Hayden Homes",
       "permits_90d": 1,
       "single_family": 1,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 351561.02,
+      "combined_valuation": 354702.91,
       "jurisdictions": [
         "Bend"
       ],
