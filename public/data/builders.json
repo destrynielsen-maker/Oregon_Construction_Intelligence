@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:54:13+00:00",
+  "generated_at": "2026-11-11T06:54:05+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -62,18 +62,6 @@
       "top_score": 53
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 5,
-      "single_family": 5,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1662886.05,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "BEND-REDMOND HABITAT FOR HUMANITY contractor",
       "permits_90d": 4,
       "single_family": 0,
@@ -84,6 +72,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1302797.34,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 23
     },
     {
       "contractor": "WEST COAST HOME SOLUTIONS LLC",
@@ -372,18 +372,6 @@
         "Eugene"
       ],
       "top_score": 43
-    },
-    {
-      "contractor": "Pacific Lifestyle Homes - Jody Blakely",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 598130.94,
-      "jurisdictions": [
-        "Beaverton"
-      ],
-      "top_score": 25
     },
     {
       "contractor": "TIMBERVIEW CONSTRUCTION LLC",
