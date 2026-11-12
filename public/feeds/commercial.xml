@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|26-7133-01</guid>
+      <title>[Eugene] New interior illuminated projecting sign for Hop Valley.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-7133-01&amp;pdf=False</link>
+      <description>Category: COMMERCIAL
+Score: 38
+Permit: 26-7133-01
+Issued: 2026-11-12
+Address: 550 PEARL ST UNIT 150, Eugene, OR
+Contractor: E S &amp; A SIGN &amp; AWNING DBA
+Valuation: 8663.0
+Units: </description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-5449-01</guid>
       <title>[Eugene] New vestibule built under existing roof. Theater 2</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-5449-01&amp;pdf=False</link>
@@ -3754,20 +3768,6 @@ Contractor: KIRBY NAGELHOUT CONSTRUCTION C
 Valuation: 190000.0
 Units: </description>
       <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2025-010646-000-00-co</guid>
-      <title>[Portland] SINGLE PDF - NEW 551 SF CONVERED TRASH ENCLOSURE WITH SINGLE SANITARTY DRAIN AND SCREENING. with 24- 093011-CO, 25-010644-CO AND  25-012861-MT</title>
-      <link>https://www.portlandmaps.com/detail/permit/5124173_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2025-010646-000-00-CO
-Issued: 2025-04-16
-Address: 16401 SE DIVISION ST, PORTLAND, OR
-Contractor: 
-Valuation: 200000.0
-Units: </description>
-      <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

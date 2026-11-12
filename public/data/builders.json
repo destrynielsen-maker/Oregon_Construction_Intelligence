@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T07:29:47+00:00",
+  "generated_at": "2026-11-12T20:15:16+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -228,6 +228,18 @@
         "Eugene"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "E S & A SIGN & AWNING DBA",
+      "permits_90d": 2,
+      "single_family": 0,
+      "multifamily": 0,
+      "commercial": 2,
+      "combined_valuation": 11238.0,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 38
     },
     {
       "contractor": "C S CONSTRUCTION INC",
@@ -780,18 +792,6 @@
         "Eugene"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "E S & A SIGN & AWNING DBA",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 2575.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 38
     },
     {
       "contractor": "2ND CHANCE ROOF AND CHIMNEY LL",
