@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:15:16+00:00",
+  "generated_at": "2026-11-13T07:01:35+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -27,11 +27,11 @@
     },
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 10,
+      "permits_90d": 8,
       "single_family": 6,
-      "multifamily": 4,
+      "multifamily": 2,
       "commercial": 0,
-      "combined_valuation": 3884001.9,
+      "combined_valuation": 3338430.1,
       "jurisdictions": [
         "Bend"
       ],
@@ -398,18 +398,6 @@
       "top_score": 53
     },
     {
-      "contractor": "PALMER HOMES",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 581558.1,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "Evolve Building & Development",
       "permits_90d": 1,
       "single_family": 1,
@@ -732,18 +720,6 @@
         "Eugene"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "OZLAND GENERAL CONTRACTING LLC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 10000.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 38
     },
     {
       "contractor": "MCCLAIN CONSTRUCTION LLC",
