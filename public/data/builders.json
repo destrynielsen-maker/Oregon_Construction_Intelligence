@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T19:00:30+00:00",
+  "generated_at": "2026-11-16T07:00:51+00:00",
   "builders": [
     {
       "contractor": "D.R. HORTON",
@@ -98,18 +98,6 @@
       "top_score": 28
     },
     {
-      "contractor": "LENNAR NORTHWEST LLC",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1326319.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "Christiansen's Contracting Company (QC)",
       "permits_90d": 3,
       "single_family": 0,
@@ -182,16 +170,16 @@
       "top_score": 58
     },
     {
-      "contractor": "CURTIS HOMES LLC",
+      "contractor": "LENNAR NORTHWEST LLC",
       "permits_90d": 2,
       "single_family": 2,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 1214604.24,
+      "combined_valuation": 768732.0,
       "jurisdictions": [
-        "Bend"
+        "Eugene"
       ],
-      "top_score": 28
+      "top_score": 23
     },
     {
       "contractor": "SPRING RIVER BUILDERS LLC",
@@ -300,18 +288,6 @@
         "Eugene"
       ],
       "top_score": 53
-    },
-    {
-      "contractor": "Deschutes Custom Homes LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 852544.06,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
     },
     {
       "contractor": "WILDISH BUILDING CO",
@@ -464,18 +440,6 @@
       "multifamily": 0,
       "commercial": 1,
       "combined_valuation": 489995.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 38
-    },
-    {
-      "contractor": "BCE INC",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 480000.0,
       "jurisdictions": [
         "Eugene"
       ],
