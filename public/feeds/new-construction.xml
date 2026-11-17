@@ -5,32 +5,31 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-098696-000-00-rs</guid>
-      <title>[Portland] FULL PDOX MHLD BATCH NEW 1 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ TRUSSES
-*SEE DEMO 25-030723-RS* ***W/ 25-098696/98/99/701-RS  W/ 25-098715-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5215851_did/</link>
+      <guid isPermaLink="false">OR|eugene|26-4363-01</guid>
+      <title>[Eugene] 3 unit townhouse with lot lines; 1989 Lincoln Aly Units A, B, C (increasing South)</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4363-01&amp;pdf=False</link>
       <description>Category: MULTIFAMILY
-Score: 40
-Permit: 2025-098696-000-00-RS
-Issued: 2026-11-14
-Address: 34 NE AINSWORTH ST, PORTLAND, OR
-Contractor: 
-Valuation: 160333.0
-Units: 1</description>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+Score: 53
+Permit: 26-4363-01
+Issued: 2026-11-17
+Address: 1989 LINCOLN ALY UNIT A, Eugene, OR
+Contractor: R HANSEN CONSTRUCTION LLC
+Valuation: 586992.0
+Units: 3</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-098698-000-00-rs</guid>
-      <title>[Portland] FULL PDOX MHLD BATCH NEW 2 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ TRUSSES
-*SEE DEMO 25-030723-RS* ***W/ 25-098696/98/99/701-RS  W/ 25-098715-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5215854_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-098701-000-00-rs</guid>
+      <title>[Portland] FULL PDOX MHLD BATCH NEW 4 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ TRUSSES
+*SEE DEMO 25-030723-RS* *W/ 25-098696/98/99/701-RS  W/ 25-098715-SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5215857_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
-Permit: 2025-098698-000-00-RS
+Permit: 2025-098701-000-00-RS
 Issued: 2026-11-14
 Address: 34 NE AINSWORTH ST, PORTLAND, OR
 Contractor: 
-Valuation: 160333.0
+Valuation: 189174.0
 Units: 1</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
     </item>
@@ -50,17 +49,32 @@ Units: 1</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|portland|2025-098701-000-00-rs</guid>
-      <title>[Portland] FULL PDOX MHLD BATCH NEW 4 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ TRUSSES
-*SEE DEMO 25-030723-RS* *W/ 25-098696/98/99/701-RS  W/ 25-098715-SD</title>
-      <link>https://www.portlandmaps.com/detail/permit/5215857_did/</link>
+      <guid isPermaLink="false">OR|portland|2025-098698-000-00-rs</guid>
+      <title>[Portland] FULL PDOX MHLD BATCH NEW 2 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ TRUSSES
+*SEE DEMO 25-030723-RS* ***W/ 25-098696/98/99/701-RS  W/ 25-098715-SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5215854_did/</link>
       <description>Category: MULTIFAMILY
 Score: 40
-Permit: 2025-098701-000-00-RS
+Permit: 2025-098698-000-00-RS
 Issued: 2026-11-14
 Address: 34 NE AINSWORTH ST, PORTLAND, OR
 Contractor: 
-Valuation: 189174.0
+Valuation: 160333.0
+Units: 1</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2025-098696-000-00-rs</guid>
+      <title>[Portland] FULL PDOX MHLD BATCH NEW 1 OF 4 UNIT TOWNHOUSES ON SHARED LOT TO BE DIVIDED BY FUTURE MHLD/ 2 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ TRUSSES
+*SEE DEMO 25-030723-RS* ***W/ 25-098696/98/99/701-RS  W/ 25-098715-SD</title>
+      <link>https://www.portlandmaps.com/detail/permit/5215851_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 40
+Permit: 2025-098696-000-00-RS
+Issued: 2026-11-14
+Address: 34 NE AINSWORTH ST, PORTLAND, OR
+Contractor: 
+Valuation: 160333.0
 Units: 1</description>
       <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
     </item>
@@ -3713,20 +3727,6 @@ Address: 2618 PARK FOREST DR, Eugene, OR
 Contractor: HELIKSON HOMES LLC
 Valuation: 245228.0
 Units: </description>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2026-043014-000-00-rs</guid>
-      <title>[Portland] SINGLE PDF - MHLD - 2 OF 2 NEW COTTAGE CLUSTER  ON LOT TO BE DIVIDED BY FUTURE MHLD. EXISTING SFR TO REMAIN. 2 STORY. NO GARAGE/ COMPLEX. SLOPED LOT/ *** ET PT MT INCLUDED. W/ 26 043003 000 00 RS</title>
-      <link>https://www.portlandmaps.com/detail/permit/5265742_did/</link>
-      <description>Category: SINGLE_FAMILY
-Score: 15
-Permit: 2026-043014-000-00-RS
-Issued: 2026-09-03
-Address: 305 SE 75TH AVE, PORTLAND, OR
-Contractor: 
-Valuation: 195473.0
-Units: 1</description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
