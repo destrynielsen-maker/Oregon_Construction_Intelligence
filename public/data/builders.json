@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-16T22:24:39+00:00",
+  "generated_at": "2026-11-17T08:16:10+00:00",
   "builders": [
-    {
-      "contractor": "D.R. HORTON",
-      "permits_90d": 13,
-      "single_family": 0,
-      "multifamily": 13,
-      "commercial": 0,
-      "combined_valuation": 3723573.5,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
-    },
     {
       "contractor": "Risewell Homes",
       "permits_90d": 11,
@@ -27,11 +15,11 @@
     },
     {
       "contractor": "PAHLISCH HOMES",
-      "permits_90d": 8,
-      "single_family": 6,
+      "permits_90d": 7,
+      "single_family": 5,
       "multifamily": 2,
       "commercial": 0,
-      "combined_valuation": 3338430.1,
+      "combined_valuation": 2916407.95,
       "jurisdictions": [
         "Bend"
       ],
@@ -68,6 +56,18 @@
       "multifamily": 4,
       "commercial": 0,
       "combined_valuation": 1897241.12,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 48
+    },
+    {
+      "contractor": "D.R. HORTON",
+      "permits_90d": 4,
+      "single_family": 0,
+      "multifamily": 4,
+      "commercial": 0,
+      "combined_valuation": 1076341.87,
       "jurisdictions": [
         "Bend"
       ],
@@ -614,18 +614,6 @@
       "top_score": 23
     },
     {
-      "contractor": "UNITED PROPERTY IMPROVEMENT IN",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 28404.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "RG BROS GENERAL CONSTRUCTION L",
       "permits_90d": 1,
       "single_family": 1,
@@ -802,18 +790,6 @@
       "combined_valuation": 0,
       "jurisdictions": [
         "Eugene"
-      ],
-      "top_score": 38
-    },
-    {
-      "contractor": "CS CONSTRUCTION",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 0,
-      "jurisdictions": [
-        "Bend"
       ],
       "top_score": 38
     }
