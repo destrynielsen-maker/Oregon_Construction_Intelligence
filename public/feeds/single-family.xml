@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-069505-000-00-rs</guid>
+      <title>[Portland] SINGLE PDF - NEW DETACHED POOL HOUSE WITH SINK, REFRIGERATOR, HALF-BATHROOM, AND COVERED PATIO**ET, MT, AND PT PERMITS SEPARATE**NEW POOL/SPA UNDER SEPARATE PERMIT SUBMITTAL</title>
+      <link>https://www.portlandmaps.com/detail/permit/5293237_did/</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: 2026-069505-000-00-RS
+Issued: 2026-11-16
+Address: 6617 SE 30TH AVE, PORTLAND, OR
+Contractor: 
+Valuation: 75000.0
+Units: </description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-080128-000-00-rs</guid>
       <title>[Portland] SINGLE PDF- NEW 18X12 216SF ACCESSORY STUDIO WITH PORCH NEXT TO EXISTING HOME, RELOCATE ELECTRICAL SERVICE TO DETACHED ACCESSORIE STRUCTURE, ET TO CODE, NO PT OR MT.</title>
       <link>https://www.portlandmaps.com/detail/permit/5304335_did/</link>
@@ -3819,23 +3833,6 @@ Contractor: Rainbow Restoration (International) of Central Oregon
 Valuation: 150000.0
 Units: </description>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602614</guid>
-      <title>[Bend] New construction of single-family dwelling
-
-*CoB water - meter needed* 
-*grading checked--route to engineering*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202602614
-Issued: 2026-06-18
-Address: 61213 SE WAGYU DR, BEND, OR 97702
-Contractor: PALMER HOMES
-Valuation: 346824.92
-Units: </description>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
