@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:11:11+00:00",
+  "generated_at": "2026-11-18T00:46:12+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -12,18 +12,6 @@
         "Beaverton"
       ],
       "top_score": 20
-    },
-    {
-      "contractor": "PAHLISCH HOMES",
-      "permits_90d": 7,
-      "single_family": 5,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 2916407.95,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "TAYLOR MORRISON",
@@ -60,6 +48,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "PAHLISCH HOMES",
+      "permits_90d": 4,
+      "single_family": 4,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1740571.8699999999,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "D.R. HORTON",
@@ -504,18 +504,6 @@
         "Beaverton"
       ],
       "top_score": 20
-    },
-    {
-      "contractor": "S & L CONSTRUCTION LLC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 375000.0,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "MARKUS-THOMPSON CONSTRUCTION",
