@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-007680-000-00-co</guid>
+      <title>[Portland] 23 MARSHALL - new 4-story mixed use building with 50 residential rental units on level 2-3, occupied roof area, ground level will include residential lobby, future commercial/retail use core and shell spaces, residential parking and building utility service ***w. 26-007681-MT***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5228969_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 75
+Permit: 2026-007680-000-00-CO
+Issued: 2026-11-17
+Address: 2315 NW MARSHALL ST, PORTLAND, OR
+Contractor: 
+Valuation: 10900000.0
+Units: 50</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-4363-01</guid>
       <title>[Eugene] 3 unit townhouse with lot lines; 1989 Lincoln Aly Units A, B, C (increasing South)</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-4363-01&amp;pdf=False</link>
@@ -3980,24 +3994,6 @@ Contractor: Hayden Homes
 Valuation: 901542.0
 Units: </description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202602900</guid>
-      <title>[Bend] Proposal for two ADUs in one detached structure. The bottom unit totals 750 SF; the top unit totals 498 SF. There is a 36 SF utility closet on the bottom floor accessible to both units, which houses the water heater and shut-off valves for each ADU. 
-
-*CoB water* 
-*no conditions/nothing expired* 
-*route to addressing*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 43
-Permit: PRNC202602900
-Issued: 2026-07-30
-Address: 543 NE OLNEY AVE, BEND, OR 97701
-Contractor: 
-Valuation: 225289.68
-Units: </description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
