@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:34:19+00:00",
+  "generated_at": "2026-11-19T18:32:02+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -480,6 +480,18 @@
         "Eugene"
       ],
       "top_score": 23
+    },
+    {
+      "contractor": "Holt Homes",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 434151.11,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
     },
     {
       "contractor": "Taylor Morrison - Scott Nelson",

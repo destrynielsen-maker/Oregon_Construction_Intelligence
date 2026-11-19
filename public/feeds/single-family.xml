@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-04377</guid>
+      <title>[Beaverton] Willow Ridge Lot 22</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-04377
+Issued: 2026-11-19
+Address: 18210 SW SNOWGLADE DR BEAVERTON OR 97007
+Contractor: Holt Homes
+Valuation: 434151.11
+Units: </description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-069505-000-00-rs</guid>
       <title>[Portland] SINGLE PDF - NEW DETACHED POOL HOUSE WITH SINK, REFRIGERATOR, HALF-BATHROOM, AND COVERED PATIO**ET, MT, AND PT PERMITS SEPARATE**NEW POOL/SPA UNDER SEPARATE PERMIT SUBMITTAL</title>
       <link>https://www.portlandmaps.com/detail/permit/5293237_did/</link>
@@ -3818,21 +3832,6 @@ Contractor: DR Horton, Inc
 Valuation: 376075.55
 Units: </description>
       <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603408</guid>
-      <title>[Bend] This is a disaster permit to rebuild home after a fire.
-*No expired or conditions*SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603408
-Issued: 2026-06-22
-Address: 20068 THOMAS DR, BEND, OR 97702
-Contractor: Rainbow Restoration (International) of Central Oregon
-Valuation: 150000.0
-Units: </description>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

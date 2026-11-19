@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-04377</guid>
+      <title>[Beaverton] Willow Ridge Lot 22</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 20
+Permit: R2026-04377
+Issued: 2026-11-19
+Address: 18210 SW SNOWGLADE DR BEAVERTON OR 97007
+Contractor: Holt Homes
+Valuation: 434151.11
+Units: </description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-007680-000-00-co</guid>
       <title>[Portland] 23 MARSHALL - new 4-story mixed use building with 50 residential rental units on level 2-3, occupied roof area, ground level will include residential lobby, future commercial/retail use core and shell spaces, residential parking and building utility service ***w. 26-007681-MT***</title>
       <link>https://www.portlandmaps.com/detail/permit/5228969_did/</link>
@@ -3707,22 +3721,6 @@ Issued: 2026-09-03
 Address: 61021 SE BUXTON LOOP, BEND, OR 97702
 Contractor: DR Horton, Inc
 Valuation: 275024.35
-Units: </description>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202604568</guid>
-      <title>[Bend] PT369 - 3064 NE Brownstone Pl - Single Family Dwelling 
-*see conditions in comments*
-**COB Water 3/4"**</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202604568
-Issued: 2026-09-03
-Address: 3064 NE BROWNSTONE PL, BEND, OR 97701
-Contractor: PAHLISCH HOMES
-Valuation: 573483.19
 Units: </description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
