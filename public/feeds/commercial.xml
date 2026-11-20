@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-023081-000-00-co</guid>
+      <title>[Portland] PDOX - NEW TRASH ENCLOSURE AND BIKE PARKING STRUCTURE. **W/ 26-018115 CO**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5245012_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-023081-000-00-CO
+Issued: 2026-11-18
+Address: 8409 SE WOODSTOCK BLVD, PORTLAND, OR
+Contractor: 
+Valuation: 20000.0
+Units: </description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-018115-000-00-co</guid>
+      <title>[Portland] PDOX PS - NEW BUILDING THAT CONTAINS SEATING AND RESTROOMS FOR NEW FOOD CART SITE. SITE WORK AND 9 FOOD CARTS INCLUDED. **W/ 26-023081 CO**</title>
+      <link>https://www.portlandmaps.com/detail/permit/5239825_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-018115-000-00-CO
+Issued: 2026-11-18
+Address: 8409 SE WOODSTOCK BLVD, PORTLAND, OR
+Contractor: 
+Valuation: 200000.0
+Units: </description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-042523-000-00-co</guid>
       <title>[Portland] PDOX PS: NEW DETACHED 900 SF COVERED PATIO STRUCTURE FOR SEATING FOR EXISTING BUSINESS. INCLUDES ASSOCIATED SITEWORKS OF RELOCATING FOOD TRUCK, AND OUTDOOR SEATING.</title>
       <link>https://www.portlandmaps.com/detail/permit/5265231_did/</link>
@@ -3720,44 +3748,6 @@ Contractor:
 Valuation: 100000.0
 Units: </description>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202405871</guid>
-      <title>[Bend] An approximately 33,193 gross square foot (GSF) building to be used for a Goodwill Industries donation site and retail store. The hours of operation are generally 10 AM – 6 PM, with frequent donation deliveries.   The proposed development includes:
-
-• A 116-stall parking lot, including 4 accessible parking spaces, 2 being van accessible;
-• Site landscaping;
-• A pedestrian plaza;
-• Water, sewer, and stormwater system connections;
-• Loading facilities;
-• Donation drive-through aisles
-
-Site work has been submitted under SIMP permit application PRSIMP202403611 and infrastructure scope under permit application PRINF2024-03733.
-TECH: LORI</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 53
-Permit: PRNC202405871
-Issued: 2025-04-25
-Address: 63545 HUNNELL RD, BEND, OR 97703
-Contractor: Pence Contractors
-Valuation: 8462494.0
-Units: </description>
-      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202500362</guid>
-      <title>[Bend] installation of bronze sculpture at 15th Street and Knott Road roundabout - request to expedite mpaule</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 33
-Permit: PRNC202500362
-Issued: 2025-04-25
-Address: 
-Contractor: 
-Valuation: 11000.0
-Units: </description>
-      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
