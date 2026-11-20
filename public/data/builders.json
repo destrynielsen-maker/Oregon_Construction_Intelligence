@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:32:02+00:00",
+  "generated_at": "2026-11-20T00:43:45+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -350,18 +350,6 @@
       "top_score": 25
     },
     {
-      "contractor": "NNI CONSTRUCTION CO",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 600000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 43
-    },
-    {
       "contractor": "R HANSEN CONSTRUCTION LLC",
       "permits_90d": 1,
       "single_family": 0,
@@ -516,18 +504,6 @@
         "Eugene"
       ],
       "top_score": 48
-    },
-    {
-      "contractor": "HARVEY & PRICE CO",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 357457.62,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
     },
     {
       "contractor": "HELIKSON HOMES LLC",
