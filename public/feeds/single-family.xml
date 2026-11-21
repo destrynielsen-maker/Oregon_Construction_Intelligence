@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|beaverton|r2026-03980</guid>
+      <title>[Beaverton] LOLICH FARMS SCHOLLS HEIGHTS LOT 129</title>
+      <link>https://prod.buildinginbeaverton.org/lookup-record</link>
+      <description>Category: SINGLE_FAMILY
+Score: 15
+Permit: R2026-03980
+Issued: 2026-11-20
+Address: 18630 SW BUCKHORN DR BEAVERTON OR 97007
+Contractor: 
+Valuation: 479048.37
+Units: </description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|beaverton|r2026-04377</guid>
       <title>[Beaverton] Willow Ridge Lot 22</title>
       <link>https://prod.buildinginbeaverton.org/lookup-record</link>
@@ -3815,23 +3829,6 @@ Contractor: Lennar Northwest LLC
 Valuation: 373170.08
 Units: </description>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202600634</guid>
-      <title>[Bend] Stevens Lot 21
-***Avion Water*** SN
-***No Conditions (see comments)*** SN
-***No relevant SIMPs*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202600634
-Issued: 2026-06-23
-Address: 21736 SE STROMBOLI LN, BEND, OR 97702
-Contractor: DR Horton, Inc
-Valuation: 376075.55
-Units: </description>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
