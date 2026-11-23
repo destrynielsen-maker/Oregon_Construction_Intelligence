@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T18:31:14+00:00",
+  "generated_at": "2026-11-23T00:48:18+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -50,18 +50,6 @@
       "top_score": 48
     },
     {
-      "contractor": "PAHLISCH HOMES",
-      "permits_90d": 4,
-      "single_family": 4,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1740571.8699999999,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "D.R. HORTON",
       "permits_90d": 4,
       "single_family": 0,
@@ -86,28 +74,16 @@
       "top_score": 28
     },
     {
-      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "contractor": "PAHLISCH HOMES",
       "permits_90d": 3,
       "single_family": 3,
       "multifamily": 0,
       "commercial": 0,
-      "combined_valuation": 1610083.04,
+      "combined_valuation": 1432683.89,
       "jurisdictions": [
         "Bend"
       ],
       "top_score": 28
-    },
-    {
-      "contractor": "Christiansen's Contracting Company (QC)",
-      "permits_90d": 3,
-      "single_family": 0,
-      "multifamily": 3,
-      "commercial": 0,
-      "combined_valuation": 1303744.16,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 48
     },
     {
       "contractor": "Spring River Builders, LLC",
@@ -158,6 +134,18 @@
       "top_score": 58
     },
     {
+      "contractor": "STONE BRIDGE HOMES NW LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1165575.94,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "LENNAR NORTHWEST LLC",
       "permits_90d": 2,
       "single_family": 2,
@@ -200,18 +188,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 305873.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 23
-    },
-    {
-      "contractor": "NEIL KELLY COMPANY",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 80000.0,
       "jurisdictions": [
         "Eugene"
       ],
@@ -572,6 +548,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 41033.41,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "NEIL KELLY COMPANY",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 40000.0,
       "jurisdictions": [
         "Eugene"
       ],
