@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-048162-000-00-co</guid>
+      <title>[Portland] PDOX PS: NEW TRASH ENCLOSURE ALONG EXPANDED SCREENED AREA WITH RETAINING WALL SOUTH PLAZA.</title>
+      <link>https://www.portlandmaps.com/detail/permit/5271084_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-048162-000-00-CO
+Issued: 2026-11-20
+Address: 10522 SE WASHINGTON ST, PORTLAND, OR
+Contractor: 
+Valuation: 35000.0
+Units: </description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-023081-000-00-co</guid>
       <title>[Portland] PDOX - NEW TRASH ENCLOSURE AND BIKE PARKING STRUCTURE. **W/ 26-018115 CO**</title>
       <link>https://www.portlandmaps.com/detail/permit/5245012_did/</link>
@@ -3734,20 +3748,6 @@ Contractor:
 Valuation: 150000.0
 Units: </description>
       <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-027519-000-00-co</guid>
-      <title>[Portland] Providence Park - New concert and sporting event seating layouts.  Project is an Alteration of existing stadium.</title>
-      <link>https://www.portlandmaps.com/detail/permit/5028938_did/</link>
-      <description>Category: COMMERCIAL
-Score: 30
-Permit: 2024-027519-000-00-CO
-Issued: 2025-05-01
-Address: 1844 SW MORRISON ST, PORTLAND, OR
-Contractor: 
-Valuation: 100000.0
-Units: </description>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
