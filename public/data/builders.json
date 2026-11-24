@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T18:31:28+00:00",
+  "generated_at": "2026-11-24T00:41:56+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -74,18 +74,6 @@
       "top_score": 28
     },
     {
-      "contractor": "PAHLISCH HOMES",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1432683.89,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "Spring River Builders, LLC",
       "permits_90d": 3,
       "single_family": 0,
@@ -146,6 +134,18 @@
       "top_score": 28
     },
     {
+      "contractor": "PAHLISCH HOMES",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1053032.99,
+      "jurisdictions": [
+        "Bend"
+      ],
+      "top_score": 28
+    },
+    {
       "contractor": "LENNAR NORTHWEST LLC",
       "permits_90d": 2,
       "single_family": 2,
@@ -156,18 +156,6 @@
         "Eugene"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "South Cooper Mountain Owner LLC",
-      "permits_90d": 2,
-      "single_family": 2,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 755718.5700000001,
-      "jurisdictions": [
-        "Beaverton"
-      ],
-      "top_score": 20
     },
     {
       "contractor": "SPRING RIVER BUILDERS LLC",
@@ -452,6 +440,18 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 434151.11,
+      "jurisdictions": [
+        "Beaverton"
+      ],
+      "top_score": 20
+    },
+    {
+      "contractor": "South Cooper Mountain Owner LLC",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 431828.01,
       "jurisdictions": [
         "Beaverton"
       ],
