@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T18:31:34+00:00",
+  "generated_at": "2026-11-25T00:46:09+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -110,18 +110,6 @@
       "top_score": 48
     },
     {
-      "contractor": "RAVI32 LLC",
-      "permits_90d": 2,
-      "single_family": 0,
-      "multifamily": 2,
-      "commercial": 0,
-      "combined_valuation": 2759461.11,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 58
-    },
-    {
       "contractor": "STONE BRIDGE HOMES NW LLC",
       "permits_90d": 2,
       "single_family": 2,
@@ -230,16 +218,16 @@
       "top_score": 33
     },
     {
-      "contractor": "APEX MECHANICAL LLC",
+      "contractor": "RAVI32 LLC",
       "permits_90d": 1,
       "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 1200000.0,
+      "multifamily": 1,
+      "commercial": 0,
+      "combined_valuation": 1517590.96,
       "jurisdictions": [
         "Eugene"
       ],
-      "top_score": 48
+      "top_score": 58
     },
     {
       "contractor": "FETTERS CONSTRUCTION LLC",
@@ -516,18 +504,6 @@
         "Eugene"
       ],
       "top_score": 23
-    },
-    {
-      "contractor": "CRAWFORD OBRIEN CONSTRUCTION O",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 0,
-      "commercial": 1,
-      "combined_valuation": 50000.0,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 38
     },
     {
       "contractor": "MATT BENNETT CONSTRUCTION LLC",
