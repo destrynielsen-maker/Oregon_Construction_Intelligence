@@ -5,11 +5,13 @@ from datetime import date, timedelta
 from pathlib import Path
 from .models import Permit
 
-def write_public_data(public_dir: Path, permits: list[Permit], sources: list[dict], generated_at: str) -> None:
+def write_public_data(public_dir: Path, permits: list[Permit], sources: list[dict], generated_at: str, *, reporting: dict | None = None) -> None:
     qualified=[p for p in permits if p.qualifies]
     data=public_dir/"data"; data.mkdir(parents=True,exist_ok=True)
     (data/"permits.json").write_text(json.dumps({"generated_at":generated_at,"permits":[p.to_dict() for p in qualified]},indent=2),encoding="utf-8")
-    (data/"sources.json").write_text(json.dumps({"generated_at":generated_at,"sources":sources},indent=2),encoding="utf-8")
+    source_payload={"generated_at":generated_at,"sources":sources}
+    if reporting is not None: source_payload["reporting_v1"]=reporting
+    (data/"sources.json").write_text(json.dumps(source_payload,indent=2),encoding="utf-8")
     (data/"builders.json").write_text(json.dumps({"generated_at":generated_at,"builders":builder_rollups(qualified)},indent=2),encoding="utf-8")
 
 def builder_rollups(permits: list[Permit]) -> list[dict]:
