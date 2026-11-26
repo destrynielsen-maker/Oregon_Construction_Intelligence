@@ -21,6 +21,7 @@ input,select,button{width:100%;padding:9px 10px;border:1px solid #cfd6e2;border-
 <p class="muted"><a href="https://www.hermiston.gov/commdev/page/2026-0">Hermiston</a>: pilot off; <a href="https://www.pendletonor.gov/cdev/page/building-department">Pendleton</a>, <a href="https://www.cityoflagrande.org/689/Useful-Links-Resources">La Grande</a>, <a href="https://www.ontariooregon.org/building.html">Ontario</a>: manual permit lookup; <a href="https://www.bakercity.com/Archive/79">Baker City</a>: historical archive only. Bend is Central Oregon.</p>
 </section><p class="muted">Historical totals across covered jurisdictions; not filtered and not necessarily active construction.</p>
 <section class="cards"><div class="card"><div class="label">Qualifying permits</div><div class="value" id="total">—</div></div><div class="card"><div class="label">Single family</div><div class="value" id="single">—</div></div><div class="card"><div class="label">Multifamily</div><div class="value" id="multi">—</div></div><div class="card"><div class="label">Commercial</div><div class="value" id="commercial">—</div></div><div class="card"><div class="label">Known valuation</div><div class="value" id="valuation">—</div></div></section>
+<section class="panel" id="shared-reporting-status"></section>
 <section class="panel"><strong>Source coverage</strong><div class="muted" id="coverage">Loading…</div><div class="health-grid" id="sourceCards"></div></section>
 <section class="panel"><strong>RSS feeds</strong><div class="muted">Separate feeds across covered jurisdictions, up to 250 entries each. Table filters do not apply.</div><div class="feeds"><a href="feeds/new-construction.xml">All new construction</a><a href="feeds/multifamily.xml">Multifamily</a><a href="feeds/single-family.xml">Single family</a><a href="feeds/commercial.xml">Commercial</a><a href="feeds/top-opportunities.xml">Top opportunities</a></div></section>
 <section class="panel"><strong>Rep source sites</strong><div class="muted">Use intake/planning sources first for earlier sales timing; use issued permits to confirm construction.</div><div class="sources-links"><a target="_blank" rel="noopener" href="https://buildingpermits.oregon.gov/">Oregon ePermitting</a><a target="_blank" rel="noopener" href="https://www.portlandmaps.com/reports/index.cfm?action=rs-issued">Portland residential</a><a target="_blank" rel="noopener" href="https://www.portlandmaps.com/reports/index.cfm?action=co-issued">Portland commercial</a><a target="_blank" rel="noopener" href="https://pdd.eugene-or.gov/buildingpermits/permitsearch">Eugene</a><a target="_blank" rel="noopener" href="https://permits.cityofsalem.net/">Salem</a><a target="_blank" rel="noopener" href="https://bendoregon.gov/services/permits-licenses/developers-and-contractors/">Bend</a><a target="_blank" rel="noopener" href="https://www.hillsboro-oregon.gov/services/permitting-center">Hillsboro</a></div></section>
@@ -90,4 +91,54 @@ async function boot(){
  });
  try{const sp=await fetch('data/sources.json?'+Date.now()).then(r=>r.json()),ss=sp.sources||[],h=ss.filter(s=>s.status==='healthy').length;coverage.textContent=`${h} healthy / ${ss.length} configured${ss.length-h?` — ${ss.length-h} need attention`:''}`;const newest={};for(const p of permits){if(p.issued_date&&(!newest[p.jurisdiction]||p.issued_date>newest[p.jurisdiction]))newest[p.jurisdiction]=p.issued_date}sourceCards.innerHTML=ss.map(s=>sourceCard(s,newest[s.source])).join('');sources.innerHTML=ss.map(s=>`<div style="margin:7px 0"><span class="source-${esc(s.status)}">${esc(s.source)} — ${esc(String(s.status).toUpperCase())}</span> <span class="muted">technical: ${esc(s.technical_status||'unknown')}; freshness: ${esc(s.freshness_status||'unknown')}; ${esc(s.note||'')}</span></div>`).join('')}catch(e){coverage.textContent='Source status unavailable'}
 }boot();
+/* Source reporting extension. No writes or lead/default/filter changes. */
+(() => {
+  'use strict';
+  const mount=document.getElementById('shared-reporting-status');
+  if(!mount)return;
+  const make=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e};
+  const val=x=>(x===null||x===undefined||x==='')?'Unknown':String(x);
+  const title=(x)=>val(x).replaceAll('_',' ');
+  const count=x=>Number.isInteger(x)&&x>=0?x.toLocaleString('en-US'):'Unknown';
+  const mtime=x=>{
+    if(!x)return 'Unknown';
+    const d=new Date(x);return Number.isFinite(d.getTime())?
+      d.toLocaleString('en-US',{timeZone:'America/Boise'})+' MT':'Unknown';
+  };
+  const validDate=/^\d{4}-\d{2}-\d{2}$/;
+  function show(payload){
+    if(payload?.schema_version!==1||!Array.isArray(payload.sources)||payload.sources.length===0)throw Error('No comparable evidence manifest');
+    mount.replaceChildren();
+    mount.append(make('h2','Collection evidence by source'));
+    mount.append(make('p','An attempt, a successful collection and the latest source date are different. Stored history is not an active opportunity count. Unknown does not mean zero.'));
+    const style=make('style',`#shared-reporting-status .source-evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(18rem,100%),1fr));gap:.7rem}#shared-reporting-status .source-evidence-card{padding:.8rem;border:1px solid #bccbd2;border-radius:.55rem;min-width:0;overflow-wrap:anywhere}#shared-reporting-status .source-evidence-card h3{line-height:1.25;margin:.12em 0 .4em;font-size:1.03rem}#shared-reporting-status .source-evidence-card dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.35rem .5rem;margin:.5rem 0 0;font-size:.88rem}#shared-reporting-status .source-evidence-card dd{margin:0}#shared-reporting-status .source-evidence-card dt{font-weight:600}#shared-reporting-status .source-evidence-card p{margin:.3rem 0;font-size:.9rem}`);
+    mount.append(style);
+    const cards=make('div',undefined,'source-evidence-grid');
+    for(const row of payload.sources){
+      const card=make('article',undefined,'source-evidence-card');
+      const head=make('h3',val(row.label));const coverage=make('p',title(row.mode)+' · '+val(row.coverage));
+      const pairs=make('dl');
+      const date=typeof row.latest_authoritative_date==='string'&&validDate.test(row.latest_authoritative_date)?row.latest_authoritative_date:'Unknown';
+      const label=date==='Unknown'?'Unknown':date+' · '+title(row.latest_date_kind);
+      const stats=[
+        ['Last attempt',mtime(row.last_attempt_at)],['Last success',mtime(row.last_success_at)],
+        ['Latest source evidence',label],['Age at snapshot',row.source_age_days==null?'Unknown':count(row.source_age_days)+' days'],
+        ['New since prior success',count(row.new_since_previous_success)],['Stored history',count(row.retained_records)],
+        ['Observed this attempt',count(row.observed_records)],['Availability',title(row.availability)],
+        ['Collection outcome',title(row.collection_outcome)],
+      ];
+      if(row.date_provenance)stats.push(['Date provenance',title(row.date_provenance)]);
+      if(row.freshness_status)stats.push(['Freshness',title(row.freshness_status)]);
+      for(const [key,value] of stats)pairs.append(make('dt',key),make('dd',value));
+      card.append(head,coverage,pairs);cards.append(card);
+    }
+    mount.append(cards);
+  }
+  mount.hidden=false;
+  fetch('data/sources.json?reporting_v1='+Date.now(),{cache:'no-store'})
+    .then(r=>{if(!r.ok)throw Error('Source metadata unavailable');return r.json()})
+    .then(p=>show(p.reporting_v1))
+    .catch(()=>{mount.replaceChildren(make('h2','Collection evidence by source'),make('p','Comparable collection evidence is unavailable for this snapshot. Do not treat missing evidence as zero permits.'))});
+})();
+
 </script></body></html>

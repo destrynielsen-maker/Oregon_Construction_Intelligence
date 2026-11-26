@@ -6,6 +6,7 @@ from .classify import classify_permit
 from .collectors import COLLECTORS
 from .dashboard import write_public_data
 from .feeds import write_all_feeds
+from .reporting import compile_reporting
 from .models import Permit
 from .storage import load_permits, save_permits
 
@@ -19,11 +20,10 @@ def _site() -> str:
         owner,name=repo.split("/",1); return f"https://{owner}.github.io/{name}/"
     return "https://example.invalid/Oregon_Construction_Intelligence/"
 
-def _previous(path: Path) -> dict:
-    if not path.exists(): return {}
+def _read_snapshot(path: Path) -> dict:
     try: payload=json.loads(path.read_text(encoding="utf-8"))
     except (OSError,json.JSONDecodeError): return {}
-    return {str(x.get("source")):x for x in payload.get("sources",[]) if x.get("source")}
+    return payload if isinstance(payload,dict) else {}
 
 def _dates(items: list[Permit]) -> list[str]:
     values=[]
@@ -88,24 +88,31 @@ def run(root: Path) -> dict:
     store=root/"data"/"permits.json"; public=root/"public"
     loaded=load_permits(store)
     existing={k:p for k,p in loaded.items() if _keep_existing(p)}
-    previous=_previous(public/"data"/"sources.json"); statuses=[]; total=0
+    previous_payload=_read_snapshot(public/"data"/"sources.json")
+    previous={str(x.get("source")):x for x in previous_payload.get("sources",[]) if x.get("source")}
+    previous_generation=previous_payload.get("generated_at")
+    ledger_generation=_read_snapshot(store).get("generated_at") if previous_generation else None
+    same_checkpoint=bool(previous_generation and ledger_generation==previous_generation)
+    statuses=[]; total=0; accepted_by_source={}
     for collector in COLLECTORS:
         prev=previous.get(collector.name)
         try:
-            result=collector.collect(); total+=len(result.permits); qualified=0
+            result=collector.collect(); total+=len(result.permits); qualified=0; accepted=set()
             for p in result.permits:
                 old=existing.get(p.key)
                 _preserve_observed_issue_date(p,old)
                 classify_permit(p); qualified+=int(p.qualifies)
                 p.first_seen_at=old.first_seen_at if old and old.first_seen_at else generated
-                p.last_seen_at=generated; existing[p.key]=p
+                p.last_seen_at=generated; existing[p.key]=p; accepted.add(p.key)
             statuses.append(_success(result,qualified,prev,generated,now.date(),getattr(collector,"freshness_days",30)))
+            accepted_by_source[result.source]=accepted
         except Exception as exc:
             statuses.append(_fail(collector,exc,prev,existing,generated,now.date()))
     permits=list(existing.values())
     for p in permits: classify_permit(p)
     save_permits(store,permits,generated)
-    write_public_data(public,permits,statuses,generated)
+    write_public_data(public,permits,statuses,generated, reporting=compile_reporting(
+        generated,now.date(),statuses,loaded,existing,accepted_by_source,previous,same_checkpoint))
     write_all_feeds(public/"feeds",permits,_site())
     return {"generated_at":generated,"total_collected_this_run":total,"total_stored":len(permits),
             "qualifying_stored":sum(int(p.qualifies) for p in permits),"sources":statuses}
