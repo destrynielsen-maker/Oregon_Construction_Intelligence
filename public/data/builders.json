@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T18:31:19+00:00",
+  "generated_at": "2026-11-26T00:44:58+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -62,18 +62,6 @@
       "top_score": 48
     },
     {
-      "contractor": "WEST COAST HOME SOLUTIONS LLC",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 1795406.4100000001,
-      "jurisdictions": [
-        "Eugene"
-      ],
-      "top_score": 28
-    },
-    {
       "contractor": "Spring River Builders, LLC",
       "permits_90d": 3,
       "single_family": 0,
@@ -108,6 +96,18 @@
         "Bend"
       ],
       "top_score": 48
+    },
+    {
+      "contractor": "WEST COAST HOME SOLUTIONS LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 1212155.4100000001,
+      "jurisdictions": [
+        "Eugene"
+      ],
+      "top_score": 28
     },
     {
       "contractor": "STONE BRIDGE HOMES NW LLC",
@@ -440,18 +440,6 @@
       "multifamily": 0,
       "commercial": 0,
       "combined_valuation": 431828.01,
-      "jurisdictions": [
-        "Beaverton"
-      ],
-      "top_score": 20
-    },
-    {
-      "contractor": "Taylor Morrison - Scott Nelson",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 385952.1,
       "jurisdictions": [
         "Beaverton"
       ],
