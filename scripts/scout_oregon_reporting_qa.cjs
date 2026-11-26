@@ -1,17 +1,23 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const html=fs.readFileSync('public/index.html','utf8'),js=html.match(/<script>([\s\S]*)<\/script>/)[1];
-const node=()=>({value:'',disabled:false,textContent:'',innerHTML:'',listeners:{},insertAdjacentHTML(_,h){this.innerHTML+=h},addEventListener(e,f){this.listeners[e]=f},querySelector(){return this.span||(this.span=node())}});
+const node=()=>({value:'',disabled:false,textContent:'',innerHTML:'',listeners:{},children:[],append(...items){this.children.push(...items)},replaceChildren(...items){this.children=items},insertAdjacentHTML(_,h){this.innerHTML+=h},addEventListener(e,f){this.listeners[e]=f},querySelector(){return this.span||(this.span=node())}});
 const el=Object.fromEntries([...html.matchAll(/\bid="([^"]+)"/g)].map(m=>[m[1],node()]));el.days.value='30';el.minScore.value='30';
 const buttons=[...html.matchAll(/data-sort="([^"]+)"/g)].map(m=>({...node(),dataset:{sort:m[1]}}));
 const files=Object.fromEntries(['permits','sources','builders'].map(k=>['data/'+k+'.json',JSON.parse(fs.readFileSync('public/data/'+k+'.json','utf8'))]));
 class Fixed extends Date{constructor(...a){super(...(a.length?a:['2026-11-26T19:46:00Z']))}static now(){return +new Fixed()}}
 let blob,download;
 const context={...el,Date:Fixed,Blob,URL:{createObjectURL:b=>{blob=b;return 'blob:testing'},revokeObjectURL(){}},setTimeout:()=>{},
- fetch:async path=>({json:async()=>files[path.split('?')[0]]}),
- document:{getElementById:i=>el[i],querySelectorAll:()=>buttons,body:{appendChild(){}},createElement:()=>({click(){download=this.download},remove(){}})},console};vm.createContext(context);
+ fetch:async path=>({ok:true,json:async()=>files[path.split('?')[0]]}),
+ document:{getElementById:i=>el[i],querySelectorAll:()=>buttons,body:{appendChild(){}},createElement:()=>({...node(),click(){download=this.download},remove(){}})},console};vm.createContext(context);
 const change=(k,v)=>{el[k].value=v;el[k].listeners.change()};
 (async()=>{
- await vm.runInContext(js,context);
+ await vm.runInContext(js,context); await new Promise(setImmediate);
+ const mount=el['shared-reporting-status'], textTree=e=>[e.textContent,...e.children.map(textTree)].join(' ');
+ assert.match(textTree(mount),/Collection evidence by source/);
+ assert.match(textTree(mount),/Bend.*Stored history 1,951 Observed this attempt Unknown Availability unavailable/);
+ assert.match(textTree(mount),/Hillsboro.*Latest source evidence Unknown/);
+ assert.match(textTree(mount),/Hermiston manual.*manual only/);
+ assert.match(textTree(mount),/Baker City uncovered/);
  assert.match(html,/Eastern Oregon: no automated coverage/);
  assert.match(el.updated.textContent,/MT/);
  assert.match(el.sourceCards.innerHTML,/0 records · 0 qualifying.*1,951 records · 1,825 qualifying/);
