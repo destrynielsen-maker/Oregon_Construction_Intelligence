@@ -28,3 +28,15 @@ This list separates **issued building permits** from **earlier planning/developm
 2. Confirm movement with issued building permits.
 3. Capture project name, address, permit number, builder/GC, owner/developer, units, valuation, issue date and source link.
 4. Aggregate related permits into one builder/development opportunity instead of treating each deferred submittal, revision or trade permit as a separate lead.
+
+## Eastern Oregon: validation and rollout
+
+| Market | Official source | Status / limits |
+|---|---|---|
+| Hermiston | [Issued structural permits archive](https://www.hermiston.gov/commdev/page/issued-structural-permits-permits-archive) | Opt-in pilot, off by default. Link labels and PDF report headers establish the month; exact issue date comes from each permit. New primary single-family dwelling permits only. Do not use the CCB line as a verified builder/GC role. |
+| Baker City / Baker County | [Building Department](https://www.bakercity.com/2152/Building-Department) · [historic issued-permit archive](https://www.bakercity.com/Archive/79) | The city department describes its countywide permitting role; the archive's visible latest report is September 2021. Use current state ePermitting for manual verification; no automated collector. |
+| Pendleton | [Building Department](https://www.pendletonor.gov/cdev/page/building-department) · [public record pointers](https://www.pendletonor.gov/cityrec/page/public-records-request) | City reports state handoff in October 2025; verify issuer and jurisdiction explicitly in Oregon ePermitting. No automated collector. |
+| La Grande | [Building Division](https://www.cityoflagrande.org/687/Building-Division) | No repeatable official issued-permit export verified; manual research only. |
+| Ontario | [Building](https://www.ontariooregon.org/building.html) | No repeatable official issued-permit export verified; manual research only. |
+
+Confirm current public report access, issue-date semantics, coverage, and contractor role before extending this pilot. Keep planning/applications, specialty trades and public procurement separate from issued primary dwelling leads.
