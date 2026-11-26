@@ -1,0 +1,49 @@
+name: Scout Oregon reporting QA (no deployment)
+on:
+  push:
+    branches: [scout/qa-oregon-reporting-only]
+permissions:
+  contents: read
+jobs:
+  report-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      TZ: America/Boise
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 1b6442561f884e7639b8ecb5309e7e623c94e8ef
+          path: candidate
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Assert exact report-only diff and immutable seed
+        working-directory: candidate
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "1b6442561f884e7639b8ecb5309e7e623c94e8ef"
+          test "$(git rev-parse HEAD^)" = "379115030a2db0f71d27dd0e3db07ca226079b19"
+          test "$(git diff --name-only HEAD^ HEAD)" = public/index.html
+          git diff --check HEAD^ HEAD
+          echo "903354fdb2decdd8b762f2c6f30548784a1474c041c1298957a94c795a749d91  public/index.html" | sha256sum --check
+      - name: Exercise served JavaScript and full filtered exports
+        working-directory: candidate
+        run: |
+          set -euo pipefail
+          node ../scripts/scout_oregon_reporting_qa.cjs
+          python3 - <<'PY'
+          import csv, json
+          from collections import Counter
+          records = json.load(open("public/data/permits.json"))["permits"]
+          key = lambda p: (p["jurisdiction"], p["permit_number"])
+          for fn, count in (("csv-all.csv", 9625), ("csv-sept.csv", 85)):
+              with open(fn, encoding="utf-8-sig", newline="") as fp:
+                  rows = list(csv.DictReader(fp))
+              expected = records if count == 9625 else [p for p in records if "2026-09-01" <= p["issued_date"] <= "2026-09-10"]
+              assert len(rows) == count and Counter(map(key, rows)) == Counter(map(key, expected))
+              assert all(r["source_url"] for r in rows)
+              print(fn, "verified exact matching identities and source links", count)
+          PY
