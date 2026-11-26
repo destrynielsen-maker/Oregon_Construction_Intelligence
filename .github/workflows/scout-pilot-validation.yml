@@ -1,0 +1,31 @@
+name: Scout Hermiston validation (no deployment)
+on:
+  push:
+    branches: [scout/qa-or-hermiston-13]
+permissions:
+  contents: read
+jobs:
+  validate:
+    if: github.ref == 'refs/heads/scout/qa-or-hermiston-13' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies and verify PDF engine
+        run: |
+          pip install -r requirements.txt
+          python -c "import pypdf; print(pypdf.__version__)"
+      - name: Run repository tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Run opt-in collector with real source and generated-output checks
+        env:
+          PYTHONPATH: src
+          OREGON_ENABLE_HERMISTON_PILOT: "1"
+        run: python scripts/scout_pilot_validate.py
