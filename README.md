@@ -34,3 +34,27 @@ PYTHONPATH=src python -m oregon_permits.main
 GitHub Actions runs every six hours and on changes merged to `main`, commits generated permit history/data, then deploys `public/` to GitHub Pages.
 
 See `docs/SOURCE_DIRECTORY.md` for rep-facing Oregon permit and development sources.
+
+## Eastern Oregon opt-in dry run
+
+A Hermiston pilot is not registered in default collection and does not change the Pages workflow. In a disposable copy of the repository, install `requirements.txt` and run:
+
+```bash
+OREGON_ENABLE_HERMISTON_PILOT=1 PYTHONPATH=src python -m oregon_permits.main
+```
+
+The pilot discovers the two newest linked official monthly issued-structural reports and retains only new primary single-family dwelling entries. It intentionally excludes trade, accessory, multifamily and commercial permits and does not treat unqualified CCB listings as contractor/builder roles. It uses the existing permit-key history, source status, and stale-cache handling. An opt-in run writes generated outputs locally; do not commit them as part of this pilot. See the [source directory](docs/SOURCE_DIRECTORY.md) for nearby manual sources and restrictions.
+
+### Hermiston publication quarantine preview
+
+`OREGON_QUARANTINE_HERMISTON_OUTPUT=1` withholds only City of Hermiston permit
+rows from the public dashboard, builder summaries and all RSS feeds. It does
+not delete or de-qualify historical rows. A status note records the number
+withheld. Unset or `0` leaves output identical to the current pilot.
+
+`OREGON_ENABLE_HERMISTON_PILOT=0` is separate and stops further collection only.
+For a containment rollback after any separately approved deployment, enable the
+quarantine and stop collection if desired, then verify that generated and served
+outputs exclude Hermiston while durable history remains intact. Clearing
+quarantine allows cached qualifying rows back into output and requires a separate
+release decision. Neither flag is set by the production workflow in this preview.

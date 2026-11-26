@@ -11,6 +11,35 @@ from .storage import load_permits, save_permits
 
 PORTLAND_CASE_RE=re.compile(r"^\d{2,4}-\d{6}-",re.I)
 
+
+def _is_hermiston(p: Permit) -> bool:
+    return p.state == "OR" and p.jurisdiction.strip().casefold() == "hermiston"
+
+
+def _publication_view(permits: list[Permit], statuses: list[dict]) -> tuple[list[Permit], dict]:
+    """Filter narrowly at the output boundary; never mutate the historical store."""
+    if os.environ.get("OREGON_QUARANTINE_HERMISTON_OUTPUT") != "1":
+        return permits, {}
+
+    withheld = [p for p in permits if _is_hermiston(p)]
+    publication = [p for p in permits if not _is_hermiston(p)]
+    count = sum(p.qualifies for p in withheld)
+    note = (f"Hermiston publication quarantined: {len(withheld)} historical records retained; "
+            f"{count} qualifying records withheld from permit data, builder rankings and RSS.")
+    status = next((s for s in statuses if s["source"] == "Hermiston"), None)
+    if status is None:
+        status = {"source": "Hermiston", "status": "paused", "technical_status": "not_attempted",
+                  "freshness_status": "unknown", "source_url":
+                  "https://www.hermiston.gov/commdev/page/issued-structural-permits-permits-archive",
+                  "note": "Live Hermiston collection not attempted."}
+        statuses.append(status)
+    status["publication_status"] = "quarantined"
+    status["withheld_qualifying_records"] = count
+    status["note"] = " ".join(filter(None, (status.get("note"), note)))
+    return publication, {"hermiston_qualifying_withheld": count,
+                         "qualifying_published": sum(p.qualifies for p in publication)}
+
+
 def _site() -> str:
     configured=os.environ.get("SITE_BASE_URL","").strip()
     if configured: return configured.rstrip("/")+"/"
@@ -89,7 +118,11 @@ def run(root: Path) -> dict:
     loaded=load_permits(store)
     existing={k:p for k,p in loaded.items() if _keep_existing(p)}
     previous=_previous(public/"data"/"sources.json"); statuses=[]; total=0
-    for collector in COLLECTORS:
+    collectors = list(COLLECTORS)
+    if os.environ.get("OREGON_ENABLE_HERMISTON_PILOT") == "1":
+        from .collectors.hermiston import HermistonCollector
+        collectors.append(HermistonCollector())
+    for collector in collectors:
         prev=previous.get(collector.name)
         try:
             result=collector.collect(); total+=len(result.permits); qualified=0
@@ -105,7 +138,8 @@ def run(root: Path) -> dict:
     permits=list(existing.values())
     for p in permits: classify_permit(p)
     save_permits(store,permits,generated)
-    write_public_data(public,permits,statuses,generated)
-    write_all_feeds(public/"feeds",permits,_site())
+    publication, publication_summary = _publication_view(permits, statuses)
+    write_public_data(public,publication,statuses,generated)
+    write_all_feeds(public/"feeds",publication,_site())
     return {"generated_at":generated,"total_collected_this_run":total,"total_stored":len(permits),
-            "qualifying_stored":sum(int(p.qualifies) for p in permits),"sources":statuses}
+            "qualifying_stored":sum(int(p.qualifies) for p in permits),"sources":statuses,**publication_summary}

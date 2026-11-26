@@ -1,0 +1,11 @@
+--- a/.github/workflows/collect-and-publish.yml
++++ b/.github/workflows/collect-and-publish.yml
+@@ -37,6 +37,8 @@
+       - name: Collect permits and generate outputs
+         env:
+           PYTHONPATH: src
++          OREGON_ENABLE_HERMISTON_PILOT: ${{ vars.OREGON_ENABLE_HERMISTON_PILOT }}
++          OREGON_QUARANTINE_HERMISTON_OUTPUT: ${{ vars.OREGON_QUARANTINE_HERMISTON_OUTPUT }}
+         run: python -m oregon_permits.main
+       - name: Save updated permit history
+         run: |
