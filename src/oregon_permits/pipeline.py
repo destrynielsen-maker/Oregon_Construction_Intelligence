@@ -49,6 +49,42 @@ def _preserve_observed_issue_date(current: Permit, old: Permit | None) -> None:
         current.issued_date=old.issued_date
         current.raw={**raw,"first_observed_issued_date":old.issued_date}
 
+def _preserve_bend_recovery_observation(current: Permit, old: Permit | None, generated: str) -> Permit:
+    """Additive recovery: retain accepted publication and every differing source observation.
+
+    The historical contractor/score are not a current attribution; latest reported
+    values (including explicit absence) are stored separately in the evidence log.
+    Reconciliation of previously published fields is a separate review, not a
+    side effect of repairing the source query.
+    """
+    if current.jurisdiction != "Bend" or old is None:
+        return current
+    from copy import deepcopy
+    kept = deepcopy(old)
+    raw = kept.raw or {}
+    kept.raw = raw
+    key = "bend_recovery_observations_v1"
+    events = raw.get(key, [])
+    if not isinstance(events, list):
+        raise ValueError("unexpected Bend recovery evidence format")
+    prior_fields = old.to_dict()
+    observed_fields = current.to_dict()
+    omit = {"raw", "first_seen_at", "last_seen_at", "classification", "qualifies", "score", "new_construction_confidence"}
+    changed = {k: v for k, v in observed_fields.items() if k not in omit and v != prior_fields.get(k)}
+    baseline_raw = {k: v for k, v in raw.items() if k != key}
+    observed_raw = current.raw or {}
+    raw_changes = {k: v for k, v in observed_raw.items() if k not in baseline_raw or baseline_raw[k] != v}
+    absent = sorted(set(baseline_raw) - set(observed_raw))
+    evidence = {"fields": changed, "raw_changed": raw_changes, "raw_absent": absent}
+    if events:
+        last = {k: events[-1][k] for k in evidence}
+        differs = evidence != last
+    else:
+        differs = bool(changed or raw_changes or absent)
+    if differs:
+        raw[key] = [*events, {"observed_at": generated, **evidence}]
+    return kept
+
 def _success(result, qualified: int, prev: dict | None, generated: str, today: date, threshold: int) -> dict:
     dates=_dates(result.permits); newest=max(dates) if dates else None; oldest=min(dates) if dates else None
     age=(today-date.fromisoformat(newest)).days if newest else None
@@ -95,6 +131,7 @@ def run(root: Path) -> dict:
             result=collector.collect(); total+=len(result.permits); qualified=0
             for p in result.permits:
                 old=existing.get(p.key)
+                p = _preserve_bend_recovery_observation(p,old,generated)
                 _preserve_observed_issue_date(p,old)
                 classify_permit(p); qualified+=int(p.qualifies)
                 p.first_seen_at=old.first_seen_at if old and old.first_seen_at else generated
