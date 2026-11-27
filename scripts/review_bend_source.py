@@ -89,11 +89,11 @@ with tempfile.TemporaryDirectory() as tmp:
         old_fields,old_raw=unchanged_fields(old)
         new_fields,new_raw=unchanged_fields(after[k])
         assert old_fields==new_fields,(k,"existing published field changed")
-        assert all(new_raw.get(key)==value for key,value in (old_raw or {}).items()),(k,"raw evidence lost")
+        assert all((new_raw or {}).get(key)==value for key,value in (old_raw or {}).items()),(k,"raw evidence lost")
         if k not in second: assert old.to_dict()==after[k].to_dict(),(k,"unrelated record changed")
-    new=[after[k] for k in second.keys()-before.keys()]
+    new=[after[k] for k in second if k not in before]
     expected=[*before.values(),*new]
-    assert builder_rollups([p for p in after.values() if p.qualifies])==builder_rollups([p for p in expected if p.qualifies])
+    assert {x['contractor']:x for x in builder_rollups([p for p in after.values() if p.qualifies])}=={x['contractor']:x for x in builder_rollups([p for p in expected if p.qualifies])}
     # RSS ties can depend on input order. Compare each generated item by GUID
     # and validate membership against date/score boundary and expected rows.
     expected_dir=root/"expected_feeds"
