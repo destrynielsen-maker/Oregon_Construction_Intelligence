@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T12:34:46+00:00",
+  "generated_at": "2026-11-27T18:31:31+00:00",
   "builders": [
     {
       "contractor": "PAHLISCH HOMES",
@@ -778,6 +778,18 @@
       "combined_valuation": 426006.93,
       "jurisdictions": [
         "Bend"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "THE RECLAIMED HOME LLC DBA NW",
+      "permits_90d": 1,
+      "single_family": 1,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 415098.0,
+      "jurisdictions": [
+        "Eugene"
       ],
       "top_score": 23
     },

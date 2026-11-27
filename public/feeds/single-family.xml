@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-8085-01</guid>
+      <title>[Eugene] Construction of new single family dwelling.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8085-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 25-8085-01
+Issued: 2026-11-27
+Address: 3482 CABERNET LN, Eugene, OR
+Contractor: THE RECLAIMED HOME LLC DBA NW
+Valuation: 415098.0
+Units: </description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-017260-000-00-rs</guid>
       <title>[Portland] FULL PDOX MHLD BATCH NEW 5 OF 5 DETACHED SINGLE FAMILY RESIDENCIES/ 2 STORY WITH OUT GARAGE ON SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD/ UNITS 1 AND 2 WITH GARAGE/ UNITS 3,4, AND 5 NO GARAGE/ FLAT LOT/ COMPLEX/ *ET PT MT**/ TRUSSES/ 
 *W/ 26-017254/57/58/59/60-RS W/ 26-017262-SD</title>
@@ -4030,20 +4044,6 @@ Issued: 2026-08-04
 Address: 5767 DURST ST, Eugene, OR
 Contractor: LENNAR NORTHWEST LLC
 Valuation: 237640.0
-Units: </description>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|eugene|26-3991-01</guid>
-      <title>[Eugene] New Single Family Dwelling with Attached Garage.</title>
-      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3991-01&amp;pdf=False</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: 26-3991-01
-Issued: 2026-08-04
-Address: 5785 BAINBRIDGE RD, Eugene, OR
-Contractor: LENNAR NORTHWEST LLC
-Valuation: 325478.57
 Units: </description>
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>

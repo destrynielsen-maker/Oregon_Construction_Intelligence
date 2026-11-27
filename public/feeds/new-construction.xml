@@ -5,6 +5,20 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|eugene|25-8085-01</guid>
+      <title>[Eugene] Construction of new single family dwelling.</title>
+      <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=25-8085-01&amp;pdf=False</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: 25-8085-01
+Issued: 2026-11-27
+Address: 3482 CABERNET LN, Eugene, OR
+Contractor: THE RECLAIMED HOME LLC DBA NW
+Valuation: 415098.0
+Units: </description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-007138-000-00-co</guid>
       <title>[Portland] PSU DORM - New, 119,551 sf, 6-story residence hall with 270 units; 4 over 2 wood frame over concrete podium, includes associated site work *** w/26-050504-MT &amp; 26-050493-CO (bike) ***</title>
       <link>https://www.portlandmaps.com/detail/permit/5228403_did/</link>
@@ -3996,23 +4010,6 @@ Address: 4430 SE WOODWARD ST, PORTLAND, OR
 Contractor: 
 Valuation: 163172.0
 Units: 1</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202605181</guid>
-      <title>[Bend] EST242 - 60923 SE Apollo Pl - Single Family Dwelling
-
-*conditions added to the comments*
-*avion water*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202605181
-Issued: 2026-10-02
-Address: 60923 SE APOLLO PL, BEND, OR 97702
-Contractor: PAHLISCH HOMES
-Valuation: 378371.64
-Units: </description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
