@@ -1,0 +1,24 @@
+name: Bend production 329 independent acceptance (read only)
+on:
+  push:
+    branches: [independent/bend-production-329-acceptance]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  accept:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Verify exact already-deployed production artifact and history
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PYTHONPATH: src
+        run: python qa/verify_bend_329.py
