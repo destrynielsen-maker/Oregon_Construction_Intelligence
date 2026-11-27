@@ -26,7 +26,7 @@ class BendCollector:
     ))
     poly_fields = ",".join((
         "ApplicationNumber", "IssueDate", "SQFT", "Units", "ProjectValuation", "TypeDesc",
-        "UseDesc", "BuildingCategory", "Owner", "CensusStructureDesc", "Address", "OBJECTID",
+        "UseDesc", "BuildingCategory", "Owner", "Address", "OBJECTID",
     ))
 
     def collect(self, session: requests.Session | None = None) -> CollectionResult:
