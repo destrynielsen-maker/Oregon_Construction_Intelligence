@@ -48,6 +48,64 @@ for p in overlap:
 raw_evidence_loss=[p.key for p in overlap if (before[p.key].raw or {}).get("census_structure") and not (p.raw or {}).get("census_structure")]
 print(json.dumps({"collected":len(candidates),"qualifying":sum(p.qualifies for p in candidates),"latest_issued":str(newest_repeat),"age_days":(date.today()-newest_repeat).days,"cached":len(old),"overlap":len(overlap),"new_identities":len(second.keys()-before.keys()),"qualification_or_score_deltas":policy_deltas,"prior_census_evidence_missing":len(raw_evidence_loss),"changed_fields":dict(changes),"prior_raw_evidence_changed_fields":dict(raw_evidence_changes),"classification":dict(Counter(p.classification for p in candidates))},indent=2),flush=True)
 assert first.keys()==second.keys(), "repeat collection membership changed; reconcile before release"
-assert not policy_deltas, "existing classifications or scores changed: review before release"
-assert not raw_evidence_loss, "preserve old source evidence before release"
-assert not raw_evidence_changes, "prior source evidence changed; review preservation before release"
+
+
+# Exercise the actual production integration on an isolated copy, without
+# contacting any unrelated collector. No writes to the repository data tree.
+import tempfile
+import shutil
+from unittest.mock import patch
+from oregon_permits import pipeline
+from oregon_permits.collectors.base import CollectionResult
+from oregon_permits.dashboard import builder_rollups
+from oregon_permits.feeds import write_all_feeds
+from xml.etree import ElementTree as ET
+
+class ObservedBend:
+    name="Bend"
+    freshness_days=10
+    source_url=collector.source_url
+    def collect(self):
+        return CollectionResult("Bend",[type(p).from_dict(p.to_dict()) for p in candidates],self.source_url,"verified municipal issued records")
+
+def unchanged_fields(p):
+    row=p.to_dict()
+    row.pop("last_seen_at")
+    raw=row.pop("raw")
+    return row,raw
+
+with tempfile.TemporaryDirectory() as tmp:
+    root=Path(tmp)
+    (root/"data").mkdir()
+    shutil.copyfile(store,root/"data/permits.json")
+    (root/"public/data").mkdir(parents=True)
+    shutil.copyfile("public/data/sources.json",root/"public/data/sources.json")
+    with patch.object(pipeline,"COLLECTORS",[ObservedBend()]):
+        result=pipeline.run(root)
+    after=load_permits(root/"data/permits.json")
+    assert len(json.loads((root/"data/permits.json").read_text())["permits"])==len(after)
+    assert set(after)==set(before)|set(second), "identity loss or unexpected additions"
+    for k,old in before.items():
+        old_fields,old_raw=unchanged_fields(old)
+        new_fields,new_raw=unchanged_fields(after[k])
+        assert old_fields==new_fields,(k,"existing published field changed")
+        assert all(new_raw.get(key)==value for key,value in (old_raw or {}).items()),(k,"raw evidence lost")
+        if k not in second: assert old.to_dict()==after[k].to_dict(),(k,"unrelated record changed")
+    new=[after[k] for k in second.keys()-before.keys()]
+    expected=[*before.values(),*new]
+    assert builder_rollups([p for p in after.values() if p.qualifies])==builder_rollups([p for p in expected if p.qualifies])
+    # RSS ties can depend on input order. Compare each generated item by GUID
+    # and validate membership against date/score boundary and expected rows.
+    expected_dir=root/"expected_feeds"
+    write_all_feeds(expected_dir,expected,pipeline._site())
+    for path in (root/"public/feeds").glob("*.xml"):
+        def items(p):
+            return {e.findtext("guid"):ET.tostring(e) for e in ET.parse(p).findall("./channel/item")}
+        actual,expected_items=items(path),items(expected_dir/path.name)
+        assert actual==expected_items,(path.name,"unexpected RSS change")
+    public=json.loads((root/"public/data/permits.json").read_text())["permits"]
+    assert len(public)==sum(p.qualifies for p in after.values())
+    assert len(public)==len({type(candidates[0]).from_dict(p).key for p in public})
+    assert result["sources"][0]["technical_status"]=="ok"
+    assert result["sources"][0]["freshness_status"]=="fresh"
+    print("ADDITIVE INTEGRATION ACCEPTANCE",json.dumps({"before":len(before),"after":len(after),"new":len(new),"new_qualifying":sum(p.qualifies for p in new),"earliest_new_issue":min(p.issued_date for p in new) if new else None,"latest_new_issue":max(p.issued_date for p in new) if new else None,"existing_fields_preserved":len(before),"builder_rollups_exact":True,"rss_exact":True,"source":result["sources"][0]},indent=2),flush=True)
