@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T18:31:29+00:00",
+  "generated_at": "2026-11-27T00:45:26+00:00",
   "builders": [
     {
       "contractor": "Risewell Homes",
@@ -74,18 +74,6 @@
       "top_score": 48
     },
     {
-      "contractor": "Lennar Northwest LLC",
-      "permits_90d": 3,
-      "single_family": 3,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 955785.38,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 23
-    },
-    {
       "contractor": "DR Horton, Inc",
       "permits_90d": 3,
       "single_family": 0,
@@ -142,6 +130,18 @@
       "combined_valuation": 768732.0,
       "jurisdictions": [
         "Eugene"
+      ],
+      "top_score": 23
+    },
+    {
+      "contractor": "Lennar Northwest LLC",
+      "permits_90d": 2,
+      "single_family": 2,
+      "multifamily": 0,
+      "commercial": 0,
+      "combined_valuation": 590718.63,
+      "jurisdictions": [
+        "Bend"
       ],
       "top_score": 23
     },
@@ -206,18 +206,6 @@
       "top_score": 60
     },
     {
-      "contractor": "NEIL KELLY CO INC",
-      "permits_90d": 1,
-      "single_family": 1,
-      "multifamily": 0,
-      "commercial": 0,
-      "combined_valuation": 2576830.61,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 33
-    },
-    {
       "contractor": "RAVI32 LLC",
       "permits_90d": 1,
       "single_family": 0,
@@ -276,18 +264,6 @@
         "Bend"
       ],
       "top_score": 28
-    },
-    {
-      "contractor": "Craftsman Homes by Design",
-      "permits_90d": 1,
-      "single_family": 0,
-      "multifamily": 1,
-      "commercial": 0,
-      "combined_valuation": 614590.82,
-      "jurisdictions": [
-        "Bend"
-      ],
-      "top_score": 53
     },
     {
       "contractor": "TNHC OREGON, LLC",
