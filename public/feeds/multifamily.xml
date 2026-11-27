@@ -1431,28 +1431,6 @@ Units: 1</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202605476</guid>
-      <title>[Bend] Harvest Ridge_ Triplex_ HS 20 **2nd "1st house in the subdivision"
-
-*Is a Fill Lot* 
-*HB2306 - path 2 pre plat* 
-*Avion Water* 
-
-Lot 21 - PRNC202605358 | reviews happening under this application 
-*Lot 20 - PRNC202605476
-Lot 19 - PRNC202605477</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202605476
-Issued: 2026-10-16
-Address: 21135 SE MEADOWSTONE CT, BEND, OR 97702
-Contractor: Lennar Northwest, LLC
-Valuation: 283640.76
-Units: </description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202605477</guid>
       <title>[Bend] Harvest Ridge_ Triplex_ HS 19 ** 3rd "1st house in the subdivision"
 
@@ -1469,6 +1447,28 @@ Score: 48
 Permit: PRNC202605477
 Issued: 2026-10-16
 Address: 21137 SE MEADOWSTONE CT, BEND, OR 97702
+Contractor: Lennar Northwest, LLC
+Valuation: 283640.76
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202605476</guid>
+      <title>[Bend] Harvest Ridge_ Triplex_ HS 20 **2nd "1st house in the subdivision"
+
+*Is a Fill Lot* 
+*HB2306 - path 2 pre plat* 
+*Avion Water* 
+
+Lot 21 - PRNC202605358 | reviews happening under this application 
+*Lot 20 - PRNC202605476
+Lot 19 - PRNC202605477</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202605476
+Issued: 2026-10-16
+Address: 21135 SE MEADOWSTONE CT, BEND, OR 97702
 Contractor: Lennar Northwest, LLC
 Valuation: 283640.76
 Units: </description>

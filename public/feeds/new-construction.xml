@@ -269,51 +269,6 @@ Units: 1</description>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202605958</guid>
-      <title>[Bend] Bachelor View HS 36_ Jasmine Farmhouse GR_ Combo Building Permit 
-Using 1st lot in subdivision
-
-**Lot 36**
-**FILL LOT**
-
-**HB2306 Pre-plat review, Path 3, conditions added**SF
-**No active SIMP**SF
-**CoB water**SF
-****All habitable (R3) structures and all additions to such need to be sprinkled. U occupancies are not required to be sprinkled.****SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202605958
-Issued: 2026-11-23
-Address: 19269 SW LEEWAY DR, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 496513.82
-Units: </description>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202604634</guid>
-      <title>[Bend] Bachelor View HS 33_ Maggie Farmhouse GL_ Combo Building Permit  **1st lot in Subdivision**
-*Lot 33*
-*Fill lot*
-*HB2306 Pre Plat, Path 2*SF
-*Conditions added, see comments**SF 
-**Bldg Techs: All habitable (R3) structures and all additions to such need to be sprinkled. U occupancies are not required to be sprinkled. Notify PEs.**
-**Route to Addressing**SF
-**Active PRSIMP202601498*SF
-**CoB water**SF</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202604634
-Issued: 2026-11-23
-Address: 19257 SW LEEWAY DR, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 452327.7
-Units: </description>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202606533</guid>
       <title>[Bend] Acadia Pointe HS 119_ Cameron F3C_ GR_ Combo Building Permit 
 **Lot 119**
@@ -350,6 +305,29 @@ Units: </description>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|bend|prnc202605958</guid>
+      <title>[Bend] Bachelor View HS 36_ Jasmine Farmhouse GR_ Combo Building Permit 
+Using 1st lot in subdivision
+
+**Lot 36**
+**FILL LOT**
+
+**HB2306 Pre-plat review, Path 3, conditions added**SF
+**No active SIMP**SF
+**CoB water**SF
+****All habitable (R3) structures and all additions to such need to be sprinkled. U occupancies are not required to be sprinkled.****SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202605958
+Issued: 2026-11-23
+Address: 19269 SW LEEWAY DR, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 496513.82
+Units: </description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|bend|prnc202605940</guid>
       <title>[Bend] Old Farm HS 14_Astoria Farmhouse GR_ Combo Building Permit 
 ***Roats Water*** SN
@@ -363,6 +341,28 @@ Issued: 2026-11-23
 Address: 20414 SE BACKCOUNTRY CT, BEND, OR 97702
 Contractor: Lennar Northwest LLC
 Valuation: 277486.08
+Units: </description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202604634</guid>
+      <title>[Bend] Bachelor View HS 33_ Maggie Farmhouse GL_ Combo Building Permit  **1st lot in Subdivision**
+*Lot 33*
+*Fill lot*
+*HB2306 Pre Plat, Path 2*SF
+*Conditions added, see comments**SF 
+**Bldg Techs: All habitable (R3) structures and all additions to such need to be sprinkled. U occupancies are not required to be sprinkled. Notify PEs.**
+**Route to Addressing**SF
+**Active PRSIMP202601498*SF
+**CoB water**SF</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202604634
+Issued: 2026-11-23
+Address: 19257 SW LEEWAY DR, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 452327.7
 Units: </description>
       <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2943,28 +2943,6 @@ Units: </description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202605476</guid>
-      <title>[Bend] Harvest Ridge_ Triplex_ HS 20 **2nd "1st house in the subdivision"
-
-*Is a Fill Lot* 
-*HB2306 - path 2 pre plat* 
-*Avion Water* 
-
-Lot 21 - PRNC202605358 | reviews happening under this application 
-*Lot 20 - PRNC202605476
-Lot 19 - PRNC202605477</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202605476
-Issued: 2026-10-16
-Address: 21135 SE MEADOWSTONE CT, BEND, OR 97702
-Contractor: Lennar Northwest, LLC
-Valuation: 283640.76
-Units: </description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202605477</guid>
       <title>[Bend] Harvest Ridge_ Triplex_ HS 19 ** 3rd "1st house in the subdivision"
 
@@ -2981,6 +2959,28 @@ Score: 48
 Permit: PRNC202605477
 Issued: 2026-10-16
 Address: 21137 SE MEADOWSTONE CT, BEND, OR 97702
+Contractor: Lennar Northwest, LLC
+Valuation: 283640.76
+Units: </description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202605476</guid>
+      <title>[Bend] Harvest Ridge_ Triplex_ HS 20 **2nd "1st house in the subdivision"
+
+*Is a Fill Lot* 
+*HB2306 - path 2 pre plat* 
+*Avion Water* 
+
+Lot 21 - PRNC202605358 | reviews happening under this application 
+*Lot 20 - PRNC202605476
+Lot 19 - PRNC202605477</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: MULTIFAMILY
+Score: 48
+Permit: PRNC202605476
+Issued: 2026-10-16
+Address: 21135 SE MEADOWSTONE CT, BEND, OR 97702
 Contractor: Lennar Northwest, LLC
 Valuation: 283640.76
 Units: </description>
@@ -3660,24 +3660,6 @@ Units: </description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <guid isPermaLink="false">OR|bend|prnc202603623</guid>
-      <title>[Bend] Bachelor View HS 21 (WHC) Leverich Farmhouse_ GL_ Combo Building Permit 
-
-Using first house in subdivision to bypass waiting for 
-*sprinklers required* 
-*HB2306 pre-plat 2*</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 23
-Permit: PRNC202603623
-Issued: 2026-10-09
-Address: 19273 SW CLOUD CHASER PL, BEND, OR 97702
-Contractor: Lennar Northwest LLC
-Valuation: 487987.93
-Units: </description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <guid isPermaLink="false">OR|bend|prnc202605504</guid>
       <title>[Bend] New construction, single family home.  Parkside place lot 50
 ***Avion Water*** SN 
@@ -3694,6 +3676,24 @@ Issued: 2026-10-09
 Address: 61076 NE GIVE PL, BEND, OR 97701
 Contractor: Hayden Homes
 Valuation: 296662.27
+Units: </description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|bend|prnc202603623</guid>
+      <title>[Bend] Bachelor View HS 21 (WHC) Leverich Farmhouse_ GL_ Combo Building Permit 
+
+Using first house in subdivision to bypass waiting for 
+*sprinklers required* 
+*HB2306 pre-plat 2*</title>
+      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
+      <description>Category: SINGLE_FAMILY
+Score: 23
+Permit: PRNC202603623
+Issued: 2026-10-09
+Address: 19273 SW CLOUD CHASER PL, BEND, OR 97702
+Contractor: Lennar Northwest LLC
+Valuation: 487987.93
 Units: </description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
