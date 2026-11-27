@@ -5,6 +5,34 @@
     <link>https://destrynielsen-maker.github.io/Oregon_Construction_Intelligence/</link>
     <description>Oregon new-construction permit intelligence</description>
     <item>
+      <guid isPermaLink="false">OR|portland|2026-007138-000-00-co</guid>
+      <title>[Portland] PSU DORM - New, 119,551 sf, 6-story residence hall with 270 units; 4 over 2 wood frame over concrete podium, includes associated site work *** w/26-050504-MT &amp; 26-050493-CO (bike) ***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5228403_did/</link>
+      <description>Category: MULTIFAMILY
+Score: 85
+Permit: 2026-007138-000-00-CO
+Issued: 2026-11-25
+Address: 1831 SW PARK AVE, PORTLAND, OR
+Contractor: 
+Valuation: 23858443.0
+Units: 270</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|portland|2026-050493-000-00-co</guid>
+      <title>[Portland] PSU DORM - BIKE HUB - New 757 sf bike hub structure to serve new residence hall *** w/26-007138-CO &amp; 26-050504-MT ***</title>
+      <link>https://www.portlandmaps.com/detail/permit/5273510_did/</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 2026-050493-000-00-CO
+Issued: 2026-11-25
+Address: 1831 SW PARK AVE, PORTLAND, OR
+Contractor: 
+Valuation: 66412.0
+Units: </description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|portland|2026-007011-000-00-rs</guid>
       <title>[Portland] FULL PDOX BATCH MHLD 6 OF 6 UNIT COTTAGE CLUSTER/ SHARED LOT TO BE DIVIDED UNDER FUTURE MHLD/ 3 STORY/ NO GARAGE/ FLAT LOT/ COMPLEX/ TRUSSES/ 
 *ET PT MT SEPARATE* *SEE DEMO** W/ 26-007004/07/08/09/10/11-RS W/ 26-007014-SD</title>
@@ -3584,45 +3612,6 @@ Issued: 2026-09-09
 Address: 470 NE KEARNEY AVE, UNIT:2, BEND, OR 97701
 Contractor: SPRING RIVER BUILDERS LLC
 Valuation: 
-Units: </description>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202506727</guid>
-      <title>[Bend] Two sets of duplexes/townhomes will be built on this lot and later divided into four separate lots/townhomes. **Middle Housing Land Division (PLLD20250332).
-Other duplex permit PRNC202506726
-
-***PRNC202506727 Lot 3 - ***Plans reviewed under this permit***
-      PRNC202508465  Lot 4 (clone)
-
-***COB Water (meter added)*** SN
-***Demo Permit Condition*** SN
-***No Active SIMPs*** SN
-***Needs Addressing*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: MULTIFAMILY
-Score: 48
-Permit: PRNC202506727
-Issued: 2026-09-09
-Address: 1123 NE 5TH ST, BEND, OR 97701
-Contractor: Spring River Builders, LLC
-Valuation: 360363.68
-Units: </description>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202603572</guid>
-      <title>[Bend] New single family residence
-***COB Water*** SN
-***No Conditions*** SN</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: SINGLE_FAMILY
-Score: 28
-Permit: PRNC202603572
-Issued: 2026-09-09
-Address: 2038 NW 8TH ST, BEND, OR 97703
-Contractor: Evolve Building &amp; Development
-Valuation: 579298.48
 Units: </description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
