@@ -131,6 +131,10 @@ def run(root: Path) -> dict:
             result=collector.collect(); total+=len(result.permits); qualified=0
             for p in result.permits:
                 old=existing.get(p.key)
+                # New Hermiston collection never rewrites accepted historical evidence.
+                if old and p.jurisdiction == collector.name == 'Hermiston':
+                    classify_permit(p); qualified+=int(p.qualifies)
+                    continue
                 p = _preserve_bend_recovery_observation(p,old,generated)
                 _preserve_observed_issue_date(p,old)
                 classify_permit(p); qualified+=int(p.qualifies)

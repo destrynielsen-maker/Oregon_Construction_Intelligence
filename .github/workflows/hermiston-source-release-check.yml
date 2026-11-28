@@ -1,0 +1,72 @@
+name: Hermiston production collector check (no deployment)
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/oregon_permits/collectors/hermiston.py'
+      - 'src/oregon_permits/collectors/__init__.py'
+      - 'src/oregon_permits/pipeline.py'
+      - 'tests/test_hermiston.py'
+      - '.github/workflows/hermiston-source-release-check.yml'
+permissions:
+  contents: read
+jobs:
+  source:
+    if: github.head_ref == 'independent/hermiston-production'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Existing tests
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v
+      - name: Actual official reports and isolated repeat collection
+        env:
+          PYTHONPATH: src
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from tempfile import TemporaryDirectory
+          from unittest.mock import patch
+          import shutil, json
+          from oregon_permits import pipeline
+          from oregon_permits.collectors.hermiston import HermistonCollector
+          from oregon_permits.storage import load_permits
+          from oregon_permits.classify import classify_permit
+          from oregon_permits.models import Permit
+          c=HermistonCollector()
+          observed=c.collect()
+          assert observed.permits and all(classify_permit(p).qualifies for p in observed.permits)
+          assert len({p.key for p in observed.permits})==len(observed.permits)
+          assert len({p.raw['report_period_start'] for p in observed.permits})>=2
+          print(json.dumps({'source_count':len(observed.permits),'latest_eligible':max(p.issued_date for p in observed.permits),'note':observed.note}))
+          with TemporaryDirectory() as tmp:
+              root=Path(tmp)
+              shutil.copytree('data',root/'data')
+              shutil.copytree('public',root/'public')
+              old=load_permits(root/'data/permits.json')
+              prior=json.loads((root/'public/data/permits.json').read_text())
+              def rows(x):
+                  return x if isinstance(x,list) else x['permits']
+              previous={Permit.from_dict(r).key for r in rows(prior)}
+              with patch.object(pipeline,'COLLECTORS',[c]),patch.object(c,'collect',return_value=observed):
+                  first=pipeline.run(root)
+                  after=load_permits(root/'data/permits.json')
+                  published={Permit.from_dict(r).key for r in rows(json.loads((root/'public/data/permits.json').read_text()))}
+                  second=pipeline.run(root)
+                  repeated=load_permits(root/'data/permits.json')
+              assert set(old)<=set(after)
+              assert all(old[k].to_dict()==after[k].to_dict() for k in old)
+              additions={p.key for p in observed.permits}-set(old)
+              assert set(after)-set(old)==additions
+              assert published==previous|additions
+              assert {k:p.to_dict() for k,p in after.items()}=={k:p.to_dict() for k,p in repeated.items()}
+              print(json.dumps({'history_before':len(old),'history_after':len(after),'published_before':len(previous),'published_after':len(published),'new':len(additions),'production_writes':0}))
+          PY
