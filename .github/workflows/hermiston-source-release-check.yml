@@ -40,6 +40,7 @@ jobs:
           from oregon_permits.collectors.hermiston import HermistonCollector
           from oregon_permits.storage import load_permits
           from oregon_permits.classify import classify_permit
+          from oregon_permits.models import Permit
           c=HermistonCollector()
           observed=c.collect()
           assert observed.permits and all(classify_permit(p).qualifies for p in observed.permits)
@@ -54,11 +55,11 @@ jobs:
               prior=json.loads((root/'public/data/permits.json').read_text())
               def rows(x):
                   return x if isinstance(x,list) else x['permits']
-              previous={r['key'] for r in rows(prior)}
+              previous={Permit.from_dict(r).key for r in rows(prior)}
               with patch.object(pipeline,'COLLECTORS',[c]),patch.object(c,'collect',return_value=observed):
                   first=pipeline.run(root)
                   after=load_permits(root/'data/permits.json')
-                  published={r['key'] for r in rows(json.loads((root/'public/data/permits.json').read_text()))}
+                  published={Permit.from_dict(r).key for r in rows(json.loads((root/'public/data/permits.json').read_text()))}
                   second=pipeline.run(root)
                   repeated=load_permits(root/'data/permits.json')
               assert set(old)<=set(after)
