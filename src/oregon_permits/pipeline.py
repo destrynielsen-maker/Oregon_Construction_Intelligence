@@ -125,7 +125,11 @@ def run(root: Path) -> dict:
     loaded=load_permits(store)
     existing={k:p for k,p in loaded.items() if _keep_existing(p)}
     previous=_previous(public/"data"/"sources.json"); statuses=[]; total=0
-    for collector in COLLECTORS:
+    collectors = list(COLLECTORS)
+    if os.environ.get("OREGON_ENABLE_HERMISTON_PILOT") == "1":
+        from .collectors.hermiston import HermistonCollector
+        collectors.append(HermistonCollector())
+    for collector in collectors:
         prev=previous.get(collector.name)
         try:
             result=collector.collect(); total+=len(result.permits); qualified=0
