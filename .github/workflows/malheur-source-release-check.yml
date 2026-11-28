@@ -1,0 +1,43 @@
+name: Malheur collector check (read only)
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/oregon_permits/collectors/malheur.py'
+      - 'src/oregon_permits/collectors/__init__.py'
+      - 'tests/test_malheur.py'
+      - '.github/workflows/malheur-source-release-check.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  malheur:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    env:
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Test Malheur collector
+        run: python -m unittest discover -s tests -p test_malheur.py -v
+      - name: Check official report acquisition
+        run: |
+          python - <<'PY'
+          from oregon_permits.classify import classify_permit
+          from oregon_permits.collectors.malheur import MalheurCollector
+
+          result = MalheurCollector().collect()
+          permits = result.permits
+          assert len({permit.key for permit in permits}) == len(permits)
+          assert all(classify_permit(permit).qualifies for permit in permits)
+          assert all(permit.raw['issuing_agency_code'] == '541' for permit in permits)
+          print(result.note)
+          PY
