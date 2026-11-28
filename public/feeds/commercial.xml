@@ -227,6 +227,20 @@ Units: </description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <guid isPermaLink="false">OR|malheur county|541-26-001057-str</guid>
+      <title>[Malheur County] Building a Vineyard Tasting Building</title>
+      <link>https://bldgmalheurco.org/wp-content/uploads/2026/11/PermitsIssuedDetailSummaryOct2026.pdf#page=7</link>
+      <description>Category: COMMERCIAL
+Score: 30
+Permit: 541-26-001057-STR
+Issued: 2026-10-23
+Address: 2746 NORWOOD DR, NYSSA, OR 97913
+Contractor: 
+Valuation: 36480.0
+Units: </description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <guid isPermaLink="false">OR|eugene|26-3054-01</guid>
       <title>[Eugene] New paved parking lot and stite/storm improvements</title>
       <link>https://pdd.eugene-or.gov/BuildingPermits/PermitReport?expand=True&amp;log=26-3054-01&amp;pdf=False</link>
@@ -379,6 +393,20 @@ Contractor:
 Valuation: 107407.0
 Units: </description>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <guid isPermaLink="false">OR|malheur county|541-25-001299-str</guid>
+      <title>[Malheur County] 2400 SF COMMUNITY FITNESS BUILDING.</title>
+      <link>https://bldgmalheurco.org/wp-content/uploads/2026/11/PermitsIssuedDetailSummaryOct2026.pdf#page=7</link>
+      <description>Category: COMMERCIAL
+Score: 35
+Permit: 541-25-001299-STR
+Issued: 2026-10-01
+Address: 700 CALIFORNIA AVE, JORDAN VALLEY, OR 97910
+Contractor: 
+Valuation: 611020.0
+Units: </description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <guid isPermaLink="false">OR|eugene|26-6336-01</guid>
@@ -3734,34 +3762,6 @@ Contractor:
 Valuation: 160000.0
 Units: </description>
       <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|portland|2024-083347-000-00-co</guid>
-      <title>[Portland] PORT OF PORTLAND T6 - Flexible storage project including mill and inlay of B604/B605 throughway, mill and overlay of B606, pavement reconstruction around existing pump station, installation of catch basins and stormwater line, pavement striping, installation of new lighting on existing light poles, installation of new light pole, installation of new electrical duct bank, removal of existing transformers &amp; miscellaneous electrical equipment, installation of new transformers, and installation of bollard protection system for new transformers</title>
-      <link>https://www.portlandmaps.com/detail/permit/5086991_did/</link>
-      <description>Category: COMMERCIAL
-Score: 40
-Permit: 2024-083347-000-00-CO
-Issued: 2025-05-15
-Address: 8101 N MARINE DR, PORTLAND, OR
-Contractor: 
-Valuation: 1140000.0
-Units: </description>
-      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <guid isPermaLink="false">OR|bend|prnc202402752</guid>
-      <title>[Bend] NEW CONSTRUCTION OF A TRASH ENCLOSURE &amp; BIKE SHELTER FOR PHASE I OF ROOTED HOME SIMPSON DEVELOPMENT. SITE IMPROVEMENTS ARE SUBMITTED UNDER A SEPARATE PERMIT (PRSIMP202307380). (needs addressing even if just to confirm correct parcel is primary - two were listed mpaule)</title>
-      <link>https://services5.arcgis.com/JisFYcK2mIVg9ueP/arcgis/rest/services/Permits_and_Contractors_Table/FeatureServer/0</link>
-      <description>Category: COMMERCIAL
-Score: 38
-Permit: PRNC202402752
-Issued: 2025-05-15
-Address: 215 SW 18TH ST, BEND, OR 97702
-Contractor: O'Brien &amp; Company
-Valuation: 5000.0
-Units: </description>
-      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
